@@ -1,0 +1,2228 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pris",
+				"prism.js"
+			],
+			[
+				"t",
+				"typecast.css"
+			],
+			[
+				"index",
+				"index.min.js"
+			],
+			[
+				"jquer",
+				"jquery.ugly.js"
+			],
+			[
+				"create",
+				"createWriteStream (fn)"
+			],
+			[
+				"collapse",
+				"collapseKeyMapByKey (fn)"
+			],
+			[
+				"ramdisk",
+				"ramdiskkeymaps"
+			],
+			[
+				"De",
+				"Default.sublime-keymap"
+			],
+			[
+				"for",
+				"for	for (…) {…}"
+			],
+			[
+				"unP",
+				"unPrettyCommands (fn)"
+			],
+			[
+				"jque",
+				"jquery-ui.min.js"
+			],
+			[
+				"resolved",
+				"resolved_output"
+			],
+			[
+				"resolved_",
+				"resolved_input"
+			],
+			[
+				"fon",
+				"fonts/"
+			],
+			[
+				"css",
+				"css_dest"
+			],
+			[
+				"fswrite",
+				"fs.FileWriteStream(path, options);"
+			],
+			[
+				"wr",
+				"writeFile"
+			],
+			[
+				"write",
+				"writeFile (fn)"
+			],
+			[
+				"fun",
+				"fn.unique  function unique()"
+			],
+			[
+				"cheerio",
+				"cheerioOptions (obj)"
+			],
+			[
+				"read",
+				"readSync (fn)"
+			],
+			[
+				"writeFile",
+				"fs.writeFile(path, data, options, callback_);"
+			],
+			[
+				"fs",
+				"fs.unlinkSync(path);"
+			],
+			[
+				"requst",
+				"http.request(options, cb);"
+			],
+			[
+				"makr",
+				"markitandwriteit (fn)"
+			],
+			[
+				"wri",
+				"writeFile (fn)"
+			],
+			[
+				"RBE",
+				"RBENV_BIN"
+			],
+			[
+				"each",
+				"each $.each()"
+			],
+			[
+				"bin",
+				"bin/"
+			],
+			[
+				"bookmarks",
+				"bookmarksToJSON (fn)"
+			],
+			[
+				"html",
+				"html/"
+			],
+			[
+				"text-",
+				"text-transform"
+			],
+			[
+				"animate",
+				"animateCss (fn)"
+			],
+			[
+				"st",
+				"stringify (fn)"
+			],
+			[
+				"bo",
+				"both"
+			],
+			[
+				"proto",
+				"proto  Prototype"
+			],
+			[
+				"prototype",
+				"process.listenerCount(type);"
+			],
+			[
+				"path",
+				"path.join();"
+			],
+			[
+				"process",
+				"process.cwd();"
+			],
+			[
+				"fn",
+				"module._findPath(request, paths);"
+			],
+			[
+				"util",
+				"util.deprecate(fn, msg);"
+			],
+			[
+				"parse",
+				"parse  $.parseXML()"
+			],
+			[
+				"afn",
+				"afn  anonymous function"
+			],
+			[
+				"expan",
+				"source/js/expanded/prism.js"
+			],
+			[
+				"user",
+				"user (str)"
+			],
+			[
+				"unPretty",
+				"unPrettyKeyMaps (fn)"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"child",
+				"child_process.spawn(/*file, args, options*/);"
+			],
+			[
+				"require",
+				"require.resolve(request);"
+			],
+			[
+				"tr",
+				"auto_complete_triggers"
+			],
+			[
+				"F",
+				"fw font-weight"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"sublime",
+				"sublimeSettingsModule"
+			],
+			[
+				"stream",
+				"streamTargetFile"
+			],
+			[
+				"modula",
+				"modularizedFile"
+			],
+			[
+				"readFileSync",
+				"fs.readFileSync(path, options);"
+			],
+			[
+				"JSON",
+				"JSON.stringify JSON.stringify"
+			],
+			[
+				"var",
+				"var"
+			],
+			[
+				"createW",
+				"fs.createWriteStream(path, options);"
+			],
+			[
+				"writeFi",
+				"fs.writeFileSync"
+			],
+			[
+				"readFil",
+				"fs.readFileSync"
+			],
+			[
+				"asyn",
+				"async@parallel async_parallel"
+			],
+			[
+				"access",
+				"fs.access"
+			],
+			[
+				"chil",
+				"child_process.ChildProcess ()"
+			],
+			[
+				"fade",
+				"fadeIn (animate.css)"
+			],
+			[
+				"auto",
+				"autoprefixer"
+			],
+			[
+				"s",
+				"stylesheets/"
+			],
+			[
+				"sty",
+				"style"
+			],
+			[
+				"caret",
+				"caret_extra_width  (Preferences.sublime-settings)"
+			],
+			[
+				"function",
+				"function without name"
+			],
+			[
+				"o",
+				"oEnum (fn)"
+			],
+			[
+				"ma",
+				"map(callback)  Array"
+			],
+			[
+				"inner",
+				"innerText  (app.js)"
+			],
+			[
+				"f",
+				"for  for (…) {…}"
+			],
+			[
+				"DOM",
+				"DOMComb"
+			],
+			[
+				"createPlain",
+				"createPlainTextSearchRegex (fn)"
+			],
+			[
+				"switch",
+				"switch"
+			],
+			[
+				"try",
+				"ternary  (zshmodules.mmd)"
+			],
+			[
+				"dr",
+				"dragable"
+			],
+			[
+				"google",
+				"googlecss-array.js"
+			],
+			[
+				"retur",
+				"return"
+			],
+			[
+				"createRead",
+				"fs.createReadStream"
+			],
+			[
+				"selection",
+				"selectionStart"
+			],
+			[
+				"trav",
+				"traverse_node"
+			],
+			[
+				"node",
+				"nodeType Node"
+			],
+			[
+				"up",
+				"uppercase"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/Op/Documents/gschool/proj/mdn-guide/guide.json",
+			"settings":
+			{
+				"buffer_size": 69879,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 4158,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Nodejs/Nodejs.sublime-build",
+					""
+				],
+				[
+					"Packages/User/modpython.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Nodejs/Nodejs.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 54.0,
+		"last_filter": "disable pack",
+		"selected_items":
+		[
+			[
+				"disable pack",
+				"packagectrl: Disable Package"
+			],
+			[
+				"disable p",
+				"Disable Python Fix Imports (until restart)"
+			],
+			[
+				"pjs",
+				"pjs: Format"
+			],
+			[
+				"word",
+				"Word Wrap: Toggle"
+			],
+			[
+				"syntax json",
+				"Set Syntax: JSON"
+			],
+			[
+				"syntax javasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"format",
+				"Format: Javascript"
+			],
+			[
+				"tog st",
+				"tog: Status Bar"
+			],
+			[
+				"copyf",
+				"path: Copy File Path"
+			],
+			[
+				"syntax js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"keybing",
+				"Preferences: Key Bindings - User"
+			],
+			[
+				"wod",
+				"Word Wrap: Toggle"
+			],
+			[
+				"form",
+				"Format: Javascript"
+			],
+			[
+				"Snippet: wrap",
+				"Snippet: wrap:fn name(){$SELECTION}"
+			],
+			[
+				"syntax javaba",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"editp",
+				"Edit Preferences: Edit Settings…"
+			],
+			[
+				"tabs",
+				"Indent: Convert to Tabs"
+			],
+			[
+				"editpref",
+				"Edit Preferences: Edit Settings — Current Syntax"
+			],
+			[
+				"indent sp",
+				"Indentation: Use Spaces"
+			],
+			[
+				"Snippet: nfn",
+				"Snippet: wrap:fn name(){$SELECTION}"
+			],
+			[
+				"lint",
+				"linter: Show All Errors"
+			],
+			[
+				"copy",
+				"path: Copy File Path"
+			],
+			[
+				"dupli",
+				"File: Duplicate"
+			],
+			[
+				"align",
+				"AlignTab: Live Preview Mode"
+			],
+			[
+				"tog",
+				"tog: Status Bar"
+			],
+			[
+				"open wt",
+				"Open with..."
+			],
+			[
+				"we",
+				"Web Inspector"
+			],
+			[
+				"web",
+				"Web Inspector"
+			],
+			[
+				"nodejs",
+				"Nodejs::UglifyJS"
+			],
+			[
+				"color",
+				"Color Scheme Editor: Edit current color scheme"
+			],
+			[
+				"colorpi",
+				"Color Picker"
+			],
+			[
+				"colors",
+				"Color Scheme Editor: Edit current color scheme"
+			],
+			[
+				"colorsh",
+				"Color Scheme Editor: Edit current color scheme"
+			],
+			[
+				"syntax markdo",
+				"Set Syntax: Markdown Extended"
+			],
+			[
+				"syntax markd",
+				"Set Syntax: Markdown Light"
+			],
+			[
+				"synax mark",
+				"Set Syntax: Markdown"
+			],
+			[
+				"edit pref",
+				"Edit Preferences: Edit Settings — Current Syntax"
+			],
+			[
+				"wrap pl",
+				"Wrap Plus: Wrap Lines"
+			],
+			[
+				"spell",
+				"SuperSelect: Select Next Match"
+			],
+			[
+				"wrap",
+				"Wrap Plus: Wrap Lines"
+			],
+			[
+				"wra",
+				"Wrap Plus: Wrap Lines"
+			],
+			[
+				"rein",
+				"Indent: Reindent Lines"
+			],
+			[
+				"em",
+				"em: Remove Tag"
+			],
+			[
+				"empty",
+				"Trimmer: Delete empty lines."
+			],
+			[
+				"fileren",
+				"File: Rename"
+			],
+			[
+				"rena",
+				"File: Rename"
+			],
+			[
+				"tag",
+				"Tag: Auto-Format Tags on Document"
+			],
+			[
+				"brh",
+				"brh: Select Tag Name (closing and opening)"
+			],
+			[
+				"html",
+				"HTMLBeautify"
+			],
+			[
+				"empt",
+				"Trimmer: Delete empty lines."
+			],
+			[
+				"key",
+				"Preferences: Key Bindings - User"
+			],
+			[
+				"edit",
+				"Edit Preferences: Edit Settings…"
+			],
+			[
+				"edit ",
+				"Edit Preferences: Edit Settings…"
+			],
+			[
+				"spel",
+				"Spelling: Spell Check"
+			],
+			[
+				"tog tab",
+				"tog Tabs"
+			],
+			[
+				"install ",
+				"packagectrl: Install Package"
+			],
+			[
+				"editpack",
+				"PRV: Edit Package Resource"
+			],
+			[
+				"open in",
+				"File: Open In Browser - Production Server"
+			],
+			[
+				"copyfil",
+				"path: Copy File Path"
+			],
+			[
+				"enable pack",
+				"packagectrl: Enable Package"
+			],
+			[
+				"gtocm",
+				"Git: Commit"
+			],
+			[
+				"git add",
+				"Git: Add"
+			],
+			[
+				"gitadd",
+				"Git: Add"
+			],
+			[
+				"rename",
+				"File: Rename"
+			],
+			[
+				"file:de",
+				"File: Delete"
+			],
+			[
+				"permu",
+				"Permute Lines: Unique"
+			],
+			[
+				"status",
+				"tog Status Bar"
+			],
+			[
+				"sortlin",
+				"Sort Lines"
+			],
+			[
+				"keybin",
+				"Preferences: Key Bindings - User"
+			],
+			[
+				"merge",
+				"em: Merge Lines"
+			],
+			[
+				"mergelin",
+				"em: Merge Lines"
+			],
+			[
+				"editpr",
+				"Edit Preferences: Edit Settings…"
+			],
+			[
+				"pjf",
+				"pjs: Format"
+			],
+			[
+				"editpre",
+				"Edit Preferences: Edit Settings — All"
+			],
+			[
+				"git diff",
+				"Git: Diff Current File"
+			],
+			[
+				"emmet",
+				"Emmet: Balance (inward)"
+			],
+			[
+				"wor",
+				"Word Wrap: Toggle"
+			],
+			[
+				"node ",
+				"Nodejs::UglifyJS"
+			],
+			[
+				"for",
+				"Format: Javascript"
+			],
+			[
+				"pjs vali",
+				"pjs: Validate"
+			],
+			[
+				"joinl",
+				"JoinLinesEnhanced: join"
+			],
+			[
+				"pret",
+				"prettyjson: Format"
+			],
+			[
+				"forma",
+				"Format: Javascript"
+			],
+			[
+				"prefedi",
+				"Edit Preferences: Edit Settings — Current Syntax"
+			],
+			[
+				"syntax javascript",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"syntax javas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"server",
+				"File: Open In Browser - Production Server"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"disab",
+				"Package Control: Disable Package"
+			],
+			[
+				"enable ",
+				"Package Control: Enable Package"
+			],
+			[
+				"pack dis",
+				"Package Control: Disable Package"
+			],
+			[
+				"disable pac",
+				"Package Control: Disable Package"
+			],
+			[
+				"npm",
+				"Nodejs::NPM::List"
+			],
+			[
+				"Snippet: stream",
+				"Snippet: fn.stream.modularize"
+			],
+			[
+				"Snippet: string",
+				"Snippet: fn_string_decoder"
+			],
+			[
+				"joinlin",
+				"JoinLinesEnhanced: join"
+			],
+			[
+				"file:mo",
+				"File: Move"
+			],
+			[
+				"joinn",
+				"JoinLinesEnhanced: join"
+			],
+			[
+				"pref",
+				"Edit Preferences: Edit Settings — Current Syntax"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"jsonfor",
+				"prettyjson: Format"
+			],
+			[
+				"syntax javsc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"fixim",
+				"Python Fix Imports"
+			],
+			[
+				"vali",
+				"prettyjson: Validate"
+			],
+			[
+				"valid",
+				"prettyjson: Validate"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"extrack",
+				"PRV: Extract Package"
+			],
+			[
+				"syntax mark",
+				"Set Syntax: Markdown Extended"
+			],
+			[
+				"linthi",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"pretty",
+				"prettyjson: Validate"
+			],
+			[
+				"remove ",
+				"Package Control: Remove Package"
+			],
+			[
+				"next",
+				"SublimeLinter: Next Error"
+			],
+			[
+				"enablelin",
+				"SublimeLinter: Enable Linter"
+			],
+			[
+				"edit pack",
+				"PRV: Edit Package Resource"
+			],
+			[
+				"extract",
+				"PRV: Extract Package"
+			],
+			[
+				"editpa",
+				"PRV: Edit Package Resource"
+			],
+			[
+				"toggle",
+				"View: Toggle Full Screen"
+			],
+			[
+				"move",
+				"Group: Move to Group 2"
+			],
+			[
+				"standa",
+				"Standard Format: Format current file"
+			],
+			[
+				"standard",
+				"Standard Format: Format current file"
+			],
+			[
+				"sublimelin",
+				"SublimeLinter: Clear Caches"
+			],
+			[
+				"foramt",
+				"Format: Javascript"
+			],
+			[
+				"javasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"discover",
+				"Package Control: Discover Packages"
+			],
+			[
+				"find ke",
+				"FindKeyConflicts: All Conflicts"
+			],
+			[
+				"emptyl",
+				"Trimmer: Delete empty lines."
+			],
+			[
+				"syntax sublime",
+				"Set Syntax: Sublime Text Key Map"
+			],
+			[
+				"valida",
+				"prettyjson: Validate"
+			]
+		],
+		"width": 678.0
+	},
+	"console":
+	{
+		"height": 404.0,
+		"history":
+		[
+			"sublime.log_commands(True)",
+			"sublime.log_commands(False)",
+			"sublime.log_commands(True)",
+			"env",
+			"env = \"/Users/Op/Library/Application Support/Sublime Text 3/Packages/tern_for_sublime/node_modules:/Users/Op/.pyenv/plugins/pyenv-virtualenv/shims:/Users/Op/.pyenv/shims:/Users/Op/.rbenv/shims:/usr/local/bin/git:/Users/Op/.pyenv/bin:/Users/Op/.rbenv/bin:/Users/Op/.npm-global/bin:/Users/Op/.npm-global/lib/node_modules:/Users/Op/.jenv/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/lib:/Users/Op/bin:/usr/local/opt/go/libexec/bin\"",
+			"env[\"PATH\"] = \"/Users/Op/Library/Application Support/Sublime Text 3/Packages/tern_for_sublime/node_modules\" + os.environ.copy()",
+			"env[\"PATH\"] += \"/Users/Op/Library/Application Support/Sublime Text 3/Packages/tern_for_sublime/node_modules\" + os.environ.copy()",
+			"env[\"PATH\"] += \":/Users/Op/Library/Application Support/Sublime Text 3/Packages/tern_for_sublime/node_modules\" + os.environ.copy()",
+			"print(env)",
+			"print env",
+			"env = os.environ.copy()",
+			"os.env[\"PATH\"]",
+			"env[\"PATH\"]",
+			"env[:PATH\"]",
+			"os.env",
+			"import os",
+			"env",
+			"import env",
+			"import sys",
+			"os.environ['PATH']",
+			"import os",
+			"sublime.log_commands(True)",
+			"os.environ['PATH']",
+			"import os",
+			"print clear",
+			"clear",
+			"clear = \"\\n\" * 100",
+			"cls()",
+			"cls = os.system('cls' if os.name=='nt' else 'clear')",
+			"def cls(); os.system('cls' if os.name=='nt' else 'clear')",
+			"def cls() os.system('cls' if os.name=='nt' else 'clear')",
+			"clear",
+			"clear()",
+			"clear = lambda: os.system('cls')",
+			"import os",
+			"clear()",
+			"clear",
+			"sublime.log_commands(True)",
+			"gulp",
+			"os.environ['PATH']",
+			"import os",
+			"os.environ['PATH']",
+			"import os",
+			"f = tokenize.open(\"/Users/Op/Documents/gschool/dev-tools/ramdisk/mod-blog-private/gulpfile.js\")",
+			"f",
+			"f = tokenize.open(\"/Users/Op/Documents/gschool/dev-tools/ramdisk/mod-blog-private/gulpfile.js\")",
+			"f = tokenize.open(/Users/Op/Documents/gschool/dev-tools/ramdisk/mod-blog-private/gulpfile.js)",
+			"import tokenize",
+			"sys.getfilesystemencoding()",
+			"import sys",
+			"sys.path",
+			"import sys",
+			"sys.reload",
+			"import sys",
+			"impost sys",
+			"sublime.log_commands(True)",
+			"os.environ['PATH']",
+			"import os",
+			"os.environ['PATH']",
+			"import os",
+			"os.environ['PATH']",
+			"import os",
+			"os.environ['PATH']",
+			"os.environ[",
+			"import os",
+			"os.path.join(plugin_dir, \"node_modules/tern\")",
+			"import os",
+			"os.getcwd().replace(os.path.normpath(os.path.join(os.getcwd(), '..', '..')) + os.path.sep, '')",
+			"PLUGIN_DIRECTORY = os.getcwd().replace(os.path.normpath(os.path.join(os.getcwd(), '..', '..')) + os.path.sep, '')",
+			"PLUGIN_DIRECTORY = os.getcwd().replace(os.path.normpath(os.path.join(os.getcwd(), '..', '..')) + os.path.sep, ''))",
+			"PLUGIN_DIRECTORY = os.getcwd().replace(os.path.normpath(os.path.join(os.getcwd(), '..', '..')) + os.path.sep, '')",
+			"os.getcwd().replace(os.path.normpath(",
+			"os.getcwd().replace(os.path.join(os.getcwd(), '..', '..'))",
+			"os.getcwd().replace(os.path.join(os.getcwd(), '..', '..')",
+			"os.getcwd()",
+			"import os",
+			"sublime.log_commands(True)",
+			"os.environ",
+			"import os",
+			"os.environ",
+			"import codecs",
+			"os.encoding",
+			"os.encoding()",
+			"import os",
+			"import sys",
+			"import os",
+			"import 0s",
+			"os.path()",
+			"os.path.dirname()",
+			"return os.path.dirname(self.view.file_name())",
+			"sublime.log_commands(True)",
+			"os.environ['PATH']",
+			"os.path.join(os.path.expanduser('~'), 'npm-global', 'bin'), '/usr/local/bin'",
+			"os.path.join(os.path.expanduser('~')",
+			"os.path.join('.', 'node_modules', '.bin')",
+			"import os",
+			"os.environ['PATH']",
+			"import os",
+			"sublime.log_commands(True)",
+			"sublime.log_commands(False)",
+			"sublime.log_commands(True)",
+			"sublime.log_commands(False)",
+			"sublime.log_commands(True)",
+			"sublime.log_commands(False)",
+			"sublime.log_commands(True)",
+			"sublime.log_commands(False)",
+			"sublime.log_commands(True)",
+			"from itertools import groupby",
+			"from itertools import groupby=",
+			"dirname = os.path.dirname(item[0].file_name() if item[0].file_name() else '')",
+			"path.",
+			"path",
+			"import os",
+			"window",
+			"for key in window.views()",
+			"self.window",
+			"window",
+			"def run(self):",
+			"def run(self)",
+			"window.active_view()",
+			"window.file_name",
+			"window.views",
+			"window",
+			"self.window",
+			"win = self.window",
+			"win.active_view()",
+			"from operator import itemgetter",
+			"import sublime_plugin"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": true,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/Op/Documents/gschool/proj/mdn-guide"
+	],
+	"file_history":
+	[
+		"/Users/Op/Documents/gschool/proj/google/node_modules/markdown/README.markdown",
+		"/Users/Op/Documents/gschool/dev-tools/code-files/users-op-bin-nodemodules.txt",
+		"/Users/Op/Documents/gschool/dev-tools/code-files/users-op-dotnpmmodules.txt",
+		"/Users/Op/Documents/gschool/proj/google/node_modules/marked/README.md",
+		"/Volumes/RamDisk/untitled.js",
+		"/Users/Op/Library/Application Support/Sublime Text 3/Packages/tern_for_sublime/node_modules/tern/plugin/node-api-doc.js",
+		"/Users/Op/.jshintrc",
+		"/Users/Op/Documents/gschool/dev-tools/code-files/document.properties.js",
+		"/Users/Op/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/Op/Library/Application Support/Sublime Text 3/Packages/User/JavaScript (Babel).sublime-settings",
+		"/Users/Op/Library/Application Support/Sublime Text 3/Packages/User/snippets/mod/nfn_wrap.sublime-snippet",
+		"/Users/Op/.jshintrc.bak",
+		"/Users/Op/Documents/gschool/proj/esgil-private/esgil/index.html",
+		"/Users/Op/Library/Application Support/Sublime Text 3/Packages/SideBarEnhancements/Side Bar.sublime-menu",
+		"/Users/Op/Documents/gschool/g-work/g-comp-sci-curriculum/computer-science-curriculum/obj-prototype.js",
+		"/Users/Op/Documents/gschool/proj/esgil-private/esgil/app.js.bak",
+		"/Users/Op/Documents/gschool/proj/esgil-private/esgil/app.js",
+		"/Users/Op/Library/Application Support/Sublime Text 3/Packages/User/Themes/modmonokaiJS2.tmTheme",
+		"/Users/Op/Library/Application Support/Sublime Text 3/Packages/User/Markdown Extended.sublime-settings",
+		"/Users/Op/Library/Application Support/Sublime Text 3/Packages/Default/Default.sublime-commands",
+		"/Users/Op/Library/Application Support/Sublime Text 3/Packages/User/Default.sublime-commands",
+		"/Users/Op/Documents/gschool/g-work/g-comp-sci-curriculum/computer-science-curriculum/mod/mod-closure.js",
+		"/Users/Op/.gitignore_global",
+		"/Users/Op/.zshrc",
+		"/Users/Op/Documents/gschool/g-work/g-comp-sci-curriculum/computer-science-curriculum/cheatsheet.md",
+		"/Users/Op/Desktop/st2.json",
+		"/Users/Op/Documents/gschool/dev-tools/ramdisk/mod-blog-private/source/js/bundle.js",
+		"/Users/Op/Library/Application Support/Sublime Text 3/Packages/Emmet/Emmet.sublime-settings",
+		"/Users/Op/Documents/gschool/proj/esgil-private/esgil/Gulpfile.js",
+		"/Users/Op/Documents/gschool/dev-tools/ramdisk/mod-blog-private/browserify.js",
+		"/Users/Op/Documents/gschool/dev-tools/ramdisk/mod-blog-private/package.json",
+		"/Users/Op/Documents/gschool/dev-tools/ramdisk/mod-blog-private/sass/_typecast.scss",
+		"/Users/Op/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/Op/Library/Application Support/Sublime Text 3/Packages/User/HTML.sublime-settings",
+		"/Users/Op/Documents/gschool/dev-tools/ramdisk/mod-blog-private/sass/_prism.scss",
+		"/Users/Op/Documents/gschool/dev-tools/ramdisk/mod-blog-private/source/index.html",
+		"/Users/Op/Documents/gschool/dev-tools/ramdisk/mod-blog-private/source/posts/typecast/index.html",
+		"/Users/Op/Documents/gschool/dev-tools/ramdisk/mod-blog-private/source/css/responsive-list.css",
+		"/Users/Op/Documents/gschool/dev-tools/ramdisk/mod-blog-private/sass/_googlefonts.scss",
+		"/Users/Op/Documents/gschool/dev-tools/ramdisk/mod-blog-private/node_modules/browserify/index.js",
+		"/Users/Op/Documents/gschool/dev-tools/ramdisk/mod-blog-private/source/posts/compiled-html/bookmarkdedupe.html",
+		"/Users/Op/Documents/gschool/dev-tools/ramdisk/mod-blog-private/source/js/bundles/cssutil-bundle.js",
+		"/Users/Op/Documents/gschool/dev-tools/ramdisk/mod-blog-private/gulp",
+		"/Users/Op/Documents/gschool/dev-tools/ramdisk/mod-blog-private/source/js/tools/test-functions.js",
+		"/Users/Op/Documents/gschool/dev-tools/ramdisk/mod-blog-private/source/js/tools/async-manual.js",
+		"/Users/Op/Documents/gschool/dev-tools/ramdisk/mod-blog-private/source/js/tools/CSSUtilities.js",
+		"/Users/Op/Documents/gschool/dev-tools/ramdisk/mod-blog-private/gulpfile.js",
+		"/Users/Op/Downloads/cssutilities/demos/async-manual.html",
+		"/Users/Op/Documents/gschool/dev-tools/ramdisk/mod-blog-private/.gitignore",
+		"/Users/Op/Downloads/cssutilities/Selector.js",
+		"/Users/Op/Library/Application Support/Sublime Text 3/Packages/Emmet/Default (OSX).sublime-keymap",
+		"/Users/Op/Library/Application Support/Sublime Text 3/Packages/User/Sublime Key Map.sublime-settings",
+		"/Users/Op/Library/Application Support/Sublime Text 3/Packages/User/JSON.sublime-settings",
+		"/Users/Op/Library/Application Support/Sublime Text 3/Packages/User/Diff.sublime-settings",
+		"/Users/Op/Library/Application Support/Sublime Text 3/Packages/User/Emmet.sublime-settings",
+		"/tmp/zsh5JPgd3",
+		"/Users/Op/Documents/gschool/dev-tools/ramdisk/mod-blog-private/source/js/slabtext.js",
+		"/Users/Op/Documents/gschool/dev-tools/ramdisk/mod-blog-private/source/js/index.min.js",
+		"/Users/Op/Documents/gschool/dev-tools/ramdisk/mod-blog-private/module-deps.js",
+		"/Users/Op/Documents/gschool/dev-tools/ramdisk/mod-blog-private/source/js/underscore.debounce.js",
+		"/Users/Op/Documents/gschool/dev-tools/ramdisk/mod-blog-private/source/js/wow.js",
+		"/Users/Op/Documents/gschool/dev-tools/ramdisk/mod-blog-private/sass/responsive-list.scss",
+		"/Users/Op/Library/Application Support/Sublime Text 3/Packages/User/snippets/mod/js.function.sublime-snippet",
+		"/Users/Op/Documents/gschool/dev-tools/ramdisk/mod-blog-private/mod.sublime-project",
+		"/Users/Op/Documents/gschool/dev-tools/ramdisk/mod-blog-private/mod-cat-blog.sublime-project",
+		"/Users/Op/Documents/gschool/dev-tools/ramdisk/mod-blog-private/dev-bin/animsition.js",
+		"/Users/Op/Library/Application Support/Sublime Text 3/Packages/User/Tern.sublime-settings",
+		"/Users/Op/Documents/gschool/dev-tools/ramdisk/mod-blog-private/source/js/typed.min.js",
+		"/Users/Op/Documents/gschool/dev-tools/ramdisk/mod-blog-private/source/js/animsition.js",
+		"/Users/Op/Documents/gschool/dev-tools/ramdisk/mod-blog-private/bundle.js",
+		"/Users/Op/Library/Application Support/Sublime Text 3/Packages/tern_for_sublime/tern.py",
+		"/Users/Op/Documents/gschool/dev-tools/ramdisk/mod-blog-private/node_modules/uglifyjs/tools/node.js",
+		"/Users/Op/Documents/gschool/dev-tools/ramdisk/mod-blog-private/source/js/jquery.ugly.js",
+		"/Users/Op/Documents/gschool/dev-tools/ramdisk/mod-blog-private/source/js/index.backup.js",
+		"/Users/Op/Library/Application Support/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/Users/Op/Documents/gschool/dev-tools/ramdisk/mod-blog-private/node_modules/browser-pack/index.js",
+		"/Users/Op/Library/Application Support/Sublime Text 3/Packages/tern_for_sublime/node_modules/tern/plugin/def-origin.js",
+		"/Users/Op/Documents/gschool/dev-tools/ramdisk/mod-blog-private/packed.js",
+		"/Users/Op/Documents/gschool/dev-tools/ramdisk/mod-blog-private/.tern-port",
+		"/Users/Op/Documents/gschool/dev-tools/ramdisk/mod-blog-private/node_modules/combine-source-map/index.js",
+		"/Users/Op/Documents/gschool/dev-tools/ramdisk/mod-blog-private/node_modules/module-deps/index.js",
+		"/Users/Op/Documents/gschool/dev-tools/ramdisk/mod-blog-private/node_modules/through2/through2.js",
+		"/Users/Op/Documents/gschool/dev-tools/ramdisk/mod-blog-private/node_modules/accepts/package.json",
+		"/Users/Op/Documents/gschool/dev-tools/ramdisk/mod-blog-private/node_modules/gulp-strip-css-comments/package.json",
+		"/Users/Op/Documents/gschool/dev-tools/ramdisk/mod-blog-private/test.json",
+		"/Users/Op/.npm-global/lib/node_modules/babel-cli/bin/babel-external-helpers.js",
+		"/tmp/zshAFnPEX",
+		"/Users/Op/Documents/gschool/dev-tools/github-clones/jquery/dist/jquery.js",
+		"/Users/Op/Library/Application Support/Sublime Text 3/Packages/Fix Mac Path/FixPath.py",
+		"/Users/Op/.gitconfig",
+		"/Users/Op/.bashrc",
+		"/Users/Op/.zshenv",
+		"/Users/Op/.bash_profile",
+		"/Users/Op/.profile",
+		"/Users/Op/.bash_history",
+		"/Volumes/ramdisk/Install Adobe Flash Player.app/Contents/Resources/sc.js",
+		"/Users/Op/.oh-my-zsh/plugins/osx/osx",
+		"/Users/Op/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/Op/.oh-my-zsh/plugins/osx/osx.plugin.zsh",
+		"/Users/Op/Library/Application Support/Sublime Text 3/Packages/Gulp/gulp.py",
+		"/Users/Op/Library/Application Support/Sublime Text 3/Packages/Gulp/Gulp.sublime-settings",
+		"/Users/Op/Library/Application Support/Sublime Text 3/Packages/User/Gulp.sublime-settings",
+		"/Users/Op/Library/Application Support/Sublime Text 3/Packages/Gulp/README.md",
+		"/Users/Op/Library/Application Support/Sublime Text 3/Packages/MarkdownLight/MarkdownDark.tmTheme",
+		"/Users/Op/Library/Application Support/Sublime Text 3/Packages/User/Sublime Settings.sublime-settings",
+		"/Volumes/Adobe Flash Player Installer/Install Adobe Flash Player.app/Contents/Resources/sc.js",
+		"/Users/Op/Documents/gschool/dev-tools/ramdisk/mod-blog-private/source/js/prism.min.js",
+		"/Users/Op/Documents/gschool/dev-tools/ramdisk/mod-blog-private/source/js/prism.js",
+		"/Users/Op/Documents/gschool/dev-tools/mod-notes.mmd",
+		"/Users/Op/Library/Application Support/Sublime Text 3/Packages/SublimeLinter/lint/util.py",
+		"/Volumes/ramdisk/SublimeLinter3/Main.sublime-menu.template",
+		"/Users/Op/Library/Application Support/Sublime Text 3/Packages/BracketHighlighter/Main.sublime-menu",
+		"/Users/Op/Library/Application Support/Sublime Text 3/Packages/User/TabsExtra/Tab Context.sublime-menu",
+		"/Volumes/ramdisk/20160706133604-temp.keymap.sublime-keymap",
+		"/Users/Op/Library/Application Support/Sublime Text 3/keysbykey.json",
+		"/Users/Op/Library/Application Support/Sublime Text 3/sublime-collapse-settings.js",
+		"/Users/Op/Library/Application Support/Sublime Text 3/Backup/mod-keymaps.json",
+		"/Users/Op/Documents/gschool/dev-tools/ramdisk/mod-blog-private/app.js",
+		"/Volumes/ramdisk/mod-keymaps.json",
+		"/Users/Op/Downloads/prism (2).js",
+		"/Users/Op/Library/Application Support/Sublime Text 3/glob.js",
+		"/Volumes/ramdisk/20160706133228-temp.keymap.sublime-keymap",
+		"/Users/Op/Documents/gschool/dev-tools/ramdisk/mod-blog-private/node_modules/cookie-parser/index.js",
+		"/Users/Op/Documents/gschool/dev-tools/ramdisk/mod-blog-private/node_modules/body-parser/index.js",
+		"/Users/Op/Library/Application Support/Sublime Text 3/Packages/tern_for_sublime/node_modules/tern/plugin/angular.js",
+		"/Users/Op/.npm-global/lib/node_modules/acorn/bin/acorn",
+		"/Users/Op/Library/Application Support/Sublime Text 3/Packages/Nodejs/Nodejs.py",
+		"/Users/Op/Library/Application Support/Sublime Text 3/Packages/Color Scheme - Default/Monokai.tmTheme"
+	],
+	"find":
+	{
+		"height": 33.0
+	},
+	"find_in_files":
+	{
+		"height": 125.0,
+		"where_history":
+		[
+			"*package.json,/Users/Op/Documents/gschool/dev-tools/ramdisk/mod-blog-private/node_modules",
+			"*package.json",
+			"",
+			"\"",
+			"",
+			"*.sublime-snippet",
+			"",
+			"/Users/Op/Documents/gschool/proj/f-recipecat",
+			"",
+			"<project>"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"this",
+			"href",
+			"hasAttribute",
+			"this",
+			"obj",
+			"var",
+			"underscore",
+			"let",
+			"tog",
+			"User",
+			"tern_for_sublime",
+			"google",
+			"debug",
+			"\\bgit\\b",
+			".textblock",
+			"textblock",
+			"indent",
+			"@lost",
+			"prism",
+			"anim",
+			"prism",
+			"/a",
+			"./source/js/",
+			"/source/js/",
+			"true",
+			"\\;\\}",
+			"\\;}",
+			"\\{\\n",
+			"{\\n",
+			"Package Control:",
+			"Package Control: Add Channel",
+			"word",
+			"Emmet",
+			"lines",
+			"merge",
+			"alt+;",
+			",",
+			"Selection",
+			"Project",
+			"project",
+			"Project",
+			"BracketHighlighter",
+			"Toggle",
+			"View: Toggle",
+			"sublimelinter",
+			"SublimeLinter",
+			"sublimelinter",
+			"SublimeLinter",
+			"sublimelinter",
+			"SublimeLinter",
+			"sublimelinter",
+			"SublimeLinter",
+			"pjson",
+			"prettyjson",
+			"edit",
+			"wow",
+			"typed",
+			"html",
+			"port",
+			"timeout",
+			"pipe",
+			"path",
+			"@.*$",
+			"requireg",
+			"^//.*$",
+			"Finder",
+			"plugi",
+			"source",
+			"f11",
+			"docx",
+			"full",
+			"span",
+			"document",
+			"blur",
+			"//",
+			"super+alt",
+			"emmet_action",
+			"run_emmet_action",
+			"emmet",
+			"keyMapsArray",
+			"key",
+			"option",
+			"options",
+			"!=",
+			"self",
+			"_self",
+			"self",
+			"options",
+			"path",
+			"^ \\{.*\\n",
+			"makeMo",
+			"mdate",
+			"alignvertical",
+			"bold",
+			"graceful-fs",
+			"../lib",
+			"row",
+			"iframe",
+			"gothic",
+			"font-family",
+			"../fonts",
+			"OpenSans",
+			"path",
+			"full",
+			"tab",
+			"==",
+			"utag.handler",
+			"console",
+			"utag.DB",
+			"run",
+			"FF3333",
+			"utag",
+			"lines",
+			"joii",
+			"join",
+			"joinlin",
+			"show",
+			"path",
+			"open",
+			"\"open-sans\"",
+			"open",
+			"frosted",
+			"brandon",
+			"border",
+			"cached",
+			"discardcom",
+			",\"c",
+			"source."
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			" \\; \\}",
+			" ; }",
+			",\\n",
+			"\"",
+			"/User/Path/",
+			"\"",
+			"The Sans Mono Condensed Fixed",
+			"&&",
+			", ",
+			"\"",
+			"'",
+			"ModSansMonoOticon-Medium",
+			"ModSansMonoOticon-UltCond",
+			"http://mauricioandrades.com",
+			"http://www.mauricioandrades.com",
+			"\\1  ",
+			"'",
+			" ",
+			"\\s",
+			" ",
+			"ModSansMonoOticon",
+			"0, 0",
+			"'",
+			"Lucida Sans Light !important;",
+			"assets"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/Op/Documents/gschool/proj/mdn-guide/guide.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 69879,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1,
+								1
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"bs_sintax": "json",
+							"buffer_scroll_name": "9458a346",
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 2,
+							"tabs_extra_last_activated": 1468801460.32,
+							"tabs_extra_last_activated_sheet_index": 0,
+							"tabs_extra_spawned": true,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 21.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4158,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								133,
+								133
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"bs_sintax": "markdown extended",
+							"buffer_scroll_name": "f58c4476",
+							"syntax": "Packages/Markdown Extended/Syntaxes/Markdown Extended.sublime-syntax",
+							"tab_size": 2,
+							"tabs_extra_last_activated": 1468801546.67,
+							"tabs_extra_last_activated_sheet_index": 1,
+							"tabs_extra_spawned": true,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 33.0
+	},
+	"input":
+	{
+		"height": 48.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.active_lines_compare":
+	{
+		"height": 156
+	},
+	"output.autopep8":
+	{
+		"height": 168
+	},
+	"output.channel_repository_tools":
+	{
+		"height": 156
+	},
+	"output.csslint_result_view":
+	{
+		"height": 186
+	},
+	"output.exec":
+	{
+		"height": 661.0
+	},
+	"output.find_results":
+	{
+		"height": 174.0
+	},
+	"output.git":
+	{
+		"height": 186.0
+	},
+	"output.gulp_output":
+	{
+		"height": 162.0
+	},
+	"output.nodejs":
+	{
+		"height": 225.0
+	},
+	"output.preferences_editor_help":
+	{
+		"height": 204.0
+	},
+	"output.scope_viewer":
+	{
+		"height": 180.0
+	},
+	"output.tern_arghint":
+	{
+		"height": 186
+	},
+	"output.unsaved_changes":
+	{
+		"height": 186
+	},
+	"pinned_build_system": "Packages/Nodejs/Nodejs.sublime-build",
+	"project": "mdn-guide.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": false,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"cast",
+				"sass/typecast.scss"
+			],
+			[
+				"re",
+				"sass/responsive-list.scss"
+			],
+			[
+				"pri",
+				"sass/_prism.scss"
+			],
+			[
+				"navb",
+				"sass/_navbar.scss"
+			],
+			[
+				"inde",
+				"source/index.html"
+			],
+			[
+				"index.",
+				"source/index.html"
+			],
+			[
+				"index.back",
+				"source/js/modules/index.backup.js"
+			],
+			[
+				"brow",
+				"browserify.js"
+			],
+			[
+				"respon",
+				"sass/responsive-list.scss"
+			],
+			[
+				"ine",
+				"source/index.html"
+			],
+			[
+				"gulp",
+				"gulpfile.js"
+			],
+			[
+				"respons",
+				"sass/responsive-list.scss"
+			],
+			[
+				"user",
+				"~/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap"
+			],
+			[
+				"html",
+				"source/posts/compiled-html/index.html"
+			],
+			[
+				"index",
+				"source/posts/typecast/index.html"
+			],
+			[
+				"type",
+				"sass/typecast.scss"
+			],
+			[
+				"posts",
+				"source/posts/compiled-html/index.html"
+			],
+			[
+				"responcss",
+				"stylesheets/responsive-list.css"
+			],
+			[
+				"index.html",
+				"source/index.html"
+			],
+			[
+				"respnosi",
+				"source/css/responsive-list.css"
+			],
+			[
+				"scss",
+				"sass/responsive-list.scss"
+			],
+			[
+				"gulpfile",
+				"gulpfile.js"
+			],
+			[
+				"navbar",
+				"sass/_navbar.scss"
+			],
+			[
+				"resp",
+				"sass/responsive-list.scss"
+			],
+			[
+				"rrespon",
+				"source/css/responsive-list.css.map"
+			],
+			[
+				"gulfil",
+				"Gulpfile.js"
+			],
+			[
+				"clean",
+				"node_modules/semver/test/clean.js"
+			],
+			[
+				"",
+				"`"
+			],
+			[
+				"gulp-file",
+				"node_modules/gulp-logger/lib/process-file-path.js"
+			],
+			[
+				"gul",
+				"gulpfile.js"
+			],
+			[
+				"convert-encodingrea",
+				"node_modules/gulp-convert-encoding/readme.md"
+			],
+			[
+				"iformation",
+				"source/common/style-sheets/dashboard/element-information.css"
+			],
+			[
+				"source/",
+				"source/js/index.backup.js"
+			],
+			[
+				"selec",
+				"css-selectors.json"
+			],
+			[
+				"nava",
+				"sass/_navbar.scss"
+			],
+			[
+				"response",
+				"sass/responsive-list.scss"
+			],
+			[
+				"b",
+				"mod-cat-blog.sublime-project"
+			],
+			[
+				"responsive-list",
+				"sass/responsive-list.scss"
+			],
+			[
+				"_nav",
+				"sass/_navbar.scss"
+			],
+			[
+				"source/index.",
+				"source/js/index.backup.js"
+			],
+			[
+				"navba",
+				"sass/_navbar.scss"
+			],
+			[
+				"responve",
+				"sass/responsive-list.scss"
+			],
+			[
+				"index.back.",
+				"source/js/index.backup.js"
+			],
+			[
+				"brh.sublim",
+				"~/Library/Application Support/Sublime Text 3/Packages/User/bh_core.sublime-settings"
+			],
+			[
+				"brh.sublime",
+				"~/Library/Application Support/Sublime Text 3/Packages/User/bh_core.sublime-settings"
+			],
+			[
+				"requestpromise",
+				"node_modules/request-promise/README.md"
+			],
+			[
+				"cheerioread",
+				"node_modules/cheerio/Readme.md"
+			],
+			[
+				"index.js",
+				"index.js"
+			],
+			[
+				"in",
+				"node_modules/lodash/isNative.js"
+			],
+			[
+				"./node_mod",
+				"node_modules/express-handlebars/.idea/libraries/express_handlebars_node_modules.xml"
+			],
+			[
+				"package",
+				"package.json"
+			],
+			[
+				"source/index.js",
+				"source/js/index.backup.js"
+			],
+			[
+				".tern",
+				".tern-project"
+			],
+			[
+				"tern",
+				"~/Library/Application Support/Sublime Text 3/Packages/tern_for_sublime/tern.py"
+			],
+			[
+				"default",
+				"~/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap"
+			],
+			[
+				"./node_modules/strip",
+				"~/.npm-global/lib/node_modules/strip-json-comments/readme.md"
+			],
+			[
+				"jshint.hm",
+				"bin/input/jshint.html"
+			],
+			[
+				"/bin/input/",
+				"cheerio-playground/bin/input/raindrop.html"
+			],
+			[
+				"raindrop",
+				"html/raindrop.html"
+			],
+			[
+				"test",
+				"~/Documents/gschool/proj/mod-cat-blog/test.js"
+			],
+			[
+				"main",
+				"main.css"
+			],
+			[
+				"_oc",
+				"sass/_octicons.scss"
+			],
+			[
+				"key",
+				"~/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap"
+			],
+			[
+				"config",
+				"config.rb"
+			],
+			[
+				"respo",
+				"sass/responsive-list.scss"
+			],
+			[
+				"source/css/unpr",
+				"source/css/unprefix/responsive-list.css"
+			],
+			[
+				"responsive.css",
+				"source/css/responsive-list.css"
+			],
+			[
+				"animate",
+				"sass/_animate.scss"
+			],
+			[
+				"animate.css",
+				"bower_components/animatewithsass/animate.css"
+			],
+			[
+				"resonsive",
+				"sass/responsive-list.scss"
+			],
+			[
+				"index.bak",
+				"source/js/index.backup.js"
+			],
+			[
+				"gl",
+				"gulpfile.js"
+			],
+			[
+				"source/css",
+				"source/css/responsive-list.css"
+			],
+			[
+				"mono",
+				"monokai-html.tmTheme"
+			],
+			[
+				"responsi",
+				"sass/responsive-list.scss"
+			],
+			[
+				"responsie-list.scss",
+				"sass/responsive-list.scss"
+			],
+			[
+				"nav",
+				"sass/_navbar.scss"
+			],
+			[
+				"cn",
+				"config.rb"
+			],
+			[
+				"animate.scss",
+				"sass/_animate.scss"
+			],
+			[
+				"na",
+				"sass/_navbar.scss"
+			],
+			[
+				"te",
+				"test.js"
+			],
+			[
+				"sublm",
+				"sublime.js"
+			],
+			[
+				"octicon",
+				"source/css/oticons/octicons.css"
+			],
+			[
+				"source/index",
+				"source/index.html"
+			],
+			[
+				"ind",
+				"source/index.html"
+			],
+			[
+				"prism",
+				"sass/_prism.scss"
+			],
+			[
+				"js",
+				"stickyheader.js"
+			],
+			[
+				"source.css",
+				"source/css/responsive-list.css"
+			],
+			[
+				"scs",
+				"sass/responsive-list.scss"
+			],
+			[
+				"prism.css",
+				"source/css/prism.css"
+			],
+			[
+				"_pri",
+				"sass/_prism.scss"
+			],
+			[
+				"inex",
+				"source/index.html"
+			],
+			[
+				"emmet",
+				"~/Library/Application Support/Sublime Text 3/Packages/Emmet/Default (OSX).sublime-keymap"
+			],
+			[
+				"keym",
+				"~/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap"
+			],
+			[
+				"source/res",
+				"source/css/responsive-list.css"
+			],
+			[
+				"sublime",
+				"sublime.js"
+			],
+			[
+				"chain",
+				"~/Library/Application Support/Sublime Text 3/Packages/Chain of Command/README.md"
+			],
+			[
+				"prim",
+				"public/js/prism.js"
+			],
+			[
+				"responsive",
+				"sass/responsive-list.scss"
+			],
+			[
+				"source/cs",
+				"source/css/responsive-list.css"
+			],
+			[
+				"googe",
+				"dev-bin/google-compiled-gulp.js"
+			],
+			[
+				"bundle",
+				"dev-bin/bundle.js"
+			],
+			[
+				"gulpf",
+				"gulpfile.js"
+			],
+			[
+				"source/js/ex",
+				"source/js/expanded/index.js"
+			],
+			[
+				"example.css",
+				"example.css"
+			],
+			[
+				"examp",
+				"example.html"
+			],
+			[
+				"source/response",
+				"source/css/responsive-list.css"
+			],
+			[
+				"sublime-set",
+				"sublime-settings-stream.js"
+			],
+			[
+				"sublime-settings-s",
+				"sublime-settings-stream.js"
+			],
+			[
+				"require",
+				"node-require.sublime-snippet"
+			],
+			[
+				"source/inde",
+				"source/index.html"
+			],
+			[
+				"mdeps/read",
+				"node_modules/module-deps/readme.markdown"
+			],
+			[
+				"gulfile",
+				"gulpfile.js"
+			],
+			[
+				"_nava",
+				"sass/_navbar.scss"
+			],
+			[
+				"responsive-list.scss",
+				"sass/responsive-list.scss"
+			],
+			[
+				"config.rb",
+				"config.rb"
+			],
+			[
+				"node_modules/perfectionist/",
+				"node_modules/perfectionist/README.md"
+			],
+			[
+				"gulpi",
+				"gulpfile.js"
+			],
+			[
+				"responsive-list.css",
+				"stylesheets/responsive-list.css"
+			],
+			[
+				"repon",
+				"sass/responsive-list.scss"
+			],
+			[
+				"gulpfile.js",
+				"gulpfile.js"
+			],
+			[
+				"source/resp",
+				"source/css/responsive-list.css"
+			],
+			[
+				"source/respon",
+				"source/css/responsive-list.css"
+			],
+			[
+				"animate.",
+				"source/css/animate.css"
+			],
+			[
+				"soure/js/index.js",
+				"source/js/expanded/index.js"
+			],
+			[
+				"source/js/inde",
+				"source/js/expanded/index.js"
+			],
+			[
+				"gulpfil",
+				"gulpfile.js"
+			],
+			[
+				"sass/scss",
+				"sass/_navbar.scss"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 375.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"_updateContent"
+			]
+		],
+		"width": 378.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 189.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

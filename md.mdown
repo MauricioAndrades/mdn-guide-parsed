@@ -1,49 +1,36 @@
-<div>
+# <applet>
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/applet
 
-<div class="overheadIndicator obsolete obsoleteHeader">
-
-**<span title="This is an obsolete API and is no longer guaranteed to work."></span>Obsolete**  
+## Obsolete
 This feature is obsolete. Although it may still work in some browsers, its use is discouraged since it could be removed at any time. Try to avoid using it.
-
-</div>
-
-</div>
 
 ## Summary
 
 The HTML Applet Element (`<applet>`) identifies the inclusion of a Java applet.
 
-<div class="note">
-
 **Usage note:** This element has been removed in HTML5 and shouldn't be used anymore. Instead web developers should use the more generic [`<object>`](/en-US/docs/Web/HTML/Element/object "The HTML Embedded Object Element (<object>) represents an external resource, which can be treated as an image, a nested browsing context, or a resource to be handled by a plugin.") element.
-
-</div>
 
 ## Attributes
 
-<dl>
+`align`: This attribute is used to position the applet on the page relative to content that might flow around it. The HTML 4.01 specification defines values of bottom, left, middle, right, and top, whereas Microsoft and Netscape also might support **absbottom**, **absmiddle**, **baseline**, **center**, and **texttop**.
 
-<dt>**`align`**</dt>
+`alt`: This attribute causes a descriptive text alternate to be displayed on browsers that do not support Java. Page designers should also remember that content enclosed within the `<applet>` element may also be rendered as alternative text.
 
-<dd>This attribute is used to position the applet on the page relative to content that might flow around it. The HTML 4.01 specification defines values of bottom, left, middle, right, and top, whereas Microsoft and Netscape also might support **absbottom**, **absmiddle**, **baseline**, **center**, and **texttop**.</dd>
-
-<dt>**`alt`**</dt>
-
-<dd>This attribute causes a descriptive text alternate to be displayed on browsers that do not support Java. Page designers should also remember that content enclosed within the `<applet>` element may also be rendered as alternative text.</dd>
-
-<dt>**`archive`**</dt>
-
-<dd>This attribute refers to an archived or compressed version of the applet and its associated class files, which might help reduce download time.</dd>
+**`archive`**
+This attribute refers to an archived or compressed version of the applet and its associated class files, which might help reduce download time.
 
 <dt>**`code`**</dt>
 
-<dd>This attribute specifies the URL of the applet's class file to be loaded and executed. Applet filenames are identified by a .class filename extension. The URL specified by code might be relative to the `codebase` attribute.</dd>
+<dd>This attribute specifies the URL of the applet's class file to be loaded and executed. Applet
+
+
+filenames are identified by a .class filename extension. The URL specified by code might be relative to the `codebase` attribute.</dd>
 
 <dt>**`codebase`**</dt>
 
 <dd>This attribute gives the absolute or relative URL of the directory where applets' .class files referenced by the code attribute are stored.</dd>
 
-**`datafld`**
+<dt>**`datafld`**</dt>
 
 <dd>This attribute, supported by Internet Explorer 4 and higher, specifies the column name from the data source object that supplies the bound data. This attribute might be used to specify the various [`<param>`](/en-US/docs/Web/HTML/Element/param "The HTML <param> Element (or HTML Parameter Element) defines parameters for <object>.") elements passed to the Java applet.</dd>
 
@@ -94,201 +81,3 @@ The HTML Applet Element (`<applet>`) identifies the inclusion of a Java applet.
 </applet>
 
 ```
-## Browser compatibility
-
-<div class="htab"><a id="AutoCompatibilityTable" name="AutoCompatibilityTable"></a>
-
-*   <a>Desktop</a>
-*   <a>Mobile</a>
-
-</div>
-
-<div id="compat-desktop">
-
-<table class="compat-table">
-
-<tbody>
-
-<tr>
-
-<th>Feature</th>
-
-<th>Chrome</th>
-
-<th>Firefox (Gecko)</th>
-
-<th>Internet Explorer</th>
-
-<th>Opera</th>
-
-<th>Safari</th>
-
-</tr>
-
-<tr>
-
-<td>Basic support</td>
-
-<td><span style="color: #f00;">Not supported</span></td>
-
-<td><span style="color: #888;" title="Please update this with the earliest version of support.">(Yes)</span></td>
-
-<td><span style="color: #888;" title="Please update this with the earliest version of support.">(Yes)</span></td>
-
-<td><span style="color: #f00;">Not supported</span></td>
-
-<td><span style="color: #888;" title="Please update this with the earliest version of support.">(Yes)</span></td>
-
-</tr>
-
-</tbody>
-
-</table>
-
-</div>
-
-<div id="compat-mobile">
-
-<table class="compat-table">
-
-<tbody>
-
-<tr>
-
-<th>Feature</th>
-
-<th>Android</th>
-
-<th>Firefox Mobile (Gecko)</th>
-
-<th>IE Mobile</th>
-
-<th>Opera Mini</th>
-
-<th>Opera Mobile</th>
-
-<th>Safari Mobile</th>
-
-</tr>
-
-<tr>
-
-<td>Basic support</td>
-
-<td><span style="color: #f00;">Not supported</span></td>
-
-<td><span style="color: #f00;">Not supported</span></td>
-
-<td><span style="color: #f00;">Not supported</span></td>
-
-<td><span style="color: #f00;">Not supported</span></td>
-
-<td><span style="color: #f00;">Not supported</span></td>
-
-<td><span style="color: #f00;">Not supported</span></td>
-
-</tr>
-
-</tbody>
-
-</table>
-
-</div>
-
-## Notes
-
-The W3C specification does not encourage the use of `<applet>` and prefers the use of the [`<object>`](/en-US/docs/Web/HTML/Element/object "The HTML Embedded Object Element (<object>) represents an external resource, which can be treated as an image, a nested browsing context, or a resource to be handled by a plugin.") tag. Under the strict definition of HTML 4.01, this element is deprecated and entirely obsolete in HTML5.
-
-ObsoleteThis feature is obsolete. Although it may still work in some browsers, its use is discouraged since it could be removed at any time. Try to avoid using it.
-
-Summary
-
-The HTML Applet Element (<applet>) identifies the inclusion of a Java applet.
-
-Usage note: This element has been removed in HTML5 and shouldn't be used anymore. Instead web developers should use the more generic <object> element.
-
-Attributes
-
-align
- This attribute is used to position the applet on the page relative to content that might flow around it. The HTML 4.01 specification defines values of bottom, left, middle, right, and top, whereas Microsoft and Netscape also might support absbottom, absmiddle, baseline, center, and texttop.
- alt
- This attribute causes a descriptive text alternate to be displayed on browsers that do not support Java. Page designers should also remember that content enclosed within the <applet> element may also be rendered as alternative text.
- archive
- This attribute refers to an archived or compressed version of the applet and its associated class files, which might help reduce download time.
- code
- This attribute specifies the URL of the applet's class file to be loaded and executed. Applet filenames are identified by a .class filename extension. The URL specified by code might be relative to the codebase attribute.
- codebase
- This attribute gives the absolute or relative URL of the directory where applets' .class files referenced by the code attribute are stored.
- datafld
- This attribute, supported by Internet Explorer 4 and higher, specifies the column name from the data source object that supplies the bound data. This attribute might be used to specify the various <param> elements passed to the Java applet.
- datasrc
- Like datafld, this attribute is used for data binding under Internet Explorer 4. It indicates the id of the data source object that supplies the data that is bound to the <param> elements associated with the applet.
- height
- This attribute specifies the height, in pixels, that the applet needs.
- hspace
- This attribute specifies additional horizontal space, in pixels, to be reserved on either side of the applet.
- mayscript
- In the Netscape implementation, this attribute allows access to an applet by programs in a scripting language embedded in the document.
- name
- This attribute assigns a name to the applet so that it can be identified by other resources; particularly scripts.
- object
- This attribute specifies the URL of a serialized representation of an applet.
- src
- As defined for Internet Explorer 4 and higher, this attribute specifies a URL for an associated file for the applet. The meaning and use is unclear and not part of the HTML standard.
- vspace
- This attribute specifies additional vertical space, in pixels, to be reserved above and below the applet.
- width
- This attribute specifies in pixels the width that the applet needs.
-
-Example
-
-<applet code="game.class" align="left" archive="game.zip" height="250" width="350">
-  <param name="difficulty" value="easy">
-  <b>Sorry, you need Java to play this game.</b>
-</applet>
-
-Browser compatibility
-
-
-Desktop 
-        Mobile
-
-
-Feature
-   Chrome
-   Firefox (Gecko)
-   Internet Explorer
-   Opera
-   Safari
-  
-  
-   Basic support
-   Not supported
-   (Yes)
-   (Yes)
-   Not supported
-   (Yes)
-
-Feature
-   Android
-   Firefox Mobile (Gecko)
-   IE Mobile
-   Opera Mini
-   Opera Mobile
-   Safari Mobile
-  
-  
-   Basic support
-   Not supported
-   Not supported
-   Not supported
-   Not supported
-   Not supported
-   Not supported
-
-Notes
-
-The W3C specification does not encourage the use of <applet> and prefers the use of the <object> tag. Under the strict definition of HTML 4.01, this element is deprecated and entirely obsolete in HTML5.
-
-
-
