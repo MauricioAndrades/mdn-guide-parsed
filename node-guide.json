@@ -28,194 +28,193 @@
     "tag": "Node.baseURI",
     "text": "The Node.baseURI read-only property returns the absolute base URL of a node.",
     "link": "https://developer.mozilla.org/en-US/docs/Web/API/Node/baseURI",
-    "type": "Property"
+    "type": "Properties"
   },
   {
     "tag": "Node.baseURIObject",
     "text": "The Node.baseURIObject property returns the nsIURI representing the node's (typically a document or an element) base URL. It's similar to Node.baseURI, except it returns an nsIURI instead of a string.",
     "link": "https://developer.mozilla.org/en-US/docs/Web/API/Node/baseURIObject",
-    "type": "Property"
+    "type": "Properties"
   },
   {
     "tag": "Node.childNodes",
     "text": "The Node.childNodes read-only property returns a live collection of child nodes of the given element.",
     "link": "https://developer.mozilla.org/en-US/docs/Web/API/Node/childNodes",
-    "type": "Property"
+    "type": "Properties"
   },
   {
     "tag": "Node.firstChild",
     "text": "The Node.firstChild read-only property returns the node's first child in the tree, or null if the node is childless. If the node is a Document, it returns the first node in the list of its direct children.",
     "link": "https://developer.mozilla.org/en-US/docs/Web/API/Node/firstChild",
-    "type": "Property"
+    "type": "Properties"
   },
   {
     "tag": "Node.innerText",
     "text": "Node.innerText is a nonstandard property that represents the text content of a node and its descendants. As a getter, it approximates the text the user would get if they highlighted the contents of the element with the cursor and then copied to the clipboard.",
     "link": "https://developer.mozilla.org/en-US/docs/Web/API/Node/innerText",
-    "type": "Property"
+    "type": "Properties"
   },
   {
     "tag": "Node.lastChild",
     "text": "The Node.lastChild read-only property returns the last child of the node. If its parent is an element, then the child is generally an element node, a text node, or a comment node. It returns null if there are no child elements.",
     "link": "https://developer.mozilla.org/en-US/docs/Web/API/Node/lastChild",
-    "type": "Property"
+    "type": "Properties"
   },
   {
     "tag": "Node.nextSibling",
     "text": "The Node.nextSibling read-only property returns the node immediately following the specified one in its parent's childNodes list, or null if the specified node is the last node in that list.",
     "link": "https://developer.mozilla.org/en-US/docs/Web/API/Node/nextSibling",
-    "type": "Property"
+    "type": "Properties"
   },
   {
     "tag": "Node.nodeName",
     "text": "The Node.nodeName read-only property returns the name of the current node as a string.",
     "link": "https://developer.mozilla.org/en-US/docs/Web/API/Node/nodeName",
-    "type": "Property"
+    "type": "Properties"
   },
   {
     "tag": "Node.nodePrincipal",
     "text": "",
     "link": "https://developer.mozilla.org/en-US/docs/Web/API/Node/nodePrincipal",
-    "type": "Property"
+    "type": "Properties"
   },
   {
     "tag": "Node.nodeType",
     "text": "The read-only Node.nodeType property that represents the type of the node.",
     "link": "https://developer.mozilla.org/en-US/docs/Web/API/Node/nodeType",
-    "type": "Property"
+    "type": "Properties"
   },
   {
     "tag": "Node.nodeValue",
     "text": "The Node.nodeValue property returns or sets the value of the current node.",
     "link": "https://developer.mozilla.org/en-US/docs/Web/API/Node/nodeValue",
-    "type": "Property"
+    "type": "Properties"
   },
   {
     "tag": "Node.outerText",
     "text": "Editorial review completed.",
     "link": "https://developer.mozilla.org/en-US/docs/Web/API/Node/outerText",
-    "type": "Property"
+    "type": "Properties"
   },
   {
     "tag": "Node.ownerDocument",
     "text": "The Node.ownerDocument read-only property returns the top-level document object for this node.",
     "link": "https://developer.mozilla.org/en-US/docs/Web/API/Node/ownerDocument",
-    "type": "Property"
+    "type": "Properties"
   },
   {
     "tag": "Node.parentElement",
     "text": "Technical review completed.",
     "link": "https://developer.mozilla.org/en-US/docs/Web/API/Node/parentElement",
-    "type": "Property"
+    "type": "Properties"
   },
   {
     "tag": "Node.parentNode",
     "text": "The Node.parentNode read-only property returns the parent of the specified node in the DOM tree.",
     "link": "https://developer.mozilla.org/en-US/docs/Web/API/Node/parentNode",
-    "type": "Property"
+    "type": "Properties"
   },
   {
     "tag": "Node.previousSibling",
     "text": "The Node.previousSibling read-only property returns the node immediately preceding the specified one in its parent's childNodes list, or null if the specified node is the first in that list.",
     "link": "https://developer.mozilla.org/en-US/docs/Web/API/Node/previousSibling",
-    "type": "Property"
+    "type": "Properties"
   },
   {
     "tag": "Node.rootNode",
     "text": "The Node.rootNode read-only property returns a Node object representing the topmost node in the tree, or the current node if it's the topmost node in the tree. This is found by walking backward along Node.parentNode until the top is reached.",
     "link": "https://developer.mozilla.org/en-US/docs/Web/API/Node/rootNode",
-    "type": "Property"
+    "type": "Properties"
   },
   {
     "tag": "Node.textContent",
     "text": "The Node.textContent property represents the text content of a node and its descendants.",
     "link": "https://developer.mozilla.org/en-US/docs/Web/API/Node/textContent",
-    "type": "Property"
+    "type": "Properties"
   },
   {
-    "tag": "Node.appendChild()",
+    "tag": "appendChild()",
     "text": "The Node.appendChild() method adds a node to the end of the list of children of a specified parent node. If the given child is a reference to an existing node in the document, appendChild() moves it from its current position to the new position (there is no requirement to remove the node from its parent node before appending it to some other node).",
     "link": "https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild",
-    "type": "Method"
+    "type": "none"
   },
   {
-    "tag": "Node.cloneNode()",
+    "tag": "cloneNode()",
     "text": "The Node.cloneNode() method returns a duplicate of the node on which this method was called.",
     "link": "https://developer.mozilla.org/en-US/docs/Web/API/Node/cloneNode",
-    "type": "Method"
+    "type": "none"
   },
   {
-    "tag": "Node.compareDocumentPosition()",
+    "tag": "compareDocumentPosition()",
     "text": "The Node.compareDocumentPosition() method compares the position of the current node against another node in any other document.",
     "link": "https://developer.mozilla.org/en-US/docs/Web/API/Node/compareDocumentPosition",
-    "type": "Method"
+    "type": "none"
   },
   {
-    "tag": "Node.contains()",
+    "tag": "contains()",
     "text": "The Node.contains() method returns a Boolean value indicating whether a node is a descendant of a given node or not.",
     "link": "https://developer.mozilla.org/en-US/docs/Web/API/Node/contains",
-    "type": "Method"
+    "type": "none"
   },
   {
-    "tag": "Node.hasChildNodes()",
+    "tag": "hasChildNodes()",
     "text": "The Node.hasChildNodes() method returns a Boolean value indicating whether the current Node has child nodes or not.",
     "link": "https://developer.mozilla.org/en-US/docs/Web/API/Node/hasChildNodes",
-    "type": "Method"
+    "type": "none"
   },
   {
-    "tag": "Node.insertBefore()",
+    "tag": "insertBefore()",
     "text": "Editorial review completed.",
     "link": "https://developer.mozilla.org/en-US/docs/Web/API/Node/insertBefore",
-    "type": "Method"
+    "type": "none"
   },
   {
-    "tag": "Node.isDefaultNamespace()",
-    "text": "The Node.isDefaultNamespace() method accepts a namespace URI as an argument and returns a Boolean with a value of true if the namespace is the default namespace on the given node or false if not.",
+    "tag": "isDefaultNamespace()",
+    "text": "The Node.isDefaultNamespace()method accepts a namespace URI as an argument and returns a Boolean with a value of true if the namespace is the default namespace on the given node or false if not.",
     "link": "https://developer.mozilla.org/en-US/docs/Web/API/Node/isDefaultNamespace",
-    "type": "Method"
+    "type": "none"
   },
   {
-    "tag": "Node.isEqualNode()",
+    "tag": "isEqualNode()",
     "text": "The Node.isEqualNode() method tests whether two nodes are equal. Two nodes are equal when they have the same type, defining characteristics (for elements, this would be their ID, number of children, and so forth), its attributes match, and so on. The specific set of data points that much match varies depending on the types of the nodes.",
     "link": "https://developer.mozilla.org/en-US/docs/Web/API/Node/isEqualNode",
-    "type": "Method"
+    "type": "none"
   },
   {
-    "tag": "Node.isSameNode()",
+    "tag": "isSameNode()",
     "text": "The Node.isSameNode() method tests whether two nodes are the same, that is if they reference the same object.",
     "link": "https://developer.mozilla.org/en-US/docs/Web/API/Node/isSameNode",
-    "type": "Method"
+    "type": "none"
   },
   {
-    "tag": "Node.lookupNamespaceURI()",
+    "tag": "lookupNamespaceURI()",
     "text": "The Node.lookupNamespaceURI() method takes a prefix and returns the namespace URI associated with it on the given node if found (and null if not). Supplying null for the prefix will return the default namespace.",
     "link": "https://developer.mozilla.org/en-US/docs/Web/API/Node/lookupNamespaceURI",
-    "type": "Method"
+    "type": "none"
   },
   {
-    "tag": "Node.lookupPrefix()",
+    "tag": "lookupPrefix()",
     "text": "The Node.lookupPrefix() method returns a DOMString containing the prefix for a given namespace URI, if present, and null if not. When multiple prefixes are possible, the result is implementation-dependent.",
     "link": "https://developer.mozilla.org/en-US/docs/Web/API/Node/lookupPrefix",
-    "type": "Method"
+    "type": "none"
   },
   {
-    "tag": "Node.normalize()",
+    "tag": "normalize()",
     "text": "The Node.normalize() method puts the specified node and all of its sub-tree into a \"normalized\" form. In a normalized sub-tree, no text nodes in the sub-tree are empty and there are no adjacent text nodes.",
     "link": "https://developer.mozilla.org/en-US/docs/Web/API/Node/normalize",
-    "type": "Method"
+    "type": "none"
   },
   {
-    "tag": "Node.removeChild()",
+    "tag": "removeChild()",
     "text": "The Node.removeChild() method removes a child node from the DOM. Returns removed node.",
     "link": "https://developer.mozilla.org/en-US/docs/Web/API/Node/removeChild",
-    "type": "Method"
+    "type": "none"
   },
   {
-    "tag": "Node.replaceChild()",
+    "tag": "replaceChild()",
     "text": "The Node.replaceChild() method replaces one child node of the specified node with another.",
     "link": "https://developer.mozilla.org/en-US/docs/Web/API/Node/replaceChild",
-    "type": "Method",
-    "syntax": "replacedNode = parentNode.replaceChild(newChild, oldChild);"
+    "type": "none"
   },
   {
     "tag": "EventTarget",
