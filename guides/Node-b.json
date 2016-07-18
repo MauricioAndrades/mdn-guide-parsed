@@ -1,0 +1,430 @@
+[
+  {
+    "name": "Syntax",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Node/ownerDocument#Syntax"
+  },
+  {
+    "name": "Example",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Node/ownerDocument#Example"
+  },
+  {
+    "name": "Notes",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Node/ownerDocument#Notes"
+  },
+  {
+    "name": "Specifications",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Node/ownerDocument#Specifications"
+  },
+  {
+    "name": "Browser compatibility",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Node/ownerDocument#Browser_compatibility"
+  },
+  {
+    "name": "Node.baseURI",
+    "desc": "The Node.baseURI read-only property returns the absolute base URL of a node.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Node/baseURI",
+    "type": "Property",
+    "syntax": "uriObj = node.baseURIObject",
+    "notes": "This property is read-only; attempting to write to it will throw an exception. In addition, this property may only be accessed from privileged code."
+  },
+  {
+    "name": "Node.baseURIObject",
+    "desc": "The Node.baseURIObject property returns the nsIURI representing the node's (typically a document or an element) base URL. It's similar to Node.baseURI, except it returns an nsIURI instead of a string.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Node/baseURIObject",
+    "type": "Property",
+    "warning": "This API has not been standardized."
+  },
+  {
+    "name": "Node.childNodes",
+    "desc": "The Node.childNodes read-only property returns a live collection of child nodes of the given element.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Node/childNodes",
+    "type": "Property"
+  },
+  {
+    "name": "Node.firstChild",
+    "desc": "The Node.firstChild read-only property returns the node's first child in the tree, or null if the node is childless. If the node is a Document, it returns the first node in the list of its direct children.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Node/firstChild",
+    "type": "Property"
+  },
+  {
+    "name": "Node.innerText",
+    "desc": "Node.innerText is a nonstandard property that represents the text content of a node and its descendants. As a getter, it approximates the text the user would get if they highlighted the contents of the element with the cursor and then copied to the clipboard.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Node/innerText",
+    "type": "Property"
+  },
+  {
+    "name": "Node.lastChild",
+    "desc": "The Node.lastChild read-only property returns the last child of the node. If its parent is an element, then the child is generally an element node, a text node, or a comment node. It returns null if there are no child elements.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Node/lastChild",
+    "type": "Property"
+  },
+  {
+    "name": "Node.localName",
+    "desc": "The Node.localName read-only property returns the local part of the qualified name of this node.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Node/localName",
+    "type": "Property"
+  },
+  {
+    "name": "Node.nextSibling",
+    "desc": "The Node.nextSibling read-only property returns the node immediately following the specified one in its parent's childNodes list, or null if the specified node is the last node in that list.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Node/nextSibling",
+    "type": "Property"
+  },
+  {
+    "name": "Node.nodeName",
+    "desc": "The Node.nodeName read-only property returns the name of the current node as a string.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Node/nodeName",
+    "type": "Property"
+  },
+  {
+    "name": "Node.nodePrincipal",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Node/nodePrincipal",
+    "type": "Property"
+  },
+  {
+    "name": "Node.nodeType",
+    "desc": "The read-only Node.nodeType property that represents the type of the node.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Node/nodeType",
+    "type": "Property"
+  },
+  {
+    "name": "Node.nodeValue",
+    "desc": "The Node.nodeValue property returns or sets the value of the current node.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Node/nodeValue",
+    "type": "Property"
+  },
+  {
+    "name": "Node.outerText",
+    "desc": "Editorial review completed.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Node/outerText",
+    "type": "Property"
+  },
+  {
+    "name": "Node.parentElement",
+    "desc": "Technical review completed.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Node/parentElement",
+    "type": "Property"
+  },
+  {
+    "name": "Node.parentNode",
+    "desc": "The Node.parentNode read-only property returns the parent of the specified node in the DOM tree.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Node/parentNode",
+    "type": "Property"
+  },
+  {
+    "name": "Node.prefix",
+    "desc": "The Node.prefix read-only property returns the namespace prefix of the specified node, or null if no prefix is specified.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Node/prefix",
+    "type": "Property"
+  },
+  {
+    "name": "Node.previousSibling",
+    "desc": "The Node.previousSibling read-only property returns the node immediately preceding the specified one in its parent's childNodes list, or null if the specified node is the first in that list.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Node/previousSibling",
+    "type": "Property"
+  },
+  {
+    "name": "Node.rootNode",
+    "desc": "The Node.rootNode read-only property returns a Node object representing the topmost node in the tree, or the current node if it's the topmost node in the tree. This is found by walking backward along Node.parentNode until the top is reached.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Node/rootNode",
+    "type": "Property"
+  },
+  {
+    "name": "Node.textContent",
+    "desc": "The Node.textContent property represents the text content of a node and its descendants.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Node/textContent",
+    "type": "Property"
+  },
+  {
+    "name": "Node.appendChild()",
+    "desc": "The Node.appendChild() method adds a node to the end of the list of children of a specified parent node. If the given child is a reference to an existing node in the document, appendChild() moves it from its current position to the new position (there is no requirement to remove the node from its parent node before appending it to some other node).",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild",
+    "type": "Method"
+  },
+  {
+    "name": "Node.cloneNode()",
+    "desc": "The Node.cloneNode() method returns a duplicate of the node on which this method was called.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Node/cloneNode",
+    "type": "Method"
+  },
+  {
+    "name": "Node.compareDocumentPosition()",
+    "desc": "The Node.compareDocumentPosition() method compares the position of the current node against another node in any other document.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Node/compareDocumentPosition",
+    "type": "Method"
+  },
+  {
+    "name": "Node.contains()",
+    "desc": "The Node.contains() method returns a Boolean value indicating whether a node is a descendant of a given node or not.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Node/contains",
+    "type": "Method"
+  },
+  {
+    "name": "Node.hasChildNodes()",
+    "desc": "The Node.hasChildNodes() method returns a Boolean value indicating whether the current Node has child nodes or not.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Node/hasChildNodes",
+    "type": "Method"
+  },
+  {
+    "name": "Node.insertBefore()",
+    "desc": "Editorial review completed.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Node/insertBefore",
+    "type": "Method"
+  },
+  {
+    "name": "Node.isDefaultNamespace()",
+    "desc": "The Node.isDefaultNamespace()method accepts a namespace URI as an argument and returns a Boolean with a value of true if the namespace is the default namespace on the given node or false if not.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Node/isDefaultNamespace",
+    "type": "Method"
+  },
+  {
+    "name": "Node.isEqualNode()",
+    "desc": "The Node.isEqualNode() method tests whether two nodes are equal. Two nodes are equal when they have the same type, defining characteristics (for elements, this would be their ID, number of children, and so forth), its attributes match, and so on. The specific set of data points that much match varies depending on the types of the nodes.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Node/isEqualNode",
+    "type": "Method"
+  },
+  {
+    "name": "Node.isSameNode()",
+    "desc": "The Node.isSameNode() method tests whether two nodes are the same, that is if they reference the same object.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Node/isSameNode",
+    "type": "Method"
+  },
+  {
+    "name": "Node.lookupNamespaceURI()",
+    "desc": "The Node.lookupNamespaceURI() method takes a prefix and returns the namespace URI associated with it on the given node if found (and null if not). Supplying null for the prefix will return the default namespace.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Node/lookupNamespaceURI",
+    "type": "Method"
+  },
+  {
+    "name": "Node.lookupPrefix()",
+    "desc": "The Node.lookupPrefix() method returns a DOMString containing the prefix for a given namespace URI, if present, and null if not. When multiple prefixes are possible, the result is implementation-dependent.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Node/lookupPrefix",
+    "type": "Method"
+  },
+  {
+    "name": "Node.normalize()",
+    "desc": "The Node.normalize() method puts the specified node and all of its sub-tree into a \"normalized\" form. In a normalized sub-tree, no text nodes in the sub-tree are empty and there are no adjacent text nodes.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Node/normalize",
+    "type": "Method"
+  },
+  {
+    "name": "Node.removeChild()",
+    "desc": "The Node.removeChild() method removes a child node from the DOM. Returns removed node.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Node/removeChild",
+    "type": "Method"
+  },
+  {
+    "name": "Node.replaceChild()",
+    "desc": "The Node.replaceChild() method replaces one child node of the specified node with another.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Node/replaceChild",
+    "type": "Method"
+  },
+  {
+    "name": "EventTarget",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/EventTarget"
+  },
+  {
+    "name": "Attr",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Attr"
+  },
+  {
+    "name": "ByteString",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/ByteString"
+  },
+  {
+    "name": "CDATASection",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/CDATASection"
+  },
+  {
+    "name": "CharacterData",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/CharacterData"
+  },
+  {
+    "name": "ChildNode",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/ChildNode"
+  },
+  {
+    "name": "Comment",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Comment"
+  },
+  {
+    "name": "CustomEvent",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/CustomEvent"
+  },
+  {
+    "name": "DOMConfiguration",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/DOMConfiguration"
+  },
+  {
+    "name": "DOMError",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/DOMError"
+  },
+  {
+    "name": "DOMErrorHandler",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/DOMErrorHandler"
+  },
+  {
+    "name": "DOMException",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/DOMException"
+  },
+  {
+    "name": "DOMImplementation",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/DOMImplementation"
+  },
+  {
+    "name": "DOMImplementationList",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/DOMImplementationList"
+  },
+  {
+    "name": "DOMImplementationRegistry",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/DOMImplementationRegistry"
+  },
+  {
+    "name": "DOMImplementationSource",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/DOMImplementationSource"
+  },
+  {
+    "name": "DOMLocator",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/DOMLocator"
+  },
+  {
+    "name": "DOMObject",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/DOMObject"
+  },
+  {
+    "name": "DOMParser",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/DOMParser"
+  },
+  {
+    "name": "DOMPoint",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/DOMPoint"
+  },
+  {
+    "name": "DOMRect",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/DOMRect"
+  },
+  {
+    "name": "DOMString",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/DOMString"
+  },
+  {
+    "name": "DOMTimeStamp",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/DOMTimeStamp"
+  },
+  {
+    "name": "DOMTokenList",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/DOMTokenList"
+  },
+  {
+    "name": "DOMUserData",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/DOMUserData"
+  },
+  {
+    "name": "Document",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document"
+  },
+  {
+    "name": "DocumentFragment",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/DocumentFragment"
+  },
+  {
+    "name": "DocumentType",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/DocumentType"
+  },
+  {
+    "name": "Element",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Element"
+  },
+  {
+    "name": "ElementTraversal",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/ElementTraversal"
+  },
+  {
+    "name": "Entity",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Entity"
+  },
+  {
+    "name": "EntityReference",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/EntityReference"
+  },
+  {
+    "name": "Event",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Event"
+  },
+  {
+    "name": "EventTarget",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/EventTarget"
+  },
+  {
+    "name": "HTMLCollection",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLCollection"
+  },
+  {
+    "name": "MutationObserver",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver"
+  },
+  {
+    "name": "NodeFilter",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/NodeFilter"
+  },
+  {
+    "name": "NodeIterator",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/NodeIterator"
+  },
+  {
+    "name": "NodeList",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/NodeList"
+  },
+  {
+    "name": "NonDocumentTypeChildNode",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/NonDocumentTypeChildNode"
+  },
+  {
+    "name": "ProcessingInstruction",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/ProcessingInstruction"
+  },
+  {
+    "name": "PromiseResolver",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/PromiseResolver"
+  },
+  {
+    "name": "Range",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Range"
+  },
+  {
+    "name": "Text",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Text"
+  },
+  {
+    "name": "TextDecoder",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/TextDecoder"
+  },
+  {
+    "name": "TextEncoder",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/TextEncoder"
+  },
+  {
+    "name": "TimeRanges",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/TimeRanges"
+  },
+  {
+    "name": "TreeWalker",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/TreeWalker"
+  },
+  {
+    "name": "TypeInfo",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/TypeInfo"
+  },
+  {
+    "name": "USVString",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/USVString"
+  },
+  {
+    "name": "UserDataHandler",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/UserDataHandler"
+  },
+  {
+    "name": "XMLDocument",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/XMLDocument"
+  }
+]

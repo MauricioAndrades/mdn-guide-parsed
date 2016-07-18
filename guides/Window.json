@@ -1,0 +1,979 @@
+[
+  {
+    "name": "Summary",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/document#Summary"
+  },
+  {
+    "name": "Syntax",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/document#Syntax"
+  },
+  {
+    "name": "Example",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/document#Example"
+  },
+  {
+    "name": "Specification",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/document#Specification"
+  },
+  {
+    "name": "Window.applicationCache",
+    "desc": "Returns a reference to the application cache object for the window.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/applicationCache",
+    "type": "Property"
+  },
+  {
+    "name": "Window.caches",
+    "desc": "The Window.caches read-only property returns the CacheStorage object associated with the current origin. This object enables service worker functionality such as storing assets for offline use, and generating custom responses to requests.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/caches",
+    "type": "Property",
+    "warning": "This is an experimental API that should not be used in production code."
+  },
+  {
+    "name": "Window.closed",
+    "desc": "This read-only property indicates whether the referenced window is closed or not.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/closed",
+    "type": "Property"
+  },
+  {
+    "name": "Window.controllers",
+    "desc": "Returns the XUL controllers of the chrome window.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/controllers",
+    "type": "Property",
+    "warning": "This API has not been standardized."
+  },
+  {
+    "name": "Window.crypto",
+    "desc": "The Window.crypto read-only property returns the Crypto object associated to the global object. This object allows web pages access to certain cryptographic related services.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/crypto",
+    "type": "Property"
+  },
+  {
+    "name": "Window.devicePixelRatio",
+    "desc": "The Window.devicePixelRatio read-only property returns the ratio of the (vertical) size of one physical pixel on the current display device to the size of one device independent pixels(dips).",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/devicePixelRatio",
+    "type": "Property"
+  },
+  {
+    "name": "Window.dialogArguments",
+    "desc": "The dialogArguments property returns the parameters that were passed into the window.showModalDialog() method. This lets you determine what parameters were specified when the modal dialog was created.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/dialogArguments",
+    "type": "Property"
+  },
+  {
+    "name": "Window.frameElement",
+    "desc": "Returns the element (such as <iframe> or <object>) in which the window is embedded, or null if the window is top-level.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/frameElement",
+    "type": "Property"
+  },
+  {
+    "name": "Window.frames",
+    "desc": "Returns the window itself, which is an array-like object, listing the direct sub-frames of the current window.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/frames",
+    "type": "Property"
+  },
+  {
+    "name": "Window.fullScreen",
+    "desc": "This property indicates whether the window is displayed in full screen mode or not. It is only reliable in Gecko 1.9 (Firefox 3) and later, see the Notes below.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/fullScreen",
+    "type": "Property"
+  },
+  {
+    "name": "Window.history",
+    "desc": "The Window.history read-only property returns a reference to the History object, which provides an interface for manipulating the browser session history (pages visited in the tab or frame that the current page is loaded in).",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/history",
+    "type": "Property"
+  },
+  {
+    "name": "Window.indexedDB",
+    "desc": "The indexedDB property of the IDBEnvironment interface provides a mechanism for applications to asynchronously access the capabilities of indexed databases.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/IDBEnvironment/indexedDB",
+    "type": "Property"
+  },
+  {
+    "name": "Window.innerHeight",
+    "desc": "Height (in pixels) of the browser window viewport including, if rendered, the horizontal scrollbar.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/innerHeight",
+    "type": "Property"
+  },
+  {
+    "name": "Window.innerWidth",
+    "desc": "Width (in pixels) of the browser window viewport including, if rendered, the vertical scrollbar.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/innerWidth",
+    "type": "Property"
+  },
+  {
+    "name": "Window.isSecureContext",
+    "desc": "The Window.isSecureContext read-only property indicates whether a context is capable of using features that require secure contexts.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/isSecureContext",
+    "type": "Property"
+  },
+  {
+    "name": "Window.length",
+    "desc": "Returns the number of frames (either <frame> or <iframe> elements) in the window.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/length",
+    "type": "Property"
+  },
+  {
+    "name": "Window.localStorage",
+    "desc": "The localStorage property allows you to access a local Storage object. localStorage is similar to sessionStorage. The only difference is that, while data stored in localStorage has no expiration time, data stored in sessionStorage gets cleared when the browsing session ends—that is, when the browser is closed.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage",
+    "type": "Property"
+  },
+  {
+    "name": "Window.location",
+    "desc": "The Window.location read-only property returns a Location object with information about the current location of the document.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/location",
+    "type": "Property"
+  },
+  {
+    "name": "Window.locationbar",
+    "desc": "Returns the locationbar object, whose visibility can be checked.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/locationbar",
+    "type": "Property"
+  },
+  {
+    "name": "Window.menubar",
+    "desc": "Returns the menubar object, whose visibility can be checked.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/menubar",
+    "type": "Property"
+  },
+  {
+    "name": "Window.messageManager",
+    "desc": "Returns the message manager object for this window. See The message manager for details.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/messageManager",
+    "type": "Property"
+  },
+  {
+    "name": "Window.mozAnimationStartTime",
+    "desc": "Returns the time, in milliseconds since the epoch, at which animations started now should be considered to have started. This value should be used instead of, for example, Date.now(), because this value will be the same for all animations started in this window during this refresh interval, allowing them to remain in sync with one another.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/mozAnimationStartTime",
+    "type": "Property",
+    "warning": "This API has not been standardized."
+  },
+  {
+    "name": "Window.mozInnerScreenX",
+    "desc": "Gets the X coordinate of the top-left corner of the window's viewport, in screen coordinates.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/mozInnerScreenX",
+    "type": "Property"
+  },
+  {
+    "name": "Window.mozInnerScreenY",
+    "desc": "Gets the Y coordinate of the top-left corner of the window's viewport, in screen coordinates.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/mozInnerScreenY",
+    "type": "Property"
+  },
+  {
+    "name": "Window.mozPaintCount",
+    "desc": "Returns the number of times the current document has been painted to the screen in this window.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/mozPaintCount",
+    "type": "Property"
+  },
+  {
+    "name": "Window.name",
+    "desc": "Gets/sets the name of the window.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/name",
+    "type": "Property"
+  },
+  {
+    "name": "Window.navigator",
+    "desc": "The Window.navigator read-only property returns a reference to the Navigator object, which can be queried for information about the application running the script.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/navigator",
+    "type": "Property"
+  },
+  {
+    "name": "Window.onabort",
+    "desc": "An event handler for abort events sent to the window. (Not available with Firefox 2 or Safari)",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onabort",
+    "type": "Property"
+  },
+  {
+    "name": "Window.onafterprint",
+    "desc": "The WindowEventHandlers.onafterprint property sets and returns the onafterprint EventHandler for the current window.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/WindowEventHandlers/onafterprint",
+    "type": "Property"
+  },
+  {
+    "name": "Window.onbeforeprint",
+    "desc": "The onbeforeprint property sets and returns the onbeforeprint event handler code for the current window.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/WindowEventHandlers/onbeforeprint",
+    "type": "Property"
+  },
+  {
+    "name": "Window.onbeforeunload",
+    "desc": "The WindowEventHandlers.onbeforeunload event handler property contains the code executed when the beforeunload is sent. This event fires when a window is about to unload its resources. The document is still visible and the event is still cancelable.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/WindowEventHandlers/onbeforeunload",
+    "type": "Property"
+  },
+  {
+    "name": "Window.onblur",
+    "desc": "The onblur property returns the onBlur event handler code, if any, that exists on the current element.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onblur",
+    "type": "Property"
+  },
+  {
+    "name": "Window.onchange",
+    "desc": "The onchange property sets and returns the event handler for the change event.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onchange",
+    "type": "Property"
+  },
+  {
+    "name": "Window.onclick",
+    "desc": "The onclick property returns the click event handler code on the current element.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onclick",
+    "type": "Property"
+  },
+  {
+    "name": "Window.onclose",
+    "desc": "An event handler for close events sent to the window. (Not available with Firefox 2 or Safari)",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onclose",
+    "type": "Property"
+  },
+  {
+    "name": "Window.oncontextmenu",
+    "desc": "An event handler property for right-click events on the window. Unless the default behavior is prevented (see examples below on how to do this), the browser context menu will activate (though IE8 has a bug with this and will not activate the context menu if a contextmenu event handler is defined). Note that this event will occur with any non-disabled right-click event and does not depend on an element possessing the \"contextmenu\" attribute.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/oncontextmenu",
+    "type": "Property"
+  },
+  {
+    "name": "Window.ondblclick",
+    "desc": "The ondblclick property returns the onDblClick event handler code on the current element.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/ondblclick",
+    "type": "Property"
+  },
+  {
+    "name": "Window.ondevicelight",
+    "desc": "Specifies an event listener to receive devicelight events. These events occur when the device's light level sensor detects a change in the intensity of the ambient light level.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/ondevicelight",
+    "type": "Property",
+    "warning": "This is an experimental API that should not be used in production code."
+  },
+  {
+    "name": "Window.ondevicemotion",
+    "desc": "An event handler for the devicemotion events sent to the window.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/ondevicemotion",
+    "type": "Property"
+  },
+  {
+    "name": "Window.ondeviceorientation",
+    "desc": "An event handler for the deviceorientation events sent to the window.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/ondeviceorientation",
+    "type": "Property"
+  },
+  {
+    "name": "Window.ondeviceproximity",
+    "desc": "Specifies an event listener to receive deviceproximity events. These events occur when the device sensor detects that an object becomes closer to or farther from the device.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/ondeviceproximity",
+    "type": "Property",
+    "warning": "This is an experimental API that should not be used in production code."
+  },
+  {
+    "name": "Window.onerror",
+    "desc": "An event handler for the error event. Error events are fired at various targets for different kinds of errors:",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onerror",
+    "type": "Property"
+  },
+  {
+    "name": "Window.onfocus",
+    "desc": "The onfocus property returns the onFocus event handler code on the current element.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onfocus",
+    "type": "Property"
+  },
+  {
+    "name": "Window.onhashchange",
+    "desc": "The hashchange event fires when a window's hash changes (see location.hash).",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/WindowEventHandlers/onhashchange",
+    "type": "Property"
+  },
+  {
+    "name": "Window.oninput",
+    "desc": "An event handler for the input event on the window. The input event is raised when an <input> element value changes.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/oninput",
+    "type": "Property"
+  },
+  {
+    "name": "Window.onkeydown",
+    "desc": "The onkeydown property returns the onKeyDown event handler code on the current element.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onkeydown",
+    "type": "Property"
+  },
+  {
+    "name": "Window.onkeypress",
+    "desc": "The onkeypress property sets and returns the onKeyPress event handler code for the current element.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onkeypress",
+    "type": "Property"
+  },
+  {
+    "name": "Window.onkeyup",
+    "desc": "The onkeyup property returns the onKeyUp event handler code for the current element.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onkeyup",
+    "type": "Property"
+  },
+  {
+    "name": "Window.onlanguagechange",
+    "desc": "The WindowEventHandlers.onlanguagechange event handler is a property containing the code to execute when the languagechange event, of type Event, is received by the object implementing this interface, usually a Window, an HTMLBodyElement, or an HTMLIFrameElement. Such an event is sent by the browser to inform that the preferred languages list has been updated. The list is accessible via NavigatorLanguage.languages.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/WindowEventHandlers/onlanguagechange",
+    "type": "Property",
+    "warning": "This is an experimental API that should not be used in production code."
+  },
+  {
+    "name": "Window.onload",
+    "desc": "An event handler for the load event of a window.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onload",
+    "type": "Property"
+  },
+  {
+    "name": "Window.onmousedown",
+    "desc": "The onmousedown property returns the onmousedown event handler code on the current element.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onmousedown",
+    "type": "Property"
+  },
+  {
+    "name": "Window.onmousemove",
+    "desc": "The onmousemove property returns the mousemove event handler code on the current element.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onmousemove",
+    "type": "Property"
+  },
+  {
+    "name": "Window.onmouseout",
+    "desc": "The onmouseout property returns the onMouseOut event handler code on the current element.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onmouseout",
+    "type": "Property"
+  },
+  {
+    "name": "Window.onmouseover",
+    "desc": "The onmouseover property returns the onMouseOver event handler code on the current element.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onmouseover",
+    "type": "Property"
+  },
+  {
+    "name": "Window.onmouseup",
+    "desc": "The onmouseup property returns the onMouseUp event handler code on the current element.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onmouseup",
+    "type": "Property"
+  },
+  {
+    "name": "Window.onmozbeforepaint",
+    "desc": "An event handler for the MozBeforePaint event. This is used in concert with the window.mozRequestAnimationFrame() method to perform smooth, synchronized animations from JavaScript code.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/onmozbeforepaint",
+    "type": "Property"
+  },
+  {
+    "name": "Window.onpaint",
+    "desc": "An event handler for the paint event on the window. Not working in Gecko-based applications currently, see Notes section!",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/onpaint",
+    "type": "Property"
+  },
+  {
+    "name": "Window.onpointercancel",
+    "desc": "A global event handler for the pointercancel event.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onpointercancel",
+    "type": "Property"
+  },
+  {
+    "name": "Window.onpointerdown",
+    "desc": "A global event handler for the pointerdown event.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onpointerdown",
+    "type": "Property"
+  },
+  {
+    "name": "Window.onpointerenter",
+    "desc": "A global event handler for the pointerenter event.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onpointerenter",
+    "type": "Property"
+  },
+  {
+    "name": "Window.onpointerleave",
+    "desc": "A global event handler for the pointerleave event.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onpointerleave",
+    "type": "Property"
+  },
+  {
+    "name": "Window.onpointermove",
+    "desc": "A global event handler for the pointermove event.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onpointermove",
+    "type": "Property"
+  },
+  {
+    "name": "Window.onpointerout",
+    "desc": "A global event handler for the pointerout event.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onpointerout",
+    "type": "Property"
+  },
+  {
+    "name": "Window.onpointerover",
+    "desc": "A global event handler for the pointerover event.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onpointerover",
+    "type": "Property"
+  },
+  {
+    "name": "Window.onpointerup",
+    "desc": "A global event handler for the pointerup event.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onpointerup",
+    "type": "Property"
+  },
+  {
+    "name": "Window.onpopstate",
+    "desc": "An event handler for the popstate event on the window.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/WindowEventHandlers/onpopstate",
+    "type": "Property"
+  },
+  {
+    "name": "Window.onreset",
+    "desc": "The GlobalEventHandlers.onreset property contains an EventHandler triggered when a reset event is received.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onreset",
+    "type": "Property"
+  },
+  {
+    "name": "Window.onresize",
+    "desc": "The GlobalEventHandlers.onresize property contains an EventHandler triggered when a resize event is received.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onresize",
+    "type": "Property"
+  },
+  {
+    "name": "Window.onscroll",
+    "desc": "An event handler for scroll events on element.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onscroll",
+    "type": "Property"
+  },
+  {
+    "name": "Window.onselect",
+    "desc": "An event handler for the select event on the window.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onselect",
+    "type": "Property"
+  },
+  {
+    "name": "Window.onselectstart",
+    "desc": "The GlobalEventHandlers.onselectstart property represents the event handler that is called when a selectstart event reaches this object.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onselectstart",
+    "type": "Property",
+    "warning": "This is an experimental API that should not be used in production code."
+  },
+  {
+    "name": "Window.onstorage",
+    "desc": "The WindowEventHandlers.onstorage property contains an event handler that runs when the storage event fires. This occurs when a storage area is changed (e.g. a new item is stored.)",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/WindowEventHandlers/onstorage",
+    "type": "Property"
+  },
+  {
+    "name": "Window.onsubmit",
+    "desc": "An event handler for the submit event on the window.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onsubmit",
+    "type": "Property"
+  },
+  {
+    "name": "Window.ontouchcancel",
+    "desc": "A global event handler for the touchcancel event.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/ontouchcancel",
+    "type": "Property",
+    "warning": "This is an experimental API that should not be used in production code."
+  },
+  {
+    "name": "Window.ontouchmove",
+    "desc": "A global event handler for the touchmove event.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/GlobalEventHanders.ontouchmove",
+    "type": "Property",
+    "warning": "This is an experimental API that should not be used in production code."
+  },
+  {
+    "name": "Window.ontouchstart",
+    "desc": "A global event handler for the touchstart event.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/ontouchstart",
+    "type": "Property",
+    "warning": "This is an experimental API that should not be used in production code."
+  },
+  {
+    "name": "Window.onunload",
+    "desc": "The unload event is raised when the window is unloading its content and resources. The resources removal is processed after the unload event occurs.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/WindowEventHandlers/onunload",
+    "type": "Property"
+  },
+  {
+    "name": "Window.onuserproximity",
+    "desc": "The Window.onuserproxymity property represents an EventHandler, that is a function to be called when the userproximity event occurs. These events are of type UserProximityEvent and occur when the the device sensor detects that an object becomes nearby.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/onuserproximity",
+    "type": "Property",
+    "warning": "This is an experimental API that should not be used in production code."
+  },
+  {
+    "name": "Window.opener",
+    "desc": "Returns a reference to the window that opened this current window.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/opener",
+    "type": "Property"
+  },
+  {
+    "name": "Window.outerHeight",
+    "desc": "Window.outerHeight gets the height in pixels of the whole browser window. It represents the height of the whole browser window including sidebar (if expanded), window chrome and window resizing borders/handles.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/outerHeight",
+    "type": "Property"
+  },
+  {
+    "name": "Window.outerWidth",
+    "desc": "Window.outerWidth gets the width of the outside of the browser window. It represents the width of the whole browser window including sidebar (if expanded), window chrome and window resizing borders/handles.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/outerWidth",
+    "type": "Property"
+  },
+  {
+    "name": "Window.parent",
+    "desc": "A reference to the parent of the current window or subframe.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/parent",
+    "type": "Property"
+  },
+  {
+    "name": "Window.performance",
+    "desc": "The Web Performance API allows web pages access to certain functions for measuring the performance of web pages and web applications, including the Navigation Timing API and high-resolution time data.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/performance",
+    "type": "Property"
+  },
+  {
+    "name": "Window.personalbar",
+    "desc": "Returns the personalbar object, whose visibility can be toggled in the window.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/personalbar",
+    "type": "Property"
+  },
+  {
+    "name": "Window.screen",
+    "desc": "Returns a reference to the screen object associated with the window. The screen object, implementing the Screen interface, is a special object for inspecting properties of the screen on which the current window is being rendered.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/screen",
+    "type": "Property"
+  },
+  {
+    "name": "Window.screenX",
+    "desc": "The Window.screenX read-only property returns the horizontal distance, in CSS pixels, of the left border of the user's browser from the left side of the screen.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/screenX",
+    "type": "Property"
+  },
+  {
+    "name": "Window.screenY",
+    "desc": "The Window.screenY read-only property returns the vertical distance, in CSS pixels of the top border of the user's browser from the top edge of the screen.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/screenY",
+    "type": "Property"
+  },
+  {
+    "name": "Window.scrollbars",
+    "desc": "Returns the scrollbars object, whose visibility can be checked.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollbars",
+    "type": "Property"
+  },
+  {
+    "name": "Window.scrollMaxX",
+    "desc": "Returns the maximum number of pixels that the document can be scrolled horizontally.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollMaxX",
+    "type": "Property"
+  },
+  {
+    "name": "Window.scrollMaxY",
+    "desc": "Returns the maximum number of pixels that the document can be scrolled vertically.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollMaxY",
+    "type": "Property"
+  },
+  {
+    "name": "Window.scrollX",
+    "desc": "Returns the number of pixels that the document has already been scrolled horizontally.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollX",
+    "type": "Property"
+  },
+  {
+    "name": "Window.scrollY",
+    "desc": "Returns the number of pixels that the document has already been scrolled vertically.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollY",
+    "type": "Property"
+  },
+  {
+    "name": "Window.self",
+    "desc": "The Window.self read-only property returns the window itself, as a WindowProxy. It can be used with dot notation on a window object (that is, window.self) or standalone (self). The advantage of the standalone notation is that a similar notation exists for non-window contexts, such as in Web Workers. By using self, you can refer to the global scope in a way that will work not only in a window context (self will resolve to window.self) but also in a worker context (self will then resolve to WorkerGlobalScope.self).",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/self",
+    "type": "Property"
+  },
+  {
+    "name": "Window.sessionStorage",
+    "desc": "The sessionStorage property allows you to access a session Storage object. sessionStorage is similar to Window.localStorage, the only difference is while data stored in localStorage has no expiration set, data stored in sessionStorage gets cleared when the page session ends. A page session lasts for as long as the browser is open and survives over page reloads and restores. Opening a page in a new tab or window will cause a new session to be initiated, which differs from how session cookies work.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/sessionStorage",
+    "type": "Property"
+  },
+  {
+    "name": "Window.sidebar",
+    "desc": "Returns a sidebar object, which contains several methods for registering add-ons with browser.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/sidebar",
+    "type": "Property",
+    "warning": "This API has not been standardized."
+  },
+  {
+    "name": "Window.speechSynthesis",
+    "desc": "The speechSynthesis read-only property of the Window object returns a SpeechSynthesis object, which is the entry point into using Web Speech API speech synthesis functionality.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/speechSynthesis",
+    "type": "Property",
+    "warning": "This is an experimental API that should not be used in production code."
+  },
+  {
+    "name": "Window.status",
+    "desc": "Sets the text in the status bar at the bottom of the browser or returns the previously set text.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/status",
+    "type": "Property"
+  },
+  {
+    "name": "Window.statusbar",
+    "desc": "Returns the statusbar object, whose visibility can be toggled in the window.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/statusbar",
+    "type": "Property"
+  },
+  {
+    "name": "Window.toolbar",
+    "desc": "Returns the toolbar object, whose visibility can be toggled in the window.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/toolbar",
+    "type": "Property"
+  },
+  {
+    "name": "Window.top",
+    "desc": "Returns a reference to the topmost window in the window hierarchy.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/top",
+    "type": "Property"
+  },
+  {
+    "name": "Window.URL",
+    "desc": "The Window.URL property returns an object that provides static methods used for creating and managing object URLs. It can also be called as a constructor to construct URL objects.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/URL",
+    "type": "Property"
+  },
+  {
+    "name": "Window.window",
+    "desc": "The window property of a window object points to the window object itself. Thus the following expressions all return the same window object:",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/window",
+    "type": "Property"
+  },
+  {
+    "name": "Window.alert()",
+    "desc": "The Window.alert() method displays an alert dialog with the optional specified content and an OK button.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/alert",
+    "type": "Method"
+  },
+  {
+    "name": "Window.atob()",
+    "desc": "The WindowBase64.atob() function decodes a string of data which has been encoded using base-64 encoding. You can use the window.btoa() method to encode and transmit data which may otherwise cause communication problems, then transmit it and use the window.atob() method to decode the data again. For example, you can encode, transmit, and decode control characters such as ASCII values 0 through 31.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/WindowBase64/atob",
+    "type": "Method"
+  },
+  {
+    "name": "Window.back()",
+    "desc": "Returns the window to the previous item in the history. This was a Gecko-specific method. Use the standard history.back method instead.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/back",
+    "type": "Method"
+  },
+  {
+    "name": "Window.blur()",
+    "desc": "Shifts focus away from the window.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/blur",
+    "type": "Method"
+  },
+  {
+    "name": "Window.btoa()",
+    "desc": "Creates a base-64 encoded ASCII string from a \"string\" of binary data.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/WindowBase64/btoa",
+    "type": "Method"
+  },
+  {
+    "name": "Window.cancelAnimationFrame()",
+    "desc": "Cancels an animation frame request previously scheduled through a call to window.requestAnimationFrame().",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/cancelAnimationFrame",
+    "type": "Method",
+    "warning": "This is an experimental API that should not be used in production code."
+  },
+  {
+    "name": "Window.cancelIdleCallback",
+    "desc": "The Window.cancelIdleCallback() enables you to cancel a callback previously scheduled with Window.requestIdleCallback.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/cancelIdleCallback",
+    "type": "Method"
+  },
+  {
+    "name": "Window.captureEvents()",
+    "desc": "Registers the window to capture all events of the specified type.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/captureEvents",
+    "type": "Method"
+  },
+  {
+    "name": "Window.clearImmediate()",
+    "desc": "This method clears the action specified by window.setImmediate.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/clearImmediate",
+    "type": "Method"
+  },
+  {
+    "name": "Window.clearInterval()",
+    "desc": "Cancels repeated action which was set up using setInterval.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/WindowTimers/clearInterval",
+    "type": "Method"
+  },
+  {
+    "name": "Window.clearTimeout()",
+    "desc": "Clears the delay set by WindowTimers.setTimeout().",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/WindowTimers/clearTimeout",
+    "type": "Method"
+  },
+  {
+    "name": "Window.close()",
+    "desc": "The Window.close() method closes the current window, or the window on which it was called.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/close",
+    "type": "Method"
+  },
+  {
+    "name": "Window.confirm()",
+    "desc": "The Window.confirm() method displays a modal dialog with an optional message and two buttons, OK and Cancel.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/confirm",
+    "type": "Method"
+  },
+  {
+    "name": "Window.convertPointFromNodeToPage()",
+    "desc": "The Window.convertPointFromNodeToPage() method converts a Point object from coordinates based on the given CSS node to coordinates based on the page.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/convertPointFromNodeToPage",
+    "type": "Method",
+    "warning": "This API has not been standardized."
+  },
+  {
+    "name": "Window.createImageBitmap()",
+    "desc": "The createImageBitmap method accepts a variety of different image sources, and returns a Promise which resolves to an ImageBitmap. Optionally the source is cropped to the rectangle of pixels originating at (sx, sy) with width sw, and height sh.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/ImageBitmapFactories/createImageBitmap",
+    "type": "Method"
+  },
+  {
+    "name": "Window.dump()",
+    "desc": "Prints messages to the (native) console.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/dump",
+    "type": "Method"
+  },
+  {
+    "name": "Window.event",
+    "desc": "window.event is a proprietary Microsoft Internet Explorer property which is only available while a DOM event handler is being called. Its value is the Event object currently being handled.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/event",
+    "type": "Method"
+  },
+  {
+    "name": "Window.fetch()",
+    "desc": "The fetch() method of the GlobalFetch interface starts the process of fetching a resource. This returns a promise that resolves to the Response object representing the response to your request.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/GlobalFetch/fetch",
+    "type": "Method",
+    "warning": "This is an experimental API that should not be used in production code."
+  },
+  {
+    "name": "Window.find()",
+    "desc": "Finds a string in a window.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/find",
+    "type": "Method"
+  },
+  {
+    "name": "Window.focus()",
+    "desc": "Makes a request to bring the window to the front. It may fail due to user settings and the window isn't guaranteed to be frontmost before this method returns.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/focus",
+    "type": "Method"
+  },
+  {
+    "name": "Window.forward()",
+    "desc": "Moves the window one document forward in the history. This was a Gecko-specific method. Use the standard history.forward method instead.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/forward",
+    "type": "Method"
+  },
+  {
+    "name": "Window.getAttention()",
+    "desc": "Attempts to get the user's attention. How this happens varies based on OS and window manager.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/getAttention",
+    "type": "Method"
+  },
+  {
+    "name": "Window.getComputedStyle()",
+    "desc": "The Window.getComputedStyle() method gives the values of all the CSS properties of an element after applying the active stylesheets and resolving any basic computation those values may contain.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/getComputedStyle",
+    "type": "Method"
+  },
+  {
+    "name": "Window.getDefaultComputedStyle()",
+    "desc": "getDefaultComputedStyle() gives the default computed values of all the CSS properties of an element, ignoring author styling.  That is, only user-agent and user styles are taken into account.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/window/getDefaultComputedStyle",
+    "type": "Method"
+  },
+  {
+    "name": "Window.getSelection()",
+    "desc": "Returns a Selection object representing the range of text selected by the user or the current position of the caret.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/getSelection",
+    "type": "Method"
+  },
+  {
+    "name": "Window.home()",
+    "desc": "Returns the window to the home page.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/home",
+    "type": "Method"
+  },
+  {
+    "name": "Window.importDialog()",
+    "desc": "Because opening windows on mobile isn't necessarily appropriate, the Firefox Mobile team designed the importDialog() method to replace window.openDialog(). Instead of opening a new window, it merges the specified XUL dialog into the main window.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/importDialog",
+    "type": "Method"
+  },
+  {
+    "name": "Window.matchMedia()",
+    "desc": "Returns a new MediaQueryList object representing the parsed results of the specified media query string.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/matchMedia",
+    "type": "Method"
+  },
+  {
+    "name": "Window.minimize()",
+    "desc": "Sets a window to minimized state (a way to undo it programatically is by calling window.moveTo()).",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/minimize",
+    "type": "Method"
+  },
+  {
+    "name": "Window.moveBy()",
+    "desc": "Moves the current window by a specified amount.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/moveBy",
+    "type": "Method"
+  },
+  {
+    "name": "Window.moveTo()",
+    "desc": "Moves the window to the specified coordinates.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/moveTo",
+    "type": "Method"
+  },
+  {
+    "name": "Window.open()",
+    "desc": "Loads a resource into either a new browsing context (such as a window) or one that already exists, depending on the specified parameters.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/open",
+    "type": "Method"
+  },
+  {
+    "name": "Window.openDialog()",
+    "desc": "window.openDialog() is an extension to window.open(). It behaves the same, except that it can optionally take one or more parameters past windowFeatures, and windowFeatures itself is treated a little differently.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/openDialog",
+    "type": "Method"
+  },
+  {
+    "name": "Window.postMessage()",
+    "desc": "The window.postMessage method safely enables cross-origin communication. Normally, scripts on different pages are allowed to access each other if and only if the pages that executed them are at locations with the same protocol (usually both https), port number (443 being the default for https), and host (modulo document.domain being set by both pages to the same value). window.postMessage provides a controlled mechanism to circumvent this restriction in a way which is secure when properly used.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/postMessage",
+    "type": "Method"
+  },
+  {
+    "name": "Window.print()",
+    "desc": "Opens the Print Dialog to print the current document.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/print",
+    "type": "Method"
+  },
+  {
+    "name": "Window.prompt()",
+    "desc": "The Window.prompt() displays a dialog with an optional message prompting the user to input some text.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/prompt",
+    "type": "Method"
+  },
+  {
+    "name": "Window.releaseEvents()",
+    "desc": "Releases the window from trapping events of a specific type.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/releaseEvents",
+    "type": "Method"
+  },
+  {
+    "name": "Window.requestAnimationFrame()",
+    "desc": "You should call this method whenever you're ready to update your animation onscreen. This will request that your animation function be called before the browser performs the next repaint. The number of callbacks is usually 60 times per second, but will generally match the display refresh rate in most web browsers as per W3C recommendation. The callback rate may be reduced to a lower rate when running in background tabs or in hidden <iframe>s in order to improve performance and battery life.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/window/requestAnimationFrame",
+    "type": "Method"
+  },
+  {
+    "name": "Window.requestIdleCallback",
+    "desc": "The Window.requestIdleCallback() method enables the scheduling of tasks during a browser's idle periods. This enables developers to perform background and low priority work on the main event loop, without impacting latency-critical events such as animation and input response.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/requestIdleCallback",
+    "type": "Method"
+  },
+  {
+    "name": "Window.resizeBy()",
+    "desc": "Resizes the current window by a certain amount.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/resizeBy",
+    "type": "Method"
+  },
+  {
+    "name": "Window.resizeTo()",
+    "desc": "Dynamically resizes window.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/resizeTo",
+    "type": "Method"
+  },
+  {
+    "name": "Window.restore()",
+    "desc": "This method is currently not working, but you can use:",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/restore",
+    "type": "Method"
+  },
+  {
+    "name": "Window.scroll()",
+    "desc": "Scrolls the window to a particular place in the document.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/scroll",
+    "type": "Method"
+  },
+  {
+    "name": "Window.scrollBy()",
+    "desc": "Scrolls the document in the window by the given amount.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollBy",
+    "type": "Method"
+  },
+  {
+    "name": "Window.scrollByLines()",
+    "desc": "Scrolls the document by the given number of lines.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollByLines",
+    "type": "Method"
+  },
+  {
+    "name": "Window.scrollByPages()",
+    "desc": "Scrolls the current document by the specified number of pages.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollByPages",
+    "type": "Method",
+    "warning": "This API has not been standardized."
+  },
+  {
+    "name": "Window.scrollTo()",
+    "desc": "Scrolls to a particular set of coordinates in the document.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollTo",
+    "type": "Method"
+  },
+  {
+    "name": "Window.setCursor()",
+    "desc": "Changes the cursor for the current window.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/setCursor",
+    "type": "Method"
+  },
+  {
+    "name": "Window.setImmediate()",
+    "desc": "This method is used to break up long running operations and run a callback function immediately after the browser has completed other operations such as events and display updates.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/setImmediate",
+    "type": "Method"
+  },
+  {
+    "name": "Window.setInterval()",
+    "desc": "Repeatedly calls a function or executes a code snippet, with a fixed time delay between each call. Returns an intervalID.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/WindowTimers/setInterval",
+    "type": "Method"
+  },
+  {
+    "name": "Window.setTimeout()",
+    "desc": "Calls a function or executes a code snippet after a specified delay.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/WindowTimers/setTimeout",
+    "type": "Method"
+  },
+  {
+    "name": "Window.showModalDialog()",
+    "desc": "The Window.showModalDialog() creates and displays a modal dialog box containing a specified HTML document.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/showModalDialog",
+    "type": "Method",
+    "warning": "This deprecated API should no longer be used, but will probably still work."
+  },
+  {
+    "name": "Window.sizeToContent()",
+    "desc": "The Window.sizeToContent() method sizes the window according to its content. In order for it to work, the DOM content should be loaded when this function is called, for example once the DOMContentLoaded event has been thrown.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/sizeToContent",
+    "type": "Method",
+    "warning": "This API has not been standardized."
+  },
+  {
+    "name": "Window.stop()",
+    "desc": "This method stops window loading.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/stop",
+    "type": "Method"
+  },
+  {
+    "name": "Window.updateCommands()",
+    "desc": "Updates the state of commands of the current chrome window (UI).",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/updateCommands",
+    "type": "Method"
+  }
+]

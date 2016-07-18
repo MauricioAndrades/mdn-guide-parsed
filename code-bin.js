@@ -1,69 +1,62 @@
-function mdn_html() {
-    var arr = [];
-
-    function _Tag(tag, text, href) {
-        this.tag = tag;
-        this.text = text;
-        this.link = href;
-    }
-    $("ol.toggle-container > li> a").each(function() {
-        var _text = $(this).attr('title');
-        var _tag = $(this).find('code').text();
-        if (_tag === "") {
-            _tag = $(this).text();
-        }
-        var _href = $(this).prop('href');
-        var obj = new _Tag(_tag, _text, _href);
-        arr.push(obj);
-    })
-};
-
 function mdn_node() {
-    var arr = [];
+	var arr = [];
+	var _warning, _type, _name, _parent, _description, _href;
+	var _sub = [];
+	var _sub_obj = {};
+	var obj = {};
+	// ({size = 'big', cords = { x: 0, y: 0 }, radius = 25} = {})
+	function _Tag(name, description, href, type, warning) {
 
-    // ({size = 'big', cords = { x: 0, y: 0 }, radius = 25} = {})
-    function _Tag(tag, text, href, type, warning) {
-        this.tag = tag;
-        this.text = text;
-        this.link = href;
-        this.type = type;
-        if(warning !== null) {
-            this.warning = warning;
-        }
-    }
+		this.name = name;
 
-    $("ol.toggle-container > li > a").each(function() {
-        var _type = 'none';
-        var _warning = null;
-        var _tag = $(this).find('code').text();
+		if (description !== null) {
+			this.desc = description;
+		}
 
-        var _parent = ($(this)[0].parentNode.parentNode.parentNode);
+		this.href = href;
 
-        if($(_parent).find('strong').text() === 'Properties') {
-            _tag = 'Node.' + _tag;
-            _type = 'Property';
-        }
+		if (type !== null) {
+			this.type = type;
+		}
 
-        if($(_parent).find('strong').text() === 'Methods') {
-            _tag = 'Node.' + _tag;
-            _type = 'Method';
-        }
+		if (warning !== null) {
+			this.warning = warning;
+		}
+	}
 
-        if($(this).parent().find('span.sidebar-icon > span').attr('title').length > 0) {
-            _warning = $(this).parent().find('span.sidebar-icon > span').attr('title');
-        }
+	$("ol.toggle-container > li > a").each(function() {
+		_name = $(this).find('code').text();
+
+		if (_name === "") {
+		    _name = $(this).text();
+		}
 
 
-        var _text = $(this).attr('title');
+		_description = $(this).attr('title') || null;
+		_type = null;
+		_parent = ($(this)[0].parentNode.parentNode.parentNode);
+		_warning = $(this).parent().find('span.sidebar-icon > span').attr('title') || null;
+		_href = $(this).prop('href');
 
-        if (_tag === "") {
-            _tag = $(this).text();
-        }
+		if ($(_parent).find('strong').text() === 'Properties') {
+			_name = 'Node.' + _name;
+			_type = 'Property';
+		}
 
-        var _href = $(this).prop('href');
+		if ($(_parent).find('strong').text() === 'Methods') {
+			_name = 'Node.' + _name;
+			_type = 'Method';
+		}
 
-        var obj = new _Tag(_tag, _text, _href, _type, _warning);
+		if ($(_parent).find('strong').text() === 'Related pages for DOM') {
+			_sub_obj = new _Tag(_name, _description, _href, _type, _warning);
+			_sub.push(_sub_obj);
+		}
 
-        arr.push(obj);
-    })
-};
+		obj = new _Tag(_name, _description, _href, _type, _warning);
+		arr.push(obj);
+	})
+	return arr;
+}
+
+var results = mdn_node();
