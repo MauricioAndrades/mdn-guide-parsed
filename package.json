@@ -1,0 +1,17 @@
+{
+  "name": "mdn-guide",
+  "version": "1.0.0",
+  "description": "node mdn guide",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mauricio Andrades <mod.and.op@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.4.1",
+    "cheerio": "^0.20.0",
+    "request": "^2.73.0",
+    "to-markdown": "^3.0.1"
+  }
+}

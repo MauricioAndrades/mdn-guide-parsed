@@ -1,0 +1,1071 @@
+[
+  {
+    "tag": "HTML developer guide",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/Guide/HTML"
+  },
+  {
+    "tag": "Block-level elements",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements"
+  },
+  {
+    "tag": "Optimizing your pages for speculative parsing",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Optimizing_your_pages_for_speculative_parsing"
+  },
+  {
+    "tag": "<a>",
+    "text": "The HTML Anchor Element (<a>) defines a hyperlink to a location on the same page or any other page on the Web. It can also be used (in an obsolete way) to create an anchor point—a destination for hyperlinks within the content of a page, so that links aren't limited to connecting simply to the top of a page.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a"
+  },
+  {
+    "tag": "<abbr>",
+    "text": "The HTML <abbr> element (or HTML Abbreviation Element) represents an abbreviation and optionally provides a full description for it. If present, the title attribute must contain this full description and nothing else.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/abbr"
+  },
+  {
+    "tag": "<acronym>",
+    "text": "The HTML Acronym Element (<acronym>) allows authors to clearly indicate a sequence of characters that compose an acronym or abbreviation for a word.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/acronym"
+  },
+  {
+    "tag": "<address>",
+    "text": "The HTML <address> element supplies contact information for its nearest <article> or <body> ancestor; in the latter case, it applies to the whole document.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/address"
+  },
+  {
+    "tag": "<applet>",
+    "text": "The HTML Applet Element (<applet>) identifies the inclusion of a Java applet.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/applet"
+  },
+  {
+    "tag": "<area>",
+    "text": "The HTML <area> element defines a hot-spot region on an image, and optionally associates it with a hypertext link. This element is used only within a <map> element.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/area"
+  },
+  {
+    "tag": "<article>",
+    "text": "The HTML <article> element represents a self-contained composition in a document, page, application, or site, which is intended to be independently distributable or reusable (e.g., in syndication). This could be a forum post, a magazine or newspaper article, a blog entry, an object, or any other independent item of content. Each <article> should be identified, typically by including a heading (<h1>-<h6> element) as a child of the <article> element.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article"
+  },
+  {
+    "tag": "<aside>",
+    "text": "The HTML <aside> element represents a section of the page with content connected tangentially to the rest, which could be considered separate from that content. These sections are often represented as sidebars or inserts. They often contain the definitions on the sidebars, such as definitions from the glossary; there may also be other types of information, such as related advertisements; the biography of the author; web applications; profile information or related links on the blog.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/aside"
+  },
+  {
+    "tag": "<audio>",
+    "text": "The HTML <audio> element is used to embed sound content in documents. It may contain one or more audio sources, represented using the src attribute or the <source> element; the browser will choose the most suitable one.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio"
+  },
+  {
+    "tag": "<b>",
+    "text": "The HTML <b> Element represents a span of text stylistically different from normal text, without conveying any special importance or relevance. It is typically used for keywords in a summary, product names in a review, or other spans of text whose typical presentation would be boldfaced. Another example of its use is to mark the lead sentence of each paragraph of an article.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/b"
+  },
+  {
+    "tag": "<base>",
+    "text": "The HTML <base> element specifies the base URL to use for all relative URLs contained within a document. There can be only one <base> element in a document.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base"
+  },
+  {
+    "tag": "<basefont>",
+    "text": "The HTML basefont element (<basefont>) establishes a default font size for a document. Font size then can be varied relative to the base font size using the <font> element.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/basefont"
+  },
+  {
+    "tag": "<bdi>",
+    "text": "The HTML <bdi> Element (or Bi-Directional Isolation Element) isolates a span of text that might be formatted in a different direction from other text outside it.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/bdi"
+  },
+  {
+    "tag": "<bdo>",
+    "text": "The HTML <bdo> Element (or HTML bidirectional override element) is used to override the current directionality of text. It causes the directionality of the characters to be ignored in favor of the specified directionality.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/bdo"
+  },
+  {
+    "tag": "<bgsound>",
+    "text": "The HTML Background Sound Element () is an Internet Explorer element associating a background sound with a page.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/bgsound"
+  },
+  {
+    "tag": "<big>",
+    "text": "The HTML Big Element (<big>) makes the text font size one size bigger (for example, from small to medium, or from large to x-large) up to the browser's maximum font size.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/big"
+  },
+  {
+    "tag": "<blink>",
+    "text": "The HTML Blink Element (<blink>) is a non-standard element causing the enclosed text to flash slowly.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blink"
+  },
+  {
+    "tag": "<blockquote>",
+    "text": "The HTML <blockquote> Element (or HTML Block Quotation Element) indicates that the enclosed text is an extended quotation. Usually, this is rendered visually by indentation (see Notes for how to change it). A URL for the source of the quotation may be given using the cite attribute, while a text representation of the source can be given using the <cite> element.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote"
+  },
+  {
+    "tag": "<body>",
+    "text": "The HTML <body> Element represents the content of an HTML document. There can be only one <body> element in a document.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/body"
+  },
+  {
+    "tag": "<br>",
+    "text": "The HTML element line break <br> produces a line break in text (carriage-return). It is useful for writing a poem or an address, where the division of lines is significant.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/br"
+  },
+  {
+    "tag": "<button>",
+    "text": "The HTML <button> Element represents a clickable button.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button"
+  },
+  {
+    "tag": "<canvas>",
+    "text": "The HTML <canvas> Element can be used to draw graphics via scripting (usually JavaScript). For example, it can be used to draw graphs, make photo compositions or even perform animations. You may (and should) provide alternate content inside the <canvas> block. That content will be rendered both on older browsers that don't support canvas and in browsers with JavaScript disabled.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/canvas"
+  },
+  {
+    "tag": "<caption>",
+    "text": "The HTML <caption> Element (or HTML Table Caption Element) represents the title of a table. Though it is always the first descendant of a <table>, its styling, using CSS, may place it elsewhere, relative to the table.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/caption"
+  },
+  {
+    "tag": "<center>",
+    "text": "The HTML Center Element (<center>) is a block-level element that can contain paragraphs and other block-level and inline elements. The entire content of this element is centered horizontally within its containing element (typically, the <body>).",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/center"
+  },
+  {
+    "tag": "<cite>",
+    "text": "The HTML Citation Element (<cite>) represents a reference to a creative work. It must include the title of a work or a URL reference, which may be in an abbreviated form according to the conventions used for the addition of citation metadata.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/cite"
+  },
+  {
+    "tag": "<code>",
+    "text": "The HTML Code Element (<code>) represents a fragment of computer code. By default, it is displayed in the browser's default monospace font.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/code"
+  },
+  {
+    "tag": "<col>",
+    "text": "The HTML Table Column Element (<col>) defines a column within a table and is used for defining common semantics on all common cells. It is generally found within a <colgroup> element.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/col"
+  },
+  {
+    "tag": "<colgroup>",
+    "text": "The HTML Table Column Group Element (<colgroup>) defines a group of columns within a table.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/colgroup"
+  },
+  {
+    "tag": "<command>",
+    "text": "The command element represents a command which the user can invoke.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/command"
+  },
+  {
+    "tag": "<content>",
+    "text": "The HTML <content> element is used inside of Shadow DOM as an insertion point. It is not intended to be used in ordinary HTML. It is used with Web Components. It has now been replaced by the <slot> element.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/content"
+  },
+  {
+    "tag": "<data>",
+    "text": "The HTML <data> Element links a given content with a machine-readable translation. If the content is time- or date-related, the <time> must be used.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/data"
+  },
+  {
+    "tag": "<datalist>",
+    "text": "The HTML Datalist Element (<datalist>) contains a set of <option> elements that represent the values available for other controls.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/datalist"
+  },
+  {
+    "tag": "<dd>",
+    "text": "The HTML <dd> element (HTML Description Element) indicates the description of a term in a description list (<dl>) element. This element can occur only as a child element of a description list and it must follow a <dt> element.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dd"
+  },
+  {
+    "tag": "<del>",
+    "text": "The HTML Deleted Text Element (<del>) represents a range of text that has been deleted from a document. This element is often (but need not be) rendered with strike-through text.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/del"
+  },
+  {
+    "tag": "<details>",
+    "text": "The HTML Details Element (<details>) is used as a disclosure widget from which the user can retrieve additional information.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details"
+  },
+  {
+    "tag": "<dfn>",
+    "text": "The HTML Definition Element (<dfn>) represents the defining instance of a term.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dfn"
+  },
+  {
+    "tag": "<dialog>",
+    "text": "The HTML <dialog> element represents a dialog box or other interactive component, such as an inspector or window. <form> elements can be integrated within a dialog by specifying them with the attribute method=\"dialog\". When such a form is submitted, the dialog is closed with a returnValue attribute set to the value of the submit button used.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dialog"
+  },
+  {
+    "tag": "<dir>",
+    "text": "The HTML directory element (<dir>) represents a directory, namely a collection of filenames.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dir"
+  },
+  {
+    "tag": "<div>",
+    "text": "The HTML <div> element (or HTML Document Division Element) is the generic container for flow content, which does not inherently represent anything. It can be used to group elements for styling purposes (using the class or id attributes), or because they share attribute values, such as lang. It should be used only when no other semantic element (such as <article> or <nav>) is appropriate.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div"
+  },
+  {
+    "tag": "<dl>",
+    "text": "The HTML <dl> element (or HTML Description List Element) encloses a list of pairs of terms and descriptions. Common uses for this element are to implement a glossary or to display metadata (a list of key-value pairs).",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dl"
+  },
+  {
+    "tag": "<dt>",
+    "text": "The HTML <dt> element (or HTML Definition Term Element) identifies a term in a definition list. This element can occur only as a child element of a <dl>. It is usually followed by a <dd> element; however, multiple <dt> elements in a row indicate several terms that are all defined by the immediate next <dd> element.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dt"
+  },
+  {
+    "tag": "<element>",
+    "text": "The HTML <element> element is used to define new custom DOM elements.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/element"
+  },
+  {
+    "tag": "<em>",
+    "text": "The HTML element emphasis  <em> marks text that has stress emphasis. The <em> element can be nested, with each level of nesting indicating a greater degree of emphasis.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/em"
+  },
+  {
+    "tag": "<embed>",
+    "text": "The HTML <embed> Element represents an integration point for an external application or interactive content (in other words, a plug-in).",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/embed"
+  },
+  {
+    "tag": "<fieldset>",
+    "text": "The HTML <fieldset> element is used to group several controls as well as labels (<label>) within a web form.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/fieldset"
+  },
+  {
+    "tag": "<figcaption>",
+    "text": "The HTML <figcaption> element represents a caption or a legend associated with a figure or an illustration described by the rest of the data of the <figure> element which is its immediate ancestor which means <figcaption> can be the first or last element inside a <figure> block. Also, the HTML Figcaption Element is optional; if not provided, then the parent figure element will have no caption.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figcaption"
+  },
+  {
+    "tag": "<figure>",
+    "text": "The HTML <figure> element represents self-contained content, frequently with a caption (<figcaption>), and is typically referenced as a single unit. While it is related to the main flow, its position is independent of the main flow. Usually this is an image, an illustration, a diagram, a code snippet, or a schema that is referenced in the main text, but that can be moved to another page or to an appendix without affecting the main flow.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure"
+  },
+  {
+    "tag": "<font>",
+    "text": "The HTML Font Element (<font>) defines the font size, color and face for its content.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/font"
+  },
+  {
+    "tag": "<footer>",
+    "text": "The HTML <footer> element represents a footer for its nearest sectioning content or sectioning root element. A footer typically contains information about the author of the section, copyright data or links to related documents.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer"
+  },
+  {
+    "tag": "<form>",
+    "text": "The HTML <form> element represents a document section that contains interactive controls to submit information to a web server.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form"
+  },
+  {
+    "tag": "<frame>",
+    "text": "<frame> is an HTML element which defines a particular area in which another HTML document can be displayed. A frame should be used within a <frameset>.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/frame"
+  },
+  {
+    "tag": "<frameset>",
+    "text": "<frameset> is an HTML element which is used to contain <frame> elements.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/frameset"
+  },
+  {
+    "tag": "<head>",
+    "text": "The HTML <head> element provides general information (metadata) about the document, including its title and links to its scripts and style sheets.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/head"
+  },
+  {
+    "tag": "<header>",
+    "text": "The HTML <header> element represents a group of introductory or navigational aids. It may contain some heading elements but also other elements like a logo, wrapped section's header, a search form, and so on.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header"
+  },
+  {
+    "tag": "<hgroup>",
+    "text": "The HTML <hgroup> Element (HTML Headings Group Element) represents the heading of a section. It defines a single title that participates in the outline of the document as the heading of the implicit or explicit section that it belongs to.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hgroup"
+  },
+  {
+    "tag": "<hr>",
+    "text": "The HTML <hr> element represents a thematic break between paragraph-level elements (for example, a change of scene in a story, or a shift of topic with a section). In previous versions of HTML, it represented a horizontal rule. It may still be displayed as a horizontal rule in visual browsers, but is now defined in semantic terms, rather than presentational terms.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr"
+  },
+  {
+    "tag": "<html>",
+    "text": "The HTML <html> element (or HTML root element) represents the root of an HTML document. All other elements must be descendants of this element.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/html"
+  },
+  {
+    "tag": "<i>",
+    "text": "The HTML <i> Element represents a range of text that is set off from the normal text for some reason, for example, technical terms, foreign language phrases, or fictional character thoughts. It is typically displayed in italic type.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/i"
+  },
+  {
+    "tag": "<iframe>",
+    "text": "The HTML Inline Frame Element (<iframe>) represents a nested browsing context, effectively embedding another HTML page into the current page. In HTML 4.01, a document may contain a head and a body or a head and a frameset, but not both a body and a frameset. However, an <iframe> can be used within a normal document body. Each browsing context has its own session history and active document. The browsing context that contains the embedded content is called the parent browsing context. The top-level browsing context (which has no parent) is typically the browser window.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe"
+  },
+  {
+    "tag": "<image>",
+    "text": "The HTML <image> element was an experimental element designed to display pictures. It never was implemented and the standard <img> element must be used.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/image"
+  },
+  {
+    "tag": "<img>",
+    "text": "The HTML <img> element represents an image in the document.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img"
+  },
+  {
+    "tag": "<input>",
+    "text": "The HTML element <input> is used to create interactive controls for web-based forms in order to accept data from the user. How an <input> works varies considerably depending on the value of its type attribute.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input"
+  },
+  {
+    "tag": "<ins>",
+    "text": "The HTML <ins> Element (or HTML Inserted Text) HTML represents a range of text that has been added to a document.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ins"
+  },
+  {
+    "tag": "<isindex>",
+    "text": "<isindex> is an obsolete HTML element that puts a text field in a page for querying the document.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/isindex"
+  },
+  {
+    "tag": "<kbd>",
+    "text": "The HTML Keyboard Input Element (<kbd>) represents user input and produces an inline element displayed in the browser's default monospace font.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/kbd"
+  },
+  {
+    "tag": "<keygen>",
+    "text": "The HTML <keygen> element exists to facilitate generation of key material, and submission of the public key as part of an HTML form. This mechanism is designed for use with Web-based certificate management systems. It is expected that the <keygen> element will be used in an HTML form along with other information needed to construct a certificate request, and that the result of the process will be a signed certificate.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/keygen"
+  },
+  {
+    "tag": "<label>",
+    "text": "The HTML Label Element (<label>) represents a caption for an item in a user interface. It can be associated with a control either by placing the control element inside the <label> element, or by using the for attribute. Such a control is called the labeled control of the label element. One input can be associated with multiple labels.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/label"
+  },
+  {
+    "tag": "<legend>",
+    "text": "The HTML <legend> Element (or HTML Legend Field Element) represents a caption for the content of its parent <fieldset>.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/legend"
+  },
+  {
+    "tag": "<li>",
+    "text": "The HTML <li> element (or HTML List Item Element) is used to represent an item in a list. It must be contained in a parent element: an ordered list (<ol>), an unordered list (<ul>), or a menu (<menu>). In menus and unordered lists, list items are usually displayed using bullet points. In ordered lists, they are usually displayed with an ascending counter on the left, such as a number or letter.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li"
+  },
+  {
+    "tag": "<link>",
+    "text": "The HTML <link> element specifies relationships between the current document and an external resource. Possible uses for this element include defining a relational framework for navigation. This Element is most used to link to style sheets.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link"
+  },
+  {
+    "tag": "<listing>",
+    "text": "The HTML Listing Element (<listing>) renders text between the start and end tags without interpreting the HTML in between and using a monospaced font. The HTML 2 standard recommended that lines shouldn't be broken when not greater than 132 characters.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/listing"
+  },
+  {
+    "tag": "<main>",
+    "text": "The HTML <main> element represents the main content of  the <body> of a document or application. The main content area consists of content that is directly related to, or expands upon the central topic of a document or the central functionality of an application. This content should be unique to the document, excluding any content that is repeated across a set of documents such as sidebars, navigation links, copyright information, site logos, and search forms (unless the document's main function is as a search form).",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/main"
+  },
+  {
+    "tag": "<map>",
+    "text": "The HTML <map> element is used with <area> elements to define an image map (a clickable link area).",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/map"
+  },
+  {
+    "tag": "<mark>",
+    "text": "The HTML Mark Element (<mark>) represents highlighted text, i.e., a run of text marked for reference purpose, due to its relevance in a particular context. For example it can be used in a page showing search results to highlight every instance of the searched-for word.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/mark"
+  },
+  {
+    "tag": "<marquee>",
+    "text": "The HTML <marquee> element is used to insert a scrolling area of text.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/marquee"
+  },
+  {
+    "tag": "<menu>",
+    "text": "The HTML <menu> element represents a group of commands that a user can perform or activate. This includes both list menus, which might appear across the top of a screen, as well as context menus, such as those that might appear underneath a button after it has been clicked.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/menu"
+  },
+  {
+    "tag": "<menuitem>",
+    "text": "The HTML <menuitem> element represents a command that a user is able to invoke through a popup menu. This includes context menus, as well as menus that might be attached to a menu button.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/menuitem"
+  },
+  {
+    "tag": "<meta>",
+    "text": "The HTML <meta> element represents any metadata information that cannot be represented by one of the other HTML meta-related elements (<base>, <link>, <script>, <style> or <title>).",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta"
+  },
+  {
+    "tag": "<meter>",
+    "text": "The HTML <meter> Element represents either a scalar value within a known range or a fractional value.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meter"
+  },
+  {
+    "tag": "<multicol>",
+    "text": "The HTML <multicol> element was an experimental element designed to allow multi-column layouts. It never got any significant traction and is not implemented in any major browsers.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/multicol"
+  },
+  {
+    "tag": "<nav>",
+    "text": "The HTML <nav> element (HTML Navigation Element) represents a section of a page that links to other pages or to parts within the page: a section with navigation links.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav"
+  },
+  {
+    "tag": "<nobr>",
+    "text": "The HTML <nobr> element prevents a text from breaking into a new line automatically, so it is displayed on one long line and scrolling might be necessary. This tag is not standard HTML and should not be used.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nobr"
+  },
+  {
+    "tag": "<noembed>",
+    "text": "The <noembed> element is a deprecated and non-standard way to provide alternative, or \"fallback\", content for browsers that do not support the <embed> element or do not support embedded content an author wishes to use.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/noembed"
+  },
+  {
+    "tag": "<noframes>",
+    "text": "<noframes> is an HTML element which is used to supporting browsers which are not able to support <frame> elements or configured to do so.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/noframes"
+  },
+  {
+    "tag": "<noscript>",
+    "text": "The HTML <noscript> Element defines a section of html to be inserted if a script type on the page is unsupported or if scripting is currently turned off in the browser.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/noscript"
+  },
+  {
+    "tag": "<object>",
+    "text": "The HTML Embedded Object Element (<object>) represents an external resource, which can be treated as an image, a nested browsing context, or a resource to be handled by a plugin.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/object"
+  },
+  {
+    "tag": "<ol>",
+    "text": "The HTML <ol> Element (or HTML Ordered List Element) represents an ordered list of items. Typically, ordered-list items are displayed with a preceding numbering, which can be of any form, like numerals, letters or Romans numerals or even simple bullets. This numbered style is not defined in the HTML description of the page, but in its associated CSS, using the list-style-type property.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol"
+  },
+  {
+    "tag": "<optgroup>",
+    "text": "In a Web form, the HTML <optgroup> element  creates a grouping of options within a <select> element.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/optgroup"
+  },
+  {
+    "tag": "<option>",
+    "text": "In a Web form, the HTML <option> element is used to create a control representing an item within a <select>, an <optgroup> or a <datalist> HTML5 element.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/option"
+  },
+  {
+    "tag": "<output>",
+    "text": "The HTML <output> element represents the result of a calculation or user action.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/output"
+  },
+  {
+    "tag": "<p>",
+    "text": "The HTML <p> element (or HTML Paragraph Element) represents a paragraph of text.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p"
+  },
+  {
+    "tag": "<param>",
+    "text": "The HTML <param> Element (or HTML Parameter Element) defines parameters for <object>.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/param"
+  },
+  {
+    "tag": "<picture>",
+    "text": "The HTML <picture> element is a container used to specify multiple <source> elements for a specific <img> contained in it. The browser will choose the most suitable source according to the current layout of the page (the constraints of the box the image will appear in) and the device it will be displayed on (e.g. a normal or hiDPI device.)",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/picture"
+  },
+  {
+    "tag": "<plaintext>",
+    "text": "The HTML Plaintext Element (<plaintext>) renders everything following the start tag as raw text, without interpreting any HTML. There is no closing tag, since everything after it is considered raw text.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/plaintext"
+  },
+  {
+    "tag": "<pre>",
+    "text": "The HTML <pre> element (or HTML Preformatted Text) represents preformatted text. Text within this element is typically displayed in a non-proportional (\"monospace\") font exactly as it is laid out in the file. Whitespace inside this element is displayed as typed.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/pre"
+  },
+  {
+    "tag": "<progress>",
+    "text": "The HTML <progress> Element is used to view the completion progress of a task. While the specifics of how it's displayed is left up to the browser developer, it's typically displayed as a progress bar. Javascript can be used to manipulate the value of progress bar.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/progress"
+  },
+  {
+    "tag": "<q>",
+    "text": "The HTML Quote Element (<q>) indicates that the enclosed text is a short inline quotation. This element is intended for short quotations that don't require paragraph breaks; for long quotations use <blockquote> element.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/q"
+  },
+  {
+    "tag": "<rp>",
+    "text": "The HTML <rp> element is used to provide fall-back parenthesis for browsers non-supporting ruby annotations. Ruby annotations are for showing pronunciation of East Asian characters, like using Japanese furigana or Taiwainese bopomofo characters. The <rp> element is used in the case of lack of <ruby> element support its content has what should be displayed in order to indicate the presence of a ruby annotation, usually parentheses.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/rp"
+  },
+  {
+    "tag": "<rt>",
+    "text": "The HTML <rt> Element embraces pronunciation of characters presented in a ruby annotations, which are used to describe the pronunciation of East Asian characters. This element is always used inside a <ruby> element.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/rt"
+  },
+  {
+    "tag": "<rtc>",
+    "text": "The HTML <rtc> Element embraces semantic annotations of characters presented in a ruby of <rb> elements used inside of <ruby> element. <rb> elements can have both pronunciation (<rt>) and semantic (<rtc>) annotations.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/rtc"
+  },
+  {
+    "tag": "<ruby>",
+    "text": "The HTML <ruby> Element represents a ruby annotation. Ruby annotations are for showing pronunciation of East Asian characters.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ruby"
+  },
+  {
+    "tag": "<s>",
+    "text": "The HTML Strikethrough Element (<s>) renders text with a strikethrough, or a line through it. Use the <s> element to represent things that are no longer relevant or no longer accurate. However, <s> is not appropriate when indicating document edits; for that, use the <del> and <ins> elements, as appropriate.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/s"
+  },
+  {
+    "tag": "<samp>",
+    "text": "The HTML <samp> element is an element intended to identify sample output from a computer program. It is usually displayed in the browser's default monotype font (such as Lucida Console).",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/samp"
+  },
+  {
+    "tag": "<script>",
+    "text": "The HTML Script Element (<script>) is used to embed or reference an executable script within an HTML or XHTML document.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script"
+  },
+  {
+    "tag": "<section>",
+    "text": "The HTML <section> element represents a generic section of a document, i.e., a thematic grouping of content, typically with a heading. Each <section> should be identified, typically by including a heading (<h1>-<h6> element) as a child of the <section> element.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section"
+  },
+  {
+    "tag": "<select>",
+    "text": "The HTML select (<select>) element represents a control that presents a menu of options. The options within the menu are represented by <option> elements, which can be grouped by <optgroup> elements. Options can be pre-selected for the user.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select"
+  },
+  {
+    "tag": "<shadow>",
+    "text": "The HTML <shadow> element is used as a shadow DOM insertion point. You might use it if you have created multiple shadow roots under a shadow host. It is not useful in ordinary HTML. It is used with Web Components.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Shadow"
+  },
+  {
+    "tag": "<small>",
+    "text": "The HTML Small Element (<small>) makes the text font size one size smaller (for example, from large to medium, or from small to x-small) down to the browser's minimum font size.  In HTML5, this element is repurposed to represent side-comments and small print, including copyright and legal text, independent of its styled presentation.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/small"
+  },
+  {
+    "tag": "<source>",
+    "text": "The HTML <source> element specifies multiple media resources for either the <picture>, the <audio> or the <video> element. It is an empty element. It is commonly used to serve the same media content in multiple formats supported by different browsers.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/source"
+  },
+  {
+    "tag": "<spacer>",
+    "text": "<spacer> is an HTML element which is used for inserting white spaces to web pages. It was created by NetScape for achieving same effect as a single-pixel layout GIF image, which was something web designers used to use to add white spaces to web pages, without actually using a GIF. However <spacer> is not supported by any major browser and same effects can be created with various CSS rules. In Mozilla applications, support for this element was removed in Gecko 2.0. Therefore usage of <spacer> is unnecessary.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/spacer"
+  },
+  {
+    "tag": "<span>",
+    "text": "The HTML <span> element is a generic inline container for phrasing content, which does not inherently represent anything. It can be used to group elements for styling purposes (using the class or id attributes), or because they share attribute values, such as lang.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/span"
+  },
+  {
+    "tag": "<strike>",
+    "text": "The HTML Strikethrough Element (<strike>) renders text with a strikethrough, or a line through it.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/strike"
+  },
+  {
+    "tag": "<strong>",
+    "text": "The HTML Strong Element (<strong>) gives text strong importance, and is typically displayed in bold.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/strong"
+  },
+  {
+    "tag": "<style>",
+    "text": "The HTML <style> element contains style information for a document, or part of a document. By default, the style instructions written inside that element are expected to be CSS.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/style"
+  },
+  {
+    "tag": "<sub>",
+    "text": "The HTML Subscript Element (<sub>) defines a span of text that should be displayed, for typographic reasons, lower, and often smaller, than the main span of text.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/sub"
+  },
+  {
+    "tag": "<summary>",
+    "text": "The HTML summary element (<summary>) is used as a summary, caption, or legend for the content of a <details> element.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/summary"
+  },
+  {
+    "tag": "<sup>",
+    "text": "The HTML Superscript Element (<sup>) defines a span of text that should be displayed, for typographic reasons, higher, and often smaller, than the main span of text.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/sup"
+  },
+  {
+    "tag": "<table>",
+    "text": "The HTML Table Element (<table>) represents tabular data: information expressed via two dimensions or more.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table"
+  },
+  {
+    "tag": "<tbody>",
+    "text": "The HTML Table Body Element (<tbody>) defines one or more <tr> element data-rows to be the body of its parent <table> element (as long as no <tr> elements are immediate children of that table element.)  In conjunction with a preceding <thead> and/or <tfoot> element, <tbody> provides additional semantic information for devices such as printers and displays. Of the parent table's child elements, <tbody> represents the content which, when longer than a page, will most likely differ for each page printed; while the content of <thead> and <tfoot> will be the same or similar for each page printed. For displays, <tbody> will enable separate scrolling of the <thead>, <tfoot>, and <caption> elements of the same parent <table> element.  Note that unlike the <thead>, <tfoot>, and <caption> elements however, multiple <tbody> elements are permitted (if consecutive), allowing the data-rows in long tables to be divided into different sections, each separately formatted as needed.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tbody"
+  },
+  {
+    "tag": "<td>",
+    "text": "The Table cell HTML element (<td>) defines a cell of a table that contains data. It participates in the table model.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/td"
+  },
+  {
+    "tag": "<template>",
+    "text": "The HTML template element <template> is a mechanism for holding client-side content that is not to be rendered when a page is loaded but may subsequently be instantiated during runtime using JavaScript. ",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/template"
+  },
+  {
+    "tag": "<textarea>",
+    "text": "The HTML <textarea> element represents a multi-line plain-text editing control.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea"
+  },
+  {
+    "tag": "<tfoot>",
+    "text": "The HTML Table Foot Element (<tfoot>) defines a set of rows summarizing the columns of the table.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tfoot"
+  },
+  {
+    "tag": "<th>",
+    "text": "The HTML element table header cell <th> defines a cell as a header for a group of cells of a table. The group of cells that the header refers to is defined by the scope and headers attribute.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/th"
+  },
+  {
+    "tag": "<thead>",
+    "text": "The HTML Table Head Element (<thead>) defines a set of rows defining the head of the columns of the table.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/thead"
+  },
+  {
+    "tag": "<time>",
+    "text": "The HTML <time> element represents either a time on a 24-hour clock or a precise date in the Gregorian calendar (with optional time and timezone information).",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/time"
+  },
+  {
+    "tag": "<title>",
+    "text": "The HTML <title> element defines the title of the document, shown in a browser's title bar or on the page's tab. It can only contain text, and any contained tags are ignored.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/title"
+  },
+  {
+    "tag": "<tr>",
+    "text": "The HTML element table row <tr> defines a row of cells in a table. Those can be a mix of <td> and <th> elements.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tr"
+  },
+  {
+    "tag": "<track>",
+    "text": "The HTML <track> element is used as a child of the media elements—<audio> and <video>. It lets you specify timed text tracks (or time-based data), for example to automatically handle subtitles. The tracks are formatted in WebVTT format (.vtt files) — Web Video Text Tracks.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/track"
+  },
+  {
+    "tag": "<tt>",
+    "text": "The HTML Teletype Text Element (<tt>) produces an inline element displayed in the browser's default monotype font. This element was intended to style text as it would display on a fixed width display, such as a teletype. It probably is more common to display fixed width type using the <code> element.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tt"
+  },
+  {
+    "tag": "<u>",
+    "text": "The HTML Underline Element (<u>) renders text with an underline, a line under the baseline of its content.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/u"
+  },
+  {
+    "tag": "<ul>",
+    "text": "The HTML <ul> element (or HTML Unordered List Element) represents an unordered list of items, namely a collection of items that do not have a numerical ordering, and their order in the list is meaningless. Typically, unordered-list items are displayed with a bullet, which can be of several forms, like a dot, a circle or a squared. The bullet style is not defined in the HTML description of the page, but in its associated CSS, using the list-style-type property.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul"
+  },
+  {
+    "tag": "<var>",
+    "text": "The HTML Variable Element (<var>) represents a variable in a mathematical expression or a programming context.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/var"
+  },
+  {
+    "tag": "<video>",
+    "text": "Use the  HTML <video> element to embed video content in a document. The video element contains one or more video sources. To specify a video source, use either the src attribute or the <source> element; the browser will choose the most suitable one.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video"
+  },
+  {
+    "tag": "<wbr>",
+    "text": "The HTML element word break opportunity <wbr> represents a position within text where the browser may optionally break a line, though its line-breaking rules would not otherwise create a break at that location.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/wbr"
+  },
+  {
+    "tag": "<xmp>",
+    "text": "The HTML Example Element (<xmp>) renders text between the start and end tags without interpreting the HTML in between and using a monospaced font. The HTML2 specification recommended that it should be rendered wide enough to allow 80 characters per line.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/xmp"
+  },
+  {
+    "tag": "Heading elements",
+    "text": "Heading elements implement six levels of document headings, <h1> is the most important and <h6> is the least. A heading element briefly describes the topic of the section it introduces. Heading information may be used by user agents, for example, to construct a table of contents for a document automatically.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements"
+  },
+  {
+    "tag": "nextid",
+    "text": "<nextid> is an obsolete HTML element that served to enable the NeXT web designing tool to generate automatic NAME labels for its anchors. It was generated by that web editing tool automatically and was not to be adjusted or entered by hand. This element has the distinction of being the first element to become one of the \"Lost Tags\" by being eliminated from the official public DTD's of the HTML versions. It is also probably one of the least understood of all of the early HTML elements.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nextid"
+  },
+  {
+    "tag": "accesskey",
+    "text": "The operation to activate the accesskey depends on browser and its platform.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/accesskey"
+  },
+  {
+    "tag": "class",
+    "text": "The class global attribute is a space-separated list of the classes of the element. Classes allows CSS and Javascript to select and access specific elements via the class selectors or functions like the DOM method document.getElementsByClassName.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/class"
+  },
+  {
+    "tag": "contenteditable",
+    "text": "The contenteditable global attribute is an enumerated attribute indicating if the element should be editable by the user. If so, the browser modifies its widget to allow editing. The attribute must take one of the following values:",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/contenteditable"
+  },
+  {
+    "tag": "contextmenu",
+    "text": "The contextmenu global attribute is the id of an <menu> to us as the contextual menu for this element.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/contextmenu"
+  },
+  {
+    "tag": "data-*",
+    "text": "The data-* global attributes form a class of attributes, called custom data attributes, allows proprietary information to be exchanged between the HTML and its DOM representation that may be used by scripts. All such custom data are available via the HTMLElement interface of the element the attribute is set on. The HTMLElement.dataset property gives access to them.\n The * may be replaced by any name following the production rule of xml names with the following restrictions:",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/data-*"
+  },
+  {
+    "tag": "dir",
+    "text": "The dir global attribute is an enumerated attribute indicates the directionality of the element's text. It can have the following values:",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/dir"
+  },
+  {
+    "tag": "draggable",
+    "text": "The draggable global attribute is an enumerated attribute that indicates whether the element can be dragged, using the HTML Drag and Drop API. It can have the following values:",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/draggable"
+  },
+  {
+    "tag": "dropzone",
+    "text": "The dropzone global attribute is an enumerated attribute indicating what types of content can be dropped on an element, using the Drag and Drop API. It can have the following values:",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/dropzone"
+  },
+  {
+    "tag": "hidden",
+    "text": "The hidden global attribute is a Boolean attribute indicating that the element is not yet, or is no longer, relevant. For example, it can be used to hide elements of the page that can't be used until the login process has been completed.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/hidden"
+  },
+  {
+    "tag": "id",
+    "text": "The id global attribute defines a unique identifier (ID) which must be unique in the whole document. Its purpose is to identify the element when linking (using a fragment identifier), scripting, or styling (with CSS).",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/id"
+  },
+  {
+    "tag": "itemid",
+    "text": "The Itemid attribute is the unique, global identifier of an item.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/itemid"
+  },
+  {
+    "tag": "itemprop",
+    "text": "The itemprop attribute is used to add properties to an item. Every HTML element can have an itemprop attribute specified, and an itemprop consists of a name-value pair. Each name-value pair is called a property, and a group of one or more properties forms an item. Property values are either a string or a URL and can be associated with a very wide range of elements including audio, embed, iframe, img, link, object, source, track, and video.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/itemprop"
+  },
+  {
+    "tag": "itemref",
+    "text": "Properties that are not descendants of an element with the itemscope attribute can be associated with the item using an itemref. Itemref provides a list of element id's (not itemids) with additional properties elsewhere in the document.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/itemref"
+  },
+  {
+    "tag": "itemscope",
+    "text": "Itemscope (usually) works along with itemtype to specify that the HTML contained in a block is about a particular item. Itemscope creates the Item and defines the scope of the itemtype associated with it. itemtype is a valid URL of a vocabulary (such as schema.org) that describes the item and its properties context. In the examples below the vocabulary used is from schema.org. Every HTML element may have an itemscope attribute specified. An itemscope element that doesn't have an associated itemtype has an itemref.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/itemscope"
+  },
+  {
+    "tag": "itemtype",
+    "text": "Itemtype specifies the URL of the vocabulary that will be used to define itemprop's (item properties) in the data structure. Itemscope is used to set the scope of  where in the data structure the vocabulary set by itemtype will be active.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/itemtype"
+  },
+  {
+    "tag": "lang",
+    "text": "The lang global attribute participates in defining the language of the element, the language that is non-editable elements are written in or the language that the editable elements should be written in. The tag contains one single entry value in the format defined in the Tags for Identifying Languages (BCP47) IETF document. If the tag content is the empty string the language is set to unknown; if the tag content is not valid, regarding BCP47, it is set to invalid.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/lang"
+  },
+  {
+    "tag": "spellcheck",
+    "text": "The spellcheck global attribute is an enumerated attribute defines whether the element may be checked for spelling errors. It may have the following values:",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/spellcheck"
+  },
+  {
+    "tag": "style",
+    "text": "The style global attribute contains CSS styling declarations to be applied to the element. Note that it is recommended for styles to be defined in a separate file or files. This attribute and the <style> element have mainly the purpose of allowing for quick styling, for example for testing purposes.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/style"
+  },
+  {
+    "tag": "tabindex",
+    "text": "Note: The maximum value for tabIndex should not exceed 32767 per W3C section 17.11.1",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/tabindex"
+  },
+  {
+    "tag": "title",
+    "text": "The title global attribute contains a text representing advisory information related to the element it belongs to. Such information can typically, but not necessarily, be presented to the user as a tooltip. Here are some typical uses of this attribute:",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/title"
+  },
+  {
+    "tag": "translate",
+    "text": "The translate global attribute is an enumerated attribute that is used to specify whether an element's attribute values and the values of its Text node children are to be translated when the page is localized, or whether to leave them unchanged. It can have the following values:",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/translate"
+  },
+  {
+    "tag": "All pages index",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Index"
+  },
+  {
+    "tag": "Pages tagged \"HTML\"",
+    "link": "https://developer.mozilla.org/en-US/docs/tag/HTML"
+  },
+  {
+    "tag": "HTML doc status",
+    "link": "https://developer.mozilla.org/en-US/docs/MDN/Doc_status/HTML"
+  },
+  {
+    "tag": "The MDN project",
+    "link": "https://developer.mozilla.org/en-US/docs/MDN"
+  },
+  {
+    "tag": "",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/constructor#Description"
+  },
+  {
+    "tag": "",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/constructor#Examples"
+  },
+  {
+    "tag": "",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/constructor#Specifications"
+  },
+  {
+    "tag": "",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/constructor#Browser_compatibility"
+  },
+  {
+    "tag": "Object.prototype",
+    "text": "The Object.prototype property represents the Object prototype object.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/prototype"
+  },
+  {
+    "tag": "Object.prototype.__proto__",
+    "text": "The __proto__ property of Object.prototype is an accessor property (a getter function and a setter function) that exposes the internal [[Prototype]] (either an object or null) of the object through which it is accessed.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/proto"
+  },
+  {
+    "tag": "Object.assign()",
+    "text": "The Object.assign() method is used to copy the values of all enumerable own properties from one or more source objects to a target object. It will return the target object.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign"
+  },
+  {
+    "tag": "Object.create()",
+    "text": "The Object.create() method creates a new object with the specified prototype object and properties.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/create"
+  },
+  {
+    "tag": "Object.defineProperties()",
+    "text": "The Object.defineProperties() method defines new or modifies existing properties directly on an object, returning the object.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperties"
+  },
+  {
+    "tag": "Object.defineProperty()",
+    "text": "The Object.defineProperty() method defines a new property directly on an object, or modifies an existing property on an object, and returns the object.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperty"
+  },
+  {
+    "tag": "Object.entries()",
+    "text": "The Object.entries() method returns an array of a given object's own enumerable property [key, value] pairs, in the same order as that provided by a for...in loop (the difference being that a for-in loop enumerates properties in the prototype chain as well).",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/entries"
+  },
+  {
+    "tag": "Object.freeze()",
+    "text": "Technical review completed.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/freeze"
+  },
+  {
+    "tag": "Object.getOwnPropertyDescriptor()",
+    "text": "The Object.getOwnPropertyDescriptor() method returns a property descriptor for an own property (that is, one directly present on an object, not present by dint of being along an object's prototype chain) of a given object.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/getOwnPropertyDescriptor"
+  },
+  {
+    "tag": "Object.getOwnPropertyNames()",
+    "text": "The Object.getOwnPropertyNames() method returns an array of all properties (enumerable or not) found directly upon a given object.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/getOwnPropertyNames"
+  },
+  {
+    "tag": "Object.getOwnPropertySymbols()",
+    "text": "The Object.getOwnPropertySymbols() method returns an array of all symbol properties found directly upon a given object.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/getOwnPropertySymbols"
+  },
+  {
+    "tag": "Object.getPrototypeOf()",
+    "text": "The Object.getPrototypeOf() method returns the prototype (i.e. the value of the internal [[Prototype]] property) of the specified object.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/getPrototypeOf"
+  },
+  {
+    "tag": "Object.is()",
+    "text": "The Object.is() method determines whether two values are the same value.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/is"
+  },
+  {
+    "tag": "Object.isExtensible()",
+    "text": "The Object.isExtensible() method determines if an object is extensible (whether it can have new properties added to it).",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/isExtensible"
+  },
+  {
+    "tag": "Object.isFrozen()",
+    "text": "The Object.isFrozen() determines if an object is frozen.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/isFrozen"
+  },
+  {
+    "tag": "Object.isSealed()",
+    "text": "The Object.isSealed() method determines if an object is sealed.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/isSealed"
+  },
+  {
+    "tag": "Object.keys()",
+    "text": "The Object.keys() method returns an array of a given object's own enumerable properties, in the same order as that provided by a for...in loop (the difference being that a for-in loop enumerates properties in the prototype chain as well).",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys"
+  },
+  {
+    "tag": "Object.preventExtensions()",
+    "text": "The Object.preventExtensions() method prevents new properties from ever being added to an object (i.e. prevents future extensions to the object).",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/preventExtensions"
+  },
+  {
+    "tag": "Object.prototype.__defineGetter__()",
+    "text": "The __defineGetter__ method binds an object's property to a function to be called when that property is looked up.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/__defineGetter__"
+  },
+  {
+    "tag": "Object.prototype.__defineSetter__()",
+    "text": "The __defineSetter__ method binds an object's property to a function to be called when an attempt is made to set that property.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/__defineSetter__"
+  },
+  {
+    "tag": "Object.prototype.__lookupGetter__()",
+    "text": "The __lookupGetter__ method returns the function bound as a getter to the specified property.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/__lookupGetter__"
+  },
+  {
+    "tag": "Object.prototype.__lookupSetter__()",
+    "text": "The __lookupSetter__ method returns the function bound as a setter to the specified property.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/__lookupSetter__"
+  },
+  {
+    "tag": "Object.prototype.hasOwnProperty()",
+    "text": "The hasOwnProperty() method returns a boolean indicating whether the object has the specified property.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/hasOwnProperty"
+  },
+  {
+    "tag": "Object.prototype.isPrototypeOf()",
+    "text": "The isPrototypeOf() method tests for an object in another object's prototype chain.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/isPrototypeOf"
+  },
+  {
+    "tag": "Object.prototype.propertyIsEnumerable()",
+    "text": "The propertyIsEnumerable() method returns a Boolean indicating whether the specified property is enumerable.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/propertyIsEnumerable"
+  },
+  {
+    "tag": "Object.prototype.toLocaleString()",
+    "text": "The toLocaleString() method returns a string representing the object. This method is meant to be overridden by derived objects for locale-specific purposes.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/toLocaleString"
+  },
+  {
+    "tag": "Object.prototype.toSource()",
+    "text": "The toSource() method returns a string representing the source code of the object.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/toSource"
+  },
+  {
+    "tag": "Object.prototype.toString()",
+    "text": "The toString() method returns a string representing object.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/toString"
+  },
+  {
+    "tag": "Object.prototype.unwatch()",
+    "text": "The unwatch() method removes a watchpoint set with the watch() method.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/unwatch"
+  },
+  {
+    "tag": "Object.prototype.valueOf()",
+    "text": "Technical review completed.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/valueOf"
+  },
+  {
+    "tag": "Object.prototype.watch()",
+    "text": "The watch() method watches for a property to be assigned a value and runs a function when that occurs.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/watch"
+  },
+  {
+    "tag": "Object.seal()",
+    "text": "The Object.seal() method seals an object, preventing new properties from being added to it and marking all existing properties as non-configurable. Values of present properties can still be changed as long as they are writable.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/seal"
+  },
+  {
+    "tag": "Object.setPrototypeOf()",
+    "text": "The Object.setPrototypeOf() method sets the prototype (i.e., the internal [[Prototype]] property) of a specified object to another object or null.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/setPrototypeOf"
+  },
+  {
+    "tag": "Object.values()",
+    "text": "The Object.values() method returns an array of a given object's own enumerable property values, in the same order as that provided by a for...in loop (the difference being that a for-in loop enumerates properties in the prototype chain as well).",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/values"
+  },
+  {
+    "tag": "Function.arguments",
+    "text": "The function.arguments property refers to an an array-like object corresponding to the arguments passed to a function. Use the simple variable arguments instead.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/arguments"
+  },
+  {
+    "tag": "Function.caller",
+    "text": "The function.caller property returns the function that invoked the specified function.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/caller"
+  },
+  {
+    "tag": "Function.displayName",
+    "text": "The function.displayName property returns the display name of the function.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/displayName"
+  },
+  {
+    "tag": "Function.length",
+    "text": "The length property specifies the number of arguments expected by the function.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/length"
+  },
+  {
+    "tag": "Function.name",
+    "text": "The function.name property returns the name of the function.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/name"
+  },
+  {
+    "tag": "Function.prototype",
+    "text": "The Function.prototype property represents the Function prototype object.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/prototype"
+  },
+  {
+    "tag": "Function.prototype.apply()",
+    "text": "The apply() method calls a function with a given this value and arguments provided as an array (or an array-like object).",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/apply"
+  },
+  {
+    "tag": "Function.prototype.bind()",
+    "text": "The bind() method creates a new function that, when called, has its this keyword set to the provided value, with a given sequence of arguments preceding any provided when the new function is called.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind"
+  },
+  {
+    "tag": "Function.prototype.call()",
+    "text": "The call() method calls a function with a given this value and arguments provided individually.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/call"
+  },
+  {
+    "tag": "Function.prototype.isGenerator()",
+    "text": "The isGenerator() method determines whether or not a function is a generator.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/isGenerator"
+  },
+  {
+    "tag": "Function.prototype.toSource()",
+    "text": "The toSource() method returns a string representing the source code of the object.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/toSource"
+  },
+  {
+    "tag": "Function.prototype.toString()",
+    "text": "The toString() method returns a string representing the source code of the function.",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/toString"
+  }
+]
