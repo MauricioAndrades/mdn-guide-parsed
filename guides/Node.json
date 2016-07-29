@@ -1,29 +1,16 @@
 [
-  {
-    "name": "Syntax",
-    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Node/ownerDocument#Syntax"
-  },
-  {
-    "name": "Example",
-    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Node/ownerDocument#Example"
-  },
-  {
-    "name": "Notes",
-    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Node/ownerDocument#Notes"
-  },
-  {
-    "name": "Specifications",
-    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Node/ownerDocument#Specifications"
-  },
-  {
-    "name": "Browser compatibility",
-    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Node/ownerDocument#Browser_compatibility"
-  },
+  {"name": "Syntax","href": "https://developer.mozilla.org/en-US/docs/Web/API/Node/ownerDocument#Syntax"},
+  {"name": "Example","href": "https://developer.mozilla.org/en-US/docs/Web/API/Node/ownerDocument#Example"},
+  {"name": "Notes","href": "https://developer.mozilla.org/en-US/docs/Web/API/Node/ownerDocument#Notes"},
+  {"name": "Specifications","href": "https://developer.mozilla.org/en-US/docs/Web/API/Node/ownerDocument#Specifications"},
+  {"name": "Browser compatibility","href": "https://developer.mozilla.org/en-US/docs/Web/API/Node/ownerDocument#Browser_compatibility"},
   {
     "name": "Node.baseURI",
     "desc": "The Node.baseURI read-only property returns the absolute base URL of a node.",
     "href": "https://developer.mozilla.org/en-US/docs/Web/API/Node/baseURI",
-    "type": "Property"
+    "type": "Property",
+    "syntax": "uriObj = node.baseURIObject",
+    "notes": "This property is read-only; attempting to write to it will throw an exception. In addition, this property may only be accessed from privileged code."
   },
   {
     "name": "Node.baseURIObject",
@@ -76,7 +63,6 @@
   },
   {
     "name": "Node.nodePrincipal",
-    "desc": "",
     "href": "https://developer.mozilla.org/en-US/docs/Web/API/Node/nodePrincipal",
     "type": "Property"
   },
@@ -100,7 +86,7 @@
   },
   {
     "name": "Node.parentElement",
-    "desc": "Technical review completed.",
+    "desc": "The Node.parentElement read-only property returns the DOM node's parent Element, or null if the node either has no parent, or its parent isn't a DOM Element.",
     "href": "https://developer.mozilla.org/en-US/docs/Web/API/Node/parentElement",
     "type": "Property"
   },
@@ -154,7 +140,7 @@
   },
   {
     "name": "Node.contains()",
-    "desc": "The Node.contains() method returns a Boolean value indicating whether a node is a descendant of a given node or not.",
+    "desc": "The Node.contains() method returns a Boolean value indicating whether a node is a descendant of a given node or not.",
     "href": "https://developer.mozilla.org/en-US/docs/Web/API/Node/contains",
     "type": "Method"
   },

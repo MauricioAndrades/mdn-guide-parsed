@@ -1,0 +1,261 @@
+// mdn text
+[
+  {
+    "name": "Properties",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Text#Properties"
+  },
+  {
+    "name": "Constructor",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Text#Methods"
+  },
+  {
+    "name": "Methods",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Text#Methods"
+  },
+  {
+    "name": "Specifications",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Text#Specifications"
+  },
+  {
+    "name": "Browser compatibility",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Text#Browser_compatibility"
+  },
+  {
+    "name": "See also",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Text#See_also"
+  },
+  {
+    "name": "Text()",
+    "desc": "The Text() constructor returns a newly created Text object with the optional DOMString given in parameter as its textual content.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Text/Text",
+    "warning": "This is an experimental API that should not be used in production code."
+  },
+  {
+    "name": "wholeText",
+    "desc": "The Text.wholeText read-only property returns all text of all Text nodes logically adjacent to the node. The text is concatenated in document order.  This allows to specify any text node and obtain all adjacent text as a single string.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Text/wholeText",
+    "type": "Property"
+  },
+  {
+    "name": "splitText()",
+    "desc": "The Text.splitText() method breaks the Textnode into two nodes at the specified offset, keeping both nodes in the tree as siblings.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Text/splitText",
+    "type": "Method"
+  },
+  {
+    "name": "CharacterData",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/CharacterData"
+  },
+  {
+    "name": "Node",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Node"
+  },
+  {
+    "name": "EventTarget",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/EventTarget"
+  },
+  {
+    "name": "Attr",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Attr"
+  },
+  {
+    "name": "ByteString",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/ByteString"
+  },
+  {
+    "name": "CDATASection",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/CDATASection"
+  },
+  {
+    "name": "CharacterData",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/CharacterData"
+  },
+  {
+    "name": "ChildNode",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/ChildNode"
+  },
+  {
+    "name": "Comment",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Comment"
+  },
+  {
+    "name": "CustomEvent",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/CustomEvent"
+  },
+  {
+    "name": "DOMConfiguration",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/DOMConfiguration"
+  },
+  {
+    "name": "DOMError",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/DOMError"
+  },
+  {
+    "name": "DOMErrorHandler",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/DOMErrorHandler"
+  },
+  {
+    "name": "DOMException",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/DOMException"
+  },
+  {
+    "name": "DOMImplementation",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/DOMImplementation"
+  },
+  {
+    "name": "DOMImplementationList",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/DOMImplementationList"
+  },
+  {
+    "name": "DOMImplementationRegistry",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/DOMImplementationRegistry"
+  },
+  {
+    "name": "DOMImplementationSource",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/DOMImplementationSource"
+  },
+  {
+    "name": "DOMLocator",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/DOMLocator"
+  },
+  {
+    "name": "DOMObject",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/DOMObject"
+  },
+  {
+    "name": "DOMParser",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/DOMParser"
+  },
+  {
+    "name": "DOMPoint",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/DOMPoint"
+  },
+  {
+    "name": "DOMRect",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/DOMRect"
+  },
+  {
+    "name": "DOMString",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/DOMString"
+  },
+  {
+    "name": "DOMTimeStamp",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/DOMTimeStamp"
+  },
+  {
+    "name": "DOMTokenList",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/DOMTokenList"
+  },
+  {
+    "name": "DOMUserData",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/DOMUserData"
+  },
+  {
+    "name": "Document",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document"
+  },
+  {
+    "name": "DocumentFragment",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/DocumentFragment"
+  },
+  {
+    "name": "DocumentType",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/DocumentType"
+  },
+  {
+    "name": "Element",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Element"
+  },
+  {
+    "name": "ElementTraversal",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/ElementTraversal"
+  },
+  {
+    "name": "Entity",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Entity"
+  },
+  {
+    "name": "EntityReference",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/EntityReference"
+  },
+  {
+    "name": "Event",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Event"
+  },
+  {
+    "name": "EventTarget",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/EventTarget"
+  },
+  {
+    "name": "HTMLCollection",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLCollection"
+  },
+  {
+    "name": "MutationObserver",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver"
+  },
+  {
+    "name": "Node",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Node"
+  },
+  {
+    "name": "NodeFilter",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/NodeFilter"
+  },
+  {
+    "name": "NodeIterator",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/NodeIterator"
+  },
+  {
+    "name": "NodeList",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/NodeList"
+  },
+  {
+    "name": "NonDocumentTypeChildNode",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/NonDocumentTypeChildNode"
+  },
+  {
+    "name": "ProcessingInstruction",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/ProcessingInstruction"
+  },
+  {
+    "name": "PromiseResolver",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/PromiseResolver"
+  },
+  {
+    "name": "Range",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Range"
+  },
+  {
+    "name": "TextDecoder",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/TextDecoder"
+  },
+  {
+    "name": "TextEncoder",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/TextEncoder"
+  },
+  {
+    "name": "TimeRanges",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/TimeRanges"
+  },
+  {
+    "name": "TreeWalker",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/TreeWalker"
+  },
+  {
+    "name": "TypeInfo",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/TypeInfo"
+  },
+  {
+    "name": "USVString",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/USVString"
+  },
+  {
+    "name": "UserDataHandler",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/UserDataHandler"
+  },
+  {
+    "name": "XMLDocument",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/XMLDocument"
+  }
+]

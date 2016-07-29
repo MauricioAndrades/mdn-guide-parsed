@@ -1,0 +1,956 @@
+// document
+[
+  {"name": "Properties","href": "https://developer.mozilla.org/en-US/docs/Web/API/Document#Properties"},
+  {"name": "Methods","href": "https://developer.mozilla.org/en-US/docs/Web/API/Document#Methods"},
+  {"name": "Specifications","href": "https://developer.mozilla.org/en-US/docs/Web/API/Document#Specifications"},
+  {"name": "Browser compatibility notes","href": "https://developer.mozilla.org/en-US/docs/Web/API/Document#Browser_compatibility_notes"},
+  {
+    "name": "activeElement",
+    "desc": "Returns the currently focused element, that is, the element that will get keystroke events if the user types any. This attribute is read only.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/activeElement",
+    "type": "Property"
+  },
+  {
+    "name": "alinkColor",
+    "desc": "Returns or sets the color of an active link in the document body. A link is active during the time between mousedown and mouseup events.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/alinkColor",
+    "type": "Property",
+    "warning": "This deprecated API should no longer be used, but will probably still work."
+  },
+  {
+    "name": "anchors",
+    "desc": "anchors returns a list of all of the anchors in the document.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/anchors",
+    "type": "Property"
+  },
+  {
+    "name": "applets",
+    "desc": "applets returns an ordered list of the applets within a document.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/applets",
+    "type": "Property"
+  },
+  {
+    "name": "async",
+    "desc": "document.async can be set to indicate whether a document.load call should be an asynchronous or synchronous request. true is the default value, indicating that documents should be loaded asynchronously.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/async",
+    "type": "Property",
+    "warning": "This deprecated API should no longer be used, but will probably still work."
+  },
+  {
+    "name": "bgColor",
+    "desc": "The deprecated  bgColor property gets or sets the background color of the current document.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/bgColor",
+    "type": "Property"
+  },
+  {
+    "name": "body",
+    "desc": "Returns the <body> or <frameset> node of the current document, or null if no such element exists.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/body",
+    "type": "Property"
+  },
+  {
+    "name": "characterSet",
+    "desc": "The Document.characterSet read-only property returns the character encoding of the current document. The character encoding is the character set used for rendering the document, which may be different from the encoding specified by the page. (The user can override the encoding.).",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/characterSet",
+    "type": "Property"
+  },
+  {
+    "name": "childElementCount",
+    "desc": "The ParentNode.childElementCount read-only property returns an unsigned long representing the number of child elements of the given element.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/ParentNode/childElementCount",
+    "type": "Property"
+  },
+  {
+    "name": "children",
+    "desc": "Node.children is a read-only property that returns a live HTMLCollection of the child elements of Node.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/ParentNode/children",
+    "type": "Property"
+  },
+  {
+    "name": "compatMode",
+    "desc": "Indicates whether the document is rendered in Quirks mode or Standards mode.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/compatMode",
+    "type": "Property"
+  },
+  {
+    "name": "contentType",
+    "desc": "Returns the MIME type that the document is being rendered as.  This may come from HTTP headers or other sources of MIME information, and might be affected by automatic type conversions performed by either the browser or extensions.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/contentType",
+    "type": "Property"
+  },
+  {
+    "name": "currentScript",
+    "desc": "Returns the <script> element whose script is currently being processed.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/currentScript",
+    "type": "Property"
+  },
+  {
+    "name": "defaultView",
+    "desc": "In browsers, document.defaultView returns the window object associated with a document, or null if none available.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/defaultView",
+    "type": "Property"
+  },
+  {
+    "name": "designMode",
+    "desc": "document.designMode controls whether the entire document is editable. Valid values are \"on\" and \"off\". According to the specification, this property is meant to default to \"off\". Firefox follows this standard. The earlier versions of Chrome and IE default to \"inherit\". In IE6-10, the value is capitalized.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/designMode",
+    "type": "Property"
+  },
+  {
+    "name": "dir",
+    "desc": "The Document.dir property is a DOMString representing the directionality of the text of the document, whether left to right (default) or right to left. Possible values are 'rtl', right to left, and 'ltr', left to right.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/dir",
+    "type": "Property"
+  },
+  {
+    "name": "doctype",
+    "desc": "Returns the Document Type Declaration (DTD) associated with current document. The returned object implements the DocumentType interface. Use DOMImplementation.createDocumentType() to create a DocumentType.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/doctype",
+    "type": "Property"
+  },
+  {
+    "name": "documentElement",
+    "desc": "The Document.documentElement read-only property returns the Element that is the root element of the document (for example, the <html> element for HTML documents).",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/documentElement",
+    "type": "Property"
+  },
+  {
+    "name": "documentURI",
+    "desc": "The documentURI property of the Document interface returns the document location as a string.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/documentURI",
+    "type": "Property"
+  },
+  {
+    "name": "documentURIObject",
+    "desc": "The Document.documentURIObject read-only property returns an nsIURI object representing the URI of the document.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/documentURIObject",
+    "type": "Property"
+  },
+  {
+    "name": "domain",
+    "desc": "Gets/sets the domain portion of the origin of the current document, as used by the same origin policy.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/domain",
+    "type": "Property"
+  },
+  {
+    "name": "domConfig",
+    "desc": "This should return the DOMConfiguration for the document.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/domConfig",
+    "type": "Property"
+  },
+  {
+    "name": "embeds",
+    "desc": "embeds returns a list of the embedded OBJECTS within the current document.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/embeds",
+    "type": "Property"
+  },
+  {
+    "name": "fgColor",
+    "desc": "fgColor gets/sets the foreground color, or text color, of the current document.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/fgColor",
+    "type": "Property"
+  },
+  {
+    "name": "firstElementChild",
+    "desc": "The ParentNode.firstElementChild read-only property returns the object's first child Element, or null if there are no child elements.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/ParentNode/firstElementChild",
+    "type": "Property"
+  },
+  {
+    "name": "forms",
+    "desc": "forms returns a collection (an HTMLCollection) of the <form> elements within the current document.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/forms",
+    "type": "Property"
+  },
+  {
+    "name": "fullscreen",
+    "desc": "The Document.fullscreen read-only property reports whether or not the document is currently displaying content in fullscreen mode.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/fullscreen",
+    "type": "Property"
+  },
+  {
+    "name": "fullscreenElement",
+    "desc": "The Document.fullscreenElement read-only property returns the Element that is currently being presented in full-screen mode in this document, or null if full-screen mode is not currently in use.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/fullscreenElement",
+    "type": "Property"
+  },
+  {
+    "name": "fullscreenEnabled",
+    "desc": "The Document.fullscreenEnabled read-only property returns a Boolean that reports whether or not full-screen mode is available. Full screen mode is available only for a page that has no windowed plug-ins in any of its documents, and if all <iframe> elements which contain the document have their allowfullscreen attribute set.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/fullscreenEnabled",
+    "type": "Property"
+  },
+  {
+    "name": "head",
+    "desc": "Returns the <head> element of the current document. If there are more than one <head> elements, the first one is returned.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/head",
+    "type": "Property"
+  },
+  {
+    "name": "height",
+    "desc": "Returns the height of the document object. In most cases, this is equal to the <body> element of the current document.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/height",
+    "type": "Property"
+  },
+  {
+    "name": "images",
+    "desc": "document.images returns a collection of the images in the current HTML document.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/images",
+    "type": "Property"
+  },
+  {
+    "name": "implementation",
+    "desc": "Returns a DOMImplementation object associated with the current document.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/implementation",
+    "type": "Property"
+  },
+  {
+    "name": "lastElementChild",
+    "desc": "The ParentNode.lastElementChild read-only property returns the object's last child Element or null if there are no child elements.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/ParentNode/lastElementChild",
+    "type": "Property"
+  },
+  {
+    "name": "lastModified",
+    "desc": "Returns a string containing the date and time on which the current document was last modified.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/lastModified",
+    "type": "Property"
+  },
+  {
+    "name": "lastStyleSheetSet",
+    "desc": "Returns the last enabled style sheet set; this property's value changes whenever the document.selectedStyleSheetSet property is changed.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/lastStyleSheetSet",
+    "type": "Property"
+  },
+  {
+    "name": "linkColor",
+    "desc": "linkColor gets/sets the color of links within the document.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/linkColor",
+    "type": "Property"
+  },
+  {
+    "name": "links",
+    "desc": "The links property returns a collection of all <area> elements and <a> elements in a document with a value for the href attribute.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/links",
+    "type": "Property"
+  },
+  {
+    "name": "location",
+    "desc": "The Document.location read-only property returns a Location object, which contains information about the URL of the document and provides methods for changing that URL and loading another URL.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/location",
+    "type": "Property"
+  },
+  {
+    "name": "mozSyntheticDocument",
+    "desc": "Indicates whether or not the document is a synthetic one; that is, a document representing a standalone image, video, audio, or the like.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/mozSyntheticDocument",
+    "type": "Property"
+  },
+  {
+    "name": "onabort",
+    "desc": "An event handler for abort events sent to the window. (Not available with Firefox 2 or Safari)",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onabort",
+    "type": "Property"
+  },
+  {
+    "name": "onafterscriptexecute",
+    "desc": "Fired when a static <script> element  finishes executing its script. Does not fire if the element is added dynamically, eg with appendChild().",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/onafterscriptexecute",
+    "type": "Property"
+  },
+  {
+    "name": "onbeforescriptexecute",
+    "desc": "Fired when the code in a <script> element declared in an HTML document is about to start executing. Does not fire if the element is added dynamically, eg with appendChild().",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/onbeforescriptexecute",
+    "type": "Property"
+  },
+  {
+    "name": "onblur",
+    "desc": "The onblur property returns the onBlur event handler code, if any, that exists on the current element.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onblur",
+    "type": "Property"
+  },
+  {
+    "name": "onchange",
+    "desc": "The onchange property sets and returns the event handler for the change event.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onchange",
+    "type": "Property"
+  },
+  {
+    "name": "onclick",
+    "desc": "The onclick property returns the click event handler code on the current element.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onclick",
+    "type": "Property"
+  },
+  {
+    "name": "onclose",
+    "desc": "An event handler for close events sent to the window. (Not available with Firefox 2 or Safari)",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onclose",
+    "type": "Property"
+  },
+  {
+    "name": "oncontextmenu",
+    "desc": "An event handler property for right-click events on the window. Unless the default behavior is prevented (see examples below on how to do this), the browser context menu will activate (though IE8 has a bug with this and will not activate the context menu if a contextmenu event handler is defined). Note that this event will occur with any non-disabled right-click event and does not depend on an element possessing the \"contextmenu\" attribute.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/oncontextmenu",
+    "type": "Property"
+  },
+  {
+    "name": "ondblclick",
+    "desc": "The ondblclick property returns the onDblClick event handler code on the current element.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/ondblclick",
+    "type": "Property"
+  },
+  {
+    "name": "onerror",
+    "desc": "An event handler for the error event. Error events are fired at various targets for different kinds of errors:",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onerror",
+    "type": "Property"
+  },
+  {
+    "name": "onfocus",
+    "desc": "The onfocus property returns the onFocus event handler code on the current element.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onfocus",
+    "type": "Property"
+  },
+  {
+    "name": "onfullscreenchange",
+    "desc": "The Document.onfullscreenchange property is an event handler for the fullscreenchange event that is fire when a document goes in or out of the fullscreen mode.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/onfullscreenchange",
+    "type": "Property"
+  },
+  {
+    "name": "onfullscreenerror",
+    "desc": "The Document.onfullscreenerror property is an event handler for the fullscreenchange event that is fire when a document goes that cannot go in fullscreen mode, even it has been requested.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/onfullscreenerror",
+    "type": "Property"
+  },
+  {
+    "name": "oninput",
+    "desc": "An event handler for the input event on the window. The input event is raised when an <input> element value changes.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/oninput",
+    "type": "Property"
+  },
+  {
+    "name": "onkeydown",
+    "desc": "The onkeydown property returns the onKeyDown event handler code on the current element.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onkeydown",
+    "type": "Property"
+  },
+  {
+    "name": "onkeypress",
+    "desc": "The onkeypress property sets and returns the onKeyPress event handler code for the current element.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onkeypress",
+    "type": "Property"
+  },
+  {
+    "name": "onkeyup",
+    "desc": "The onkeyup property returns the onKeyUp event handler code for the current element.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onkeyup",
+    "type": "Property"
+  },
+  {
+    "name": "onload",
+    "desc": "An event handler for the load event of a window.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onload",
+    "type": "Property"
+  },
+  {
+    "name": "onmousedown",
+    "desc": "The onmousedown property returns the onmousedown event handler code on the current element.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onmousedown",
+    "type": "Property"
+  },
+  {
+    "name": "onmousemove",
+    "desc": "The onmousemove property returns the mousemove event handler code on the current element.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onmousemove",
+    "type": "Property"
+  },
+  {
+    "name": "onmouseout",
+    "desc": "The onmouseout property returns the onMouseOut event handler code on the current element.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onmouseout",
+    "type": "Property"
+  },
+  {
+    "name": "onmouseover",
+    "desc": "The onmouseover property returns the onMouseOver event handler code on the current element.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onmouseover",
+    "type": "Property"
+  },
+  {
+    "name": "onmouseup",
+    "desc": "The onmouseup property returns the onMouseUp event handler code on the current element.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onmouseup",
+    "type": "Property"
+  },
+  {
+    "name": "onoffline",
+    "desc": "This event handler is called when an offline is fired on body and bubbles up, when navigator.onLine property changes and becomes false.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/onoffline",
+    "type": "Property"
+  },
+  {
+    "name": "ononline",
+    "desc": "\"online\" event is fired on the <body> of each page when the browser switches between online and offline mode. Additionally, the events bubble up from document.body, to document, ending at window. Both events are non-cancellable (you can't prevent the user from coming online, or going offline).",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/ononline",
+    "type": "Property"
+  },
+  {
+    "name": "onpointercancel",
+    "desc": "Editorial review completed.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onpointercancel",
+    "type": "Property"
+  },
+  {
+    "name": "onpointerdown",
+    "desc": "Editorial review completed.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onpointerdown",
+    "type": "Property"
+  },
+  {
+    "name": "onpointerenter",
+    "desc": "Editorial review completed.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onpointerenter",
+    "type": "Property"
+  },
+  {
+    "name": "onpointerleave",
+    "desc": "Editorial review completed.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onpointerleave",
+    "type": "Property"
+  },
+  {
+    "name": "onpointermove",
+    "desc": "Editorial review completed.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onpointermove",
+    "type": "Property"
+  },
+  {
+    "name": "onpointerout",
+    "desc": "Editorial review completed.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onpointerout",
+    "type": "Property"
+  },
+  {
+    "name": "onpointerover",
+    "desc": "Editorial review completed.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onpointerover",
+    "type": "Property"
+  },
+  {
+    "name": "onpointerup",
+    "desc": "Editorial review completed.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onpointerup",
+    "type": "Property"
+  },
+  {
+    "name": "onreset",
+    "desc": "The GlobalEventHandlers.onreset property contains an EventHandler triggered when a reset event is received.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onreset",
+    "type": "Property"
+  },
+  {
+    "name": "onresize",
+    "desc": "The GlobalEventHandlers.onresize property contains an EventHandler triggered when a resize event is received.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onresize",
+    "type": "Property"
+  },
+  {
+    "name": "onscroll",
+    "desc": "An event handler for scroll events on element.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onscroll",
+    "type": "Property"
+  },
+  {
+    "name": "onselect",
+    "desc": "An event handler for the select event on the window.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onselect",
+    "type": "Property"
+  },
+  {
+    "name": "onselectionchange",
+    "desc": "The Document.onselectionchange property represents the event handler that is called when a selectionchange event reaches this object.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/onselectionchange",
+    "type": "Property",
+    "warning": "This is an experimental API that should not be used in production code."
+  },
+  {
+    "name": "onselectstart",
+    "desc": "The GlobalEventHandlers.onselectstart property represents the event handler that is called when a selectstart event reaches this object.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onselectstart",
+    "type": "Property",
+    "warning": "This is an experimental API that should not be used in production code."
+  },
+  {
+    "name": "onsubmit",
+    "desc": "An event handler for the submit event on the window.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onsubmit",
+    "type": "Property"
+  },
+  {
+    "name": "ontouchcancel",
+    "desc": "Editorial review completed.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/ontouchcancel",
+    "type": "Property",
+    "warning": "This is an experimental API that should not be used in production code."
+  },
+  {
+    "name": "ontouchmove",
+    "desc": "Editorial review completed.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/GlobalEventHanders.ontouchmove",
+    "type": "Property",
+    "warning": "This is an experimental API that should not be used in production code."
+  },
+  {
+    "name": "ontouchstart",
+    "desc": "Editorial review completed.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/ontouchstart",
+    "type": "Property",
+    "warning": "This is an experimental API that should not be used in production code."
+  },
+  {
+    "name": "origin",
+    "desc": "The Document.origin read-only property returns the document's origin. In most cases, this property is equivalent to document.defaultView.location.origin.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/origin",
+    "type": "Property",
+    "warning": "This is an experimental API that should not be used in production code."
+  },
+  {
+    "name": "plugins",
+    "desc": "Returns an HTMLCollection object containing one or more HTMLEmbedElements or null which represent the <embed> elements in the current document.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/plugins",
+    "type": "Property"
+  },
+  {
+    "name": "pointerLockElement",
+    "desc": "The pointerLockElement property provides the element set as the target for mouse events while the pointer is locked. It is null if lock is pending, pointer is unlocked, or the target is in another document.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/pointerLockElement",
+    "type": "Property"
+  },
+  {
+    "name": "popupNode",
+    "desc": "When a popup attached via the popup or context attributes is opened, the XUL document's popupNode property is set to the node that was clicked on. This will be the target of the mouse event that activated the popup. If the popup was opened via the keyboard, the popup node may be set to null. Typically, this property will be checked during a popupshowing event handler for a context menu to initialize the menu based on the context.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/popupNode",
+    "type": "Property"
+  },
+  {
+    "name": "preferredStyleSheetSet",
+    "desc": "Returns the preferred style sheet set as set by the page author.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/preferredStyleSheetSet",
+    "type": "Property"
+  },
+  {
+    "name": "readyState",
+    "desc": "The Document.readyState property of a document describes the loading state of the document.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/readyState",
+    "type": "Property"
+  },
+  {
+    "name": "referrer",
+    "desc": "Returns the URI of the page that linked to this page.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/referrer",
+    "type": "Property"
+  },
+  {
+    "name": "scripts",
+    "desc": "Returns a list of the <script> elements in the document. The returned object is an HTMLCollection.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/scripts",
+    "type": "Property"
+  },
+  {
+    "name": "scrollingElement",
+    "desc": "The scrollingElement read-only property of the Document interface returns a reference to the Element that scrolls the document.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/scrollingElement",
+    "type": "Property",
+    "warning": "This is an experimental API that should not be used in production code."
+  },
+  {
+    "name": "selectedStyleSheetSet",
+    "desc": "Indicates the name of the style sheet set that's currently in use.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/selectedStyleSheetSet",
+    "type": "Property"
+  },
+  {
+    "name": "styleSheets",
+    "desc": "The Document.styleSheets read-only property returns a StyleSheetList of CSSStyleSheet objects for stylesheets explicitly linked into or embedded in a document.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/styleSheets",
+    "type": "Property"
+  },
+  {
+    "name": "styleSheetSets",
+    "desc": "Returns a live list of all of the currently-available style sheet sets.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/styleSheetSets",
+    "type": "Property"
+  },
+  {
+    "name": "timeline",
+    "desc": "The timeline readonly property of the Document interface represents the default timeline of the current document. This timeline is a special instance of DocumentTimeline that is automatically created on page load.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/timeline",
+    "type": "Property",
+    "warning": "This is an experimental API that should not be used in production code."
+  },
+  {
+    "name": "title",
+    "desc": "Gets or sets the title of the document.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/title",
+    "type": "Property"
+  },
+  {
+    "name": "tooltipNode",
+    "desc": "Returns the node which is the target of the current tooltip.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/tooltipNode",
+    "type": "Property"
+  },
+  {
+    "name": "URL",
+    "desc": "The URL read-only property of the Document interface returns the document location as a string.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/URL",
+    "type": "Property"
+  },
+  {
+    "name": "visibilityState",
+    "desc": "The Document.visibilityState read-only property returns the visibility of the document, that is in which context this element is now visible. It is useful to know if the document is in the background or an invisible tab, or only loaded for pre-rendering. Possible values are:",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/visibilityState",
+    "type": "Property"
+  },
+  {
+    "name": "vlinkColor",
+    "desc": "Gets/sets the color of links that the user has visited in the document.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/vlinkColor",
+    "type": "Property"
+  },
+  {
+    "name": "width",
+    "desc": "Returns the width of the <body> element of the current document in pixels.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/width",
+    "type": "Property"
+  },
+  {
+    "name": "xmlEncoding",
+    "desc": "Returns the encoding as determined by the XML declaration. Should be null if unspecified or unknown.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/xmlEncoding",
+    "type": "Property"
+  },
+  {
+    "name": "adoptNode()",
+    "desc": "Adopts a node from an external document. The node and its subtree is removed from the document it's in (if any), and its ownerDocument is changed to the current document. The node can then be inserted into the current document.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/adoptNode",
+    "type": "Method"
+  },
+  {
+    "name": "append()",
+    "desc": "The ParentNode.append method inserts a set of Node objects or DOMString objects after the last child of the ParentNode. DOMString objects are inserted as equivalent Text nodes.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/ParentNode/append",
+    "type": "Method"
+  },
+  {
+    "name": "caretPositionFromPoint()",
+    "desc": "This method is used to retrieve the caret position in a document based on two coordinates. A CaretPosition is returned, containing the found DOM node and the character offset in that node.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/caretPositionFromPoint",
+    "type": "Method"
+  },
+  {
+    "name": "caretRangeFromPoint()",
+    "desc": "The caretRangeFromPoint() method of the Document interface returns a Range object for the document fragment under the specified coordinates.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/caretRangeFromPoint",
+    "type": "Method",
+    "warning": "This is an experimental API that should not be used in production code."
+  },
+  {
+    "name": "clear()",
+    "desc": "This method used to clear the whole specified document in early (pre-1.0) versions of Mozilla.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/clear",
+    "type": "Method"
+  },
+  {
+    "name": "close()",
+    "desc": "The document.close() method finishes writing to a document, opened with document.open().",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/close",
+    "type": "Method"
+  },
+  {
+    "name": "createAttribute()",
+    "desc": "The Document.createAttribute() method creates a new attribute node, and returns it. The object created a node implementing the Attr interface. The DOM does not enforce what sort of attributes can be added to a particular element in this manner.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/createAttribute",
+    "type": "Method"
+  },
+  {
+    "name": "createCDATASection()",
+    "desc": "createCDATASection() creates a new CDATA section node, and returns it.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/createCDATASection",
+    "type": "Method"
+  },
+  {
+    "name": "createComment()",
+    "desc": "createComment() creates a new comment node, and returns it.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/createComment",
+    "type": "Method"
+  },
+  {
+    "name": "createDocumentFragment()",
+    "desc": "Creates a new empty DocumentFragment.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/createDocumentFragment",
+    "type": "Method"
+  },
+  {
+    "name": "createElement()",
+    "desc": "In an HTML document, the Document.createElement() method creates the specified HTML element or an HTMLUnknownElement if the given element name isn't a known one.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement",
+    "type": "Method"
+  },
+  {
+    "name": "createElementNS()",
+    "desc": "Creates an element with the specified namespace URI and qualified name.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/createElementNS",
+    "type": "Method"
+  },
+  {
+    "name": "createEntityReference()",
+    "desc": "Prior to Gecko 7.0 this method showed up as present, due to bug bug 9850, it always only returned null. The only workaround is to create a text node, CDATA section, attribute node value, etc. which has the value referred to by the entity, using Unicode escape sequences or fromCharCode() as necessary.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/createEntityReference",
+    "type": "Method"
+  },
+  {
+    "name": "createEvent()",
+    "desc": "Creates an event of the type specified. The returned object should be first initialized and can then be passed to element.dispatchEvent.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/createEvent",
+    "type": "Method"
+  },
+  {
+    "name": "createExpression()",
+    "desc": "This method compiles an XPathExpression which can then be used for (repeated) evaluations.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/createExpression",
+    "type": "Method"
+  },
+  {
+    "name": "createNodeIterator()",
+    "desc": "Returns a new NodeIterator object.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/createNodeIterator",
+    "type": "Method"
+  },
+  {
+    "name": "createNSResolver()",
+    "desc": "Creates an XPathNSResolver which resolves namespaces with respect to the definitions in scope for a specified node.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/createNSResolver",
+    "type": "Method"
+  },
+  {
+    "name": "createProcessingInstruction()",
+    "desc": "createProcessingInstruction() creates a new processing instruction node, and returns it.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/createProcessingInstruction",
+    "type": "Method"
+  },
+  {
+    "name": "createRange()",
+    "desc": "Returns a new Range object.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/createRange",
+    "type": "Method"
+  },
+  {
+    "name": "createTextNode()",
+    "desc": "Creates a new Text node.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/createTextNode",
+    "type": "Method"
+  },
+  {
+    "name": "createTouch()",
+    "desc": "Technical review completed.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/createTouch",
+    "type": "Method",
+    "warning": "This deprecated API should no longer be used, but will probably still work."
+  },
+  {
+    "name": "createTouchList()",
+    "desc": "This method creates and returns a new TouchList object.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/createTouchList",
+    "type": "Method",
+    "warning": "This deprecated API should no longer be used, but will probably still work."
+  },
+  {
+    "name": "createTreeWalker()",
+    "desc": "The Document.createTreeWalker() creator method returns a newly created TreeWalker object.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/createTreeWalker",
+    "type": "Method"
+  },
+  {
+    "name": "elementFromPoint()",
+    "desc": "The elementFromPoint() method of the Document interface returns the topmost element at the specified coordinates.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/elementFromPoint",
+    "type": "Method"
+  },
+  {
+    "name": "enableStyleSheetsForSet()",
+    "desc": "Enables the style sheets matching the specified name in the current style sheet set, and disables all other style sheets (except those without a title, which are always enabled).",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/enableStyleSheetsForSet",
+    "type": "Method"
+  },
+  {
+    "name": "evaluate()",
+    "desc": "Returns an XPathResult based on an XPath expression and other given parameters.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/evaluate",
+    "type": "Method"
+  },
+  {
+    "name": "execCommand()",
+    "desc": "When an HTML document has been switched to designMode, the document object exposes the execCommand method which allows one to run commands to manipulate the contents of the editable region. Most commands affect the document's selection (bold, italics, etc.), while others insert new elements (adding a link) or affect an entire line (indenting). When using contentEditable, calling execCommand() will affect the currently active editable element.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/execCommand",
+    "type": "Method"
+  },
+  {
+    "name": "exitFullscreen()",
+    "desc": "The Document.exitFullscrean() is a method that takes the document out of full-screen mode; this is used to reverse the effects of a call to make an element in the document full-screen using its Element.requestFullscreen() method.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/exitFullscreen",
+    "type": "Method"
+  },
+  {
+    "name": "exitPointerLock()",
+    "desc": "The exitPointerLock asynchronously releases a pointer lock previously requested through Element.requestPointerLock.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/exitPointerLock",
+    "type": "Method"
+  },
+  {
+    "name": "getAnimations()",
+    "desc": "The getAnimations() method of the Document interface returns an array of all Animation objects currently in effect whose target elements are descendants of the document.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/getAnimations",
+    "type": "Method",
+    "warning": "This is an experimental API that should not be used in production code."
+  },
+  {
+    "name": "getBoxObjectFor()",
+    "desc": "Returns a boxObject (x, y, width, height) for a specified element.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/getBoxObjectFor",
+    "type": "Method"
+  },
+  {
+    "name": "getElementById()",
+    "desc": "Returns a reference to the element by its ID; the ID is a string which can be used to identify the element; it can be established using the id attribute in HTML, or from script.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById",
+    "type": "Method"
+  },
+  {
+    "name": "getElementsByClassName()",
+    "desc": "Returns an array-like object of all child elements which have all of the given class names. When called on the document object, the complete document is searched, including the root node. You may also call getElementsByClassName() on any element; it will return only elements which are descendants of the specified root element with the given class names.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementsByClassName",
+    "type": "Method"
+  },
+  {
+    "name": "getElementsByName()",
+    "desc": "Returns a nodelist collection with a given name in the (X)HTML document.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementsByName",
+    "type": "Method"
+  },
+  {
+    "name": "getElementsByTagName()",
+    "desc": "Returns an HTMLCollection of elements with the given tag name.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementsByTagName",
+    "type": "Method"
+  },
+  {
+    "name": "getElementsByTagNameNS()",
+    "desc": "Returns a list of elements with the given tag name belonging to the given namespace. The complete document is searched, including the root node.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementsByTagNameNS",
+    "type": "Method"
+  },
+  {
+    "name": "getSelection()",
+    "desc": "This method functions identically to the Window.getSelection() method; it returns a Selection object representing the text currently selected in the document.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/getSelection",
+    "type": "Method"
+  },
+  {
+    "name": "hasFocus()",
+    "desc": "false if the active element in the document has no focus; true if the active element in the document has focus.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/hasFocus",
+    "type": "Method"
+  },
+  {
+    "name": "importNode()",
+    "desc": "Creates a copy of a node from an external document that can be inserted into the current document.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/importNode",
+    "type": "Method"
+  },
+  {
+    "name": "loadOverlay()",
+    "desc": "The loadOverlay() method loads a XUL overlay and merges it with the current document, notifying an observer when the merge is complete.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/loadOverlay",
+    "type": "Method"
+  },
+  {
+    "name": "mozSetImageElement()",
+    "desc": "Changes the element being used as the CSS background for a background with a given background element ID.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/mozSetImageElement",
+    "type": "Method",
+    "warning": "This API has not been standardized."
+  },
+  {
+    "name": "open()",
+    "desc": "The Document.open() method opens a document for writing.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/open",
+    "type": "Method"
+  },
+  {
+    "name": "prepend()",
+    "desc": "The ParentNode.prepend method inserts a set of Node objects or DOMString objects before the first child of the ParentNode. DOMString objects are inserted as equivalent Text nodes.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/ParentNode/prepend",
+    "type": "Method",
+    "warning": "This is an experimental API that should not be used in production code."
+  },
+  {
+    "name": "queryCommandEnabled()",
+    "desc": "The Document.queryCommandEnabled() method reports whether or not the specified editor command is enabled by the browser.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/queryCommandEnabled",
+    "type": "Method"
+  },
+  {
+    "name": "queryCommandSupported()",
+    "desc": "The Document.queryCommandSupported() method reports whether or not the specified editor command is supported by the browser.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/queryCommandSupported",
+    "type": "Method"
+  },
+  {
+    "name": "querySelector()",
+    "desc": "Editorial review completed.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector",
+    "type": "Method"
+  },
+  {
+    "name": "querySelectorAll()",
+    "desc": "Returns a list of the elements within the document (using depth-first pre-order traversal of the document's nodes) that match the specified group of selectors. The object returned is a NodeList.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll",
+    "type": "Method"
+  },
+  {
+    "name": "registerElement()",
+    "desc": "The document.registerElement() method registers a new custom element in the browser and returns a constructor for the new element.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/registerElement",
+    "type": "Method",
+    "warning": "This is an experimental API that should not be used in production code."
+  },
+  {
+    "name": "releaseCapture()",
+    "desc": "Releases mouse capture if it's currently enabled on an element within this document. Enabling mouse capture on an element is done by calling element.setCapture().",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/releaseCapture",
+    "type": "Method"
+  },
+  {
+    "name": "write()",
+    "desc": "Writes a string of text to a document stream opened by document.open().",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/write",
+    "type": "Method"
+  },
+  {
+    "name": "writeln()",
+    "desc": "Writes a string of text followed by a newline character to a document.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/writeln",
+    "type": "Method"
+  },
+  {
+    "name": "Node",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Node"
+  },
+  {
+    "name": "EventTarget",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/EventTarget"
+  }
+]

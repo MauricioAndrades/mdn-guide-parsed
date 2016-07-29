@@ -1,0 +1,1767 @@
+[
+  {"name": "Web Technology For Developers", "href": "https://developer.mozilla.org/en-US/docs/Web"},
+  {"name": "Web APIs", "href": "https://developer.mozilla.org/en-US/docs/Web/API"},
+  {"name": "", "desc": "Previous Search Result", "href": ""},
+  {"name": "", "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model#"},
+  {"name": "", "desc": "Next Search Result", "href": ""},
+  {
+    "name": "DOM interfaces",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model#DOM_interfaces"
+  },
+  {
+    "name": "Obsolete DOM interfaces",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model#Obsolete_DOM_interfaces"
+  },
+  {
+    "name": "HTML interfaces",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model#HTML_interfaces"
+  },
+  {
+    "name": "HTML element interfaces",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model#HTML_element_interfaces"
+  },
+  {
+    "name": "Other interfaces",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model#Other_interfaces"
+  },
+  {
+    "name": "Obsolete HTML interfaces",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model#Obsolete_HTML_interfaces"
+  },
+  {
+    "name": "SVG interfaces",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model#SVG_interfaces"
+  },
+  {
+    "name": "SVG element interfaces",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model#SVG_element_interfaces"
+  },
+  {
+    "name": "SVG data type interfaces",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model#SVG_data_type_interfaces"
+  },
+  {
+    "name": "Static type",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model#Static_type"
+  },
+  {
+    "name": "Animated type",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model#Animated_type"
+  },
+  {
+    "name": "SMIL related interfaces",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model#SMIL_related_interfaces"
+  },
+  {
+    "name": "Other SVG interfaces",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model#Other_SVG_interfaces"
+  },
+  {
+    "name": "See also",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model#See_also"
+  },
+  {
+    "name": "introduction",
+    "href": "https://developer.mozilla.org/en-US/docs/DOM/DOM_Reference/Introduction"
+  },
+  {
+    "name": "Edit",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model$edit#DOM_interfaces"
+  },
+  {
+    "name": "Attr",
+    "desc": "This type represents a DOM element's attribute as an object. In most DOM methods, you will probably directly retrieve the attribute as a string (e.g., Element.getAttribute(), but certain functions (e.g., Element.getAttributeNode()) or means of iterating give Attr types.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Attr"
+  },
+  {
+    "name": "CharacterData",
+    "desc": "The CharacterData abstract interface represents a Node object that contains characters. This is an abstract interface, meaning there aren't any object of type CharacterData: it is implemented by other interfaces, like Text, Comment, or ProcessingInstruction which aren't abstract.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/CharacterData"
+  },
+  {
+    "name": "ChildNode",
+    "desc": "The ChildNode interface contains methods that are particular to Node objects that can have a parent.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/ChildNode"
+  },
+  {
+    "name": "Comment",
+    "desc": "The Comment interface represents textual notations within markup; although it is generally not visually shown, such comments are available to be read in the source view. Comments are represented in HTML and XML as content between '<!--' and '-->'. In XML, the character sequence '--' cannot be used within a comment.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Comment"
+  },
+  {
+    "name": "CustomEvent",
+    "desc": "This interface inherits properties from its parent, Event.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/CustomEvent"
+  },
+  {
+    "name": "Document",
+    "desc": "The Document interface represents any web page loaded in the browser and serves as an entry point into the web page's content, which is the DOM tree. The DOM tree includes elements such as <body> and <table>, among many others. It provides functionality which is global to the document, such as obtaining the page's URL and creating new elements in the document.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document"
+  },
+  {
+    "name": "DocumentFragment",
+    "desc": "The DocumentFragment interface represents a minimal document object that has no parent. It is used as a light-weight version of Document to store well-formed or potentially non-well-formed fragments of XML.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/DocumentFragment"
+  },
+  {
+    "name": "DocumentType",
+    "desc": "The DocumentType interface represents a Node containing a doctype.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/DocumentType"
+  },
+  {
+    "name": "DOMError",
+    "desc": "The DOMError interface describes an error object that contains an error name.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/DOMError"
+  },
+  {
+    "name": "DOMException",
+    "desc": "The DOMException exception represents an abnormal event happening when a method or a property is used.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/DOMException"
+  },
+  {
+    "name": "DOMImplementation",
+    "desc": "The DOMImplementation interface represent an object providing methods which are not dependent on any particular document. Such an object is returned by the Document.implementation property.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/DOMImplementation"
+  },
+  {
+    "name": "DOMString",
+    "desc": "DOMString is a UTF-16 String. As JavaScript already uses such strings, DOMString is mapped directly to a String.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/DOMString"
+  },
+  {
+    "name": "DOMTimeStamp",
+    "desc": "The DOMTimeStamp type represents an absolute or relative number of milliseconds, depending on the specification in which it appears.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/DOMTimeStamp"
+  },
+  {
+    "name": "DOMSettableTokenList",
+    "desc": "The documentation about this has not yet been written; please consider contributing!",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/DOMSettableTokenList"
+  },
+  {
+    "name": "DOMStringList",
+    "desc": "A type returned by some APIs which contains a list of DOMString (strings).",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/DOMStringList"
+  },
+  {
+    "name": "DOMTokenList",
+    "desc": "The DOMTokenList interface represents a set of space-separated tokens. Such a set is returned by Element.classList, HTMLLinkElement.relList, HTMLAnchorElement.relList or HTMLAreaElement.relList. It is indexed beginning with 0 as with JavaScript Array objects. DOMTokenList is always case-sensitive.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/DOMTokenList"
+  },
+  {
+    "name": "Element",
+    "desc": "The Element interface represents an object of a Document. This interface describes methods and properties common to all kinds of elements. Specific behaviors are described in interfaces which inherit from Element but add additional functionality.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Element"
+  },
+  {
+    "name": "Event",
+    "desc": "The Event interface represents any event of the DOM. It contains common properties and methods to any event.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Event"
+  },
+  {
+    "name": "EventTarget",
+    "desc": "EventTarget is an interface implemented by objects that can receive events and may have listeners for them.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/EventTarget"
+  },
+  {
+    "name": "HTMLCollection",
+    "desc": "The HTMLCollection interface represents a generic collection (array-like object similar to arguments) of elements (in document order) and offers methods and properties for selecting from the list.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLCollection"
+  },
+  {
+    "name": "MutationObserver",
+    "desc": "MutationObserver provides developers a way to react to changes in a DOM. It is designed as a replacement for Mutation Events defined in the DOM3 Events specification.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver"
+  },
+  {
+    "name": "MutationRecord",
+    "desc": "A MutationRecord represents an individual DOM mutation. It is the object that is passed to MutationObserver's callback.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/MutationRecord"
+  },
+  {
+    "name": "Node",
+    "desc": "A Node is an interface from which a number of DOM types inherit, and allows these various types to be treated (or tested) similarly.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Node"
+  },
+  {
+    "name": "NodeFilter",
+    "desc": "A NodeFilter interface represents an object used to filter the nodes in a NodeIterator or TreeWalker. They don't know anything about the DOM or how to traverse nodes; they just know how to evaluate a single node against the provided filter.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/NodeFilter"
+  },
+  {
+    "name": "NodeIterator",
+    "desc": "The NodeIterator interface represents an iterator over the members of a list of the nodes in a subtree of the DOM. The nodes will be returned in document order.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/NodeIterator"
+  },
+  {
+    "name": "NodeList",
+    "desc": "NodeList objects are collections of nodes such as those returned by Node.childNodes and the document.querySelectorAll method.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/NodeList"
+  },
+  {
+    "name": "ParentNode",
+    "desc": "The ParentNode interface contains methods that are particular to Node objects that can have children.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/ParentNode"
+  },
+  {
+    "name": "ProcessingInstruction",
+    "desc": "A processing instruction provides an opportunity for application-specific instructions to be embedded within XML and which can be ignored by XML processors which do not support processing their instructions (outside of their having a place in the DOM).",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/ProcessingInstruction"
+  },
+  {
+    "name": "Promise",
+    "desc": "The Promise interface represents a proxy for a value not necessarily known at its creation time. It allows you to associate handlers to an asynchronous action's eventual success or failure. This lets asynchronous methods return values like synchronous methods: instead of the final value, the asynchronous method returns a promise of having a value at some point in the future.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Promise"
+  },
+  {
+    "name": "PromiseResolver",
+    "desc": "The PromiseResolver interface represents an object controlling the state and the result value of a Promise.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/PromiseResolver"
+  },
+  {
+    "name": "Range",
+    "desc": "The Range interface represents a fragment of a document that can contain nodes and parts of text nodes.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Range"
+  },
+  {
+    "name": "Text",
+    "desc": "The Text interface represents the textual content of Element or Attr.  If an element has no markup within its content, it has a single child implementing Text that contains the element's text.  However, if the element contains markup, it is parsed into information items and Text nodes that form its children.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Text"
+  },
+  {
+    "name": "TreeWalker",
+    "desc": "The TreeWalker object represents the nodes of a document subtree and a position within them.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/TreeWalker"
+  },
+  {
+    "name": "URL",
+    "desc": "The URL interface represent an object providing static methods used for creating object URLs.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/URL"
+  },
+  {
+    "name": "Window",
+    "desc": "The window object represents a window containing a DOM document; the document property points to the DOM document loaded in that window.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window"
+  },
+  {
+    "name": "Worker",
+    "desc": "The Worker interface of the Web Workers API represents a background task that can be easily created and can send messages back to its creator. Creating a worker is as simple as calling the Worker() constructor and specifying a script to be run in the worker thread.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Worker"
+  },
+  {
+    "name": "XMLDocument",
+    "desc": "The XMLDocument interface represent an XML document. It inherits from the generic Document and does not add any specific methods or properties to it: nevertheless, several algorithms behave differently with the two types of documents.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/XMLDocument"
+  },
+  {
+    "name": "Edit",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model$edit#Obsolete_DOM_interfaces"
+  },
+  {
+    "name": "CDATASection",
+    "desc": "The CDATASection interface represents a CDATA section that can be used within XML to include extended portions of unescaped text, such that the symbols < and & do not need escaping as they normally do within XML when used as text.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/CDATASection"
+  },
+  {
+    "name": "DOMConfiguration",
+    "desc": "Pre-defined parameters: \"canonical-form\", \"cdata-sections\", \"check-character-normalization\", \"comments\", \"datatype-normalization\", \"element-content-whitespace\", \"entities\", \"error-handler\", \"infoset\", \"namespaces\", \"namespace-declarations\", \"normalize-characters\",\"schema-location\", \"schema-type\", \"split-cdata-sections\", \"validate\", \"validate-if-schema\", \"well-formed\"",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/DOMConfiguration"
+  },
+  {
+    "name": "DOMErrorHandler",
+    "desc": "Set as \"error-handler\" parameter in DOMConfiguration.setParameter . Implementation may provide a default handler. DOMError.relatedData will contain closest node to where error occurred or contain the Document node if it is unable to be determined. Document mutations from within the error handler result in implementation-dependent behavior. If there are to be multiple errors, the sequence and numbers of the errors passed to the error handler are also implementation dependent. The application using the DOM implementation implements this interface:",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/DOMErrorHandler"
+  },
+  {
+    "name": "DOMImplementationList",
+    "desc": "Returned by DOMImplementationSource.getDOMImplementationList() and DOMImplementationRegistry.getDOMImplementationList() . Can be iterated with 0-based index.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/DOMImplementationList"
+  },
+  {
+    "name": "DOMImplementationRegistry",
+    "desc": "This is a global variable used to get a single DOMImplementation or DOMImplementationList depending on the registered objects with the specified features.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/DOMImplementationRegistry"
+  },
+  {
+    "name": "DOMImplementationSource",
+    "desc": "Can request a particular implementation based on needed features and versions (which can then be used to create a document, etc.). Called during DOMImplementationRegistry.getDOMImplementation() and DOMImplementationRegistry.getDOMImplementationList().",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/DOMImplementationSource"
+  },
+  {
+    "name": "DOMLocator",
+    "desc": "Indicates a location such as where an error occurred. Returned by DOMError.location.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/DOMLocator"
+  },
+  {
+    "name": "DOMObject",
+    "desc": "The documentation about this has not yet been written; please consider contributing!",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/DOMObject"
+  },
+  {
+    "name": "DOMUserData",
+    "desc": "DOMUserData refers to application data. In JavaScript, it maps directly to Object. It is returned or used as an argument by Node.setUserData(), Node.getUserData(), used as the third argument to handle() on UserDataHandler, and is used or returned by various DOMConfiguration methods.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/DOMUserData"
+  },
+  {
+    "name": "Entity",
+    "desc": "Read-only reference to a DTD entity. Also inherits the methods and properties of Node.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Entity"
+  },
+  {
+    "name": "EntityReference",
+    "desc": "Read-only reference to an entity reference in the DOM tree. Has no properties or methods of its own but inherits from Node.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/EntityReference"
+  },
+  {
+    "name": "NamedNodeMap",
+    "desc": "The NamedNodeMap interface represents a collection of Attr objects. Objects inside a NamedNodeMap are not in any particular order, unlike NodeList, although they may be accessed by an index as in an array.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/NamedNodeMap"
+  },
+  {
+    "name": "NameList",
+    "desc": "Provides an abstraction for an ordered collection of name and namespace value pairs. Items can be accessed by a 0-based index. The DOM spec does not specify how the collection is to be implemented.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/NameList"
+  },
+  {
+    "name": "Notation",
+    "desc": "Represents a DTD notation (read-only). May declare format of an unparsed entity or formally declare the document's processing instruction targets. Inherits methods and properties from Node. Its nodeName is the notation name. Has no parent.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Notation"
+  },
+  {
+    "name": "TypeInfo",
+    "desc": "The documentation about this has not yet been written; please consider contributing!",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/TypeInfo"
+  },
+  {
+    "name": "UserDataHandler",
+    "desc": "When associating user data with a key on a node, Node.setUserData() can also accept, in its third argument, a handler which will be called when the object is cloned, imported, deleted, renamed, or adopted. Per the specification, exceptions should not be thrown in a UserDataHandler. In both document.importNode() and Node.cloneNode(), although user data is not copied over, the handler will be called.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/UserDataHandler"
+  },
+  {
+    "name": "Edit",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model$edit#HTML_interfaces"
+  },
+  {
+    "name": "HTMLDocument",
+    "desc": "HTMLDocument is an abstract interface of the DOM which provides access to special properties and methods not present by default on a regular (XML) document.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLDocument"
+  },
+  {
+    "name": "Document",
+    "desc": "The Document interface represents any web page loaded in the browser and serves as an entry point into the web page's content, which is the DOM tree. The DOM tree includes elements such as <body> and <table>, among many others. It provides functionality which is global to the document, such as obtaining the page's URL and creating new elements in the document.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document"
+  },
+  {
+    "name": "Window",
+    "desc": "The window object represents a window containing a DOM document; the document property points to the DOM document loaded in that window.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window"
+  },
+  {
+    "name": "Style",
+    "desc": "The documentation about this has not yet been written; please consider contributing!",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/style"
+  },
+  {
+    "name": "History",
+    "desc": "The Window.history read-only property returns a reference to the History object, which provides an interface for manipulating the browser session history (pages visited in the tab or frame that the current page is loaded in).",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/history"
+  },
+  {
+    "name": "Selection",
+    "desc": "Calling the Selection.toString() method returns the text contained in the selection, e.g.:",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Selection"
+  },
+  {
+    "name": "HTMLAnchorElement",
+    "desc": "The HTMLAnchorElement interface represents hyperlink elements and provides special properties and methods (beyond those of the regular HTMLElement object interface they also have available to them by inheritance) for manipulating the layout and presentation of such elements.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLAnchorElement"
+  },
+  {
+    "name": "HTMLAppletElement",
+    "desc": "The documentation about this has not yet been written; please consider contributing!",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLAppletElement"
+  },
+  {
+    "name": "HTMLAreaElement",
+    "desc": "The HTMLAreaElement interface provides special properties and methods (beyond those of the regular object HTMLElement interface it also has available to it by inheritance) for manipulating the layout and presentation of area elements.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLAreaElement"
+  },
+  {
+    "name": "HTMLAudioElement",
+    "desc": "The HTMLAudioElement interface provides access to the properties of <audio> elements, as well as methods to manipulate them. It derives from the HTMLMediaElement interface.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLAudioElement"
+  },
+  {
+    "name": "HTMLBaseElement",
+    "desc": "The HTMLBaseElement interface contains the base URI for a document. This object inherits all of the properties and methods as described in the HTMLElement interface.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLBaseElement"
+  },
+  {
+    "name": "HTMLBodyElement",
+    "desc": "The HTMLBodyElement interface provides special properties (beyond those of the regular HTMLElement interface they also inherit) for manipulating body elements.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLBodyElement"
+  },
+  {
+    "name": "HTMLBRElement",
+    "desc": "The HTMLBRElement interface represents a HTML line break element (<br>). It inherits from HTMLElement.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLBRElement"
+  },
+  {
+    "name": "HTMLButtonElement",
+    "desc": "The HTMLButtonElement interface provides properties and methods (beyond the <button> object interface it also has available to them by inheritance) for manipulating the layout and presentation of button elements.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLButtonElement"
+  },
+  {
+    "name": "HTMLCanvasElement",
+    "desc": "The HTMLCanvasElement interface provides properties and methods for manipulating the layout and presentation of canvas elements. The HTMLCanvasElement interface also inherits the properties and methods of the HTMLElement interface.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement"
+  },
+  {
+    "name": "HTMLDataElement",
+    "desc": "The HTMLDataElement interface provides special properties (beyond the regular HTMLElement interface it also has available to it by inheritance) for manipulating <data> elements.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLDataElement"
+  },
+  {
+    "name": "HTMLDataListElement",
+    "desc": "The HTMLDataListElement interface provides special properties (beyond the HTMLElement object interface it also has available to it by inheritance) to manipulate <datalist> elements and their content.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLDataListElement"
+  },
+  {
+    "name": "HTMLDialogElement",
+    "desc": "The HTMLDialogElement interface provides methods to manipulate <dialog> elements. It inherits properties and methods from the HTMLElement interface.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLDialogElement"
+  },
+  {
+    "name": "HTMLDirectoryElement",
+    "desc": "The documentation about this has not yet been written; please consider contributing!",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLDirectoryElement"
+  },
+  {
+    "name": "HTMLDivElement",
+    "desc": "The HTMLDivElement interface provides special properties (beyond the regular HTMLElement interface it also has available to it by inheritance) for manipulating div elements.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLDivElement"
+  },
+  {
+    "name": "HTMLDListElement",
+    "desc": "The HTMLDListElement interface provides special properties (beyond those of the regular HTMLElement interface it also has available to it by inheritance) for manipulating definition list elements.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLDListElement"
+  },
+  {
+    "name": "HTMLElement",
+    "desc": "The HTMLElement interface represents any HTML element. Some elements directly implement this interface, others implement it via an interface that inherits it.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement"
+  },
+  {
+    "name": "HTMLEmbedElement",
+    "desc": "The HTMLEmbedElement interface, which provides special properties (beyond the regular HTMLElement interface it also has available to it by inheritance) for manipulating <embed> elements.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLEmbedElement"
+  },
+  {
+    "name": "HTMLFieldSetElement",
+    "desc": "The HTMLFieldSetElement interface has special properties and methods (beyond the regular HTMLelement interface it also has available to it by inheritance) for manipulating the layout and presentation of field-set elements.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLFieldSetElement"
+  },
+  {
+    "name": "HTMLFontElement",
+    "desc": "The documentation about this has not yet been written; please consider contributing!",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLFontElement"
+  },
+  {
+    "name": "HTMLFormElement",
+    "desc": "The HTMLFormElement interface provides methods to create and modify <form> elements; it inherits from properties and methods of the HTMLElement interface.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLFormElement"
+  },
+  {
+    "name": "HTMLFrameElement",
+    "desc": "The documentation about this has not yet been written; please consider contributing!",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLFrameElement"
+  },
+  {
+    "name": "HTMLFrameSetElement",
+    "desc": "The HTMLFrameSetElement interface provides special properties (beyond those of the regular HTMLElement interface they also inherit) for manipulating <frameset> elements.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLFrameSetElement"
+  },
+  {
+    "name": "HTMLHeadElement",
+    "desc": "The HTMLHeadElement interface contains the descriptive information, or metadata, for a document. This object inherits all of the properties and methods described in the HTMLElement interface.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLHeadElement"
+  },
+  {
+    "name": "HTMLHeadingElement",
+    "desc": "The HTMLHeadingElement interface represents the different heading elements. It inherits methods and properties from the HTMLElement interface.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLHeadingElement"
+  },
+  {
+    "name": "HTMLHtmlElement",
+    "desc": "The HTMLHtmlElement interface serves as the root node for a given HTML document.  This object inherits the properties and methods described in the HTMLElement interface.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLHtmlElement"
+  },
+  {
+    "name": "HTMLHRElement",
+    "desc": "The HTMLHRElement interface provides special properties (beyond those of the HTMLElement interface it also has available to it by inheritance) for manipulating <hr> elements.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLHRElement"
+  },
+  {
+    "name": "HTMLIFrameElement",
+    "desc": "The HTMLIFrameElement interface provides special properties and methods (beyond those of the HTMLElement interface it also has available to it by inheritance) for manipulating the layout and presentation of inline frame elements.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLIFrameElement"
+  },
+  {
+    "name": "HTMLImageElement",
+    "desc": "The HTMLImageElement interface provides special properties and methods  for manipulating the layout and presentation of <img> elements.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement"
+  },
+  {
+    "name": "HTMLInputElement",
+    "desc": "The HTMLInputElement interface provides special properties and methods (beyond the regular HTMLElement interface it also has available to it by inheritance) for manipulating the layout and presentation of input elements.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLInputElement"
+  },
+  {
+    "name": "HTMLKeygenElement",
+    "desc": "Technical review completed.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLKeygenElement"
+  },
+  {
+    "name": "HTMLLabelElement",
+    "desc": "The HTMLLabelElement interface gives access to properties specific to <label> elements. It inherits from HTMLElement.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLLabelElement"
+  },
+  {
+    "name": "HTMLLegendElement",
+    "desc": "The HTMLLegendElement is an interface allowing to access properties of the <legend> elements. It inherits properties and methods from the HTMLElement interface.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLLegendElement"
+  },
+  {
+    "name": "HTMLLIElement",
+    "desc": "The HTMLLIElement interface expose specific properties and methods (beyond those defined by regular HTMLElement interface it also has available to it by inheritance) for manipulating list elements.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLLIElement"
+  },
+  {
+    "name": "HTMLLinkElement",
+    "desc": "The HTMLLinkElement interface represents reference information for external resources and the relationship of those resources to a document and vice-versa. This object inherits all of the properties and methods of the HTMLElement interface.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLLinkElement"
+  },
+  {
+    "name": "HTMLMapElement",
+    "desc": "The HTMLMapElement interface provides special properties and methods (beyond those of the regular object HTMLElement interface it also has available to it by inheritance) for manipulating the layout and presentation of map elements.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLMapElement"
+  },
+  {
+    "name": "HTMLMediaElement",
+    "desc": "The HTMLMediaElement interface adds to HTMLElement the properties and methods needed to support basic media-related capabilities that are common to audio and video. The HTMLVideoElement and HTMLAudioElement elements both inherit this interface.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement"
+  },
+  {
+    "name": "HTMLMenuElement",
+    "desc": "The documentation about this has not yet been written; please consider contributing!",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLMenuElement"
+  },
+  {
+    "name": "HTMLMetaElement",
+    "desc": "The HTMLMetaElement interface contains descriptive metadata about a document. It inherits all of the properties and methods described in the HTMLElement interface.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLMetaElement"
+  },
+  {
+    "name": "HTMLMeterElement",
+    "desc": "The HTML <meter> elements expose the HTMLMeterElement interface, which provides special properties and methods (beyond the HTMLElement object interface they also have available to them by inheritance) for manipulating the layout and presentation of <meter> elements.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLMeterElement"
+  },
+  {
+    "name": "HTMLModElement",
+    "desc": "The HTMLModElement interface provides special properties (beyond the regular methods and properties available through the HTMLElement interface they also have available to them by inheritance) for manipulating modification elements, that is <del> and <ins>.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLModElement"
+  },
+  {
+    "name": "HTMLObjectElement",
+    "desc": "The HTMLObjectElement interface provides special properties and methods (beyond those on the HTMLElement interface it also has available to it by inheritance) for manipulating the layout and presentation of <object> element, representing external resources.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLObjectElement"
+  },
+  {
+    "name": "HTMLOListElement",
+    "desc": "The HTMLOListElement interface provides special properties (beyond those defined on the regular HTMLElement interface it also has available to it by inheritance) for manipulating ordered list elements.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLOListElement"
+  },
+  {
+    "name": "HTMLOptGroupElement",
+    "desc": "The HTMLOptGroupElement interface provides special properties and methods (beyond the regular HTMLElement object interface they also have available to them by inheritance) for manipulating the layout and presentation of <optgroup> elements.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLOptGroupElement"
+  },
+  {
+    "name": "HTMLOptionElement",
+    "desc": "The HTMLOptionElement interface represents <option> elements and inherits all classes and methods of the HTMLElement interface.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLOptionElement"
+  },
+  {
+    "name": "HTMLOutputElement",
+    "desc": "The HTMLOutputElement interface provides properties and methods (beyond those inherited from HTMLElement) for manipulating the layout and presentation of <output> elements.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLOutputElement"
+  },
+  {
+    "name": "HTMLParagraphElement",
+    "desc": "The HTMLParagraphElement interface provides special properties (beyond those of the regular HTMLElement object interface it inherits) for manipulating <p> elements.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLParagraphElement"
+  },
+  {
+    "name": "HTMLParamElement",
+    "desc": "The HTMLParamElement interface provides special properties (beyond those of the regular HTMLElement object interface it inherits) for manipulating <param> elements, representing a pair of a key and a value that acts as a parameter for an <object> element.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLParamElement"
+  },
+  {
+    "name": "HTMLPreElement",
+    "desc": "The HTMLPreElement interface expose specific properties and methods (beyond those defined by regular HTMLElement interface it also has available to it by inheritance) for manipulating block of preformatted text.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLPreElement"
+  },
+  {
+    "name": "HTMLProgressElement",
+    "desc": "The HTMLProgressElement interface provides special properties and methods (beyond the regular HTMLElement interface it also has available to it by inheritance) for manipulating the layout and presentation of <progress> elements.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLProgressElement"
+  },
+  {
+    "name": "HTMLQuoteElement",
+    "desc": "The HTMLQuoteElement interface provides special properties and methods (beyond the regular HTMLElement interface it also has available to it by inheritance) for manipulating quoting elements, like <blockquote> and <q>, but not the <cite> element.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLQuoteElement"
+  },
+  {
+    "name": "HTMLScriptElement",
+    "desc": "HTML script elements expose the HTMLScriptElement interface, which provides special properties and methods (beyond the regular HTMLElement object interface they also have available to them by inheritance) for manipulating the layout and presentation of <script> elements.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLScriptElement"
+  },
+  {
+    "name": "HTMLSelectElement",
+    "desc": "The HTMLSelectElement interface represents a <select> HTML Element. These elements also share all of the properties and methods of other HTML elements via the HTMLElement interface.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLSelectElement"
+  },
+  {
+    "name": "HTMLSourceElement",
+    "desc": "The HTMLSourceElement interface provides special properties (beyond the regular HTMLElement object interface it also has available to it by inheritance) for manipulating <source> elements.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLSourceElement"
+  },
+  {
+    "name": "HTMLSpanElement",
+    "desc": "The HTMLSpanElement interface represents a <span> element and derives from the HTMLElement interface, but without implementing any additional properties or methods.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLSpanElement"
+  },
+  {
+    "name": "HTMLStyleElement",
+    "desc": "The HTMLStyleElement interface represents a <style> element. It inherits properties and methods from its parent, HTMLElement, and from LinkStyle.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLStyleElement"
+  },
+  {
+    "name": "HTMLTableElement",
+    "desc": "The HTMLTableElement interface provides special properties and methods (beyond the regular HTMLElement object interface it also has available to it by inheritance) for manipulating the layout and presentation of tables in an HTML document.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLTableElement"
+  },
+  {
+    "name": "HTMLTableCaptionElement",
+    "desc": "The HTMLTableCaptionElement interface special properties (beyond the regular HTMLElement interface it also has available to it by inheritance) for manipulating table caption elements.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLTableCaptionElement"
+  },
+  {
+    "name": "HTMLTableCellElement",
+    "desc": "The HTMLTableCellElement interface provides special properties and methods (beyond the regular HTMLElement interface it also has available to it by inheritance) for manipulating the layout and presentation of table cells, either header or data cells, in an HTML document.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLTableCellElement"
+  },
+  {
+    "name": "HTMLTableDataCellElement",
+    "desc": "The HTMLTableDataCellElement interface provides special properties and methods (beyond the regular HTMLTableCellElement and HTMLElement interfaces it also has available to it by inheritance) for manipulating the layout and presentation of table data cells in an HTML document.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLTableDataCellElement"
+  },
+  {
+    "name": "HTMLTableHeaderCellElement",
+    "desc": "The HTMLTableHeaderCellElement interface provides special properties and methods (beyond the regular HTMLTableCellElement and HTMLElement interfaces it also has available to it by inheritance) for manipulating the layout and presentation of table header cells in an HTML document.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLTableHeaderCellElement"
+  },
+  {
+    "name": "HTMLTableColElement",
+    "desc": "The HTMLTableColElement interface provides special properties (beyond the HTMLElement interface it also has available to it inheritance) for manipulating single or grouped table column elements.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLTableColElement"
+  },
+  {
+    "name": "HTMLTableRowElement",
+    "desc": "The HTMLTableRowElement interface provides special properties and methods (beyond the HTMLElement interface it also has available to it by inheritance) for manipulating the layout and presentation of rows in an HTML table.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLTableRowElement"
+  },
+  {
+    "name": "HTMLTableSectionElement",
+    "desc": "Technical review completed.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLTableSectionElement"
+  },
+  {
+    "name": "HTMLTextAreaElement",
+    "desc": "The HTMLTextAreaElement interface, which provides special properties and methods (beyond the regular HTMLElement interface it also has available to it by inheritance) for manipulating the layout and presentation of <textarea> elements.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLTextAreaElement"
+  },
+  {
+    "name": "HTMLTimeElement",
+    "desc": "The HTMLTimeElement interface provides special properties (beyond the regular HTMLElement interface it also has available to it by inheritance) for manipulating <time> elements.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLTimeElement"
+  },
+  {
+    "name": "HTMLTitleElement",
+    "desc": "The HTMLTitleElement interface contains the title for a document. This element inherits all of the properties and methods of the HTMLElement interface.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLTitleElement"
+  },
+  {
+    "name": "HTMLTrackElement",
+    "desc": "The HTMLTrackElement interface provides access to the properties of <track> elements, as well as methods to manipulate them.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLTrackElement"
+  },
+  {
+    "name": "HTMLUListElement",
+    "desc": "The HTMLUListElement interface provides special properties (beyond those defined on the regular HTMLElement interface it also has available to it by inheritance) for manipulating unordered list elements.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLUListElement"
+  },
+  {
+    "name": "HTMLUnknownElement",
+    "desc": "The HTMLUnknownElement interface represents an invalid HTML element and derives from the HTMLElement interface, but without implementing any additional properties or methods.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLUnknownElement"
+  },
+  {
+    "name": "HTMLVideoElement",
+    "desc": "The HTMLVideoElement interface provides special properties and methods for manipulating video objects. It also inherits properties and methods of HTMLMediaElement and HTMLElement.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLVideoElement"
+  },
+  {
+    "name": "CanvasRenderingContext2D",
+    "desc": "To get an object of this interface, call getContext() on a <canvas> element, supplying \"2d\" as the argument:",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D"
+  },
+  {
+    "name": "CanvasGradient",
+    "desc": "The CanvasGradient interface represents an opaque object describing a gradient. It is returned by the methods CanvasRenderingContext2D.createLinearGradient() or CanvasRenderingContext2D.createRadialGradient().",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/CanvasGradient"
+  },
+  {
+    "name": "CanvasPattern",
+    "desc": "The CanvasPattern interface represents an opaque object describing a pattern, based on an image, a canvas or a video, created by the CanvasRenderingContext2D.createPattern() method.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/CanvasPattern"
+  },
+  {
+    "name": "TextMetrics",
+    "desc": "The TextMetrics interface represents the dimension of a text in the canvas, as created by the CanvasRenderingContext2D.measureText() method.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/TextMetrics"
+  },
+  {
+    "name": "ImageData",
+    "desc": "The ImageData interface represents the underlying pixel data of an area of a <canvas> element. It is created using the ImageData() constructor or creator methods on the CanvasRenderingContext2D object associated with a canvas: createImageData() and getImageData(). It can also be used to set a part of the canvas by using putImageData().",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/ImageData"
+  },
+  {
+    "name": "CanvasPixelArray",
+    "desc": "The Uint8ClampedArray typed array represents an array of 8-bit unsigned integers clamped to 0-255. The contents are initialized to 0. Once established, you can reference elements in the array using the object's methods, or using standard array index syntax (that is, using bracket notation).",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/CanvasPixelArray"
+  },
+  {
+    "name": "NotifyAudioAvailableEvent",
+    "desc": "The documentation about this has not yet been written; please consider contributing!",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/NotifyAudioAvailableEvent"
+  },
+  {
+    "name": "HTMLAllCollection",
+    "desc": "The documentation about this has not yet been written; please consider contributing!",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLAllCollection"
+  },
+  {
+    "name": "HTMLFormControlsCollection",
+    "desc": "The HTMLFormControlsCollection interface represents a collection of HTML form control elements. It replaces one method of HTMLCollection.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLFormControlsCollection"
+  },
+  {
+    "name": "HTMLOptionsCollection",
+    "desc": "HTMLOptionsCollection is an interface representing a collection of HTML option elements (in document order) and offers methods and properties for traversing the list as well as optionally altering its items. This type is returned solely by the \"options\" property of select.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLOptionsCollection"
+  },
+  {
+    "name": "HTMLPropertiesCollection",
+    "desc": "The documentation about this has not yet been written; please consider contributing!",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLPropertiesCollection"
+  },
+  {
+    "name": "DOMStringMap",
+    "desc": "Used by the dataset HTML attribute to represent data for custom attributes added to elements.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/DOMStringMap"
+  },
+  {
+    "name": "RadioNodeList",
+    "desc": "The RadioNodeList interface represents a collection of elements in a <form> or a <fieldset> element.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/RadioNodeList"
+  },
+  {
+    "name": "MediaError",
+    "desc": "The MediaError interface represents an error associated to a media, like a HTMLMediaElement.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/MediaError"
+  },
+  {
+    "name": "HTMLBaseFontElement",
+    "desc": "The HTMLBaseFontElement interface provides special properties (beyond the regular HTMLElement interface it also has available to it by inheritance) for manipulating <basefont> elements.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLBaseFontElement"
+  },
+  {
+    "name": "HTMLIsIndexElement",
+    "desc": "The HTMLIsIndexElement interface provides special properties (beyond the regular HTMLElement interface it also has available to it by inheritance) for manipulating <isindex> elements.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLIsIndexElement"
+  },
+  {
+    "name": "Edit",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model$edit#SVG_interfaces"
+  },
+  {
+    "name": "SVGAElement",
+    "desc": "The SVGAElement interface provides access to the properties of <a> element, as well as methods to manipulate them.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGAElement"
+  },
+  {
+    "name": "SVGAltGlyphElement",
+    "desc": "  ",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGAltGlyphElement"
+  },
+  {
+    "name": "SVGAltGlyphDefElement",
+    "desc": "The documentation about this has not yet been written; please consider contributing!",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGAltGlyphDefElement"
+  },
+  {
+    "name": "SVGAltGlyphItemElement",
+    "desc": "The documentation about this has not yet been written; please consider contributing!",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGAltGlyphItemElement"
+  },
+  {
+    "name": "SVGAnimationElement",
+    "desc": "The SVGAnimationElement interface is the base interface for all of the animation element interfaces: SVGAnimateElement, SVGSetElement, SVGAnimateColorElement, SVGAnimateMotionElement and SVGAnimateTransformElement.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGAnimationElement"
+  },
+  {
+    "name": "SVGAnimateElement",
+    "desc": "The SVGAnimateElement interface corresponds to the <animate> element.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGAnimateElement"
+  },
+  {
+    "name": "SVGAnimateColorElement",
+    "desc": "The SVGAnimateColorElement interface corresponds to the <animateColor> element.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGAnimateColorElement"
+  },
+  {
+    "name": "SVGAnimateMotionElement",
+    "desc": "The SVGAnimateMotionElement interface corresponds to the <animateMotion> element.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGAnimateMotionElement"
+  },
+  {
+    "name": "SVGAnimateTransformElement",
+    "desc": "The SVGAnimateTransformElement interface corresponds to the <animateTransform> element.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGAnimateTransformElement"
+  },
+  {
+    "name": "SVGCircleElement",
+    "desc": "The SVGCircleElement interface is an interface for the <circle> element. The circle element is defined by the cx and cy attributes, that denote the coordinates of the centre of the circle. It also has a radius attribute r that denotes the radius of the circle. The radius value must be positive to allow the successful rendering of the element.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGCircleElement"
+  },
+  {
+    "name": "SVGClipPathElement",
+    "desc": "The SVGClipPathElement interface provides access to the properties of <clipPath> elements, as well as methods to manipulate them.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGClipPathElement"
+  },
+  {
+    "name": "SVGColorProfileElement",
+    "desc": "The documentation about this has not yet been written; please consider contributing!",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGColorProfileElement"
+  },
+  {
+    "name": "SVGComponentTransferFunctionElement",
+    "desc": "The documentation about this has not yet been written; please consider contributing!",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGComponentTransferFunctionElement"
+  },
+  {
+    "name": "SVGCursorElement",
+    "desc": "The SVGCursorElement interface provides access to the properties of <cursor> elements, as well as methods to manipulate them.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGCursorElement"
+  },
+  {
+    "name": "SVGDefsElement",
+    "desc": "The SVGDefsElement interface corresponds to the <defs> element.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGDefsElement"
+  },
+  {
+    "name": "SVGDescElement",
+    "desc": "The SVGDescElement interface corresponds to the <desc> element.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGDescElement"
+  },
+  {
+    "name": "SVGElement",
+    "desc": "All of the SVG DOM interfaces that correspond directly to elements in the SVG language derive from the SVGElement interface.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGElement"
+  },
+  {
+    "name": "SVGEllipseElement",
+    "desc": "The SVGEllipseElement interface provides access to the properties of <ellipse> elements, as well as methods to manipulate them.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGEllipseElement"
+  },
+  {
+    "name": "SVGFEBlendElement",
+    "desc": "The documentation about this has not yet been written; please consider contributing!",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGFEBlendElement"
+  },
+  {
+    "name": "SVGFEColorMatrixElement",
+    "desc": "The documentation about this has not yet been written; please consider contributing!",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGFEColorMatrixElement"
+  },
+  {
+    "name": "SVGFEComponentTransferElement",
+    "desc": "The documentation about this has not yet been written; please consider contributing!",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGFEComponentTransferElement"
+  },
+  {
+    "name": "SVGFECompositeElement",
+    "desc": "The documentation about this has not yet been written; please consider contributing!",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGFECompositeElement"
+  },
+  {
+    "name": "SVGFEConvolveMatrixElement",
+    "desc": "The documentation about this has not yet been written; please consider contributing!",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGFEConvolveMatrixElement"
+  },
+  {
+    "name": "SVGFEDiffuseLightingElement",
+    "desc": "The documentation about this has not yet been written; please consider contributing!",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGFEDiffuseLightingElement"
+  },
+  {
+    "name": "SVGFEDisplacementMapElement",
+    "desc": "The documentation about this has not yet been written; please consider contributing!",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGFEDisplacementMapElement"
+  },
+  {
+    "name": "SVGFEDistantLightElement",
+    "desc": "The documentation about this has not yet been written; please consider contributing!",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGFEDistantLightElement"
+  },
+  {
+    "name": "SVGFEFloodElement",
+    "desc": "The documentation about this has not yet been written; please consider contributing!",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGFEFloodElement"
+  },
+  {
+    "name": "SVGFEGaussianBlurElement",
+    "desc": "The documentation about this has not yet been written; please consider contributing!",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGFEGaussianBlurElement"
+  },
+  {
+    "name": "SVGFEImageElement",
+    "desc": "The documentation about this has not yet been written; please consider contributing!",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGFEImageElement"
+  },
+  {
+    "name": "SVGFEMergeElement",
+    "desc": "The documentation about this has not yet been written; please consider contributing!",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGFEMergeElement"
+  },
+  {
+    "name": "SVGFEMergeNodeElement",
+    "desc": "The documentation about this has not yet been written; please consider contributing!",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGFEMergeNodeElement"
+  },
+  {
+    "name": "SVGFEMorphologyElement",
+    "desc": "The documentation about this has not yet been written; please consider contributing!",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGFEMorphologyElement"
+  },
+  {
+    "name": "SVGFEOffsetElement",
+    "desc": "The documentation about this has not yet been written; please consider contributing!",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGFEOffsetElement"
+  },
+  {
+    "name": "SVGFEPointLightElement",
+    "desc": "The documentation about this has not yet been written; please consider contributing!",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGFEPointLightElement"
+  },
+  {
+    "name": "SVGFESpecularLightingElement",
+    "desc": "The documentation about this has not yet been written; please consider contributing!",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGFESpecularLightingElement"
+  },
+  {
+    "name": "SVGFESpotLightElement",
+    "desc": "The documentation about this has not yet been written; please consider contributing!",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGFESpotLightElement"
+  },
+  {
+    "name": "SVGFETileElement",
+    "desc": "The documentation about this has not yet been written; please consider contributing!",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGFETileElement"
+  },
+  {
+    "name": "SVGFETurbulenceElement",
+    "desc": "The documentation about this has not yet been written; please consider contributing!",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGFETurbulenceElement"
+  },
+  {
+    "name": "SVGFEFuncRElement",
+    "desc": "The documentation about this has not yet been written; please consider contributing!",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGFEFuncRElement"
+  },
+  {
+    "name": "SVGFEFuncGElement",
+    "desc": "The documentation about this has not yet been written; please consider contributing!",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGFEFuncGElement"
+  },
+  {
+    "name": "SVGFEFuncBElement",
+    "desc": "The documentation about this has not yet been written; please consider contributing!",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGFEFuncBElement"
+  },
+  {
+    "name": "SVGFEFuncAElement",
+    "desc": "The documentation about this has not yet been written; please consider contributing!",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGFEFuncAElement"
+  },
+  {
+    "name": "SVGFilterElement",
+    "desc": "The SVGFilterElement interface provides access to the properties of <filter> elements, as well as methods to manipulate them.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGFilterElement"
+  },
+  {
+    "name": "SVGFilterPrimitiveStandardAttributes",
+    "desc": "The documentation about this has not yet been written; please consider contributing!",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGFilterPrimitiveStandardAttributes"
+  },
+  {
+    "name": "SVGFontElement",
+    "desc": "The SVGFontElement interface corresponds to the <font> elements.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGFontElement"
+  },
+  {
+    "name": "SVGFontFaceElement",
+    "desc": "The SVGFontFaceElement interface corresponds to the <font-face> elements.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGFontFaceElement"
+  },
+  {
+    "name": "SVGFontFaceFormatElement",
+    "desc": "The SVGFontFaceFormatElement interface corresponds to the <font-face-format> elements.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGFontFaceFormatElement"
+  },
+  {
+    "name": "SVGFontFaceNameElement",
+    "desc": "The SVGFontFaceNameElement interface corresponds to the <font-face-name> elements.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGFontFaceNameElement"
+  },
+  {
+    "name": "SVGFontFaceSrcElement",
+    "desc": "The SVGFontFaceSrcElement interface corresponds to the <font-face-src> elements.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGFontFaceSrcElement"
+  },
+  {
+    "name": "SVGFontFaceUriElement",
+    "desc": "The SVGFontFaceUriElement interface corresponds to the <font-face-uri> elements.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGFontFaceUriElement"
+  },
+  {
+    "name": "SVGForeignObjectElement",
+    "desc": "The SVGForeignObjectElement interface provides access to the properties of <foreignObject> elements, as well as methods to manipulate them.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGForeignObjectElement"
+  },
+  {
+    "name": "SVGGElement",
+    "desc": "The SVGGElement interface corresponds to the <g> element.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGGElement"
+  },
+  {
+    "name": "SVGGlyphElement",
+    "desc": "The SVGGlyphElement interface corresponds to the <glyph> elements.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGGlyphElement"
+  },
+  {
+    "name": "SVGGlyphRefElement",
+    "desc": "The documentation about this has not yet been written; please consider contributing!",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGGlyphRefElement"
+  },
+  {
+    "name": "SVGGradientElement",
+    "desc": "The SVGGradient interface is a base interface used by SVGLinearGradientElement and SVGRadialGradientElement.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGGradientElement"
+  },
+  {
+    "name": "SVGHKernElement",
+    "desc": "The SVGHKernElement interface corresponds to the <hkern> elements.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGHKernElement"
+  },
+  {
+    "name": "SVGImageElement",
+    "desc": "The SVGImageElement interface corresponds to the <image> element.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGImageElement"
+  },
+  {
+    "name": "SVGLinearGradientElement",
+    "desc": "The SVGLinearGradientElement interface corresponds to the <linearGradient> element.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGLinearGradientElement"
+  },
+  {
+    "name": "SVGLineElement",
+    "desc": "The SVGLineElement interface provides access to the properties of <line> elements, as well as methods to manipulate them.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGLineElement"
+  },
+  {
+    "name": "SVGMarkerElement",
+    "desc": "The documentation about this has not yet been written; please consider contributing!",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGMarkerElement"
+  },
+  {
+    "name": "SVGMaskElement",
+    "desc": "The SVGMaskElement interface provides access to the properties of <mask> elements, as well as methods to manipulate them.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGMaskElement"
+  },
+  {
+    "name": "SVGMetadataElement",
+    "desc": "The documentation about this has not yet been written; please consider contributing!",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGMetadataElement"
+  },
+  {
+    "name": "SVGMissingGlyphElement",
+    "desc": "The SVGMissingGlyphElement interface corresponds to the <missing-glyph> elements.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGMissingGlyphElement"
+  },
+  {
+    "name": "SVGMPathElement",
+    "desc": "The SVGMPathElement interface corresponds to the <mpath> element.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGMPathElement"
+  },
+  {
+    "name": "SVGPathElement",
+    "desc": "The SVGPathElement interface corresponds to the <path> element.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGPathElement"
+  },
+  {
+    "name": "SVGPatternElement",
+    "desc": "The SVGPatternElement interface corresponds to the <pattern> element.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGPatternElement"
+  },
+  {
+    "name": "SVGPolylineElement",
+    "desc": "The SVGPolylineElement interface provides access to the properties of <polyline> elements, as well as methods to manipulate them.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGPolylineElement"
+  },
+  {
+    "name": "SVGPolygonElement",
+    "desc": "The SVGPolygonElement interface provides access to the properties of <polygon> elements, as well as methods to manipulate them.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGPolygonElement"
+  },
+  {
+    "name": "SVGRadialGradientElement",
+    "desc": "The SVGRadialGradientElement interface corresponds to the <radialGradient> element.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGRadialGradientElement"
+  },
+  {
+    "name": "SVGRectElement",
+    "desc": "The SVGRectElement interface provides access to the properties of <rect> elements, as well as methods to manipulate them.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGRectElement"
+  },
+  {
+    "name": "SVGScriptElement",
+    "desc": "The SVGScriptElement interface corresponds to the SVG <script> element.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGScriptElement"
+  },
+  {
+    "name": "SVGSetElement",
+    "desc": "The SVGSetElement interface corresponds to the <set> element.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGSetElement"
+  },
+  {
+    "name": "SVGStopElement",
+    "desc": "The SVGStopElement interface corresponds to the <stop> element.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGStopElement"
+  },
+  {
+    "name": "SVGStyleElement",
+    "desc": "The SVGStyleElement interface corresponds to the SVG <style> element.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGStyleElement"
+  },
+  {
+    "name": "SVGSVGElement",
+    "desc": "The SVGSVGElement interface provides access to the properties of <svg> elements, as well as methods to manipulate them. This interface contains also various miscellaneous commonly-used utility methods, such as matrix operations and the ability to control the time of redraw on visual rendering devices.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGSVGElement"
+  },
+  {
+    "name": "SVGSwitchElement",
+    "desc": "The SVGSwitchElement interface corresponds to the <switch> element.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGSwitchElement"
+  },
+  {
+    "name": "SVGSymbolElement",
+    "desc": "The SVGSymbolElement interface corresponds to the <symbol> element.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGSymbolElement"
+  },
+  {
+    "name": "SVGTextElement",
+    "desc": "The SVGTextElement interface corresponds to the <text> elements.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGTextElement"
+  },
+  {
+    "name": "SVGTextPathElement",
+    "desc": "The documentation about this has not yet been written; please consider contributing!",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGTextPathElement"
+  },
+  {
+    "name": "SVGTitleElement",
+    "desc": "The SVGTitleElement interface corresponds to the <title> element.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGTitleElement"
+  },
+  {
+    "name": "SVGTRefElement",
+    "desc": "The SVGTRefElement interface provides access to the properties of <tref> elements, as well as methods to manipulate them.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGTRefElement"
+  },
+  {
+    "name": "SVGTSpanElement",
+    "desc": "The SVGTSpanElement interface provides access to the properties of <tspan> elements, as well as methods to manipulate them.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGTSpanElement"
+  },
+  {
+    "name": "SVGUseElement",
+    "desc": "The SVGUseElement interface provides access to the properties of <use> elements, as well as methods to manipulate them.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGUseElement"
+  },
+  {
+    "name": "SVGViewElement",
+    "desc": "The SVGViewElement interface provides access to the properties of <view> elements, as well as methods to manipulate them.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGViewElement"
+  },
+  {
+    "name": "SVGVKernElement",
+    "desc": "The SVGVKernElement interface corresponds to the <vkern> elements.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGVKernElement"
+  },
+  {
+    "name": "SVGLengthList",
+    "desc": "The SVGLengthList defines a list of SVGLength objects.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGLengthList"
+  },
+  {
+    "name": "SVGNumberList",
+    "desc": "The SVGNumberList defines a list of SVGNumber objects.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGNumberList"
+  },
+  {
+    "name": "SVGPathSegList",
+    "desc": "The documentation about this has not yet been written; please consider contributing!",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGPathSegList"
+  },
+  {
+    "name": "SVGPointList",
+    "desc": "The documentation about this has not yet been written; please consider contributing!",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGPointList"
+  },
+  {
+    "name": "SVGAngle",
+    "desc": "The SVGAngle interface correspond to the <angle> basic data type.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGAngle"
+  },
+  {
+    "name": "SVGColor",
+    "desc": "The documentation about this has not yet been written; please consider contributing!",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGColor"
+  },
+  {
+    "name": "SVGICCColor",
+    "desc": "The documentation about this has not yet been written; please consider contributing!",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGICCColor"
+  },
+  {
+    "name": "SVGElementInstance",
+    "desc": "The documentation about this has not yet been written; please consider contributing!",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGElementInstance"
+  },
+  {
+    "name": "SVGElementInstanceList",
+    "desc": "The documentation about this has not yet been written; please consider contributing!",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGElementInstanceList"
+  },
+  {
+    "name": "SVGLength",
+    "desc": "The SVGLength interface correspond to the <length> basic data type.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGLength"
+  },
+  {
+    "name": "SVGLengthList",
+    "desc": "The SVGLengthList defines a list of SVGLength objects.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGLengthList"
+  },
+  {
+    "name": "SVGMatrix",
+    "desc": "Many of SVG's graphics operations utilize 2x3 matrices of the form:",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGMatrix"
+  },
+  {
+    "name": "SVGNumber",
+    "desc": "The SVGNumber interface correspond to the <number> basic data type.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGNumber"
+  },
+  {
+    "name": "SVGNumberList",
+    "desc": "The SVGNumberList defines a list of SVGNumber objects.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGNumberList"
+  },
+  {
+    "name": "SVGPaint",
+    "desc": "The documentation about this has not yet been written; please consider contributing!",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGPaint"
+  },
+  {
+    "name": "SVGPoint",
+    "desc": "An SVGPoint represents a 2D or 3D point in the SVG coordinate system.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGPoint"
+  },
+  {
+    "name": "SVGPointList",
+    "desc": "The documentation about this has not yet been written; please consider contributing!",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGPointList"
+  },
+  {
+    "name": "SVGPreserveAspectRatio",
+    "desc": "The SVGPreserveAspectRatio interface corresponds to the preserveAspectRatio attribute, which is available for some of SVG's elements.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGPreserveAspectRatio"
+  },
+  {
+    "name": "SVGRect",
+    "desc": "The SVGRect represents a rectangle. Rectangles consist of <code>x</code> and <code>y</code> coordinate pair identifying a minimum X value, a minimum Y value, and a width and height, which are constrained to be non-negative.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGRect"
+  },
+  {
+    "name": "SVGStringList",
+    "desc": "The SVGStringList defines a list of DOMString objects.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGStringList"
+  },
+  {
+    "name": "SVGTransform",
+    "desc": "SVGTransform is the interface for one of the component transformations within an SVGTransformList; thus, an SVGTransform object corresponds to a single component (e.g., scale(…) or matrix(…)) within a transform attribute.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGTransform"
+  },
+  {
+    "name": "SVGTransformList",
+    "desc": "The SVGTransformList defines a list of SVGTransform objects.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGTransformList"
+  },
+  {
+    "name": "SVGAnimatedAngle",
+    "desc": "The SVGAnimatedAngle interface is used for attributes of basic type <angle> which can be animated.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGAnimatedAngle"
+  },
+  {
+    "name": "SVGAnimatedBoolean",
+    "desc": "The SVGAnimatedBoolean interface is used for attributes of type boolean which can be animated.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGAnimatedBoolean"
+  },
+  {
+    "name": "SVGAnimatedEnumeration",
+    "desc": "The SVGAnimatedEnumeration interface is used for attributes whose value must be a constant from a particular enumeration and which can be animated.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGAnimatedEnumeration"
+  },
+  {
+    "name": "SVGAnimatedInteger",
+    "desc": "The SVGAnimatedInteger interface is used for attributes of basic type <integer> which can be animated.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGAnimatedInteger"
+  },
+  {
+    "name": "SVGAnimatedLength",
+    "desc": "The SVGAnimatedLength interface is used for attributes of basic type <length> which can be animated.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGAnimatedLength"
+  },
+  {
+    "name": "SVGAnimatedLengthList",
+    "desc": "The SVGAnimatedLengthList interface is used for attributes of type SVGLengthList which can be animated.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGAnimatedLengthList"
+  },
+  {
+    "name": "SVGAnimatedNumber",
+    "desc": "The SVGAnimatedNumber interface is used for attributes of basic type <Number> which can be animated.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGAnimatedNumber"
+  },
+  {
+    "name": "SVGAnimatedNumberList",
+    "desc": "The SVGAnimatedNumber interface is used for attributes which take a list of numbers and which can be animated.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGAnimatedNumberList"
+  },
+  {
+    "name": "SVGAnimatedPreserveAspectRatio",
+    "desc": "The SVGAnimatedPreserveAspectRatio interface is used for attributes of type SVGPreserveAspectRatio which can be animated.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGAnimatedPreserveAspectRatio"
+  },
+  {
+    "name": "SVGAnimatedRect",
+    "desc": "The SVGAnimatedRect interface is used for attributes of basic SVGRect which can be animated.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGAnimatedRect"
+  },
+  {
+    "name": "SVGAnimatedString",
+    "desc": "The SVGAnimatedString interface represent string attributes which can be animated from each SVG declaration. You need to create SVG attribute before doing anything else, Everything should be decalre inside this.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGAnimatedString"
+  },
+  {
+    "name": "SVGAnimatedTransformList",
+    "desc": "The SVGAnimatedTransformList interface is used for attributes which take a list of numbers and which can be animated.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGAnimatedTransformList"
+  },
+  {
+    "name": "ElementTimeControl",
+    "desc": "The documentation about this has not yet been written; please consider contributing!",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/ElementTimeControl"
+  },
+  {
+    "name": "TimeEvent",
+    "desc": "The documentation about this has not yet been written; please consider contributing!",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/TimeEvent"
+  },
+  {
+    "name": "SVGAnimatedPathData",
+    "desc": "The documentation about this has not yet been written; please consider contributing!",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGAnimatedPathData"
+  },
+  {
+    "name": "SVGAnimatedPoints",
+    "desc": "The SVGAnimatedPoints interface supports elements which have a points attribute which holds a list of coordinate values and which support the ability to animate that attribute.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGAnimatedPoints"
+  },
+  {
+    "name": "SVGColorProfileRule",
+    "desc": "The documentation about this has not yet been written; please consider contributing!",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGColorProfileRule"
+  },
+  {
+    "name": "SVGCSSRule",
+    "desc": "The documentation about this has not yet been written; please consider contributing!",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGCSSRule"
+  },
+  {
+    "name": "SVGExternalResourcesRequired",
+    "desc": "The documentation about this has not yet been written; please consider contributing!",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGExternalResourcesRequired"
+  },
+  {
+    "name": "SVGFitToViewBox",
+    "desc": "The documentation about this has not yet been written; please consider contributing!",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGFitToViewBox"
+  },
+  {
+    "name": "SVGLangSpace",
+    "desc": "The documentation about this has not yet been written; please consider contributing!",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGLangSpace"
+  },
+  {
+    "name": "SVGLocatable",
+    "desc": "The documentation about this has not yet been written; please consider contributing!",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGLocatable"
+  },
+  {
+    "name": "SVGRenderingIntent",
+    "desc": "The documentation about this has not yet been written; please consider contributing!",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGRenderingIntent"
+  },
+  {
+    "name": "SVGStylable",
+    "desc": "The SVGStylable interface is implemented on all objects corresponding to SVG elements that can have style, class and presentation attributes specified on them.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGStylable"
+  },
+  {
+    "name": "SVGTests",
+    "desc": "Interface SVGTests defines an interface which applies to all elements which have attributes requiredFeatures, requiredExtensions and systemLanguage.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGTests"
+  },
+  {
+    "name": "SVGTextContentElement",
+    "desc": "The documentation about this has not yet been written; please consider contributing!",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGTextContentElement"
+  },
+  {
+    "name": "SVGTextPositioningElement",
+    "desc": "The SVGTextPositioningElement interface is inherited by text-related interfaces: SVGTextElement, SVGTSpanElement, SVGTRefElement and SVGAltGlyphElement.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGTextPositioningElement"
+  },
+  {
+    "name": "SVGTransformable",
+    "desc": "Interface SVGTransformable contains properties and methods that apply to all elements which have attribute transform.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGTransformable"
+  },
+  {
+    "name": "SVGUnitTypes",
+    "desc": "The documentation about this has not yet been written; please consider contributing!",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGUnitTypes"
+  },
+  {
+    "name": "SVGURIReference",
+    "desc": "The documentation about this has not yet been written; please consider contributing!",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGURIReference"
+  },
+  {
+    "name": "SVGViewSpec",
+    "desc": "The documentation about this has not yet been written; please consider contributing!",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGViewSpec"
+  },
+  {
+    "name": "SVGZoomAndPan",
+    "desc": "The documentation about this has not yet been written; please consider contributing!",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/SVGZoomAndPan"
+  },
+  {
+    "name": "Events and the DOM",
+    "desc": "This chapter describes the DOM Event Model. The Event interface itself is described, as well as the interfaces for event registration on nodes in the DOM, and event listeners, and several longer examples that show how the various event interfaces relate to one another.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Events"
+  },
+  {
+    "name": "Examples of web and XML development using the DOM",
+    "desc": "This chapter provides some longer examples of web and XML development using the DOM. Wherever possible, the examples use common APIs, tricks, and patterns in JavaScript for manipulating the document object.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Examples"
+  },
+  {
+    "name": "How to create a DOM tree",
+    "desc": "This page describes how to use the DOM Core API in JavaScript to create and modify DOM objects. It applies to all Gecko-based applications (such as Firefox) both in privileged (extensions) and unprivileged (web pages) code.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document_object_model/How_to_create_a_DOM_tree"
+  },
+  {
+    "name": "Introduction to the DOM",
+    "desc": "This section provides a brief conceptual introduction to the DOM: what it is, how it provides structure for HTML and XML documents, how you can access it, and how this API presents the reference information and examples.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction"
+  },
+  {
+    "name": "Locating DOM elements using selectors",
+    "desc": "The Selectors API provides methods that make it quick and easy to retrieve Element nodes from the DOM by matching against a set of selectors. This is much faster than past techniques, wherein it was necessary to, for example, use a loop in JavaScript code to locate the specific items you needed to find.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document_object_model/Locating_DOM_elements_using_selectors"
+  },
+  {
+    "name": "Traversing an HTML table with JavaScript and DOM Interfaces",
+    "desc": "This article is an overview of some powerful, fundamental DOM level 1 methods and how to use them from JavaScript. You will learn how to create, access and control, and remove HTML elements dynamically. The DOM methods presented here are not specific to HTML; they also apply to XML. The demonstrations provided here will work fine in any modern browser, including all versions of Firefox and IE 5+.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Traversing_an_HTML_table_with_JavaScript_and_DOM_Interfaces"
+  },
+  {
+    "name": "Using the W3C DOM Level 1 Core",
+    "desc": "The W3C's DOM Level 1 Core is a powerful object model for changing the content tree of documents. It is supported in all major browsers including Mozilla Firefox and Microsoft Internet Explorer. It is a powerful base for scripting on the web.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document_object_model/Using_the_W3C_DOM_Level_1_Core"
+  },
+  {
+    "name": "Whitespace in the DOM",
+    "desc": "The presence of whitespace in the DOM can make manipulation of the content tree difficult in unforeseen ways. In Mozilla, all whitespace in the text content of the original document is represented in the DOM (this does not include whitespace within tags). (This is needed internally so that the editor can preserve formatting of documents and so that white-space: pre in CSS will work.) This means that:",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Whitespace_in_the_DOM"
+  },
+  {
+    "name": "Interfaces",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model#"
+  },
+  {
+    "name": "Attr",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Attr"
+  },
+  {
+    "name": "ByteString",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/ByteString"
+  },
+  {
+    "name": "CDATASection",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/CDATASection"
+  },
+  {
+    "name": "CharacterData",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/CharacterData"
+  },
+  {
+    "name": "ChildNode",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/ChildNode"
+  },
+  {
+    "name": "CSSPrimitiveValue",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/CSSPrimitiveValue"
+  },
+  {
+    "name": "CSSValue",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/CSSValue"
+  },
+  {
+    "name": "CSSValueList",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/CSSValueList"
+  },
+  {
+    "name": "Comment",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Comment"
+  },
+  {
+    "name": "CustomEvent",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/CustomEvent"
+  },
+  {
+    "name": "Document",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document"
+  },
+  {
+    "name": "DocumentFragment",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/DocumentFragment"
+  },
+  {
+    "name": "DocumentType",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/DocumentType"
+  },
+  {
+    "name": "DOMConfiguration",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/DOMConfiguration"
+  },
+  {
+    "name": "DOMError",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/DOMError"
+  },
+  {
+    "name": "DOMErrorHandler",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/DOMErrorHandler"
+  },
+  {
+    "name": "DOMException",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/DOMException"
+  },
+  {
+    "name": "DOMImplementation",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/DOMImplementation"
+  },
+  {
+    "name": "DOMImplementationList",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/DOMImplementationList"
+  },
+  {
+    "name": "DOMImplementationRegistry",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/DOMImplementationRegistry"
+  },
+  {
+    "name": "DOMImplementationSource",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/DOMImplementationSource"
+  },
+  {
+    "name": "DOMLocator",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/DOMLocator"
+  },
+  {
+    "name": "DOMObject",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/DOMObject"
+  },
+  {
+    "name": "DOMParser",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/DOMParser"
+  },
+  {
+    "name": "DOMPoint",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/DOMPoint"
+  },
+  {
+    "name": "DOMRect",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/DOMRect"
+  },
+  {
+    "name": "DOMString",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/DOMString"
+  },
+  {
+    "name": "DOMTimeStamp",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/DOMTimeStamp"
+  },
+  {
+    "name": "DOMTokenList",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/DOMTokenList"
+  },
+  {
+    "name": "DOMUserData",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/DOMUserData"
+  },
+  {
+    "name": "Element",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Element"
+  },
+  {
+    "name": "ElementTraversal",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/ElementTraversal"
+  },
+  {
+    "name": "Entity",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Entity"
+  },
+  {
+    "name": "EntityReference",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/EntityReference"
+  },
+  {
+    "name": "Event",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Event"
+  },
+  {
+    "name": "EventTarget",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/EventTarget"
+  },
+  {
+    "name": "HTMLCollection",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLCollection"
+  },
+  {
+    "name": "MutationObserver",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver"
+  },
+  {
+    "name": "Node",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Node"
+  },
+  {
+    "name": "NodeFilter",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/NodeFilter"
+  },
+  {
+    "name": "NodeIterator",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/NodeIterator"
+  },
+  {
+    "name": "NodeList",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/NodeList"
+  },
+  {
+    "name": "NonDocumentTypeChildNode",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/NonDocumentTypeChildNode"
+  },
+  {
+    "name": "ProcessingInstruction",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/ProcessingInstruction"
+  },
+  {
+    "name": "PromiseResolver",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/PromiseResolver"
+  },
+  {
+    "name": "Range",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Range"
+  },
+  {
+    "name": "Text",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Text"
+  },
+  {
+    "name": "TextDecoder",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/TextDecoder"
+  },
+  {
+    "name": "TextEncoder",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/TextEncoder"
+  },
+  {
+    "name": "TimeRanges",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/TimeRanges"
+  },
+  {
+    "name": "TreeWalker",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/TreeWalker"
+  },
+  {
+    "name": "TypeInfo",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/TypeInfo"
+  },
+  {
+    "name": "UserDataHandler",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/UserDataHandler"
+  },
+  {
+    "name": "USVString",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/USVString"
+  },
+  {
+    "name": "XMLDocument",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/XMLDocument"
+  }
+]

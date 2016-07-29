@@ -1,0 +1,572 @@
+[
+  {"name": "Syntax","href": "https://developer.mozilla.org/en-US/docs/Web/API/Element/attributes#Syntax"},
+  {"name": "Example","href": "https://developer.mozilla.org/en-US/docs/Web/API/Element/attributes#Example"},
+  {"name": "Specifications","href": "https://developer.mozilla.org/en-US/docs/Web/API/Element/attributes#Specifications"},
+  {"name": "Browser compatibility","href": "https://developer.mozilla.org/en-US/docs/Web/API/Element/attributes#Browser_compatibility"},
+  {"name": "See also","href": "https://developer.mozilla.org/en-US/docs/Web/API/Element/attributes#See_also"},
+  {"name": "accessKey","desc": "The Element.accessKey property sets the keystroke by which a user can press to jump to this element.","href": "https://developer.mozilla.org/en-US/docs/Web/API/Element/accessKey","type": "Property"},
+  {
+    "name": "childElementCount",
+    "desc": "The ParentNode.childElementCount read-only property returns an unsigned long representing the number of child elements of the given element.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/ParentNode/childElementCount",
+    "type": "Property"
+  },
+  {
+    "name": "children",
+    "desc": "Node.children is a read-only property that returns a live HTMLCollection of the child elements of Node.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/ParentNode/children",
+    "type": "Property"
+  },
+  {
+    "name": "classList",
+    "desc": "The Element.classList is a read-only property which returns live DOMTokenList collection of the class attributes of the element.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Element/classList",
+    "type": "Property"
+  },
+  {
+    "name": "className",
+    "desc": "className gets and sets the value of the class attribute of the specified element.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Element/className",
+    "type": "Property"
+  },
+  {
+    "name": "clientHeight",
+    "desc": "The Element.clientHeight read-only property is zero for elements with no CSS or inline layout boxes, otherwise it's  the inner height of an element in pixels, including padding but not the horizontal scrollbar height, border, or margin.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Element/clientHeight",
+    "type": "Property"
+  },
+  {
+    "name": "clientLeft",
+    "desc": "The width of the left border of an element in pixels. It includes the width of the vertical scrollbar if the text direction of the element is right–to–left and if there is an overflow causing a left vertical scrollbar to be rendered. clientLeft does not include the left margin or the left padding. clientLeft is read-only.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Element/clientLeft",
+    "type": "Property"
+  },
+  {
+    "name": "clientTop",
+    "desc": "The width of the top border of an element in pixels. It does not include the top margin or padding. clientTop is read-only.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Element/clientTop",
+    "type": "Property"
+  },
+  {
+    "name": "clientWidth",
+    "desc": "The Element.clientWidth property is zero for elements with no CSS or inline layout boxes, otherwise it's the inner width of an element in pixels. It includes padding but not the vertical scrollbar (if present, if rendered), border or margin.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Element/clientWidth",
+    "type": "Property"
+  },
+  {
+    "name": "currentStyle",
+    "desc": "Editorial review completed.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Element/currentStyle",
+    "type": "Property"
+  },
+  {
+    "name": "firstElementChild",
+    "desc": "The ParentNode.firstElementChild read-only property returns the object's first child Element, or null if there are no child elements.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/ParentNode/firstElementChild",
+    "type": "Property"
+  },
+  {
+    "name": "id",
+    "desc": "The Element.id property represents the element's identifier, reflecting the id global attribute.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Element/id",
+    "type": "Property"
+  },
+  {
+    "name": "innerHTML",
+    "desc": "The Element.innerHTML property sets or gets the HTML syntax describing the element's descendants.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML",
+    "type": "Property"
+  },
+  {
+    "name": "lastElementChild",
+    "desc": "The ParentNode.lastElementChild read-only property returns the object's last child Element or null if there are no child elements.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/ParentNode/lastElementChild",
+    "type": "Property"
+  },
+  {
+    "name": "name",
+    "desc": "name gets or sets the name property of a DOM object; it only applies to the following elements: <a>, <applet>, <button>, <form>, <frame>, <iframe>, <img>, <input>, <map>, <meta>, <object>, <param>, <select>, and <textarea>.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Element/name",
+    "type": "Property"
+  },
+  {
+    "name": "nextElementSibling",
+    "desc": "The NonDocumentTypeChildNode.nextElementSibling read-only property returns the element immediately following the specified one in its parent's children list, or null if the specified element is the last one in the list.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/NonDocumentTypeChildNode/nextElementSibling",
+    "type": "Property"
+  },
+  {"name": "ongotpointercapture","desc": "Editorial review completed.","href": "https://developer.mozilla.org/en-US/docs/Web/API/Element/ongotpointercapture","type": "Property"},
+  {"name": "onlostpointercapture","desc": "Editorial review completed.","href": "https://developer.mozilla.org/en-US/docs/Web/API/Element/onlostpointercapture","type": "Property"},
+  {"name": "onwheel","desc": "The onwheel property returns the onwheel event handler code on the current element.","href": "https://developer.mozilla.org/en-US/docs/Web/API/Element/onwheel","type": "Property","warning": "This API has not been standardized."},
+  {"name": "outerHTML","desc": "The outerHTML attribute of the element DOM interface gets the serialized HTML fragment describing the element including its descendants. It can be set to replace the element with nodes parsed from the given string.","href": "https://developer.mozilla.org/en-US/docs/Web/API/Element/outerHTML","type": "Property"},
+  {
+    "name": "previousElementSibling",
+    "desc": "The NonDocumentTypeChildNode.previousElementSibling read-only property returns the Element immediately prior to the specified one in its parent's children list, or null if the specified element is the first one in the list.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/NonDocumentTypeChildNode/previousElementSibling",
+    "type": "Property"
+  },
+  {
+    "name": "scrollHeight",
+    "desc": "The Element.scrollHeight read-only attribute is a measurement of the height of an element's content, including content not visible on the screen due to overflow. The scrollHeight value is equal to the minimum clientHeight the element would require in order to fit all the content in the viewpoint without using a vertical scrollbar. It includes the element padding but not its margin.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollHeight",
+    "type": "Property"
+  },
+  {
+    "name": "scrollLeft",
+    "desc": "The Element.scrollLeft property gets or sets the number of pixels that an element's content is scrolled to the left.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollLeft",
+    "type": "Property"
+  },
+  {
+    "name": "scrollLeftMax",
+    "desc": "The Element.scrollLeftMax read-only property returns a Number representing the maximum left scroll offset possible for the element.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollLeftMax",
+    "type": "Property"
+  },
+  {
+    "name": "scrollTop",
+    "desc": "The Element.scrollTop property gets or sets the number of pixels that the content of an element is scrolled upward. An element's scrollTop is a measurement of the distance of an element's top to its topmost visible content. When an element content does not generate a vertical scrollbar, then its scrollTop value defaults to 0.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollTop",
+    "type": "Property"
+  },
+  {
+    "name": "scrollTopMax",
+    "desc": "The Element.scrollTopMax read-only property returns a Number representing the maximum top scroll offset possible for the element.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollTopMax",
+    "type": "Property"
+  },
+  {
+    "name": "scrollWidth",
+    "desc": "The Element.scrollWidth read–only property returns either the width in pixels of the content of an element or the width of the element itself, whichever is greater. If the element is wider than its content area (for example, if there are scroll bars for scrolling through the content), the scrollWidth is larger than the clientWidth.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollWidth",
+    "type": "Property"
+  },
+  {
+    "name": "tabStop",
+    "desc": "Editorial review completed.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Element/tabStop",
+    "type": "Property"
+  },
+  {
+    "name": "tagName",
+    "desc": "Returns the name of the element.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Element/tagName",
+    "type": "Property"
+  },
+  {
+    "name": "animate()",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Element/animate",
+    "type": "Method",
+    "warning": "This is an experimental API that should not be used in production code."
+  },
+  {
+    "name": "closest()",
+    "desc": "The Element.closest() method returns the closest ancestor of the current element (or the current element itself) which matches the selectors given in parameter. If there isn't such an ancestor, it returns null.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Element/closest",
+    "type": "Method",
+    "warning": "This is an experimental API that should not be used in production code."
+  },
+  {
+    "name": "getAttribute()",
+    "desc": "getAttribute() returns the value of a specified attribute on the element.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Element/getAttribute",
+    "type": "Method"
+  },
+  {
+    "name": "getAttributeNode()",
+    "desc": "Returns the specified attribute of the specified element, as an Attr node.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Element/getAttributeNode",
+    "type": "Method"
+  },
+  {
+    "name": "getAttributeNodeNS()",
+    "desc": "Returns the Attr node for the attribute with the given namespace and name.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Element/getAttributeNodeNS",
+    "type": "Method"
+  },
+  {
+    "name": "getAttributeNS()",
+    "desc": "getAttributeNS returns the string value of the attribute with the specified namespace and name. If the named attribute does not exist, the value returned will either be null or \"\" (the empty string); see Notes for details.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Element/getAttributeNS",
+    "type": "Method"
+  },
+  {
+    "name": "getBoundingClientRect()",
+    "desc": "The Element.getBoundingClientRect() method returns the size of an element and its position relative to the viewport.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Element/getBoundingClientRect",
+    "type": "Method"
+  },
+  {
+    "name": "getClientRects()",
+    "desc": "The Element.getClientRects() method returns a collection of rectangles that indicate the bounding rectangles for each box in a client.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Element/getClientRects",
+    "type": "Method"
+  },
+  {
+    "name": "getElementsByClassName()",
+    "desc": "The Element.getElementsByClassName() method returns a live HTMLCollection containing all child elements which have all of the given class names. When called on the document object, the complete document is searched, including the root node.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Element/getElementsByClassName",
+    "type": "Method"
+  },
+  {
+    "name": "getElementsByTagName()",
+    "desc": "The Element.getElementsByTagName() method returns a live HTMLCollection of elements with the given tag name. The subtree underneath the specified element is searched, excluding the element itself. The returned list is live, meaning that it updates itself with the DOM tree automatically. Consequently, there is no need to call several times Element.getElementsByTagName() with the same element and arguments.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Element/getElementsByTagName",
+    "type": "Method"
+  },
+  {
+    "name": "getElementsByTagNameNS()",
+    "desc": "The Element.getElementsByTagNameNS() method returns a live HTMLCollection of elements with the given tag name belonging to the given namespace. It is similar to Document.getElementsByTagNameNS, except that its search is restricted to descendants of the specified element.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Element/getElementsByTagNameNS",
+    "type": "Method"
+  },
+  {
+    "name": "hasAttribute()",
+    "desc": "The Element.hasAttribute() method returns a Boolean value indicating whether the specified element has the specified attribute or not.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Element/hasAttribute",
+    "type": "Method"
+  },
+  {
+    "name": "hasAttributeNS()",
+    "desc": "hasAttributeNS returns a boolean value indicating whether the current element has the specified attribute.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Element/hasAttributeNS",
+    "type": "Method"
+  },
+  {
+    "name": "hasAttributes()",
+    "desc": "The Element.hasAttributes() method returns a Boolean value, true or false, indicating if the current element has any attributes or not.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Element/hasAttributes",
+    "type": "Method"
+  },
+  {
+    "name": "insertAdjacentHTML()",
+    "desc": "insertAdjacentHTML() parses the specified text as HTML or XML and inserts the resulting nodes into the DOM tree at a specified position. It does not reparse the element it is being used on and thus it does not corrupt the existing elements inside the element. This, and avoiding the extra step of serialization make it much faster than direct innerHTML manipulation.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Element/insertAdjacentHTML",
+    "type": "Method"
+  },
+  {
+    "name": "matches()",
+    "desc": "The Element.matches() method returns true if the element would be selected by the specified selector string; otherwise, returns false.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Element/matches",
+    "type": "Method"
+  },
+  {
+    "name": "querySelector()",
+    "desc": "Returns the first element that is a descendant of the element on which it is invoked that matches the specified group of selectors.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Element/querySelector",
+    "type": "Method"
+  },
+  {
+    "name": "querySelectorAll()",
+    "desc": "Returns a non-live NodeList of all elements descended from the element on which it is invoked that match the specified group of CSS selectors.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Element/querySelectorAll",
+    "type": "Method"
+  },
+  {
+    "name": "releasePointerCapture()",
+    "desc": "Releases (stops) pointer capture that was previously set for a specific (PointerEvent) pointer.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Element/releasePointerCapture",
+    "type": "Method"
+  },
+  {
+    "name": "remove()",
+    "desc": "The ChildNode.remove() method removes the object from the tree it belongs to.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/ChildNode/remove",
+    "type": "Method",
+    "warning": "This is an experimental API that should not be used in production code."
+  },
+  {
+    "name": "removeAttribute()",
+    "desc": "removeAttribute removes an attribute from the specified element.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Element/removeAttribute",
+    "type": "Method"
+  },
+  {
+    "name": "removeAttributeNode()",
+    "desc": "removeAttributeNode removes the specified attribute from the current element.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Element/removeAttributeNode",
+    "type": "Method"
+  },
+  {
+    "name": "removeAttributeNS()",
+    "desc": "removeAttributeNS removes the specified attribute from an element.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Element/removeAttributeNS",
+    "type": "Method"
+  },
+  {
+    "name": "requestFullscreen()",
+    "desc": "The Element.requestFullscreen() method issues an asynchronous request to make the element be displayed full-screen.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Element/requestFullScreen",
+    "type": "Method",
+    "warning": "This is an experimental API that should not be used in production code."
+  },
+  {
+    "name": "requestPointerLock()",
+    "desc": "The Element.requestPointerLock() method allows to asynchronously ask for the pointer to be locked on the given element.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Element/requestPointerLock",
+    "type": "Method",
+    "warning": "This is an experimental API that should not be used in production code."
+  },
+  {
+    "name": "scrollIntoView()",
+    "desc": "The Element.scrollIntoView() method scrolls the current element into the visible area of the browser window.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollIntoView",
+    "type": "Method",
+    "warning": "This is an experimental API that should not be used in production code."
+  },
+  {
+    "name": "scrollIntoViewIfNeeded()",
+    "desc": "The Element.scrollIntoViewIfNeeded() method scrolls the current element into the visible area of the browser window if it's not already within the visible area of the browser window. If the element is already within the visible area of the browser window, then no scrolling takes place. This method is a proprietary variation of the standard Element.scrollIntoView() method.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollIntoViewIfNeeded",
+    "type": "Method",
+    "warning": "This API has not been standardized."
+  },
+  {
+    "name": "setAttribute()",
+    "desc": "Adds a new attribute or changes the value of an existing attribute on the specified element.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Element/setAttribute",
+    "type": "Method"
+  },
+  {
+    "name": "setAttributeNode()",
+    "desc": "setAttributeNode() adds a new Attr node to the specified element.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Element/setAttributeNode",
+    "type": "Method"
+  },
+  {
+    "name": "setAttributeNodeNS()",
+    "desc": "setAttributeNodeNS adds a new namespaced attribute node to an element.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Element/setAttributeNodeNS",
+    "type": "Method"
+  },
+  {
+    "name": "setAttributeNS()",
+    "desc": "setAttributeNS adds a new attribute or changes the value of an attribute with the given namespace and name.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Element/setAttributeNS",
+    "type": "Method"
+  },
+  {
+    "name": "setCapture()",
+    "desc": "Call this method during the handling of a mousedown event to retarget all mouse events to this element until the mouse button is released or document.releaseCapture() is called.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Element/setCapture",
+    "type": "Method"
+  },
+  {
+    "name": "setPointerCapture()",
+    "desc": "Editorial review completed.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Element/setPointerCapture",
+    "type": "Method"
+  },
+  {
+    "name": "Node",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Node"
+  },
+  {
+    "name": "EventTarget",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/EventTarget"
+  },
+  {
+    "name": "Attr",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Attr"
+  },
+  {
+    "name": "ByteString",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/ByteString"
+  },
+  {
+    "name": "CDATASection",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/CDATASection"
+  },
+  {
+    "name": "CharacterData",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/CharacterData"
+  },
+  {
+    "name": "ChildNode",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/ChildNode"
+  },
+  {
+    "name": "Comment",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Comment"
+  },
+  {
+    "name": "CustomEvent",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/CustomEvent"
+  },
+  {
+    "name": "DOMConfiguration",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/DOMConfiguration"
+  },
+  {
+    "name": "DOMError",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/DOMError"
+  },
+  {
+    "name": "DOMErrorHandler",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/DOMErrorHandler"
+  },
+  {
+    "name": "DOMException",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/DOMException"
+  },
+  {
+    "name": "DOMImplementation",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/DOMImplementation"
+  },
+  {
+    "name": "DOMImplementationList",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/DOMImplementationList"
+  },
+  {
+    "name": "DOMImplementationRegistry",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/DOMImplementationRegistry"
+  },
+  {
+    "name": "DOMImplementationSource",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/DOMImplementationSource"
+  },
+  {
+    "name": "DOMLocator",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/DOMLocator"
+  },
+  {
+    "name": "DOMObject",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/DOMObject"
+  },
+  {
+    "name": "DOMParser",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/DOMParser"
+  },
+  {
+    "name": "DOMPoint",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/DOMPoint"
+  },
+  {
+    "name": "DOMRect",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/DOMRect"
+  },
+  {
+    "name": "DOMString",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/DOMString"
+  },
+  {
+    "name": "DOMTimeStamp",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/DOMTimeStamp"
+  },
+  {
+    "name": "DOMTokenList",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/DOMTokenList"
+  },
+  {
+    "name": "DOMUserData",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/DOMUserData"
+  },
+  {
+    "name": "Document",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document"
+  },
+  {
+    "name": "DocumentFragment",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/DocumentFragment"
+  },
+  {
+    "name": "DocumentType",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/DocumentType"
+  },
+  {
+    "name": "ElementTraversal",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/ElementTraversal"
+  },
+  {
+    "name": "Entity",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Entity"
+  },
+  {
+    "name": "EntityReference",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/EntityReference"
+  },
+  {
+    "name": "Event",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Event"
+  },
+  {
+    "name": "EventTarget",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/EventTarget"
+  },
+  {
+    "name": "HTMLCollection",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLCollection"
+  },
+  {
+    "name": "MutationObserver",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver"
+  },
+  {
+    "name": "Node",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Node"
+  },
+  {
+    "name": "NodeFilter",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/NodeFilter"
+  },
+  {
+    "name": "NodeIterator",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/NodeIterator"
+  },
+  {
+    "name": "NodeList",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/NodeList"
+  },
+  {
+    "name": "NonDocumentTypeChildNode",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/NonDocumentTypeChildNode"
+  },
+  {
+    "name": "ProcessingInstruction",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/ProcessingInstruction"
+  },
+  {
+    "name": "PromiseResolver",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/PromiseResolver"
+  },
+  {
+    "name": "Range",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Range"
+  },
+  {
+    "name": "Text",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Text"
+  },
+  {
+    "name": "TextDecoder",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/TextDecoder"
+  },
+  {
+    "name": "TextEncoder",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/TextEncoder"
+  },
+  {
+    "name": "TimeRanges",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/TimeRanges"
+  },
+  {
+    "name": "TreeWalker",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/TreeWalker"
+  },
+  {
+    "name": "TypeInfo",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/TypeInfo"
+  },
+  {
+    "name": "USVString",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/USVString"
+  },
+  {
+    "name": "UserDataHandler",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/UserDataHandler"
+  },
+  {
+    "name": "XMLDocument",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/XMLDocument"
+  }
+]
