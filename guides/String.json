@@ -1,0 +1,502 @@
+[
+	{
+		"name": "Description",
+		"href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/prototype#Description"
+	},
+	{
+		"name": "Properties",
+		"href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/prototype#Properties"
+	},
+	{
+		"name": "Methods",
+		"href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/prototype#Methods"
+	},
+	{
+		"name": "Specifications",
+		"href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/prototype#Specifications"
+	},
+	{
+		"name": "Browser compatibility",
+		"href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/prototype#Browser_compatibility"
+	},
+	{
+		"name": "See also",
+		"href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/prototype#See_also"
+	},
+	{
+		"name": "string.length",
+		"desc": "The length property represents the length of a string.",
+		"href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/length",
+		"type": "Property"
+	},
+	{
+		"name": "String.fromCharCode()",
+		"desc": "The static String.fromCharCode() method returns a string created by using the specified sequence of Unicode values.",
+		"href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/fromCharCode",
+		"type": "Method"
+	},
+	{
+		"name": "String.fromCodePoint()",
+		"desc": "The static String.fromCodePoint() method returns a string created by using the specified sequence of code points.",
+		"href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/fromCodePoint",
+		"type": "Method"
+	},
+	{
+		"name": "String.prototype.anchor()",
+		"desc": "The anchor() method creates an <a> HTML anchor element that is used as a hypertext target.",
+		"href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/anchor",
+		"type": "Method"
+	},
+	{
+		"name": "String.prototype.big()",
+		"desc": "The big() method creates a <big> HTML element that causes a string to be displayed in a big font.",
+		"href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/big",
+		"type": "Method",
+		"warning": "This deprecated API should no longer be used, but will probably still work."
+	},
+	{
+		"name": "String.prototype.blink()",
+		"desc": "The blink() method creates a <blink> HTML element that causes a string to blink.",
+		"href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/blink",
+		"type": "Method",
+		"warning": "This deprecated API should no longer be used, but will probably still work."
+	},
+	{
+		"name": "String.prototype.bold()",
+		"desc": "The bold() method creates a <b> HTML element that causes a string to be displayed as bold.",
+		"href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/bold",
+		"type": "Method",
+		"warning": "This deprecated API should no longer be used, but will probably still work."
+	},
+	{
+		"name": "String.prototype.charAt()",
+		"desc": "Technical review completed.",
+		"href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/charAt",
+		"type": "Method"
+	},
+	{
+		"name": "String.prototype.charCodeAt()",
+		"desc": "The charCodeAt() method returns an integer between 0 and 65535 representing the UTF-16 code unit at the given index (the UTF-16 code unit matches the Unicode code point for code points representable in a single UTF-16 code unit, but might also be the first code unit of a surrogate pair for code points not representable in a single UTF-16 code unit, e.g. Unicode code points > 0x10000). If you want the entire code point value, use codePointAt().",
+		"href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/charCodeAt",
+		"type": "Method"
+	},
+	{
+		"name": "String.prototype.codePointAt()",
+		"desc": "The codePointAt() method returns a non-negative integer that is the Unicode code point value.",
+		"href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/codePointAt",
+		"type": "Method"
+	},
+	{
+		"name": "String.prototype.concat()",
+		"desc": "The concat() method combines the text of two or more strings and returns a new string.",
+		"href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/concat",
+		"type": "Method"
+	},
+	{
+		"name": "String.prototype.endsWith()",
+		"desc": "The endsWith() method determines whether a string ends with the characters of another string, returning true or false as appropriate.",
+		"href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/endsWith",
+		"type": "Method"
+	},
+	{
+		"name": "String.prototype.fixed()",
+		"desc": "The fixed() method creates a <tt> HTML element that causes a string to be displayed in fixed-pitch font.",
+		"href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/fixed",
+		"type": "Method",
+		"warning": "This deprecated API should no longer be used, but will probably still work."
+	},
+	{
+		"name": "String.prototype.fontcolor()",
+		"desc": "The fontcolor() method creates a <font> HTML element that causes a string to be displayed in the specified font color.",
+		"href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/fontcolor",
+		"type": "Method",
+		"warning": "This deprecated API should no longer be used, but will probably still work."
+	},
+	{
+		"name": "String.prototype.fontsize()",
+		"desc": "The fontsize() method creates a <font> HTML element that causes a string to be displayed in the specified font size.",
+		"href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/fontsize",
+		"type": "Method",
+		"warning": "This deprecated API should no longer be used, but will probably still work."
+	},
+	{
+		"name": "String.prototype.includes()",
+		"desc": "The includes() method determines whether one string may be found within another string, returning true or false as appropriate.",
+		"href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/includes",
+		"type": "Method"
+	},
+	{
+		"name": "String.prototype.indexOf()",
+		"desc": "The indexOf() method returns the index within the calling String object of the first occurrence of the specified value, starting the search at fromIndex. Returns -1 if the value is not found.",
+		"href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/indexOf",
+		"type": "Method"
+	},
+	{
+		"name": "String.prototype.italics()",
+		"desc": "The italics() method creates an <i> HTML element that causes a string to be italic.",
+		"href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/italics",
+		"type": "Method",
+		"warning": "This deprecated API should no longer be used, but will probably still work."
+	},
+	{
+		"name": "String.prototype.lastIndexOf()",
+		"desc": "The lastIndexOf() method returns the index within the calling String object of the last occurrence of the specified value, searching backwards from fromIndex. Returns -1 if the value is not found.",
+		"href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/lastIndexOf",
+		"type": "Method"
+	},
+	{
+		"name": "String.prototype.link()",
+		"desc": "The link() method creates a string representing the code for an <a> HTML element to be used as a hypertext link to another URL.",
+		"href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/link",
+		"type": "Method"
+	},
+	{
+		"name": "String.prototype.localeCompare()",
+		"desc": "The localeCompare() method returns a number indicating whether a reference string comes before or after or is the same as the given string in sort order.",
+		"href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/localeCompare",
+		"type": "Method"
+	},
+	{
+		"name": "String.prototype.match()",
+		"desc": "The match() method retrieves the matches when matching a string against a regular expression.",
+		"href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/match",
+		"type": "Method"
+	},
+	{
+		"name": "String.prototype.normalize()",
+		"desc": "The normalize() method returns the Unicode Normalization Form of a given string (if the value isn't a string, it will be converted to one first).",
+		"href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/normalize",
+		"type": "Method"
+	},
+	{
+		"name": "String.prototype.padEnd()",
+		"desc": "The padEnd() method pads the current string with a given string (eventually repeated) so that the resulting string reaches a given length. The pad is applied from the end (right) of the current string.",
+		"href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/padEnd",
+		"type": "Method",
+		"warning": "This is an experimental API that should not be used in production code."
+	},
+	{
+		"name": "String.prototype.padStart()",
+		"desc": "The padStart() method pads the current string with a given string (eventually repeated) so that the resulting string reaches a given length. The pad is applied from the start (left) of the current string.",
+		"href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/padStart",
+		"type": "Method",
+		"warning": "This is an experimental API that should not be used in production code."
+	},
+	{
+		"name": "String.prototype.repeat()",
+		"desc": "The repeat() method constructs and returns a new string which contains the specified number of copies of the string on which it was called, concatenated together.",
+		"href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/repeat",
+		"type": "Method"
+	},
+	{
+		"name": "String.prototype.replace()",
+		"desc": "The replace() method returns a new string with some or all matches of a pattern replaced by a replacement. The pattern can be a string or a RegExp, and the replacement can be a string or a function to be called for each match.",
+		"href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace",
+		"type": "Method"
+	},
+	{
+		"name": "String.prototype.search()",
+		"desc": "The search() method executes a search for a match between a regular expression and this String object.",
+		"href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/search",
+		"type": "Method"
+	},
+	{
+		"name": "String.prototype.slice()",
+		"desc": "The slice() method extracts a section of a string and returns a new string.",
+		"href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/slice",
+		"type": "Method"
+	},
+	{
+		"name": "String.prototype.small()",
+		"desc": "The small() method creates a <small> HTML element that causes a string to be displayed in a small font.",
+		"href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/small",
+		"type": "Method",
+		"warning": "This deprecated API should no longer be used, but will probably still work."
+	},
+	{
+		"name": "String.prototype.split()",
+		"desc": "The split() method splits a String object into an array of strings by separating the string into substrings.",
+		"href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split",
+		"type": "Method"
+	},
+	{
+		"name": "String.prototype.startsWith()",
+		"desc": "The startsWith() method determines whether a string begins with the characters of another string, returning true or false as appropriate.",
+		"href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/startsWith",
+		"type": "Method"
+	},
+	{
+		"name": "String.prototype.strike()",
+		"desc": "The strike() method creates a <strike> HTML element that causes a string to be displayed as struck-out text.",
+		"href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/strike",
+		"type": "Method",
+		"warning": "This deprecated API should no longer be used, but will probably still work."
+	},
+	{
+		"name": "String.prototype.sub()",
+		"desc": "The sub() method creates a <sub> HTML element that causes a string to be displayed as subscript.",
+		"href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/sub",
+		"type": "Method",
+		"warning": "This deprecated API should no longer be used, but will probably still work."
+	},
+	{
+		"name": "String.prototype.substr()",
+		"desc": "The substr() method returns the characters in a string beginning at the specified location through the specified number of characters.",
+		"href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/substr",
+		"type": "Method"
+	},
+	{
+		"name": "String.prototype.substring()",
+		"desc": "The substring() method returns a subset of a string between one index and another, or through the end of the string.",
+		"href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/substring",
+		"type": "Method"
+	},
+	{
+		"name": "String.prototype.sup()",
+		"desc": "The sup() method creates a <sup> HTML element that causes a string to be displayed as superscript.",
+		"href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/sup",
+		"type": "Method",
+		"warning": "This deprecated API should no longer be used, but will probably still work."
+	},
+	{
+		"name": "String.prototype.toLocaleLowerCase()",
+		"desc": "The toLocaleLowerCase() method returns the calling string value converted to lower case, according to any locale-specific case mappings.",
+		"href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toLocaleLowerCase",
+		"type": "Method"
+	},
+	{
+		"name": "String.prototype.toLocaleUpperCase()",
+		"desc": "The toLocaleUpperCase() method returns the calling string value converted to upper case, according to any locale-specific case mappings.",
+		"href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toLocaleUpperCase",
+		"type": "Method"
+	},
+	{
+		"name": "String.prototype.toLowerCase()",
+		"desc": "The toLowerCase() method returns the calling string value converted to lowercase.",
+		"href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toLowerCase",
+		"type": "Method"
+	},
+	{
+		"name": "String.prototype.toSource()",
+		"desc": "The toSource() method returns a string representing the source code of the object.",
+		"href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toSource",
+		"type": "Method",
+		"warning": "This API has not been standardized."
+	},
+	{
+		"name": "String.prototype.toString()",
+		"desc": "The toString() method returns a string representing the specified object.",
+		"href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toString",
+		"type": "Method"
+	},
+	{
+		"name": "String.prototype.toUpperCase()",
+		"desc": "The toUpperCase() method returns the calling string value converted to uppercase.",
+		"href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toUpperCase",
+		"type": "Method"
+	},
+	{
+		"name": "String.prototype.trim()",
+		"desc": "The trim() method removes whitespace from both ends of a string. Whitespace in this context is all the whitespace characters (space, tab, no-break space, etc.) and all the line terminator characters (LF, CR, etc.).",
+		"href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/Trim",
+		"type": "Method"
+	},
+	{
+		"name": "String.prototype.trimLeft()",
+		"desc": "The trimLeft() method removes whitespace from the left end of a string.",
+		"href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/TrimLeft",
+		"type": "Method"
+	},
+	{
+		"name": "String.prototype.trimRight()",
+		"desc": "The trimRight() method removes whitespace from the right end of a string.",
+		"href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/TrimRight",
+		"type": "Method"
+	},
+	{
+		"name": "String.prototype.valueOf()",
+		"desc": "The valueOf() method returns the primitive value of a String object.",
+		"href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/valueOf",
+		"type": "Method"
+	},
+	{
+		"name": "String.prototype[@@iterator]()",
+		"desc": "The [@@iterator]() method returns a new Iterator object that iterates over the code points of a String value, returning each code point as a String value.",
+		"href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/@@iterator",
+		"type": "Method"
+	},
+	{
+		"name": "String.raw()",
+		"desc": "The static String.raw() method is a tag function of template literals, similar to the r prefix in Python or the @ prefix in C# for string literals (yet there is a difference: see explanations in this issue). It's used to get the raw string form of template strings (that is, the original, uninterpreted text).",
+		"href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/raw",
+		"type": "Method"
+	},
+	{
+		"name": "Function.arguments",
+		"desc": "The function.arguments property refers to an an array-like object corresponding to the arguments passed to a function. Use the simple variable arguments instead.",
+		"href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/arguments",
+		"type": "Property",
+		"warning": "This deprecated API should no longer be used, but will probably still work."
+	},
+	{
+		"name": "Function.caller",
+		"desc": "The function.caller property returns the function that invoked the specified function.",
+		"href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/caller",
+		"type": "Property"
+	},
+	{
+		"name": "Function.displayName",
+		"desc": "The function.displayName property returns the display name of the function.",
+		"href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/displayName",
+		"type": "Property"
+	},
+	{
+		"name": "Function.length",
+		"desc": "The length property specifies the number of arguments expected by the function.",
+		"href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/length",
+		"type": "Property"
+	},
+	{
+		"name": "Function.name",
+		"desc": "The function.name property returns the name of the function.",
+		"href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/name",
+		"type": "Property"
+	},
+	{
+		"name": "Function.prototype",
+		"desc": "The Function.prototype property represents the Function prototype object.",
+		"href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/prototype",
+		"type": "Property"
+	},
+	{
+		"name": "Function.prototype.apply()",
+		"desc": "The apply() method calls a function with a given this value and arguments provided as an array (or an array-like object).",
+		"href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/apply",
+		"type": "Method"
+	},
+	{
+		"name": "Function.prototype.bind()",
+		"desc": "The bind() method creates a new function that, when called, has its this keyword set to the provided value, with a given sequence of arguments preceding any provided when the new function is called.",
+		"href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind",
+		"type": "Method"
+	},
+	{
+		"name": "Function.prototype.call()",
+		"desc": "The call() method calls a function with a given this value and arguments provided individually.",
+		"href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/call",
+		"type": "Method"
+	},
+	{
+		"name": "Function.prototype.isGenerator()",
+		"desc": "The isGenerator() method determines whether or not a function is a generator.",
+		"href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/isGenerator",
+		"type": "Method"
+	},
+	{
+		"name": "Function.prototype.toSource()",
+		"desc": "The toSource() method returns a string representing the source code of the object.",
+		"href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/toSource",
+		"type": "Method"
+	},
+	{
+		"name": "Function.prototype.toString()",
+		"desc": "The toString() method returns a string representing the source code of the function.",
+		"href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/toString",
+		"type": "Method"
+	},
+	{
+		"name": "Object.prototype.__proto__",
+		"desc": "The __proto__ property of Object.prototype is an accessor property (a getter function and a setter function) that exposes the internal [[Prototype]] (either an object or null) of the object through which it is accessed.",
+		"href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/proto",
+		"type": "Property",
+		"warning": "This deprecated API should no longer be used, but will probably still work."
+	},
+	{
+		"name": "Object.prototype.constructor",
+		"desc": "Returns a reference to the Object function that created the instance's prototype. Note that the value of this property is a reference to the function itself, not a string containing the function's name. The value is only read-only for primitive values such as 1, true and \"test\".",
+		"href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/constructor",
+		"type": "Property"
+	},
+	{
+		"name": "Object.prototype.__defineGetter__()",
+		"desc": "The __defineGetter__ method binds an object's property to a function to be called when that property is looked up.",
+		"href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/__defineGetter__",
+		"type": "Method",
+		"warning": "This deprecated API should no longer be used, but will probably still work."
+	},
+	{
+		"name": "Object.prototype.__defineSetter__()",
+		"desc": "The __defineSetter__ method binds an object's property to a function to be called when an attempt is made to set that property.",
+		"href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/__defineSetter__",
+		"type": "Method",
+		"warning": "This deprecated API should no longer be used, but will probably still work."
+	},
+	{
+		"name": "Object.prototype.__lookupGetter__()",
+		"desc": "The __lookupGetter__ method returns the function bound as a getter to the specified property.",
+		"href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/__lookupGetter__",
+		"type": "Method",
+		"warning": "This deprecated API should no longer be used, but will probably still work."
+	},
+	{
+		"name": "Object.prototype.__lookupSetter__()",
+		"desc": "The __lookupSetter__ method returns the function bound as a setter to the specified property.",
+		"href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/__lookupSetter__",
+		"type": "Method",
+		"warning": "This deprecated API should no longer be used, but will probably still work."
+	},
+	{
+		"name": "Object.prototype.hasOwnProperty()",
+		"desc": "The hasOwnProperty() method returns a boolean indicating whether the object has the specified property.",
+		"href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/hasOwnProperty",
+		"type": "Method"
+	},
+	{
+		"name": "Object.prototype.isPrototypeOf()",
+		"desc": "The isPrototypeOf() method tests for an object in another object's prototype chain.",
+		"href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/isPrototypeOf",
+		"type": "Method"
+	},
+	{
+		"name": "Object.prototype.propertyIsEnumerable()",
+		"desc": "The propertyIsEnumerable() method returns a Boolean indicating whether the specified property is enumerable.",
+		"href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/propertyIsEnumerable",
+		"type": "Method"
+	},
+	{
+		"name": "Object.prototype.toLocaleString()",
+		"desc": "The toLocaleString() method returns a string representing the object. This method is meant to be overridden by derived objects for locale-specific purposes.",
+		"href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/toLocaleString",
+		"type": "Method"
+	},
+	{
+		"name": "Object.prototype.toSource()",
+		"desc": "The toSource() method returns a string representing the source code of the object.",
+		"href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/toSource",
+		"type": "Method"
+	},
+	{
+		"name": "Object.prototype.toString()",
+		"desc": "The toString() method returns a string representing object.",
+		"href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/toString",
+		"type": "Method"
+	},
+	{
+		"name": "Object.prototype.unwatch()",
+		"desc": "The unwatch() method removes a watchpoint set with the watch() method.",
+		"href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/unwatch",
+		"type": "Method"
+	},
+	{
+		"name": "Object.prototype.valueOf()",
+		"desc": "Technical review completed.",
+		"href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/valueOf",
+		"type": "Method"
+	},
+	{
+		"name": "Object.prototype.watch()",
+		"desc": "The watch() method watches for a property to be assigned a value and runs a function when that occurs.",
+		"href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/watch",
+		"type": "Method"
+	}
+]

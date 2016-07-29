@@ -5,7 +5,7 @@ function mdn_node() {
   var _sub_obj = {};
   var obj = {};
   var pre_str = 'Array.';
-  // ({size = 'big', cords = { x: 0, y: 0 }, radius = 25} = {})
+
   function _Tag(name, description, href, type, warning) {
     this.name = name;
     if (description !== null) {this.desc = description; }
@@ -14,7 +14,7 @@ function mdn_node() {
     if (warning !== null) {this.warning = warning; }
   }
 
-  $('#content').find('*').filter('[href!="profile"]').filter('a').each(function(){
+  /*$('#content').find('*').filter('[href!="profile"]').filter('a').each(function(){
 
     _name = $(this).find('code').text();
 
@@ -52,10 +52,8 @@ function mdn_node() {
     obj = new _Tag(_name, _description, _href, _type, _warning);
     arr.push(obj);
 
-});
-
-
-  /*$('ol.toggle-container > li > a').each(function() {
+});*/
+  $('ol.toggle-container > li > a').each(function() {
     _name = $(this).find('code').text();
 
     if (_name === '') {
@@ -91,7 +89,7 @@ function mdn_node() {
 
     obj = new _Tag(_name, _description, _href, _type, _warning);
     arr.push(obj);
-  });*/
+  });
   return arr;
 }
 
