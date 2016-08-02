@@ -1,15 +1,13 @@
-# MDN-GUIDE Parse
+# mdn-guide to JSON.
 
-Cause I'm tired of constantly switching windows...
+Converting the firefox/mdn guide to JSON for quick reference. On going will update entries as I encouter new ones. 
+JSON objects are in `./guides/`
 
-This project will be full complete parse of the mdn guide to JSON. With streaming autocomplete and ALL properties on the MDN HTML, JS, CSS guides.
-
-Example Objs can be seen in `./guides`.
 
 Currently implementing promise/request code to comletely fill out the objs
 with all properties... including `examples`, `notes`, `syntax` etc...
 
-## Example
+## Guides Example Entry
 
 ```json
 {
