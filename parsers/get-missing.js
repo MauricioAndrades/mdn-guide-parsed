@@ -5,14 +5,14 @@ var fs = Promise.promisifyAll(require('fs'));
 var request = Promise.promisifyAll(requireg('request'));
 var cheerio = requireg('cheerio');
 var traverse = Promise.promisifyAll(requireg('traverse'));
-var jsondata = JSON.parse(fs.readFileSync('/Users/Op/Documents/gschool/proj/mdn-guide/guides/Element.json', 'utf8'));
+var jsondata = JSON.parse(fs.readFileSync('/Users/Op/Documents/gschool/proj/mdn-guide/guides/Array.json', 'utf8'));
 var arr = [];
 
 var traverseAsync = function (data) {
 	return new Promise(function (resolve, reject) {
 		try {
 			traverse(data).forEach(function (x) {
-				if (x.desc && x.desc === 'Editorial review completed.') {
+				if (x.desc && (x.desc === 'Editorial review completed.' || x.desc === 'Technical review completed.')) {
 					arr.push({
 						key: this.key,
 						node: this.node
