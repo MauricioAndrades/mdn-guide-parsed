@@ -1,10 +1,4 @@
 [
-  {"name": "Syntax","href": "https://developer.mozilla.org/en-US/docs/Web/API/Element/attributes#Syntax"},
-  {"name": "Example","href": "https://developer.mozilla.org/en-US/docs/Web/API/Element/attributes#Example"},
-  {"name": "Specifications","href": "https://developer.mozilla.org/en-US/docs/Web/API/Element/attributes#Specifications"},
-  {"name": "Browser compatibility","href": "https://developer.mozilla.org/en-US/docs/Web/API/Element/attributes#Browser_compatibility"},
-  {"name": "See also","href": "https://developer.mozilla.org/en-US/docs/Web/API/Element/attributes#See_also"},
-  {"name": "accessKey","desc": "The Element.accessKey property sets the keystroke by which a user can press to jump to this element.","href": "https://developer.mozilla.org/en-US/docs/Web/API/Element/accessKey","type": "Property"},
   {
     "name": "childElementCount",
     "desc": "The ParentNode.childElementCount read-only property returns an unsigned long representing the number of child elements of the given element.",
@@ -55,7 +49,7 @@
   },
   {
     "name": "currentStyle",
-    "desc": "Editorial review completed.",
+    "desc": "Element.currentStyle is a property which is a proprietary alternative to the standardized window.getComputedStyle method. It is available in old versions of Microsoft Internet Explorer.Not part of any specification.Microsoft has a description on MSDN.",
     "href": "https://developer.mozilla.org/en-US/docs/Web/API/Element/currentStyle",
     "type": "Property"
   },
@@ -95,10 +89,31 @@
     "href": "https://developer.mozilla.org/en-US/docs/Web/API/NonDocumentTypeChildNode/nextElementSibling",
     "type": "Property"
   },
-  {"name": "ongotpointercapture","desc": "Editorial review completed.","href": "https://developer.mozilla.org/en-US/docs/Web/API/Element/ongotpointercapture","type": "Property"},
-  {"name": "onlostpointercapture","desc": "Editorial review completed.","href": "https://developer.mozilla.org/en-US/docs/Web/API/Element/onlostpointercapture","type": "Property"},
-  {"name": "onwheel","desc": "The onwheel property returns the onwheel event handler code on the current element.","href": "https://developer.mozilla.org/en-US/docs/Web/API/Element/onwheel","type": "Property","warning": "This API has not been standardized."},
-  {"name": "outerHTML","desc": "The outerHTML attribute of the element DOM interface gets the serialized HTML fragment describing the element including its descendants. It can be set to replace the element with nodes parsed from the given string.","href": "https://developer.mozilla.org/en-US/docs/Web/API/Element/outerHTML","type": "Property"},
+  {
+    "name": "ongotpointercapture",
+    "desc": "ongotpointercapture is an EventHandler property of the Element interface that returns the event handler (function) for the gotpointercapture event type.[1] Implementation withdrawn. See bug 1166347.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Element/ongotpointercapture",
+    "type": "Property"
+  },
+  {
+    "name": "onlostpointercapture",
+    "desc": "onlostpointercapture is an EventHandler property of the Element interface that returns the event handler (function) for the lostpointercapture event type.[1] Implementation withdrawn. See bug 1166347.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Element/onlostpointercapture",
+    "type": "Property"
+  },
+  {
+    "name": "onwheel",
+    "desc": "The onwheel property returns the onwheel event handler code on the current element.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Element/onwheel",
+    "type": "Property",
+    "warning": "This API has not been standardized."
+  },
+  {
+    "name": "outerHTML",
+    "desc": "The outerHTML attribute of the element DOM interface gets the serialized HTML fragment describing the element including its descendants. It can be set to replace the element with nodes parsed from the given string.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Element/outerHTML",
+    "type": "Property"
+  },
   {
     "name": "previousElementSibling",
     "desc": "The NonDocumentTypeChildNode.previousElementSibling read-only property returns the Element immediately prior to the specified one in its parent's children list, or null if the specified element is the first one in the list.",
@@ -143,7 +158,7 @@
   },
   {
     "name": "tabStop",
-    "desc": "Editorial review completed.",
+    "desc": "The tabStop property of the Element interface returns a Boolean indicating if the element can receive input focus via the tab key. If the specified element is a shadow host tab navigation is delegated to its children.",
     "href": "https://developer.mozilla.org/en-US/docs/Web/API/Element/tabStop",
     "type": "Property"
   },
@@ -353,7 +368,7 @@
   },
   {
     "name": "setPointerCapture()",
-    "desc": "Editorial review completed.",
+    "desc": "Pointer capture allows events for a particular pointer event (PointerEvent) to be re-targeted to a particular element instead of the normal target (or hit test) at a pointer's location. This can be used to ensure that an element continues to receive pointer events even if the pointer device's contact moves off the element (for example by scrolling).setPointerCapture() is the method of the Element interface used to designate a specific element as the capture target of future pointer events. Subsequent events for the pointer will be targeted at capture element until capture is released (via Element.releasePointerCapture).This method returns void and throws a DOMException with the name InvalidPointerId if pointerId does not match any of the active pointers.[1] Implementation withdrawn. See bug 1166347.",
     "href": "https://developer.mozilla.org/en-US/docs/Web/API/Element/setPointerCapture",
     "type": "Method"
   },
@@ -568,5 +583,31 @@
   {
     "name": "XMLDocument",
     "href": "https://developer.mozilla.org/en-US/docs/Web/API/XMLDocument"
+  },
+  {
+    "name": "Syntax",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Element/attributes#Syntax"
+  },
+  {
+    "name": "Example",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Element/attributes#Example"
+  },
+  {
+    "name": "Specifications",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Element/attributes#Specifications"
+  },
+  {
+    "name": "Browser compatibility",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Element/attributes#Browser_compatibility"
+  },
+  {
+    "name": "See also",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Element/attributes#See_also"
+  },
+  {
+    "name": "accessKey",
+    "desc": "The Element.accessKey property sets the keystroke by which a user can press to jump to this element.",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Element/accessKey",
+    "type": "Property"
   }
 ]

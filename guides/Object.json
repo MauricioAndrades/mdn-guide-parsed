@@ -19,7 +19,7 @@
     "type": "Property"
   },
   {
-    "name": "Object.assign()",
+    "name": "Object.assign(target, ...sources)",
     "desc": "The Object.assign() method is used to copy the values of all enumerable own properties from one or more source objects to a target object. It will return the target object.",
     "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign",
     "type": "Method"
@@ -31,7 +31,7 @@
     "type": "Method"
   },
   {
-    "name": "Object.defineProperties()",
+    "name": "Object.defineProperties(obj, props)",
     "desc": "The Object.defineProperties() method defines new or modifies existing properties directly on an object, returning the object.",
     "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperties",
     "type": "Method"
@@ -43,7 +43,7 @@
     "type": "Method"
   },
   {
-    "name": "Object.entries()",
+    "name": "Object.entries(obj)",
     "desc": "The Object.entries() method returns an array of a given object's own enumerable property [key, value] pairs, in the same order as that provided by a for...in loop (the difference being that a for-in loop enumerates properties in the prototype chain as well).",
     "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/entries",
     "type": "Method",
@@ -193,7 +193,7 @@
   },
   {
     "name": "Object.prototype.valueOf()",
-    "desc": "Technical review completed.",
+    "desc": "The valueOf() method returns the primitive value of the specified object: JavaScript calls the valueOf method to convert an object to a primitive value. You rarely need to invoke the valueOf method yourself; JavaScript automatically invokes it when encountering an object where a primitive value is expected.By default, the valueOf method is inherited by every object descended from Object. Every built-in core object overrides this method to return an appropriate value. If an object has no primitive value, valueOf returns the object itself.You can use valueOf within your own code to convert a built-in object into a primitive value. When you create a custom object, you can override Object.prototype.valueOf() to call a custom method instead of the default Object method.",
     "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/valueOf",
     "type": "Method"
   },
@@ -303,5 +303,5 @@
   {"name": "Examples", "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object#Examples"},
   {"name": "Specifications", "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object#Specifications"},
   {"name": "Browser compatibility", "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object#Browser_compatibility"},
-  {"name": "See also", "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object#See_also"},
+  {"name": "See also", "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object#See_also"}
 ]

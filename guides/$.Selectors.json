@@ -1,0 +1,38 @@
+[
+  {
+    "description": "Contains Prefix Selector [name|='value']",
+    "href": "https://api.jquery.com/attribute-contains-prefix-selector/"
+  },
+  {
+    "description": "Contains Selector [name*='value']",
+    "href": "https://api.jquery.com/attribute-contains-selector/"
+  },
+  {
+    "description": "Contains Word Selector [name~='value']",
+    "href": "https://api.jquery.com/attribute-contains-word-selector/"
+  },
+  {
+    "description": "Ends With Selector [name$='value']",
+    "href": "https://api.jquery.com/attribute-ends-with-selector/"
+  },
+  {
+    "description": "Equals Selector [name='value']",
+    "href": "https://api.jquery.com/attribute-equals-selector/"
+  },
+  {
+    "description": "Not Equal Selector [name!='value']",
+    "href": "https://api.jquery.com/attribute-not-equal-selector/"
+  },
+  {
+    "description": "Starts With Selector [name^='value']",
+    "href": "https://api.jquery.com/attribute-starts-with-selector/"
+  },
+  {
+    "description": "Permalink to Has Attribute Selector [name]",
+    "href": "https://api.jquery.com/has-attribute-selector/"
+  },
+  {
+    "description": "Permalink to Multiple Attribute Selector [name='value'][name2='value2″]",
+    "href": "https://api.jquery.com/multiple-attribute-selector/"
+  }
+]

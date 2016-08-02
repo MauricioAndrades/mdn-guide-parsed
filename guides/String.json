@@ -1,29 +1,5 @@
 [
 	{
-		"name": "Description",
-		"href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/prototype#Description"
-	},
-	{
-		"name": "Properties",
-		"href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/prototype#Properties"
-	},
-	{
-		"name": "Methods",
-		"href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/prototype#Methods"
-	},
-	{
-		"name": "Specifications",
-		"href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/prototype#Specifications"
-	},
-	{
-		"name": "Browser compatibility",
-		"href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/prototype#Browser_compatibility"
-	},
-	{
-		"name": "See also",
-		"href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/prototype#See_also"
-	},
-	{
 		"name": "string.length",
 		"desc": "The length property represents the length of a string.",
 		"href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/length",
@@ -70,7 +46,11 @@
 	},
 	{
 		"name": "String.prototype.charAt()",
-		"desc": "Technical review completed.",
+		"syntax": "str.charAt(index)",
+		"params": {
+			"index": "An integer between 0 and 1-less-than the length of the string."
+			},
+		"desc": "The charAt() method returns the specified character from a string.",
 		"href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/charAt",
 		"type": "Method"
 	},
@@ -498,5 +478,11 @@
 		"desc": "The watch() method watches for a property to be assigned a value and runs a function when that occurs.",
 		"href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/watch",
 		"type": "Method"
-	}
+	},
+	{"name": "Description", "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/prototype#Description"},
+	{"name": "Properties", "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/prototype#Properties"},
+	{"name": "Methods", "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/prototype#Methods"},
+	{"name": "Specifications", "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/prototype#Specifications"},
+	{"name": "Browser compatibility", "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/prototype#Browser_compatibility"},
+	{"name": "See also", "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/prototype#See_also"}
 ]
