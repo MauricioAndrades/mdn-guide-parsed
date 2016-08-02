@@ -1,20 +1,8 @@
 [
-  {
-    "name": "Summary",
-    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/document#Summary"
-  },
-  {
-    "name": "Syntax",
-    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/document#Syntax"
-  },
-  {
-    "name": "Example",
-    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/document#Example"
-  },
-  {
-    "name": "Specification",
-    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/document#Specification"
-  },
+  {"name": "Summary", "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/document#Summary"},
+  {"name": "Syntax", "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/document#Syntax"},
+  {"name": "Example", "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/document#Example"},
+  {"name": "Specification", "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/document#Specification"},
   {
     "name": "Window.applicationCache",
     "desc": "Returns a reference to the application cache object for the window.",

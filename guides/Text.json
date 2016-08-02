@@ -1,29 +1,10 @@
-// mdn text
 [
-  {
-    "name": "Properties",
-    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Text#Properties"
-  },
-  {
-    "name": "Constructor",
-    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Text#Methods"
-  },
-  {
-    "name": "Methods",
-    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Text#Methods"
-  },
-  {
-    "name": "Specifications",
-    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Text#Specifications"
-  },
-  {
-    "name": "Browser compatibility",
-    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Text#Browser_compatibility"
-  },
-  {
-    "name": "See also",
-    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Text#See_also"
-  },
+  {"name": "Properties", "href": "https://developer.mozilla.org/en-US/docs/Web/API/Text#Properties"},
+  {"name": "Constructor", "href": "https://developer.mozilla.org/en-US/docs/Web/API/Text#Methods"},
+  {"name": "Methods", "href": "https://developer.mozilla.org/en-US/docs/Web/API/Text#Methods"},
+  {"name": "Specifications", "href": "https://developer.mozilla.org/en-US/docs/Web/API/Text#Specifications"},
+  {"name": "Browser compatibility", "href": "https://developer.mozilla.org/en-US/docs/Web/API/Text#Browser_compatibility"},
+  {"name": "See also", "href": "https://developer.mozilla.org/en-US/docs/Web/API/Text#See_also"},
   {
     "name": "Text()",
     "desc": "The Text() constructor returns a newly created Text object with the optional DOMString given in parameter as its textual content.",

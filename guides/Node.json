@@ -1,9 +1,24 @@
 [
-  {"name": "Syntax","href": "https://developer.mozilla.org/en-US/docs/Web/API/Node/ownerDocument#Syntax"},
-  {"name": "Example","href": "https://developer.mozilla.org/en-US/docs/Web/API/Node/ownerDocument#Example"},
-  {"name": "Notes","href": "https://developer.mozilla.org/en-US/docs/Web/API/Node/ownerDocument#Notes"},
-  {"name": "Specifications","href": "https://developer.mozilla.org/en-US/docs/Web/API/Node/ownerDocument#Specifications"},
-  {"name": "Browser compatibility","href": "https://developer.mozilla.org/en-US/docs/Web/API/Node/ownerDocument#Browser_compatibility"},
+  {
+    "name": "Syntax",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Node/ownerDocument#Syntax"
+  },
+  {
+    "name": "Example",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Node/ownerDocument#Example"
+  },
+  {
+    "name": "Notes",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Node/ownerDocument#Notes"
+  },
+  {
+    "name": "Specifications",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Node/ownerDocument#Specifications"
+  },
+  {
+    "name": "Browser compatibility",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Node/ownerDocument#Browser_compatibility"
+  },
   {
     "name": "Node.baseURI",
     "desc": "The Node.baseURI read-only property returns the absolute base URL of a node.",
@@ -80,7 +95,7 @@
   },
   {
     "name": "Node.outerText",
-    "desc": "Editorial review completed.",
+    "desc": "See HTMLElement.outerText",
     "href": "https://developer.mozilla.org/en-US/docs/Web/API/Node/outerText",
     "type": "Property"
   },
@@ -152,7 +167,7 @@
   },
   {
     "name": "Node.insertBefore()",
-    "desc": "Editorial review completed.",
+    "desc": "The Node.insertBefore() method inserts the specified node before the reference node as a child of the current node.",
     "href": "https://developer.mozilla.org/en-US/docs/Web/API/Node/insertBefore",
     "type": "Method"
   },

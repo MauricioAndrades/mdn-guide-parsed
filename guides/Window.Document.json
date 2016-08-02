@@ -409,49 +409,49 @@
   },
   {
     "name": "Document.onpointercancel",
-    "desc": "Editorial review completed.",
+    "desc": "A global event handler for the pointercancel event.",
     "href": "https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onpointercancel",
     "type": "Property"
   },
   {
     "name": "Document.onpointerdown",
-    "desc": "Editorial review completed.",
+    "desc": "A global event handler for the pointerdown event.",
     "href": "https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onpointerdown",
     "type": "Property"
   },
   {
     "name": "Document.onpointerenter",
-    "desc": "Editorial review completed.",
+    "desc": "A global event handler for the pointerenter event.",
     "href": "https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onpointerenter",
     "type": "Property"
   },
   {
     "name": "Document.onpointerleave",
-    "desc": "Editorial review completed.",
+    "desc": "A global event handler for the pointerleave event.",
     "href": "https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onpointerleave",
     "type": "Property"
   },
   {
     "name": "Document.onpointermove",
-    "desc": "Editorial review completed.",
+    "desc": "A global event handler for the pointermove event.",
     "href": "https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onpointermove",
     "type": "Property"
   },
   {
     "name": "Document.onpointerout",
-    "desc": "Editorial review completed.",
+    "desc": "A global event handler for the pointerout event.",
     "href": "https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onpointerout",
     "type": "Property"
   },
   {
     "name": "Document.onpointerover",
-    "desc": "Editorial review completed.",
+    "desc": "A global event handler for the pointerover event.",
     "href": "https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onpointerover",
     "type": "Property"
   },
   {
     "name": "Document.onpointerup",
-    "desc": "Editorial review completed.",
+    "desc": "A global event handler for the pointerup event.",
     "href": "https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onpointerup",
     "type": "Property"
   },
@@ -501,21 +501,21 @@
   },
   {
     "name": "Document.ontouchcancel",
-    "desc": "Editorial review completed.",
+    "desc": "A global event handler for the touchcancel event.",
     "href": "https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/ontouchcancel",
     "type": "Property",
     "warning": "This is an experimental API that should not be used in production code."
   },
   {
     "name": "Document.ontouchmove",
-    "desc": "Editorial review completed.",
+    "desc": "A global event handler for the touchmove event.",
     "href": "https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/GlobalEventHanders.ontouchmove",
     "type": "Property",
     "warning": "This is an experimental API that should not be used in production code."
   },
   {
     "name": "Document.ontouchstart",
-    "desc": "Editorial review completed.",
+    "desc": "A global event handler for the touchstart event.",
     "href": "https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/ontouchstart",
     "type": "Property",
     "warning": "This is an experimental API that should not be used in production code."
@@ -766,7 +766,7 @@
   },
   {
     "name": "Document.createTouch()",
-    "desc": "Technical review completed.",
+    "desc": "",
     "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/createTouch",
     "type": "Method",
     "warning": "This deprecated API should no longer be used, but will probably still work."
@@ -921,7 +921,7 @@
   },
   {
     "name": "Document.querySelector()",
-    "desc": "Editorial review completed.",
+    "desc": "Returns the first element within the document (using depth-first pre-order traversal of the document's nodes|by first element in document markup and iterating through sequential nodes by order of amount of child nodes) that matches the specified group of selectors.",
     "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector",
     "type": "Method"
   },
