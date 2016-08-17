@@ -2,7 +2,7 @@ var requireg = require("/Users/Op/.npm-global/lib/node_modules/requireg/lib/requ
 var traverse = requireg('traverse');
 var fs = require('fs');
 
-var data = JSON.stringify(fs.readFileSync('/Volumes/ramdisk/interfaces-domsjon.json', 'utf8'));
+var data = JSON.stringify(fs.readFileSync("/Volumes/ramdisk/glossay.json", 'utf8'));
 
 // var data = JSON.parse(data);
 var tlog = requireg('mod-log').tlog;
@@ -12,41 +12,32 @@ var scrubbed = traverse(JSON.parse(data)).map(function (x) {
   if (x.circular) x.remove();
 });
 
+var acc = [];
+
 function traversedomjson(_data, callback) {
   var opts = {
     clean: true
   }
-  var acc = [];
-  var leaves = traverse(JSON.parse(_data)).map(function (acc, x) {
-    if (opts.clean) {
-      if (this.circular) this.remove();
-      var key = this.key;
-      if (this.key !== undefined && typeof this.key === 'string') {
-        if (this.key) {
-          var j = JSON.stringify(this.key);
-          console.log('=========');
-          console.log(j)
-        }
-      }
-    }
-    if (this.tagName !== undefined) {
-      if (x.tagName.toString() === "A" || x.tagName.toString() === "DD") {
+  traverse(JSON.parse(_data)).forEach(function (x) {
+    if (this.keys && this.keys.includes('tagName')) {
+
+      if (this.node.tagName.toString().toLowerCase() === "a") {
         var obj = {};
-        if (x.text) obj.name = x.text;
-        if (x.title) obj.desc = x.title;
-        if (x.href) obj.href = x.href;
-        if (Object.keys(obj).length > 0) acc.push(obj);
+        var n = this.node;
+        if (n.text) obj.name =  n.text;
+        if (n.title) obj.desc = n.title;
+        if (n.href) obj.href =  n.href;
+        acc.push(obj);
       }
     }
-    return acc;
-  }, []);
+  });
   // tlog('leaves', leaves);
-  callback(leaves);
+  callback(acc);
 }
 
-function writefile(object) {
-  var data = JSON.stringify(object);
-  fs.writeFile('/volumes/ramdisk/mdn.json', data, 'utf8', function (err) {
+function writefile(arr) {
+  var data = JSON.stringify(arr);
+  fs.writeFile('/volumes/ramdisk/mdn2.json', data, 'utf8', function (err) {
     if (err) plog(err);
   })
 }

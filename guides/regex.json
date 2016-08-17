@@ -1,0 +1,24 @@
+[
+  {
+    "neg-lookbehind": {
+      "description": "Starting at the current position in the expression, ensures that the given pattern will not match. Does not consume characters.",
+      "foo(?!bar)": "foobar [foo]bazz",
+      "neg-lookahead": "(?!...)"
+    },
+    "neg-lookahead": {
+      "(?<!not )foo/": "not foo but [foo]",
+      "description": "Ensures that the given pattern would not match and end at the current position in the expression. Does not consume characters.",
+      "neg-lookbehinid": "(?!...)"
+    },
+    "pos-look-behind": {
+      "(?<=foo)bar": "foo[bar] foobaz",
+      "description": "Ensures that the given pattern will match, ending at the current position in the expression. Does not consume any characters.",
+      "pos-lookbehind": "(?<=...)"
+    },
+    "pos-look-ahead": {
+      "description": "Matches the given subpattern without consuming characters",
+      "foo(?=bar)": "[foo]bar foobazz",
+      "positive_lookahead": "(?=...)"
+    }
+  }
+]

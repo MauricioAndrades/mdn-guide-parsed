@@ -1,0 +1,1865 @@
+[
+    {
+        "name": "Abstraction",
+        "desc": "Abstraction in computer programming is a way to reduce complexity and allow efficient design and implementation in complex software systems. It hides the technical complexity of systems behind simpler APIs.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Abstraction"
+    },
+    {
+        "name": "Accessibility",
+        "desc": "Web Accessibility (A11Y) refers to best practices for keeping a website usable despite physical and technical restrictions. Web accessibility is formally defined and discussed at the W3C through the Web Accessibility Initiative (WAI).",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Accessibility"
+    },
+    {
+        "name": "Adobe Flash",
+        "desc": "Technical review completed.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Adobe_Flash"
+    },
+    {
+        "name": "AJAX",
+        "desc": "AJAX (Asynchronous JavaScript And XML) is a programming practice of combining HTML, CSS, JavaScript, the DOM, and the XMLHttpRequest object to build complex webpages that update dynamically without entirely reloading.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/AJAX"
+    },
+    {
+        "name": "Algorithm",
+        "desc": "An algorithm is a self-contained series of instructions that perform a function.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Algorithm"
+    },
+    {
+        "name": "API",
+        "desc": "An API (Application Programming Interface) is a set of features and rules allowing interaction between the software providing the API and other software components. In Web development, API commonly means a set of standard methods, properties, events, and URLs for interacting with Web content.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/API"
+    },
+    {
+        "name": "Apple Safari",
+        "desc": "Safari is a Web browser developed by Apple and bundled with both Mac OS X and iOS. It's based on the open source WebKit engine.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Apple_Safari"
+    },
+    {
+        "name": "Application Context",
+        "desc": "An application context is a top-level browsing context that has a manifest applied to it.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/application_context"
+    },
+    {
+        "name": "Argument",
+        "desc": "An argument is a value (primitive or object) passed as input to a function.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Argument"
+    },
+    {
+        "name": "ARIA",
+        "desc": "ARIA (Accessible Rich Internet Applications) is a W3C specification for adding semantics and other metadata to HTML to cater to users of assistive technology.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/ARIA"
+    },
+    {
+        "name": "ARPA",
+        "desc": "Editorial review completed.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/ARPA"
+    },
+    {
+        "name": "Arpanet",
+        "desc": "The ARPAnet (advanced research projects agency network) was an early computer network, constructed in 1969 as a robust medium to transmit sensitive military data and to connect leading research groups throughout the United States. ARPAnet first ran NCP (network control protocol) and subsequently the first version of the Internet protocol or TCP/IP suite, making ARPAnet a prominent part of the nascent Internet. ARPAnet was closed in early 1990.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Arpanet"
+    },
+    {
+        "name": "Array",
+        "desc": "An array is an ordered collection of data (either primitive or object). Based on its place in the array, each data item has a numeric index through which you can access the corresponding value. In JavaScript, arrays are also objects that can be manipulated with various methods.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/array"
+    },
+    {
+        "name": "ASCII",
+        "desc": "ASCII (American Standard Code for Information Interchange) is one of the most popular coding method used by computers for converting letters, numbers, punctuation and control codes into digital form. Since 2007, UTF-8 superseded it on the Web.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/ASCII"
+    },
+    {
+        "name": "Asynchronous",
+        "desc": "Technical review completed. Editorial review completed.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Asynchronous"
+    },
+    {
+        "name": "ATAG",
+        "desc": "ATAG (Authoring Tool Accessibility Guidelines) is a W3C recommendation for building accessible-authoring tools that produce accessible contents.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/ATAG"
+    },
+    {
+        "name": "Attribute",
+        "desc": "An attribute extends a tag, changing tag behavior or providing metadata. An attribute always has the form name=value (giving the attribute's identifier and the attribute's associated value).",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Attribute"
+    },
+    {
+        "name": "Bandwidth",
+        "desc": "Technical review completed.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Bandwidth"
+    },
+    {
+        "name": "BiDi",
+        "desc": "BiDi (BiDirectional) refers to a document containing both right-to-left and left-to-right text. Even when both directionalities occur in the same paragraph, the text in each language must appear in its proper directionality.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/BiDi"
+    },
+    {
+        "name": "Blink",
+        "desc": "Blink is an open-source browser layout engine developed by Google as part of Chromium (and therefore part of Chrome as well). Specifically, Blink is a fork of the WebCore library in WebKit, which handles layout, rendering, and DOM.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Blink"
+    },
+    {
+        "name": "Block",
+        "desc": "The term block can have several meanings depending on the context. It may refer to:",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Block"
+    },
+    {
+        "name": "Block (CSS)",
+        "desc": "A block on a webpage is an HTML element that appears underneath the preceding element and above the following element. For example, <p> is by default a block-level element, whereas <a> is not (i.e., by default you can put a link in the middle of a paragraph; the link doesn't have to start its own line). Using display you can change whether an element displays inline or as a block (among many other options).",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Block/CSS"
+    },
+    {
+        "name": "Block (scripting)",
+        "desc": "In JavaScript, a block is a collection of related statements enclosed in braces (\\\"{}\\\"). For example, you can put a block of statements after if (condition), indicating that the interpreter must skip the whole block if the condition is false.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Block/Scripting"
+    },
+    {
+        "name": "Boolean",
+        "desc": "In computer science, a boolean is a logical data type that can have only the values true or false.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Boolean"
+    },
+    {
+        "name": "Boot2Gecko",
+        "desc": "Boot2Gecko (B2G) is the engineering codename for Firefox OS and refers to builds that haven't yet received official Firefox OS branding. (Firefox OS was also often called Boot2Gecko before the project had an official name.)",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Boot2Gecko"
+    },
+    {
+        "name": "Bounding Box",
+        "desc": "The bounding box of an element is the tightest fitting rectangle aligned with the axes of that element's user coordinate system that entirely encloses it and its descendants.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/bounding_box"
+    },
+    {
+        "name": "Browser",
+        "desc": "A Web browser is a program that retrieves and displays pages from the Web, and lets users access further pages through hyperlinks.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Browser"
+    },
+    {
+        "name": "Browsing context",
+        "desc": "A browsing context is the environment in which a browser displays a Document (normally a tab nowadays, but possibly also a window or a frame within a page).",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Browsing_context"
+    },
+    {
+        "name": "Cacheable",
+        "desc": "A cacheable response is an HTTP response that can be cached, that is stored to be retrieved and used later, saving a new request to the server. Not all HTTP responses can be cached, there are the following constraints for an HTTP response to be cached:",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/cacheable"
+    },
+    {
+        "name": "CalDAV",
+        "desc": "CalDAV (Calendaring extensions to WebDAV) is a protocol standardized by the IETF and used to remotely access calendar data from a server.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/CalDAV"
+    },
+    {
+        "name": "Call stack",
+        "desc": "A call stack is a mechanism for an interpreter to keep track of its place in a script that calls functions from within functions.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Call_stack"
+    },
+    {
+        "name": "Canvas",
+        "desc": "The HTML <canvas> element provides an empty graphic zone on which specific JavaScript APIs can draw (such as Canvas 2D or WebGL).",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Canvas"
+    },
+    {
+        "name": "Card sorting",
+        "desc": "Card sorting is a simple technique used in Information architecture whereby people involved in the design of a website (or other type of product) are invited to write down the content / services / features they feel the product should contain, and then organize those features into categories or groupings. This can be used for example to work out what should go on each page of a website. The name comes from the fact that often card sorting is carried out by literally writing the items to sort onto cards, and then arranging the cards into piles.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Card_sorting"
+    },
+    {
+        "name": "CardDAV",
+        "desc": "CardDAV (vCard Extension to WebDAV) is a protocol standardized by the IETF and used to remote-access or share contact information over a server.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/CardDAV"
+    },
+    {
+        "name": "CDN",
+        "desc": "Technical review completed.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/CDN"
+    },
+    {
+        "name": "Certificate authority",
+        "desc": "A certificate authority (CA) is an organization that signs digital certificates and their associated public keys. This certifies that an organization that requested a digital certificate (e.g., Mozilla Corporation) is authorized to request a certificate for the subject named in the certificate (e.g., mozilla.org).",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Certificate_authority"
+    },
+    {
+        "name": "Certified",
+        "desc": "Certified means that an application, content or data transmission has successfully undergone evaluation by professionals with expertise in the relevant field, thereby indicating completeness, security and trustworthiness.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Certified"
+    },
+    {
+        "name": "Character",
+        "desc": "A character is either a symbol (letters, numbers, punctuation) or non-printing \"control\" (e.g., carriage return or soft hyphen).  UTF-8 is the most common character set and includes the graphemes of the most popular human languages.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Character"
+    },
+    {
+        "name": "character encoding",
+        "desc": "Character encoding is a set of representation for characters in an encoding system.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/character_encoding"
+    },
+    {
+        "name": "Chrome",
+        "desc": "In a browser, the chrome is any visible aspect of a browser aside from the webpages themselves (e.g., toolbars, menu bar, tabs). This should not to be confused with the Google Chrome browser.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Chrome"
+    },
+    {
+        "name": "CIA",
+        "desc": "CIA (Confidentiality, Integrity, Availability) (also called the CIA triad or AIC triad) is a model that guides an organization's policies for information security.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/CIA"
+    },
+    {
+        "name": "Cipher",
+        "desc": "In cryptography, a cipher is an algorithm that can encode cleartext to make it unreadable, and to decode it back.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Cipher"
+    },
+    {
+        "name": "Cipher suite",
+        "desc": "A cipher suite is a combination of a key exchange algorithm, authentication method, bulk encryption cipher, and message authentication code.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Cipher_suite"
+    },
+    {
+        "name": "Ciphertext",
+        "desc": "In cryptography, a ciphertext is a scrambled message that conveys information but is not legible unless decrypted with the right cipher and the right secret (usually a key), reproducing the original cleartext. A ciphertext's security, and therefore the secrecy of the contained information, depends on using a secure cipher and keeping the key secret.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Ciphertext"
+    },
+    {
+        "name": "Class",
+        "desc": "In object-oriented programming, a class defines an object's characteristics. Class is a template definition of an object's properties and methods, the \"blueprint\" from which other more specific instances of the object are drawn.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Class"
+    },
+    {
+        "name": "Closure",
+        "desc": "The binding which defines the scope of execution. In JavaScript, functions create a closure context.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Closure"
+    },
+    {
+        "name": "CMS",
+        "desc": "A CMS (Content Management System) is software that allows users to publish, organize, change, or remove various kinds of content, not only text but also embedded images, video, audio, and interactive code.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/CMS"
+    },
+    {
+        "name": "Codec",
+        "desc": "A codec  (a derivative from \"coder-decoder\") is a computer program that encodes or decodes a data stream.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Codec"
+    },
+    {
+        "name": "Compile",
+        "desc": "Compiling is the process of transforming a computer program in a given programming language into the same program written in another language (normally a binary language that the computer can execute).",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Compile"
+    },
+    {
+        "name": "Compile time",
+        "desc": "The compile time is the time from when the program is first loaded until the program is parsed.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Compile_time"
+    },
+    {
+        "name": "Computer Programming",
+        "desc": "Programming is a process that formulates the solution of a computing problem, or automates a repetitive task, as a series of sequential instructions in an executable program.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Computer_Programming"
+    },
+    {
+        "name": "Conditional",
+        "desc": "Editorial review completed.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Conditional"
+    },
+    {
+        "name": "Constant",
+        "desc": "A constant is a value that the programmer cannot change, for example numbers (1, 2, 42). With variables, on the other hand, the programmer can assign a new value to a variable name already in use.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Constant"
+    },
+    {
+        "name": "Constructor",
+        "desc": "A constructor belongs to a particular class object that is instantiated. The constructor initializes this object and can provide access to its private information. The concept of a constructor can be applied to most object-oriented programming languages. Essentially, a constructor in JavaScript is usually declared at the instance of a class.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Constructor"
+    },
+    {
+        "name": "Control flow",
+        "desc": "The control flow is the order in which the computer executes statements in a script.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Control_flow"
+    },
+    {
+        "name": "Cookie",
+        "desc": "A cookie is a small stub of information left by a website on a visitor's computer through the web browser.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Cookie"
+    },
+    {
+        "name": "Copyleft",
+        "desc": "Copyleft is a term, usually referring to a license, used to indicate that such license requires that redistribution of said work is subject to the same license as the original. Examples of copyleft licenses are the GNU GPL (for software) and the Creative Commons SA (Share Alike) licenses (for works of art).",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Copyleft"
+    },
+    {
+        "name": "CORS",
+        "desc": "Technical review completed.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/CORS"
+    },
+    {
+        "name": "Crawler",
+        "desc": "A web crawler is a program, often called a bot or robot, which systematically browses the Web to collect data from webpages.  Typically search engines use crawlers to build indexes.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Crawler"
+    },
+    {
+        "name": "CRLF",
+        "desc": "CR and LF are control characters or bytecode that can be used to mark a line break in a text file.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/CRLF"
+    },
+    {
+        "name": "Cross-site scripting",
+        "desc": "Technical review completed. Editorial review completed.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Cross-site_scripting"
+    },
+    {
+        "name": "CRUD",
+        "desc": "CRUD (Create, Read, Update, Delete) is an acronym for ways one can operate on stored data. It is a mnemonic for the four basic functions of persistent storage.  CRUD typically refers to operations performed in a database or datastore, but it can also apply to higher level functions of an application such as soft deletes where data is not actually deleted but marked as deleted via a status.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/CRUD"
+    },
+    {
+        "name": "Cryptanalysis",
+        "desc": "Cryptanalysis is the branch of cryptography that studies how to break codes and cryptosystems. Cryptanalysis creates techniques to break ciphers, in particular by methods more efficient than a brute-force search. In addition to traditional methods like frequency analysis and index of coincidence, cryptanalysis includes more recent methods, like linear cryptanalysis or differential cryptanalysis, that can break more advanced ciphers.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Cryptanalysis"
+    },
+    {
+        "name": "Cryptographic hash function",
+        "desc": "A cryptographic hash function is a cryptographic primitive transforming a message of arbitrary size into a message of fixed size, called a digest. Cryptographic hash functions are used for authentication, digital signatures, and message authentication codes.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Cryptographic_hash_function"
+    },
+    {
+        "name": "Cryptography",
+        "desc": "Cryptography, or cryptology, is the science that studies how to encode and transmit messages securely. Cryptography designs and studies algorithms used to encode and decode messages in an insecure environment, and their applications.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Cryptography"
+    },
+    {
+        "name": "CSP",
+        "desc": "A CSP (Content Security Policy) is used to detect and mitigate certain types of website related attacks like XSS and data injections.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/CSP"
+    },
+    {
+        "name": "CSRF",
+        "desc": "CSRF (Cross-Site Request Forgery) is an attack that impersonates a trusted user and sends a website unwanted commands. This can be done, for example, by including malicious parameters in a URL behind a link that purports to go somewhere else.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/CSRF"
+    },
+    {
+        "name": "CSS",
+        "desc": "CSS (Cascading Style Sheets) is a declarative language that controls how webpages look in the browser.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/CSS"
+    },
+    {
+        "name": "CSS Selector",
+        "desc": "A CSS selector is a pattern rule that matches style rules to a specific element (or elements). The selector begins a rule set and precedes definitions of how the element(s) should look.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/CSS_Selector"
+    },
+    {
+        "name": "Data structure",
+        "desc": "Data structure is a particular way of organizing data so that it can be used efficiently",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Data_structure"
+    },
+    {
+        "name": "Decryption",
+        "desc": "In cryptography, decryption is the conversion of ciphertext into cleartext.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Decryption"
+    },
+    {
+        "name": "Denial of Service",
+        "desc": "DOS (Denial of service) is an attack on computers or networks that restricts or prevents legitimate use. In a DOS attack, an attacker uses a flood of packets to slow down or crash the target system or an entire network.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Denial_of_Service"
+    },
+    {
+        "name": "DHTML",
+        "desc": "DHTML (Dynamic HTML) refers to the code behind interactive webpages that need no plugins like Flash or Java. DHTML aggregates the combined functionality of HTML, CSS, the DOM, and JavaScript.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/DHTML"
+    },
+    {
+        "name": "Digest",
+        "desc": "A digest is a small value generated by a hash function from a whole message. Ideally, a digest is quick to calculate, irreversible, and unpredictable, and therefore indicates whether someone has tampered with a given message.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Digest"
+    },
+    {
+        "name": "Digital certificate",
+        "desc": "A digital certificate is a data file that binds a publicly known cryptographic key to an organization.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Digital_certificate"
+    },
+    {
+        "name": "Distributed Denial of Service",
+        "desc": "A Distributed Denial-of-Dervice (DDoS) is an attack in which many compromised systems are made to attack a single target, in order to swamp server resources and block legitimate users.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Distributed_Denial_of_Service"
+    },
+    {
+        "name": "DNS",
+        "desc": "DNS (Domain Name System) translates easy-to-recall domain names to the numerical IP addresses needed to find a particular computer service on the Internet or private network.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/DNS"
+    },
+    {
+        "name": "Doctype",
+        "desc": "<!DOCTYPE> informs the browser which version of HTML (or XML) you used to write the document. Doctype is a declaration, not a tag; you can also refer to it as \"document type declaration\", or \"DTD\" for short.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Doctype"
+    },
+    {
+        "name": "document environment",
+        "desc": "When the JavaScript global environment is a window or an iframe, it is called a document environment. A global environment is an environment that doesn't have an outer environment.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/document_environment"
+    },
+    {
+        "name": "DOM",
+        "desc": "The DOM (Document Object Model) is an API that represents and interacts with any HTML or XML document. The DOM is a document model loaded in the browser and representing the document as a node tree, where each node represents part of the document (e.g. an element, text string, or comment).",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/DOM"
+    },
+    {
+        "name": "Domain",
+        "desc": "A domain is the part of a computer network in which one entity controls the data processing resources, for example a website.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Domain"
+    },
+    {
+        "name": "Domain name",
+        "desc": "A domain name is a website's address on the Internet. Domain names are used in URLs to identify to which server belong a specific webpage. The domain name consists of a hierarchial sequence of names (labels) separated by periods (dots) and ending with an extension.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Domain_name"
+    },
+    {
+        "name": "Dominator",
+        "desc": "In graph theory, node A dominates node B if every path from the root node to B passes through A.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Dominator"
+    },
+    {
+        "name": "DoS attack",
+        "desc": "DoS (Denial of Service) is a network attack that prevents legitimate use of server resources by flooding the server with requests.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/DOS_attack"
+    },
+    {
+        "name": "DTD",
+        "desc": "<!DOCTYPE> informs the browser which version of HTML (or XML) you used to write the document. Doctype is a declaration, not a tag; you can also refer to it as \"document type declaration\", or \"DTD\" for short.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/DTD"
+    },
+    {
+        "name": "Dynamic typing",
+        "desc": "Dynamically-typed languages are those (like JavaScript) where the interpreter assigns variables a type at runtime based on the variable's value at the time.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Dynamic_typing"
+    },
+    {
+        "name": "ECMA",
+        "desc": "Ecma International (formally European Computer Manufacturers Association) is a non-profit organization that develops standards in computer hardware, communications, and programming languages.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/ECMA"
+    },
+    {
+        "name": "ECMAScript",
+        "desc": "ECMAScript is the scripting language on which JavaScript is based. Ecma International is in charge of standardizing ECMAScript.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/ECMAScript"
+    },
+    {
+        "name": "Element",
+        "desc": "An element is a part of a webpage. In XML and HTML, an element may contain a data item or a chunk of text or an image, or perhaps nothing. A typical element includes an opening tag with some attributes, a content, and a closing tag:",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Element"
+    },
+    {
+        "name": "Empty element",
+        "desc": "An empty element is an element from HTML, SVG, or MathML that cannot have any child nodes (i.e., nested element or text inside an element).",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Empty_element"
+    },
+    {
+        "name": "Encapsulation",
+        "desc": "Encapsulation is the packing of data and functions into one component (for example, a class) and then controlling access to that component to make a \"blackbox\" out of the object. Because of this, a user of that class only needs to know its interface (that is, the data and functions exposed outside the class), not the hidden implementation.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Encapsulation"
+    },
+    {
+        "name": "Encryption",
+        "desc": "In cryptography, encryption is the conversion of cleartext into a coded text or ciphertext. A ciphertext is intended to be unreadable by unauthorized readers.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Encryption"
+    },
+    {
+        "name": "Endianness",
+        "desc": "\"Endian\" and \"endianness\" (or \"byte-order\") describe how computers organize the bytes that make up numbers.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Endianness"
+    },
+    {
+        "name": "Engine",
+        "desc": "Technical review completed.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Engine"
+    },
+    {
+        "name": "Entity",
+        "desc": "An HTML entity is a string that begins with '&' and ends with ';'. Entities can be used to represent any character in HTML.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Entity"
+    },
+    {
+        "name": "Entity header",
+        "desc": "An entity header is an HTTP header describing the content of the body of the message. Entity headers are used in both, HTTP requests and responses. Headers like Content-Length, Content-Language, Content-Encoding are entity headers.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Entity_header"
+    },
+    {
+        "name": "event",
+        "desc": "Events are things generated by DOM elements and can be handled by a Javascript code.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/event"
+    },
+    {
+        "name": "Exception",
+        "desc": "An exception is a condition that interrupts normal code execution. In JavaScript syntax errors are a very common source of exceptions.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Exception"
+    },
+    {
+        "name": "Expando",
+        "desc": "Expando properties are properties added to DOM nodes with JavaScript but not part of the object's DOM specification:",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Expando"
+    },
+    {
+        "name": "Falsy",
+        "desc": "A falsy value is a value that translates to false when evaluated in a Boolean context.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Falsy"
+    },
+    {
+        "name": "Firefox OS",
+        "desc": "Firefox OS is Mozilla's mobile operating system, based on Linux and Firefox's powerful Gecko rendering engine. Firefox OS consists mainly of Gaia, Gecko, and Gonk.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Firefox_OS"
+    },
+    {
+        "name": "firewall",
+        "desc": "A firewall is a system that filters network connection. It can either let them pass or block them, according to some specified rules. For example it can block incoming connection to a certain port or outgoing connections to a certain IP address.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/firewall"
+    },
+    {
+        "name": "Forbidden header name",
+        "desc": "A forbidden header name is an HTTP header name that cannot be modified programmatically.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Forbidden_header_name"
+    },
+    {
+        "name": "Forbidden response header name",
+        "desc": "A forbidden response header name is an HTTP header name (either `Set-Cookie` or `Set-Cookie2`) that cannot be modified programmatically.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Forbidden_response_header_name"
+    },
+    {
+        "name": "FTP",
+        "desc": "FTP (File Transfer Protocol) is the standard network protocol for transferring files from one host to another over the Internet through TCP.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/FTP"
+    },
+    {
+        "name": "FTU",
+        "desc": "FTU (First Time Use) is the app that loads when you run a newly-installed version of Gecko on a Firefox OS device.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/FTU"
+    },
+    {
+        "name": "Function",
+        "desc": "A function is a code snippet that can be called by other code or by itself, or a variable that refers to the function. When a function is called, arguments are passed to the function as input, and the function can optionally return an output. A function in JavaScript is also an object.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Function"
+    },
+    {
+        "name": "Gaia",
+        "desc": "The user interface and default application suite of the Firefox OS platform.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Gaia"
+    },
+    {
+        "name": "Garbage collection",
+        "desc": "Garbage collection is a term used in computer programming to describe the process of finding and deleting objects which are no longer being referenced by other objects.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Garbage_collection"
+    },
+    {
+        "name": "Gecko",
+        "desc": "Gecko is the layout engine developed by the Mozilla Project and used in many apps/devices, including Firefox and Firefox OS.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Gecko"
+    },
+    {
+        "name": "General header",
+        "desc": "A general header is an HTTP header that can be used for both, request and response messages, but don't apply to the content itself. Depending on the context they are used in, general headers are either response or request headers. However, they are not entity headers.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/General_header"
+    },
+    {
+        "name": "GIF",
+        "desc": "Technical review completed.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/gif"
+    },
+    {
+        "name": "GIJ",
+        "desc": "Gaia integration Testing. Marionette- and JavaScript- based. See GIJ.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/GIJ"
+    },
+    {
+        "name": "Git",
+        "desc": "Git is a free, open-source, distributed Source Code Management (SCM) system. It facilitates handling code bases with distributed development teams. What sets it apart from previous SCM systems is the ability to do common operations (branching, committing, etc.) on your local development machine, without having to change the master repository or even having write access to it.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Git"
+    },
+    {
+        "name": "Global attribute",
+        "desc": "Global attributes are attributes that can be used on all elements (though sometimes without effect on some elements).",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Global_attribute"
+    },
+    {
+        "name": "Global object",
+        "desc": "A global object is an object that always exists in the global scope.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Global_object"
+    },
+    {
+        "name": "Global scope",
+        "desc": "The scope that is visible in all other scopes.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Global_scope"
+    },
+    {
+        "name": "Global variable",
+        "desc": "A global variable is a  variable that is declared in the global scope in other words, a variable that is visible from all other scopes.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Global_variable"
+    },
+    {
+        "name": "Gonk",
+        "desc": "Gonk is the lower-level operating system of Firefox OS and consists of a Linux kernel (based on the Android Open Source Project (AOSP)) and userspace hardware abstraction layer (HAL).",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Gonk"
+    },
+    {
+        "name": "Google Chrome",
+        "desc": "Google Chrome is a free Web browser developed by Google. It's based on the Chromium open source project. Some key differences are described on the Chromium wiki. For a layout engine, both browsers use a fork of WebKit called Blink. Note that the iOS version of Chrome uses that platform's rendering engine, not Blink.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Google_Chrome"
+    },
+    {
+        "name": "GPL",
+        "desc": "The (GNU) GPL (General Public License) is a copyleft free software license published by the Free Software Foundation. Users of a GPL-licensed program are granted the freedom to use it, read the source code, modify it and redistribute the changes they made, provided they redistribute the program (modified or unmodified) under the same license.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/GPL"
+    },
+    {
+        "name": "Guard",
+        "desc": "Guard is a feature of Headers objects (as defined in the Fetch spec, which affects whether methods such as set() and append() can change the header's contents. For example, immutable guard means that headers can't be changed. For more information, read Fetch basic concepts: guard.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Guard"
+    },
+    {
+        "name": "hash",
+        "desc": "The hash function takes a variable length message input and produces a fixed-length hash output. It is commonly in the form of a 128-bit \"fingerprint\" or \"message digest\". Hashes are also very useful for cryptography by insuring the integrity of transmitted data. It's the building block for HMAC's that provide message authentication.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/hash"
+    },
+    {
+        "name": "Head",
+        "desc": "The Head is the part of an HTML document that contains metadata about that document, such as author, description, and links to CSS or JavaScript files that should be applied to the HTML.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Head"
+    },
+    {
+        "name": "Header",
+        "desc": "An HTTP header is a field of an HTTP request or response that passes additional information, altering or precising the semantics of the message or of the body. Headers are case-insensitive, begins at the start of a line and are immediately followed by a ':' and a value depending of the header itself. The value finish at the next CR or at the end of the message.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Header"
+    },
+    {
+        "name": "High-level programming language",
+        "desc": "A high-level programming language has a significant abstraction from the details of computer operation. It is designed to be easily understood by humans and for this reason they must be translated by another software. Unlike low-level programming languages, it may use natural language elements, or may automate (or even entirely hide) significant areas of computing systems, making the process of developing simpler and more understandable relative to a lower-level language. The amount of abstraction provided defines how \"high-level\" a programming language is.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/High-level_programming_language"
+    },
+    {
+        "name": "Hoisting",
+        "desc": "In JavaScript, functions and variables are hoisted. Hoisting is JavaScript's behavior of moving declarations to the top of a scope (the global scope or the current function scope).",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Hoisting"
+    },
+    {
+        "name": "Host",
+        "desc": "A host is a device connected to the Internet (or a local network). Some hosts called servers offer additional services like serving webpages or storing files and emails.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Host"
+    },
+    {
+        "name": "Hotlink",
+        "desc": "A hotlink (also known as inline link) is an object (typically an image) directly linked to another object on another site. For example, an image hosted on site1.com is shown directly on site2.com.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Hotlink"
+    },
+    {
+        "name": "HTML",
+        "desc": "HTML (HyperText Markup Language) is a descriptive language that specifies webpage structure.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/HTML"
+    },
+    {
+        "name": "HTML5",
+        "desc": "The latest stable release of HTML, HTML5 takes HTML from a simple markup for structuring a document to a full app development platform. Among other features, HTML5 includes new elements and JavaScript APIs to enhance storage, multimedia, and hardware access.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/HTML5"
+    },
+    {
+        "name": "HTTP",
+        "desc": "HTTP (HyperText Transfer Protocol) is the basic protocol that enables file transfer on the Web. HTTP is textual (all communication is done in plain text) and stateless (no communication is aware of previous communications).",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/HTTP"
+    },
+    {
+        "name": "HTTPS",
+        "desc": "HTTPS (HTTP Secure) is an encrypted version of the HTTP protocol. It usually use SSL or TLS to encrypt all communication between a client and a server. This secure connection allows clients to safly exchange sensitive data with a server, for example for banking activities or online shopping.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/https"
+    },
+    {
+        "name": "Hyperlink",
+        "desc": "Hyperlinks connect webpages or data items to one another. In HTML, <a> elements define hyperlinks from a spot on a webpage (like a text string or image) to another spot on some webpage (even the same page).",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Hyperlink"
+    },
+    {
+        "name": "Hypertext",
+        "desc": "Hypertext is text that contains links to other texts, as opposed to a single linear flow like in a novel.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Hypertext"
+    },
+    {
+        "name": "I18N",
+        "desc": "i18n (from \"internationalization\", a 20-letter word) is the best practice that enables products or services to be readily adapted to any target culture.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/I18N"
+    },
+    {
+        "name": "IANA",
+        "desc": "IANA (Internet Assigned Numbers Authority) is a subsidiary of ICANN charged with recording and/or assigning domain names, IP addresses, and other names and numbers used by Internet protocols.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/IANA"
+    },
+    {
+        "name": "ICANN",
+        "desc": "ICANN (Internet Corporation of Assigned Names and Numbers) is an international nonprofit that maintains the domain name system and the record of IP addresses.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/ICANN"
+    },
+    {
+        "name": "ICE",
+        "desc": "ICE (Interactive Connectivity Establishment) is a framework used by WebRTC (among other technologies) for connecting two peers to each other, regardless of network topology (usually for audio and/or video chat). This protocol lets two peers find and establish a connection with one another even though they may both be using Network Address Translator (NAT) to share a global IP address with other devices on their respective local networks.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/ICE"
+    },
+    {
+        "name": "IDE",
+        "desc": "An Integrated Development Environment (IDE) or Interactive Development environment is a software application that provides comprehensive facilities to computer programmers for software development. An IDE normally consists of a source code editor, build automation tools and a debugger.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/IDE"
+    },
+    {
+        "name": "Idempotent",
+        "desc": "An HTTP method is idempotent if an identical request can be made once or several times in a row with the same effect while leaving the server in the same state. In other words, an idempotent method should not have any side-effects (except for keeping statistics). Implemented correctly, the GET, HEAD, PUT, and DELETE method are idempotent, but not the POST method. All safe methods are also idempotent.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Idempotent"
+    },
+    {
+        "name": "Identifier",
+        "desc": "A sequence of characters in the code that identifies a variable, function, or property.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Identifier"
+    },
+    {
+        "name": "IDL",
+        "desc": "An IDL (Interface Description Language) is a generic language used to specified objects' interfaces apart from any specific programming language.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/IDL"
+    },
+    {
+        "name": "IETF",
+        "desc": "The Internet Engineering Task Force (IETF) is a worldwide organization that drafts specifications governing the mechanisms behind the Internet, especially the TCP/IP or Internet Protocol Suite.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/IETF"
+    },
+    {
+        "name": "IIFE",
+        "desc": "IIFE (Immediately Invoked Function Expression) is a JavaScript function that runs as soon as it is defined.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/IIFE"
+    },
+    {
+        "name": "IMAP",
+        "desc": "IMAP (Internet Message Access Protocol) is a protocol used to retrieve and store emails. More recent than POP3, IMAP allows folders and rules on the server.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/IMAP"
+    },
+    {
+        "name": "Immutable",
+        "desc": "An immutable object is one whose content cannot be changed.\n An object can be immutable for various reasons, for example:",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Immutable"
+    },
+    {
+        "name": "Index",
+        "desc": "Found 356 pages:",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Index"
+    },
+    {
+        "name": "IndexedDB",
+        "desc": "IndexedDB is a Web API for storing large data structures within browsers and indexing them for high-performance searching. Like an SQL-based RDBMS, IndexedDB is a transactional database system. However, it uses JavaScript objects rather than fixed columns tables to store data.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/IndexedDB"
+    },
+    {
+        "name": "Information architecture",
+        "desc": "Information architecture, as applied to web design and development, is the practice of organizing the information / content / functionality of a web site so that it presents the best user experience it can, with information and services being easily usable and findable.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Information_architecture"
+    },
+    {
+        "name": "Inheritance",
+        "desc": "Inheritance is a major feature of object-oriented programming.  Data abstraction can be carried up several levels, that is, classes can have superclasses and subclasses.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Inheritance"
+    },
+    {
+        "name": "Instance",
+        "desc": "An object created by a constructor is an instance of that constructor.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Instance"
+    },
+    {
+        "name": "Internet",
+        "desc": "The Internet is a worldwide network of networks that uses the Internet protocol suite (also named TCP/IP from its two most important protocols).",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Internet"
+    },
+    {
+        "name": "IP Address",
+        "desc": "An IP address is a number assigned to every device connected to a network that uses the Internet protocol.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/IP_Address"
+    },
+    {
+        "name": "IPv4",
+        "desc": "IPv4 is the fourth version of the communication protocol underlying the Internet and the first version to be widely deployed.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/IPv4"
+    },
+    {
+        "name": "IPv6",
+        "desc": "IPv6 is the current version of the communication protocol underlying the Internet. Slowly IPv6 is replacing IPv4, among other reasons because IPv6 allows for many different IP addresses.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/IPv6"
+    },
+    {
+        "name": "IRC",
+        "desc": "IRC (Internet Relay Chat) is a worldwide chat system requiring an Internet connection and an IRC client, which sends and receives messages via the IRC server.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/IRC"
+    },
+    {
+        "name": "ISO",
+        "desc": "Technical review completed. Editorial review completed.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/ISO"
+    },
+    {
+        "name": "ISP",
+        "desc": "An ISP (Internet Service Provider) sells Internet access, and sometimes email, web hosting, and voice over IP, either by a dial-up connection over a phone line (formerly more common), or through a broadband connection such as a cable modem or DSL service.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/ISP"
+    },
+    {
+        "name": "Jank",
+        "desc": "Jank refers to sluggishness in a user interface, usually caused by executing long tasks on the main thread, blocking rendering, or expending too much processor power on background processes.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Jank"
+    },
+    {
+        "name": "Java",
+        "desc": "Java is an object-oriented, class-based, portable  computer programming language designed for minimal implementation dependencies.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Java"
+    },
+    {
+        "name": "JavaScript",
+        "desc": "JavaScript (JS) is a programming language mostly used client-side to dynamically script webpages, but often also server-side.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/JavaScript"
+    },
+    {
+        "name": "JPEG",
+        "desc": "JPEG (Joint Photographic Experts Group) is a commonly used method of lossy compression for digital images.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/jpeg"
+    },
+    {
+        "name": "JSON",
+        "desc": "The JavaScript Object Notation (JSON) is a data-interchange format.  Although not a strict subset, JSON closely resembles a subset of JavaScript syntax. Though many programming languages support JSON, JSON is especially useful for JavaScript-based apps, including websites and browser extensions.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/JSON"
+    },
+    {
+        "name": "Key",
+        "desc": "A key is a piece of information used by a cipher for encryption and/or decryption.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Key"
+    },
+    {
+        "name": "Keyword",
+        "desc": "A keyword is a word or phrase that describes content.  Online keywords are used as queries for search engines or as words identifying content on websites.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Keyword"
+    },
+    {
+        "name": "LGPL",
+        "desc": "LGPL (GNU Lesser General Public License) is a free software license published by the Free Software Foundation. The LGPL provides a more permissive alternative for the strictly copyleft GPL. While any derivative work using a GPL-licensed program must be released under the same terms (free to use, share, study, and modify), the LGPL only requires the LGPL-licensed component of the derivative program to continue using the LGPL, not the whole program. LGPL is usually used to license shared components such as libraries (.dll, .so, .jar, etc.).",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/LGPL"
+    },
+    {
+        "name": "Ligature",
+        "desc": "A ligature is a joining of two characters into one shape. For example, in French \"œ\" is a ligature of \"oe\".",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Ligature"
+    },
+    {
+        "name": "Local scope",
+        "desc": "Local scope is a characteristic of variables that makes them local (i.e., the variable name is only bound to its value within a scope which is not the global scope).",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Local_scope"
+    },
+    {
+        "name": "Local variable",
+        "desc": "A variable whose name is bound to its value only within a local scope.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Local_variable"
+    },
+    {
+        "name": "Locale",
+        "desc": "Locale is a set of language- or country-based preferences for a user interface.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Locale"
+    },
+    {
+        "name": "Localization",
+        "desc": "Localization (l10n) is the process of adapting a software user interface to a specific culture.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Localization"
+    },
+    {
+        "name": "loop",
+        "desc": "A loop is a sequence of instructions that is continually repeated until a certain condition is met in computer programming. An example would be the process of getting an item of data and changing it, and then making sure some condition is checked such as, if a counter has reached a prescribed number.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/loop"
+    },
+    {
+        "name": "ltr",
+        "desc": "Technical review completed.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/ltr"
+    },
+    {
+        "name": "MathML",
+        "desc": "MathML (an XML application) is an open standard for representing mathematical expressions in webpages.  In 1998 the W3C first recommended MathML for representing mathematical expressions in the browser. MathML has other applications also including scientific content and voice synthesis.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/MathML"
+    },
+    {
+        "name": "Metadata",
+        "desc": "Metadata is — in its very simplest definition — data that describes data. For example, an HTML document is data, but HTML can also contain metadata in its <head> element that describes the document — for example who wrote it, and its summary.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Metadata"
+    },
+    {
+        "name": "Method",
+        "desc": "A method is a function which is a property of an object. It exist two kind of methods: Instance Method which are built-in tasks performed by an object instance, or Static Methods which are tasks that can be performed without the need of an object instance.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Method"
+    },
+    {
+        "name": "Microsoft Edge",
+        "desc": "Microsoft Edge is a free-of-cost graphical Web browser bundled with Microsoft Windows and developed by Microsoft since 2014. Initially known as Spartan, Edge replaced the longstanding Microsoft browser Internet Explorer.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Microsoft_Edge"
+    },
+    {
+        "name": "Microsoft Internet Explorer",
+        "desc": "Internet Explorer (or IE) is a free graphical browser maintained by Microsoft for legacy enterprise uses. Microsoft Edge is currently the default Windows browser.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Microsoft_Internet_Explorer"
+    },
+    {
+        "name": "mime",
+        "desc": "MIME Multipurpose internet mail extensions supports text in other forms beside ASCII and non-text attachments such as audio, video and images.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/mime"
+    },
+    {
+        "name": "MIME type",
+        "desc": "A MIME type (now properly called \"media type\", but also sometimes \"content type\") is a string sent along with a file indicating the file type (for example, a sound file might be labeled audio/ogg, or an image file image/png). It serves the same purpose as filename extensions traditionally do on Windows.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/MIME_type"
+    },
+    {
+        "name": "Mixin",
+        "desc": "A mixin is a coherent set of methods and properties implemented by other interfaces and classes. The properties and methods are then part of the new interface in the same way as any specific properties and methods.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Mixin"
+    },
+    {
+        "name": "Mobile First",
+        "desc": "Mobile first, a development of progressive enhancement, is a design philosophy that values focused, mobile-ready websites over complex, demanding ones.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Mobile_First"
+    },
+    {
+        "name": "Modern web apps",
+        "desc": "See Progressive web apps",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Modern_web_apps"
+    },
+    {
+        "name": "Modularity",
+        "desc": "The term Modularity refers to the degree to which a system's components may be separated and recombined, it is also division of a software package into logical units. The advantage of a modular system is that one can reason the parts independently",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/modularity"
+    },
+    {
+        "name": "Mozilla Firefox",
+        "desc": "Mozilla Firefox is a free open-source browser whose development is overseen by the Mozilla Corporation. Firefox runs on Windows, OS X, Linux, and Android.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Mozilla_Firefox"
+    },
+    {
+        "name": "Mutable",
+        "desc": "Mutable is a type of variable that can be changed. In JavaScript, only objects and arrays are mutable, not primitive values.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Mutable"
+    },
+    {
+        "name": "Namespace",
+        "desc": "Namespace is a context for identifiers, a logical grouping of names used in a program. Within the same context and same scope,  an identifier must uniquely identify an entity.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Namespace"
+    },
+    {
+        "name": "NaN",
+        "desc": "NaN (Not a Number) is a numeric data type that means an undefined value or value that cannot be represented, especially results of floating-point calculations.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/NaN"
+    },
+    {
+        "name": "NAT",
+        "desc": "NAT (Network Address Translation) is a technique for letting multiple computers share an IP address. NAT assigns unique addresses to each computer on the local network and adjusts incoming/outgoing network traffic to send data to the right place.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/NAT"
+    },
+    {
+        "name": "Native",
+        "desc": "A native application has been compiled to run on the hardware-software combination customary to the targeted architecture.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Native"
+    },
+    {
+        "name": "Netscape Navigator",
+        "desc": "Netscape Navigator or Netscape was a leading browser in the 1990s.  Netscape was based on Mosaic and the Netscape team was led by Marc Andreessen, a programmer who also wrote code for Mosaic.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Netscape_Navigator"
+    },
+    {
+        "name": "NNTP",
+        "desc": "NNTP (Network News Transfer Protocol) is a protocol used to transfer Usenet messages from client to server or between servers.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/NNTP"
+    },
+    {
+        "name": "Node",
+        "desc": "The term node can have several meanings depending on the context. It may refer to:",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Node"
+    },
+    {
+        "name": "Node (DOM)",
+        "desc": "Technical review completed. Editorial review completed.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Node/DOM"
+    },
+    {
+        "name": "Node (networking)",
+        "desc": "Editorial review completed.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Node/networking"
+    },
+    {
+        "name": "Node.js",
+        "desc": "Node.js is a cross-platform JavaScript runtime environment that allows developers to build server-side and network applications with JavaScript.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Node.js"
+    },
+    {
+        "name": "non-normative",
+        "desc": "Editorial review completed.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/non-normative"
+    },
+    {
+        "name": "Normative",
+        "desc": "Normative is a word commonly used in software specifications to denote sections that are standardized and must be followed as a rule. Specifications might also contain sections that are marked as non-normative or informative, which means those are provided there for the purpose of helping the reader understand the specifications better or to showcase an example or best practice, which need not be followed as a rule.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Normative"
+    },
+    {
+        "name": "Null",
+        "desc": "In computer science, a null value represents a reference that points, generally intentionally, to a nonexistent or invalid object or address. The meaning of a null reference varies among language implementations.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Null"
+    },
+    {
+        "name": "Number",
+        "desc": "In JavaScript, Number is a numeric data type in the double-precision 64-bit floating point format (IEEE 754). In other programming languages different numeric types can exist, for examples: Integers, Floats, Doubles, or Bignums.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Number"
+    },
+    {
+        "name": "Object",
+        "desc": "Object refers to a data structure containing data and instructions for working with the data. Objects sometimes refer to real-world things, for example a car or map object in a racing game. JavaScript, Java, C++, Python, and Ruby are examples of object-oriented programming languages.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Object"
+    },
+    {
+        "name": "Object reference",
+        "desc": "A link to an object. Object references can be used exactly like the linked objects. The concept of object references arises when assigning the same object to more than one property. Rather than holding a copy of the object, each assigned property holds object references that link to the same object, so that when the object changes all properties referring to the object reflect the change.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Object_reference"
+    },
+    {
+        "name": "OOP",
+        "desc": "OOP (Object-Oriented Programming) is an approach in programming in which data is encapsulated within objects and the object itself is operated on, rather than its component parts.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/OOP"
+    },
+    {
+        "name": "OpenGL",
+        "desc": "Editorial review completed.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/OpenGL"
+    },
+    {
+        "name": "OpenSSL",
+        "desc": "OpenSSL is an open-source implementation of SSL and TLS.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/OpenSSL"
+    },
+    {
+        "name": "Opera Browser",
+        "desc": "Opera is the fifth most used web browser, publicly released in 1996 and initially running on Windows only. Opera uses Blink as its layout engine since 2013 (before that, Presto). Opera also exists in mobile and tablet versions.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Opera_Browser"
+    },
+    {
+        "name": "Operand",
+        "desc": "An operand is the part of an instruction representing the data manipulated by the operator. For example, when you add two numbers, the numbers are the operand and \"+\" is the operator.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Operand"
+    },
+    {
+        "name": "Operator",
+        "desc": "Reserved syntax consisting of punctuation or alphanumeric characters that carrying out built-in functionality.  For example, in JavaScript the addition operator (\"+\") adds numbers together and concatenates strings, whereas the\"not\" operator (\"!\") negates an expression — for example making a true statement return false.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Operator"
+    },
+    {
+        "name": "Origin",
+        "desc": "The origin of web content is defined by the scheme (protocol), host (domain), and port of the URL used to access it. Two objects have the same origin only when the scheme, host, and port match.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Origin"
+    },
+    {
+        "name": "OTA",
+        "desc": "Over The Air (OTA) refers to automatic updating of software on connected devices from a central server. All device owners receiving a given set of updates are on the same \"channel\", and each device often can access several channels (e.g. for production or engineering builds).",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/OTA"
+    },
+    {
+        "name": "OWASP",
+        "desc": "OWASP (Open Web Application Security Project) is a non-profit organization and worldwide network that works for security in Free Software, especially on the Web.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/OWASP"
+    },
+    {
+        "name": "P2P",
+        "desc": "P2P (Peer-to-peer) is a computer networking architecture in which all participating nodes (peers) have equal privileges and share the workload. P2P differs from a client-server network architecture, where multiple client nodes connect to centralized servers for services.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/P2P"
+    },
+    {
+        "name": "PAC",
+        "desc": "A Proxy Auto-Configuration file (PAC file) is a file which contains a function, FindProxyForURL(), which is used by the browser to determine whether requests (including HTTP, HTTPS, and FTP) should go directly to the destination or if they need to be forwarded through a web proxy server.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/PAC"
+    },
+    {
+        "name": "Parameter",
+        "desc": "A parameter is a named variable passed into a function. Parameter variables are used to import arguments into functions.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Parameter"
+    },
+    {
+        "name": "Parent object",
+        "desc": "The object to which a given property belongs.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Parent_object"
+    },
+    {
+        "name": "Parse",
+        "desc": "Parsing means analyzing and converting a program into an internal format that a runtime environment can actually run, for example the JavaScript engine inside browsers.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Parse"
+    },
+    {
+        "name": "Parser",
+        "desc": "A parser is the module of a compiler or interpreter that parses a source code file.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Parser"
+    },
+    {
+        "name": "PDF",
+        "desc": "PDF (Portable Document Format) is a file format used to share documentation without depending on any particular software implementation, hardware platform, or operating system. PDF provides a digital image of a printed document, and keeps the same appearance when printed.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/PDF"
+    },
+    {
+        "name": "Percent-encoding",
+        "desc": "Percent-encoding is a mechanism to encode 8-bit characters that have specific meaning in the context of URLs. It is sometimes called URL encoding. The encoding consists of substitution: A '%' followed by the hexadecimal representation of the ASCII value of the replace character.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/percent-encoding"
+    },
+    {
+        "name": "PHP",
+        "desc": "PHP is a server-side scripting language for building web apps and dynamic websites.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/PHP"
+    },
+    {
+        "name": "Pixel",
+        "desc": "A pixel is the smallest building block of a graphical display like a computer screen.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Pixel"
+    },
+    {
+        "name": "Placeholder names",
+        "desc": "Placeholder names are commonly used in cryptography to indicate the participants in a conversation, without resorting to terminology such as \"Party A,\" \"eavesdropper,\" and \"malicious attacker.\"",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Placeholder_names"
+    },
+    {
+        "name": "Plaintext",
+        "desc": "Plaintext refers to information that is being used as an input to an encryption algorithm, or to ciphertext that has been decrypted.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Plaintext"
+    },
+    {
+        "name": "PNG",
+        "desc": "PNG (Portable Network Graphics) is a graphics file format that supports lossless data compression.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/PNG"
+    },
+    {
+        "name": "Polyfill",
+        "desc": "A polyfill is a piece of code (usually JavaScript on the Web) used to provide modern functionality on older browsers that do not natively support it.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Polyfill"
+    },
+    {
+        "name": "Polymorphism",
+        "desc": "Polymorphism is the presentation of one interface for multiple data types.\n For example, integers, floats, and doubles are implicitly polymorphic: regardless of their different types, they can all be added, subtracted, multiplied, and so on.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Polymorphism"
+    },
+    {
+        "name": "POP3",
+        "desc": "POP3 (Post Office Protocol) is a very common protocol for getting emails from a mail server over a glossary(\"TCP\"} connection. POP3 does not support folders, unlike the more recent IMAP4, which is harder to implement because of its more complex structure.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/POP"
+    },
+    {
+        "name": "Port",
+        "desc": "For a computer connected to a network with an IP address, a port is a communication endpoint. Ports are designated by numbers, and below 1024 each port is associated by default with a specific protocol.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Port"
+    },
+    {
+        "name": "Presto",
+        "desc": "Presto was the proprietary browser layout engine used to power the Opera browser until version 15. Since then, the Opera browser is based on Chromium, which uses the Blink layout engine.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Presto"
+    },
+    {
+        "name": "Primitive",
+        "desc": "A primitive (primitive value, primitive data type) is data that is not an object and has no methods. In JavaScript, there are 6 primitive data types: string, number, boolean, null, undefined, symbol (new in ECMAScript 2015).",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Primitive"
+    },
+    {
+        "name": "Privileged",
+        "desc": "Users are said to be privileged when they are granted additional rights to a system, or given ultimate access to content in a higher priority level when compared to normal users.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Privileged"
+    },
+    {
+        "name": "Progressive Enhancement",
+        "desc": "Progressive enhancement is a design philosophy that delivers a first-class experience in restricted scenarios, serving up essential content and functionality to everyone and adding optional features as needed. It is more like a strategy and a plan in web-design which gives special importance to accessiblity and many scripting technologies. It is a very useful technique that allows Web developers to focus on developing the best possible websites while balancing the issues in those websites being accessed by multiple unknown user-agents.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Progressive_Enhancement"
+    },
+    {
+        "name": "Progressive web apps",
+        "desc": "Progressive web apps is a term used to describe the modern state of web app development. This involves taking standard web sites/apps that enjoy all the best parts of the Web — such as discoverability via search engines, being linkable via URLs, and working across multiple form factors — and supercharging them with modern APIs (such as Service Workers and Push) and features that confer other benefits more commonly attributed to native apps.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Progressive_web_apps"
+    },
+    {
+        "name": "Property",
+        "desc": "The term property can have several meanings depending on the context. It may refer to:",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/property"
+    },
+    {
+        "name": "Property (CSS)",
+        "desc": "A CSS property is a characteristic (like color) whose associated value defines one aspect of how the browser should display the element.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/property/CSS"
+    },
+    {
+        "name": "Property (JavaScript)",
+        "desc": "A property is a characteristic of an object, often describing attributes associated with a data structure. There are two kinds of properties:",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/property/JavaScript"
+    },
+    {
+        "name": "Protocol",
+        "desc": "A protocol is a system of rules that define how data is exchanged within or between computers.  Communications between devices require that the devices agree on the format of the data that is being exchanged. The set of rules that defines a format is called a protocol.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Protocol"
+    },
+    {
+        "name": "Prototype",
+        "desc": "Editorial review completed.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Prototype"
+    },
+    {
+        "name": "Pseudo-class",
+        "desc": "Technical review completed.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Pseudo-class"
+    },
+    {
+        "name": "Pseudo-element",
+        "desc": "Editorial review completed.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Pseudo-element"
+    },
+    {
+        "name": "Python",
+        "desc": "Python is a high level general-purpose programming language. It uses a multi-paradigm approach, meaning it supports procedural, object-oriented and some functional programming constructs.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Python"
+    },
+    {
+        "name": "Random Number Generator",
+        "desc": "A PRNG (pseudorandom number generator) is an algorithm that outputs numbers in a complex, seemingly unpredictable pattern. Truly random numbers (say, from a radioactive source) are utterly unpredictable, whereas all algorithms are predictable, and a PRNG returns the same numbers when passed the same starting parameters or seed.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/RNG"
+    },
+    {
+        "name": "Raptor",
+        "desc": "Raptor: New Performance Tools for Gaia",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Raptor"
+    },
+    {
+        "name": "RDF",
+        "desc": "RDF (Resource Description Framework) is a language developed by W3C for representing information on the World Wide Web, such as Webpages. RDF provides a standard way of encoding resource information so that it can be exchanged in a fully automated way between applications.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/RDF"
+    },
+    {
+        "name": "Recursion",
+        "desc": "An act of a function calling itself. Recursion is used to solve problems that contain smaller sub-problems. A recursive function can receive two inputs: a base case (ends recursion) or a recursive case (continues recursion).",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Recursion"
+    },
+    {
+        "name": "Reference",
+        "desc": "In the context of objects, an object reference. Otherwise, the JavaScript reference itself. In computing a reference is a value that indirectly accesses data to retrieve a variable or a record in a computers memory or other storage device.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Reference"
+    },
+    {
+        "name": "Reflow",
+        "desc": "Reflow happens when a browser must process and draw part or all of a webpage again, such as after an update on an interactive site.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Reflow"
+    },
+    {
+        "name": "Regular expression",
+        "desc": "Regular expressions (or regex) are rules that govern which sequences of characters come up in a search.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Regular_expression"
+    },
+    {
+        "name": "Rendering engine",
+        "desc": "A rendering engine is software that draws text and images on the screen. The engine draws structured text from a document (often HTML), and formats it properly based on the given style declarations (often given in CSS). Examples of layout engines: Blink, Gecko, Edge, WebKit.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Rendering_engine"
+    },
+    {
+        "name": "Repo",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Repo"
+    },
+    {
+        "name": "Request header",
+        "desc": "A request header is an HTTP header that can be used in an HTTP request, and that doesn't relate to the content of the message. Request headers, like Accept, Accept-*, or If-* allow to perform conditional requests; others like Cookie, User-Agent or Referer precise the context so that the server can tailor the answer.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Request_header"
+    },
+    {
+        "name": "Response header",
+        "desc": "A response header is an HTTP header that can be used in an HTTP request and that doesn't relate to the content of the message. Response headers, like Age, Location or Server are used to give a more detailed context of the response.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Response_header"
+    },
+    {
+        "name": "Responsive web design",
+        "desc": "Responsive Web Design (RWD) is a Web development concept focusing on making sites look and behave optimally on all personal computing devices, from desktop to mobile.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Responsive_web_design"
+    },
+    {
+        "name": "REST",
+        "desc": "Representational State Transfer (REST) refers to a group of software architecture design constraints that bring about efficient, reliable, and scalable systems.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/REST"
+    },
+    {
+        "name": "RGB",
+        "desc": "Technical review completed.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/RGB"
+    },
+    {
+        "name": "RIL",
+        "desc": "RIL (Radio Interface Layer) is a mobile operating system component which communicates between the device's software and the device's phone, radio, or modem hardware.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/RIL"
+    },
+    {
+        "name": "Robots.txt",
+        "desc": "Robots.txt is a file which is usually placed in the root of any website. It decides whether crawlers are permitted or forbidden access to the web site.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Robots.txt"
+    },
+    {
+        "name": "RSS",
+        "desc": "RSS (Really Simple Syndication) refers to several XML document formats designed for publishing site updates. When you subscribe to a website's RSS feed, the website sends information and updates to your RSS reader in an RSS document called a feed, so you don't need to check all your favorite websites manually.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/RSS"
+    },
+    {
+        "name": "RTF",
+        "desc": "RTF (Rich Text Format) is a plain-text-based file format with support for formatting instructions (like bold or italic).",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/RTF"
+    },
+    {
+        "name": "rtl",
+        "desc": "Technical review completed.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/rtl"
+    },
+    {
+        "name": "Ruby",
+        "desc": "Ruby is an open-source programming language. In a Web context, Ruby is often used server-side with the Ruby On Rails (ROR) framework to produce websites/apps.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Ruby"
+    },
+    {
+        "name": "Safe",
+        "desc": "An HTTP method is safe if it doesn't alter the state of the server. In other words, a method is safe if it leads to a read-only operation. Several common HTTP methods are safe: GET, HEAD, or OPTIONS. All safe methods are also idempotent as well as some, but not all, unsafe methods like PUT, or DELETE.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/safe"
+    },
+    {
+        "name": "SCM",
+        "desc": "SCM (Source Control Management) is a system for managing source code. Usually it refers to the use of software to handle versioning of source files. A programmer can modify source code files without being afraid of editing out useful stuff, because a SCM keeps track of how the source code has changed and who made the changes.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/SCM"
+    },
+    {
+        "name": "Scope",
+        "desc": "The current context of execution. The context in which values and expressions are \"visible,\" or can be referenced. If a variable or other expression is not \"in the current scope,\" then it is unavailable for use. Scopes can also be layered in a hierarchy, so that child scopes have access to parent scopes, but not vice versa.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Scope"
+    },
+    {
+        "name": "SCTP",
+        "desc": "SCTP (Stream Control Transmission Protocol) is an IETF standard for a transport protocol which enables the reliable, in-order transmission of messages while offering congestion control, multi-homing, and other features to improve reliability and stability of the connection. It's used for sending traditional telephone calls over the Internet, but is also used for WebRTC data.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/SCTP"
+    },
+    {
+        "name": "SDP",
+        "desc": "SDP (Session Description Protocol) is the standard describing a peer-to-peer connection. SDP contains the codec, source address, and timing information of audio and video.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/SDP"
+    },
+    {
+        "name": "Search engine",
+        "desc": "A search engine is a software system that collects information from the World Wide Web and presents it to users who are looking for specific information.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Search_engine"
+    },
+    {
+        "name": "Second-level Domain",
+        "desc": "An SLD (Second Level Domain) is a domain that is hierarchically directly below a TLD.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Second-level_Domain"
+    },
+    {
+        "name": "Semantics",
+        "desc": "In programing, Semantics refers to the meaning of a piece of code — for example \"what effect does running that line of JavaScript have?\", or \"what purpose or role does that HTML element have\" (rather than \"what does it look like?\".)",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Semantics"
+    },
+    {
+        "name": "SEO",
+        "desc": "SEO (Search Engine Optimization) is the process of making a website more visible in search results, also termed improving search rankings.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/SEO"
+    },
+    {
+        "name": "Server",
+        "desc": "A hardware server is a shared computer on a network that provides services to clients.  A software server is a program that provides services to client programs.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Server"
+    },
+    {
+        "name": "Session Hijacking",
+        "desc": "Session hijacking occurs when an attacker takes over a valid session between two computers. The attacker steals a valid session ID in order to break into the system and snoop data.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Session_Hijacking"
+    },
+    {
+        "name": "SGML",
+        "desc": "The Standard Generalized Markup Language (SGML) is an ISO specification made for defining declarative markup languages.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/SGML"
+    },
+    {
+        "name": "Shim",
+        "desc": "A shim is a piece of code used to correct the behavior of code that already exists, usually by adding new API that works around the problem. This differs from a polyfill, which implements a new API that is not supported by the stock browser as shipped.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Shim"
+    },
+    {
+        "name": "Signature",
+        "desc": "The term signature can have several meanings depending on the context. It may refer to:",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Signature"
+    },
+    {
+        "name": "Signature (functions)",
+        "desc": "A function signature (or type signature, or method signature) defines input and output of functions or methods.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Signature/Function"
+    },
+    {
+        "name": "Signature (security)",
+        "desc": "A signature, or digital signature, is a protocol showing that a message is authentic.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Signature/Security"
+    },
+    {
+        "name": "SIMD",
+        "desc": "SIMD (pronounced \"seem-dee\") is short for Single Instruction/Multiple Data which is one classification of computer architectures. SIMD allows one same operation to be performed on multiple data points resulting in data level parallelism and thus performance gains, for example for 3D graphics and video processing, physics simulations or cryptography, and other domains.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/SIMD"
+    },
+    {
+        "name": "Simple header",
+        "desc": "A simple header is an HTTP header. Its name is either Accept, Accept-Language, Content-Language, or `Content-Type`. The MIME type of its parsed value (ignoring parameters) is either application/x-www-form-urlencoded, multipart/form-data, or text/plain.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Simple_header"
+    },
+    {
+        "name": "SISD",
+        "desc": "SISD is short for Single Instruction/Single Data which is one classification of computer architectures. In SISD architecture, a single processor executes a single instruction and operates on a single data point in memory.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/SISD"
+    },
+    {
+        "name": "SLD",
+        "desc": "An SLD (Second Level Domain) is a domain that is hierarchically directly below a TLD.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/SLD"
+    },
+    {
+        "name": "Sloppy mode",
+        "desc": "ECMAScript 5 and later let scripts opt in to a new strict mode, which alters the semantics of JavaScript in several ways to improve its resiliency and which make it easier to understand what's going on when there are problems.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Sloppy_mode"
+    },
+    {
+        "name": "Slug",
+        "desc": "Slug, in the context of MDN, is the portion of the page's URL following \"<locale>/docs/\".",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Slug"
+    },
+    {
+        "name": "Smoke Test",
+        "desc": "A smoke test consists of functional or unit tests of critical software functionality. Smoke testing comes before further, in-depth testing.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Smoke_Test"
+    },
+    {
+        "name": "SMTP",
+        "desc": "SMTP (Simple Mail Transfer Protocol) is a protocol used to send a new email.  Like POP3 and NNTP, it is a state machine-driven protocol.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/SMTP"
+    },
+    {
+        "name": "SOAP",
+        "desc": "SOAP (Simple Object Access Protocol) is a protocol for transmitting data in XML format. Firefox removed support for SOAP in 2008.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/SOAP"
+    },
+    {
+        "name": "Specification",
+        "desc": "A specification is a document that lays out in detail what functionality or attributes a product must include before delivery.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Specification"
+    },
+    {
+        "name": "SQL",
+        "desc": "SQL (Structured Query Language) is a descriptive computer language designed for updating, retrieving, and calculating data in table-based databases.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/SQL"
+    },
+    {
+        "name": "SQL Injection",
+        "desc": "SQL injection takes advantage of Web apps that fail to validate user input. Hackers can maliciously pass SQL commands through the Web app for execution by a backend database.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/SQL_Injection"
+    },
+    {
+        "name": "Stacking context",
+        "desc": "Stacking context refers to how elements on a webpage appear to sit on top of other elements, just as you can arrange index cards on your desk to lie side-by-side or overlap each other.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Stacking_context"
+    },
+    {
+        "name": "State machine",
+        "desc": "A state machine is a mathematical abstraction used to design algorithms. A state machine reads a set of inputs and changes to a different state based on those inputs.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/State_machine"
+    },
+    {
+        "name": "Statement",
+        "desc": "Technical review completed.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Statement"
+    },
+    {
+        "name": "Static typing",
+        "desc": "A statically-typed language is a language (such as Java, C, or C++) where variable types are known at compile time and must be expressly indicated by the programmer.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Static_typing"
+    },
+    {
+        "name": "String",
+        "desc": "In any computer programming language, a string is a sequence of characters used to represent text.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/String"
+    },
+    {
+        "name": "STUN",
+        "desc": "STUN (Session Traversal Utilities for NAT) is an auxiliary protocol for transmitting data around a NAT (Network Address Translator). STUN returns the IP address, port, and connectivity status of a networked computer behind a NAT.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/STUN"
+    },
+    {
+        "name": "SVG",
+        "desc": "Scalable Vector Graphics (SVG) is a 2D vector image format based on an XML syntax.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/SVG"
+    },
+    {
+        "name": "SVN",
+        "desc": "Apache Subversion (SVN) is a free source control management (SCM) system. It allows developers to keep a history of text and code modifications. Although SVN can also handle binary files, we do not recommend that you use it for such files.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/SVN"
+    },
+    {
+        "name": "Symbol",
+        "desc": "A Symbol is a primitive data type whose instances are unique and immutable. In some programming languages they are also called atoms.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Symbol"
+    },
+    {
+        "name": "Synchronous",
+        "desc": "Technical review completed.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Synchronous"
+    },
+    {
+        "name": "Syntax",
+        "desc": "Syntax specifies the required combination and sequence of characters making up correctly structured code. Syntax varies from language to language (e.g., syntax is different in HTML and JavaScript). Syntax applies both to programming languages (commands to the computer) and markup languages (document structure information).",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Syntax"
+    },
+    {
+        "name": "Syntax error",
+        "desc": "An exception caused by the incorrect use of a pre-defined syntax. Syntax errors are detected while compiling or parsing source code.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Syntax_error"
+    },
+    {
+        "name": "Tag",
+        "desc": "In HTML a tag is used for creating an element.  The name of an HTML element is the name used in angle brackets such as <p> for paragraph.  Note that the end tag's name is preceded by a slash character, \"</p>\", and that in empty elements the end tag is neither required nor allowed. If attributes are not mentioned, default values are used in each case.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Tag"
+    },
+    {
+        "name": "TCP",
+        "desc": "TCP (Transmission Control Protocol) is an important network protocol that lets two hosts connect and exchange data streams.  TCP guarantees the delivery of data and packets in the same order as they were sent.  Vint Cerf and Bob Kahn, who were DARPA scientists at the time, designed TCP in the 1970s.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/TCP"
+    },
+    {
+        "name": "Telnet",
+        "desc": "Telnet is a command line tool and an underlying TCP/IP protocol for accessing remote computers.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Telnet"
+    },
+    {
+        "name": "test",
+        "desc": "test rate",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/test"
+    },
+    {
+        "name": "Three js",
+        "desc": "three.js is a JavaScript-based WebGL engine that can run GPU-powered games and other graphics-powered apps straight from the browser. The three.js library provides many features and APIs for drawing 3D scenes in your browser.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Three_js"
+    },
+    {
+        "name": "TLD",
+        "desc": "A TLD (top-level domain) is the most generic domain in the Internet's hierarchical DNS (domain name system). A TLD is the final component of a domain name, for example, \"org\" in developer.mozilla.org.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/TLD"
+    },
+    {
+        "name": "TLS",
+        "desc": "Transport Layer Security (TLS), previously known as Secure Sockets Layer (SSL), is a protocol used by applications to communicate securely across a network, preventing tampering with and eavesdropping on email, web browsing, messaging, and other protocols.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/TLS"
+    },
+    {
+        "name": "Trident",
+        "desc": "Trident (or MSHTML) is a layout engine that powers Internet Explorer.  A Trident fork called EdgeHTML has replaced Trident in Spartan and Internet Explorer 11.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Trident"
+    },
+    {
+        "name": "Truthy",
+        "desc": "In JavaScript, a truthy value is a value that translates to true when evaluated in a Boolean context. All values are truthy unless they are defined as falsy (i.e., except for false, 0, \"\", null, undefined, and NaN).",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Truthy"
+    },
+    {
+        "name": "TURN",
+        "desc": "TURN (Traversal Using Relays around NAT) is a protocol enabling a computer to receive and send data from behind a Network Address Translator (NAT) or firewall.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/TURN"
+    },
+    {
+        "name": "Type",
+        "desc": "Type is a characteristic of a value affecting which operations on that value are valid. For example, an integer can be multiplied by an integer, but not by a string.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Type"
+    },
+    {
+        "name": "Type Conversion",
+        "desc": "Type conversion (or typecasting) means transfer of data from one data type to another. Implicit conversion happens when the compiler automatically assigns data types, but the source code can also explicitly require a conversion to take place.  Simple examples: given the instruction 5+2.0, the integer 5 is implicitly typecasted into floating point, but given the instruction Number(\"0x11\"), the string \"0x11\" is explicitly typecasted as the number 17.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Type_Conversion"
+    },
+    {
+        "name": "UDP",
+        "desc": "UDP (User Datagram Protocol) is a long standing protocol used together with IP for sending data when transmission speed and efficiency matter more than security and reliability.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/UDP"
+    },
+    {
+        "name": "UI",
+        "desc": "Technical review completed.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/UI"
+    },
+    {
+        "name": "undefined",
+        "desc": "Technical review completed.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/undefined"
+    },
+    {
+        "name": "URI",
+        "desc": "A URI (Uniform Resource Identifier) is a string that refers to a resource. The most common are URLs, which identify the resource by giving its location on the Web. URNs, by contrast, refer to a resource by a name, in a given namespace, e.g. the ISBN of a book.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/URI"
+    },
+    {
+        "name": "URL",
+        "desc": "Uniform Resource Locator (URL) is a text string specifying where a resource can be found on the Internet.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/URL"
+    },
+    {
+        "name": "URN",
+        "desc": "URN (Uniform Resource Name) is a URI in a standard format, referring to a resource without specifying its location or whether it exists. This example comes from RFC3986:  urn:oasis:names:specification:docbook:dtd:xml:4.1.2",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/URN"
+    },
+    {
+        "name": "Usenet",
+        "desc": "Usenet is an internet discussion system where each post is duplicated on many servers. The equivalent of Internet forums in its day, Usenet functioned like a bulletin board system.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Usenet"
+    },
+    {
+        "name": "User agent",
+        "desc": "Technical review completed.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/User_agent"
+    },
+    {
+        "name": "UTF-8",
+        "desc": "UTF-8 (UCS Transformation Format 8) is the World Wide Web's most common character encoding. Each character is represented by one to four bytes. UTF-8 is backward-compatible with ASCII and can represent any standard Unicode character.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/UTF-8"
+    },
+    {
+        "name": "UX",
+        "desc": "UX is an acronym that stands for User eXperience. It is the study of the interaction between users and a system. Its goal is to make a system easy to interact with from the user's point of view.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/UX"
+    },
+    {
+        "name": "Validator",
+        "desc": "A validator is a program that checks for syntax errors in code. Validators can be created for any format or language, but in our context we speak of tools that check HTML, CSS, and XML.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Validator"
+    },
+    {
+        "name": "Value",
+        "desc": "Technical review completed.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Value"
+    },
+    {
+        "name": "Variable",
+        "desc": "A variable is a named location for storing a value. That way an unpredictable value can be accessed through a predetermined name.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Variable"
+    },
+    {
+        "name": "Vendor Prefix",
+        "desc": "Browser vendors sometimes add prefixes to experimental or nonstandard CSS properties, so developers can experiment but changes in browser behavior don't break the code during the standards process. Developers should wait to include the unprefixed property until browser behavior is standardized.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Vendor_Prefix"
+    },
+    {
+        "name": "Viewport",
+        "desc": "A viewport represents a polygonal (normally rectangular) area in computer graphics that is currently being viewed. In web browser terms, it refers to the part of the browser that is taken up by visible website content.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Viewport"
+    },
+    {
+        "name": "VoIP",
+        "desc": "VoIP (Voice over Internet Protocol) is a technology used to transmit voice messages over IP (Internet Protocol) networks. Common VoIP packages include Skype, Msn Messenger, Yahoo and many more. Everything transferrred through VoIP is digital. It is also known as IP telephony, or broadband telephony. The main reason for using VoIP technology is because of cost.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/VoIP"
+    },
+    {
+        "name": "W3C",
+        "desc": "The World Wide Web Consortium (W3C) is an international body that maintains Web-related rules and frameworks.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/W3C"
+    },
+    {
+        "name": "WAI",
+        "desc": "WAI or Web Accessibility Initiative is an effort by the World Wide Web Consortium (W3C) to improve accessibility for people with various challenges, who may need a nonstandard browser or devices.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/WAI"
+    },
+    {
+        "name": "WCAG",
+        "desc": "Web Content Accessibility Guidelines (WCAG) are a recommandation published by the Web Accessibility Initiative group at the W3C. They outline a set of guidelines for making content accessible primarily for people with disabilities but also for limited-resource devices such as mobile phones.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/WCAG"
+    },
+    {
+        "name": "Web standards",
+        "desc": "Web standards are rules established by international standards bodies and defining how how the Web works (and sometimes controlling the Internet as well).",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Web_standards"
+    },
+    {
+        "name": "WebDAV",
+        "desc": "WebDAV  (Web Distributed Authoring and Versioning) is an HTTP Extension that lets web developers update their content remotely from a client.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/WebDAV"
+    },
+    {
+        "name": "WebGL",
+        "desc": "WebGL (Web Graphics Library) is a JavaScript API that draws interactive 2D and 3D graphics.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/WebGL"
+    },
+    {
+        "name": "WebIDL",
+        "desc": "WebIDL is a language for building interfaces in Web applications.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/WebIDL"
+    },
+    {
+        "name": "WebKit",
+        "desc": "WebKit is a framework that displays properly-formatted webpages based on their markup. Apple Safari depends on WebKit, and so do many mobile browsers (since WebKit is highly portable and customizable).",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/WebKit"
+    },
+    {
+        "name": "WebM",
+        "desc": "WebM is royatly free and is an open web video format natively supported in Mozilla Firefox.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/webm"
+    },
+    {
+        "name": "WebP",
+        "desc": "WebP is a lossless and lossy compression image format developed by Google.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/webp"
+    },
+    {
+        "name": "WebRTC",
+        "desc": "WebRTC (Web Real-Time Communication) is an API that can be used by video-chat, voice-calling, and P2P-file-sharing Web apps.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/WebRTC"
+    },
+    {
+        "name": "WebSockets",
+        "desc": "WebSocket is a protocol that allows for a persistent TCP connection between server and client so they can exchange data at any time.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/WebSockets"
+    },
+    {
+        "name": "WHATWG",
+        "desc": "The WHATWG (Web Hypertext Application Technology Working Group) is an organization that maintains and develops HTML and APIs for Web applications. Former employees of Apple, Mozilla, and Opera established WHATWG in 2004.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/WHATWG"
+    },
+    {
+        "name": "World Wide Web",
+        "desc": "The World Wide Web—commonly referred to as WWW, W3, or the Web—is a system of interconnected public webpages accessible through the Internet. The Web is not the same as the Internet: the Web is one of many applications built on top of the Internet.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/World_Wide_Web"
+    },
+    {
+        "name": "Wrapper",
+        "desc": "Technical review completed.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/Wrapper"
+    },
+    {
+        "name": "XForm",
+        "desc": "Editorial review completed.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/XForm"
+    },
+    {
+        "name": "XHTML",
+        "desc": "Technical review completed.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/XHTML"
+    },
+    {
+        "name": "XInclude",
+        "desc": "XML Inclusions (XInclude) is a W3C Recommendation to allow inclusion of XML more different sources in a more convenient fashion than XML external entities. When used in conjunction with XPointer (Firefox supports a subset of it, and is used in the code sample below), XInclude can also target just specific portions of a document for inclusion. Firefox does not support it natively, but the following function aims to allow its use with documents passed into it.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/XInclude"
+    },
+    {
+        "name": "XLink",
+        "desc": "XLink is a W3C standard which is used to describe links between XML and XML or other documents. Some its behaviors are left to the implementation to determine how to handle.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/XLink"
+    },
+    {
+        "name": "XML",
+        "desc": "eXtensible Markup Language (XML) is a generic markup language specified by the W3C. The information technology (IT) industry uses many languages based on XML as data-description languages.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/XML"
+    },
+    {
+        "name": "XPath",
+        "desc": "XPath is a query language that can access sections and content in an XML document.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/XPath"
+    },
+    {
+        "name": "XQuery",
+        "desc": "Editorial review completed.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/XQuery"
+    },
+    {
+        "name": "XSLT",
+        "desc": "eXtensible Stylesheet Language Transformations (XSLT) is a declarative language used to convert XML documents into other XML documents, HTML, PDF, plain text, and so on.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/XSLT"
+    },
+    {
+        "name": "404",
+        "desc": "A 404 is a Standard Response Code meaning that the server cannot find the requested resource.",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/404"
+    },
+    {
+        "name": "502",
+        "desc": "An HTTP error code meaning \"Bad Gateway\".",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/502"
+    },
+    {
+        "name": "Edit",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary$edit#Contribute_to_the_glossary"
+    },
+    {
+        "name": "writing new entries",
+        "href": "https://developer.mozilla.org/en-US/docs/MDN/Contribute/Howto/Write_a_new_entry_in_the_Glossary"
+    },
+    {
+        "name": "Add a new entry to the glossary",
+        "href": "https://developer.mozilla.org/en-US/docs/new?parent=4391"
+    },
+    {
+        "name": "character encoding",
+        "desc": "The definition of that term (character encoding) has not been written yet; please consider contributing it!",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/character_encoding"
+    },
+    {
+        "name": "condition",
+        "desc": "The definition of that term (condition) has not been written yet; please consider contributing it!",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/condition"
+    },
+    {
+        "name": "DMZ",
+        "desc": "The definition of that term (DMZ) has not been written yet; please consider contributing it!",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/dmz"
+    },
+    {
+        "name": "event",
+        "desc": "The definition of that term (event) has not been written yet; please consider contributing it!",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/event"
+    },
+    {
+        "name": "HMAC",
+        "desc": "The definition of that term (HMAC) has not been written yet; please consider contributing it!",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/hmac"
+    },
+    {
+        "name": "modem",
+        "desc": "The definition of that term (modem) has not been written yet; please consider contributing it!",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/modem"
+    },
+    {
+        "name": "OVP",
+        "desc": "The definition of that term (OVP) has not been written yet; please consider contributing it!",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/ovp"
+    },
+    {
+        "name": "TTL",
+        "desc": "The definition of that term (TTL) has not been written yet; please consider contributing it!",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/ttl"
+    },
+    {
+        "name": "Unicode",
+        "desc": "The definition of that term (Unicode) has not been written yet; please consider contributing it!",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/unicode"
+    },
+    {
+        "name": "the glossary documentation status page",
+        "href": "https://developer.mozilla.org/en-US/docs/MDN/Doc_status/Glossary"
+    },
+    {
+        "name": "Mailing list",
+        "href": "https://lists.mozilla.org/listinfo/dev-mdc"
+    },
+    {
+        "name": "Google Group",
+        "href": "http://groups.google.com/group/mozilla.dev.mdc"
+    },
+    {
+        "name": "RSS feed",
+        "href": "http://groups.google.com/group/mozilla.dev.mdc/feeds"
+    },
+    {
+        "name": "#mdn",
+        "href": "irc://irc.mozilla.org/mdn"
+    },
+    {
+        "name": "learn more",
+        "href": "https://wiki.mozilla.org/IRC"
+    },
+    {
+        "name": "Every 2 weeks Wednesday in IRC",
+        "href": "https://wiki.mozilla.org/MDN/Meetings/Community"
+    },
+    {
+        "name": "See the doc status for more information",
+        "href": "https://developer.mozilla.org/en-US/docs/MDN/Doc_status/Glossary"
+    }
+]

@@ -1,5 +1,6 @@
-var requireg = require('/Users/Op/.npm-global/lib/node_modules/requireg/lib/requireg.js');
+var requireg = require('requireg');
 var tlog = requireg('mod-log').tlog;
+var plog = requireg('mod-log').plog;
 var Promise = requireg('bluebird');
 var fs = Promise.promisifyAll(require('fs'));
 var request = Promise.promisifyAll(requireg('request'));
@@ -26,32 +27,38 @@ var traverseAsync = function (data) {
 	});
 };
 
-traverseAsync(jsondata).then(function (data) {
-	var promises = [];
-	data.forEach(function (el, i) {
-		promises.push(request.getAsync(el.node.href))
-	});
-	return Promise.all(promises);
-}).then(function (data) {
-	var $;
-	var descriptions = [];
-	data.forEach(function (el, i) {
-		return Promise.try(function () {
-			$ = cheerio.load(el.body);
-			var description = $('#wikiArticle > p').text();
-			descriptions.push(description);
+traverseAsync(jsondata)
+	.then(function (data) {
+		var promises = [];
+		data.forEach(function (el, i) {
+			promises.push(request.getAsync(el.node.href))
+		});
+		return Promise.all(promises);
+	})
+	.then(function (data) {
+		var $;
+		var descriptions = [];
+		data.forEach(function (el, i) {
+			return Promise.try(function () {
+				$ = cheerio.load(el.body);
+				var description = $('#wikiArticle > p').text();
+				descriptions.push(description);
+			})
 		})
+		return descriptions;
 	})
-	return descriptions;
-}).then(function (data) {
-	data.forEach(function (el, i) {
-		arr[i].node.desc = data[i];
+	.then(function (data) {
+		data.forEach(function (el, i) {
+			arr[i].node.desc = data[i];
+		})
+		arr.forEach(function (el, i) {
+			var key = eval(el.key);
+			jsondata[key] = el.node;
+		})
+		plog(JSON.stringify(jsondata))
 	})
-	arr.forEach(function (el, i) {
-		var key = eval(el.key);
-		jsondata[key] = el.node;
-	})
-	console.log(JSON.parse(JSON.stringify(jsondata)))
-}).catch(function (e) {
-	console.log(e);
-});
+	.catch(function (e) {
+		console.log(e);
+	});
+
+var file = fs.readFileSync('path', 'utf8')

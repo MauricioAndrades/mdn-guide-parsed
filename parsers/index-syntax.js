@@ -11,28 +11,21 @@ var urls = [];
 var bin = [];
 
 for (var i = 0; i < mdn_node.length; i++) {
-  urls.push(mdn_node[i]['href']);
+    urls.push(mdn_node[i]['href']);
 }
 console.log(urls)
 
 for (var i = 0; i < urls.length; i++) {
-  urls.push(request.getAsync(urls[i]));
+    urls.push(request.getAsync(urls[i]));
 }
 
-Promise.all(urls).then(function(data) {
-
-  for(var j = 0; j < parsed.length; j++){
-
-    var parsed = JSON.parse(JSON.stringify(data));
-
-
-    var $ = cheerio.load(parsed[j]['body']);
-
-    var _syntaxbox = $('pre.syntaxbox').text().trim();
-    bin.push(_syntaxbox);
-
-  }
-
-}).catch(function(err) {
-  if (err) console.log(err);
-})
+Promise.all(urls).then(function (data) {
+    for (var j = 0; j < parsed.length; j++) {
+        var parsed = JSON.parse(JSON.stringify(data));
+        var $ = cheerio.load(parsed[j]['body']);
+        var _syntaxbox = $('pre.syntaxbox').text().trim();
+        bin.push(_syntaxbox);
+    }
+}).catch(function (err) {
+    if (err) console.log(err);
+});
