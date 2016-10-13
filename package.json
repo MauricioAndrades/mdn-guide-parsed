@@ -1,17 +1,10 @@
 {
-  "name": "mdn-guide",
-  "version": "1.0.0",
-  "description": "node mdn guide",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "author": "Mauricio Andrades <mod.and.op@gmail.com>",
-  "license": "ISC",
   "dependencies": {
     "async": "^2.0.0",
     "bluebird": "^3.4.1",
     "cheerio": "^0.20.0",
+    "javascript-stringify": "^1.4.0",
     "json-glob": "0.0.2",
     "json-mapper-json": "^0.9.3",
     "json-search": "^0.6.48",
@@ -19,5 +12,13 @@
     "request": "^2.73.0",
     "requireg": "^0.1.5",
     "to-markdown": "^3.0.1"
-  }
+  },
+  "description": "node mdn guide",
+  "license": "ISC",
+  "main": "index.js",
+  "name": "mdn-guide",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
 }

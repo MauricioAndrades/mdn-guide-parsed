@@ -345,6 +345,11 @@
         "href": "https://developer.mozilla.org/en-US/docs/Glossary/CSS_Selector"
     },
     {
+        "name": "CPM",
+        "desc": "cost per 1000 pageviews",
+        "href": "https://en.wikipedia.org/wiki/Page_view"
+    },
+    {
         "name": "Data structure",
         "desc": "Data structure is a particular way of organizing data so that it can be used efficiently",
         "href": "https://developer.mozilla.org/en-US/docs/Glossary/Data_structure"

@@ -1,20 +1,8 @@
 [
-  {
-    "name": "Properties",
-    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document#Properties"
-  },
-  {
-    "name": "Methods",
-    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document#Methods"
-  },
-  {
-    "name": "Specifications",
-    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document#Specifications"
-  },
-  {
-    "name": "Browser compatibility notes",
-    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document#Browser_compatibility_notes"
-  },
+  {"name": "Properties", "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document#Properties"},
+  {"name": "Methods", "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document#Methods"},
+  {"name": "Specifications", "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document#Specifications"},
+  {"name": "Browser compatibility notes", "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document#Browser_compatibility_notes"},
   {
     "name": "activeElement",
     "desc": "Returns the currently focused element, that is, the element that will get keystroke events if the user types any. This attribute is read only.",

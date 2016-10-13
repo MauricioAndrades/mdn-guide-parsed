@@ -1,0 +1,89 @@
+{
+  "atom": "1.9.9",
+  "pigments": "0.31.2",
+  "platform": "darwin",
+  "config": {
+    "autocompleteScopes": [
+      ".source.css",
+      ".source.css.less",
+      ".source.sass",
+      ".source.css.scss",
+      ".source.stylus",
+      ".source.json",
+      ".source.sublime-theme"
+    ],
+    "traverseIntoSymlinkDirectories": false,
+    "sourceNames": [
+      "**/*.json",
+      "**/*.sublime-theme",
+      "**/*.styl",
+      "**/*.stylus",
+      "**/*.less",
+      "**/*.sass",
+      "**/*.scss"
+    ],
+    "ignoredNames": [
+      "vendor/*",
+      "node_modules/*",
+      "spec/*",
+      "test/*"
+    ],
+    "ignoredBufferNames": [],
+    "extendedSearchNames": [
+      "**/*.css"
+    ],
+    "supportedFiletypes": [
+      "*"
+    ],
+    "extendedFiletypesForColorWords": [],
+    "ignoredScopes": [],
+    "extendAutocompleteToVariables": false,
+    "extendAutocompleteToColorValue": false,
+    "markerType": "background",
+    "sortPaletteColors": "none",
+    "groupPaletteColors": "none",
+    "mergeColorDuplicates": false,
+    "delayBeforeScan": 200,
+    "ignoreVcsIgnoredPaths": true
+  },
+  "project": {
+    "config": {
+      "sourceNames": [
+        "**/*.sublime-theme",
+        "**/*.json"
+      ],
+      "searchNames": [
+        "**/*.sublime-theme"
+      ],
+      "ignoredNames": [],
+      "ignoredScopes": [],
+      "includeThemes": true
+    },
+    "paths": [
+      "<root>/SoDaReloaded Dark.sublime-theme",
+      "<root>/package.json",
+      "<root>/guides/$.Selectors.json",
+      "<root>/guides/All-Data.json",
+      "<root>/guides/Array.json",
+      "<root>/guides/Data-Structures.json",
+      "<root>/guides/Document.json",
+      "<root>/guides/Element.json",
+      "<root>/guides/Glossary.json",
+      "<root>/guides/Interfaces.json",
+      "<root>/guides/Node.json",
+      "<root>/guides/Object.json",
+      "<root>/guides/String.json",
+      "<root>/guides/Text.json",
+      "<root>/guides/TreeWalker.json",
+      "<root>/guides/Window.Document.json",
+      "<root>/guides/Window.json",
+      "<root>/guides/regex.json",
+      "<root>/guides/tealium-glossary.json",
+      "<root>/domJSON/domJSON_output/interfaces-domjson.json"
+    ],
+    "variables": {
+      "colors": 62,
+      "total": 62
+    }
+  }
+}
