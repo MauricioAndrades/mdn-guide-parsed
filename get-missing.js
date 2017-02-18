@@ -9,6 +9,8 @@ var traverse = Promise.promisifyAll(requireg('traverse'));
 var jsondata = JSON.parse(fs.readFileSync('./guides/Array.json', 'utf8'));
 var arr = [];
 var promise_limit = require('promise-limit');
+var PromiseThrottle = require('promise-throttle');
+
 promise_limit(2);
 
 function loadXHR(url) {
@@ -49,8 +51,8 @@ function job(name) {
 var traverseAsync = function(data) {
 	return new Promise(function(resolve, reject) {
 		try {
-			traverse(data).forEach(function(x) {
-				if (x.desc && (x.desc === 'Editorial review completed.' || x.desc === 'Technical review completed.')) {
+			traverse(data).forEach(function(entry) {
+				if (entry.desc && (entry.desc === 'Editorial review completed.' || entry.desc === 'Technical review completed.')) {
 					arr.push({
 						key: this.key,
 						node: this.node
