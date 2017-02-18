@@ -1,31 +1,31 @@
 [
   {
-    "name": "childElementCount",
+    "name": "ParentNode.childElementCount",
     "desc": "The ParentNode.childElementCount read-only property returns an unsigned long representing the number of child elements of the given element.",
     "href": "https://developer.mozilla.org/en-US/docs/Web/API/ParentNode/childElementCount",
     "type": "Property"
   },
   {
-    "name": "children",
+    "name": "Node.children",
     "desc": "Node.children is a read-only property that returns a live HTMLCollection of the child elements of Node.",
     "href": "https://developer.mozilla.org/en-US/docs/Web/API/ParentNode/children",
     "type": "Property"
   },
   {
-    "name": "classList",
+    "name": "Element.classList",
     "desc": "The Element.classList is a read-only property which returns live DOMTokenList collection of the class attributes of the element.",
     "href": "https://developer.mozilla.org/en-US/docs/Web/API/Element/classList",
     "type": "Property"
   },
   {
-    "name": "className",
+    "name": "Element.className",
     "desc": "className gets and sets the value of the class attribute of the specified element.",
     "href": "https://developer.mozilla.org/en-US/docs/Web/API/Element/className",
     "type": "Property"
   },
 
   {
-    "name": "clientHeight",
+    "name": "Element.clientHeight",
     "desc": "The Element.clientHeight read-only property is zero for elements with no CSS or inline layout boxes, otherwise it's  the inner height of an element in pixels, including padding but not the horizontal scrollbar height, border, or margin.",
     "href": "https://developer.mozilla.org/en-US/docs/Web/API/Element/clientHeight",
     "type": "Property"

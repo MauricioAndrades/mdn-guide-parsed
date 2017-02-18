@@ -1,0 +1,23 @@
+{
+    "env": {
+        "browser": true,
+        "es6": true,
+        "node": true,
+        "jquery": true
+    },
+    "globals": {
+        "$": true,
+        "jQuery": true,
+        "utag": true,
+        "b": true,
+        "utag_data": true
+    },
+    "extends": "eslint:recommended",
+    "rules": {
+        "indent": ["error","tab"],
+        "linebreak-style": ["error","unix"],
+        "quotes": ["off","double"],
+        "semi": ["error","always"],
+        "no-console": ["off"]
+    }
+}

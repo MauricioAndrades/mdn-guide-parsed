@@ -1,21 +1,5 @@
 [
   {
-    "tag": "Summary",
-    "link": "https://developer.mozilla.org/en-US/docs/Web/API/Window/document#Summary"
-  },
-  {
-    "tag": "Syntax",
-    "link": "https://developer.mozilla.org/en-US/docs/Web/API/Window/document#Syntax"
-  },
-  {
-    "tag": "Example",
-    "link": "https://developer.mozilla.org/en-US/docs/Web/API/Window/document#Example"
-  },
-  {
-    "tag": "Specification",
-    "link": "https://developer.mozilla.org/en-US/docs/Web/API/Window/document#Specification"
-  },
-  {
     "tag": "applicationCache",
     "text": "Returns a reference to the application cache object for the window.",
     "link": "https://developer.mozilla.org/en-US/docs/Web/API/Window/applicationCache"
@@ -799,5 +783,21 @@
     "tag": "updateCommands()",
     "text": "Updates the state of commands of the current chrome window (UI).",
     "link": "https://developer.mozilla.org/en-US/docs/Web/API/Window/updateCommands"
+  },
+    {
+    "tag": "Summary",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/API/Window/document#Summary"
+  },
+  {
+    "tag": "Syntax",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/API/Window/document#Syntax"
+  },
+  {
+    "tag": "Example",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/API/Window/document#Example"
+  },
+  {
+    "tag": "Specification",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/API/Window/document#Specification"
   }
 ]
