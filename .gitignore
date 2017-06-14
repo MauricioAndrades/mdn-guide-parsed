@@ -2,3 +2,4 @@ mdn-guide.sublime-project
 mdn-guide.sublime-workspace
 .tern-port
 node_modules/**
+guides.tgz
